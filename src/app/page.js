@@ -1,11 +1,14 @@
-import InfoMe from "@/components/InfoMe";
-
+import InfoMe from "@/components/Header/InfoMe";
 
 export default function Home() {
 
     return (
-        
-        <InfoMe></InfoMe>
+
+        <>
+            <InfoMe></InfoMe>
+    
+        </>
+    
         
     )
   
