@@ -1,7 +1,7 @@
 import { Lato } from 'next/font/google'
 import './globals.css'
 
-const inter = Lato({ subsets: ['latin'], weight: ["100"] })
+const inter = Lato({ subsets: ['latin'], weight: ["100", "300", "400"] })
 
 export const metadata = {
   title: 'Portafolio Website',
@@ -16,8 +16,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="">
+      <body className={inter.className}>
+        <main className='max-w-6xl mx-auto'>
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
+
+// 'bg-gradient-to-l from-[#080808] to-[#1B1C1B]'
