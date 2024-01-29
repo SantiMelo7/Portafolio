@@ -1,4 +1,5 @@
-
+import { Email, GitHub, Linkedin } from "@/svg/IconsSvg";
+import Links from "./Links";
 
 export default function AboutMe () {
   
@@ -22,6 +23,34 @@ export default function AboutMe () {
                 </p>
 
             </div>
+
+            <nav className="flex gap-x-4">
+
+                <Links href={"https://github.com/SantiMelo7"}>
+            
+                    <GitHub></GitHub>
+
+                    GitHub
+
+                </Links>
+
+                <Links href={"https://github.com/SantiMelo7"}>
+            
+                    <Linkedin></Linkedin>
+
+                    Linkedin
+
+                </Links>
+
+                <Links href={"https://github.com/SantiMelo7"}>
+            
+                    <Email></Email>
+
+                    Email
+
+                </Links>
+
+            </nav>
 
         </div>
         
