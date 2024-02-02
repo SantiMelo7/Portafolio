@@ -1,3 +1,19 @@
+import Image from "next/image"
+import HtmlImg from "../../public/svg/Html.svg"
+import CssImg from "../../public/svg/Css.svg"
+import JavascriptImg from "../../public/svg/Javascript.svg"
+import ReactImg from "../../public/svg/React.svg"
+import NextImg from "../../public/svg/Next.svg"
+import MaterialUiImg from "../../public/svg/MaterialUi.svg"
+import GitImg from "../../public/svg/Git.svg"
+import TalwindImg from "../../public/svg/Tailwind.png"
+import GitHubImg from "../../public/svg/GitHub.svg"
+import PostmanImg from "../../public/svg/Postman.svg"
+import MongoImg from "../../public/svg/Mongo.svg"
+import ViteImg from "../../public/svg/Vite.png"
+
+export const CssH1 = "text-2xl font-extrabold "
+
 export const GitHub = () => {
 
     return (
@@ -21,6 +37,199 @@ export function Linkedin(){
             
         </svg>
     
+    )
+
+}
+
+export const HTML =  () => {
+
+    return ( 
+
+        <>
+
+            <Image src={HtmlImg} width={90}></Image>
+
+            <h1 className={CssH1}>Html</h1>
+        
+        </>
+
+        
+    )
+
+}
+
+export function CssSvg() {
+
+    return ( 
+
+        <>
+
+            <Image src={CssImg} width={90}></Image>
+
+            <h1 className={CssH1}>Css</h1>
+        
+        </>
+                
+    )
+
+}
+
+export function Javascript() {
+
+    return (
+
+        <>
+
+            <Image src={JavascriptImg} width={90}></Image>
+
+            <h1 className={CssH1}>Javascript</h1>
+        
+        </>
+        
+    )
+
+}
+
+export function ReactJs() {
+
+    return (
+
+        <>
+
+            <Image src={ReactImg} width={100}></Image>
+
+            <h1 className={CssH1}>React Js</h1>
+        
+        </>
+
+    )
+
+}
+
+export function NextJs() {
+
+    return (
+
+        <>
+
+            <Image src={NextImg} width={90}></Image>
+
+            <h1 className={CssH1}>Next Js</h1>
+        
+        </>
+
+    )
+
+}
+
+export function MongoDB() {
+
+    return (
+        
+        <>
+
+            <Image src={MongoImg} width={90}></Image>
+
+            <h1 className={CssH1}>Mongo DB</h1>
+        
+        </>
+    
+    )
+
+}
+
+export function Postman() {
+
+    return (
+        
+        <>
+
+            <Image src={PostmanImg} width={90}></Image>
+
+            <h1 className={CssH1}>Postman</h1>
+        
+        </>
+        
+    )
+
+}
+
+export function GitHubSvg() {
+
+    return (
+        
+        <>
+
+            <Image src={GitHubImg} width={90}></Image>
+
+            <h1 className={CssH1}>GitHub</h1>
+        
+        </>
+        
+    )
+
+}
+
+export function Git() {
+
+    return (
+        
+        <>
+
+            <Image src={GitImg} width={90}></Image>
+
+            <h1 className={CssH1}>Git</h1>
+        
+        </>
+        
+    )
+
+}
+
+export function MaterialUi() {
+
+    return (
+        
+        <>
+
+            <Image src={MaterialUiImg} width={90}></Image>
+
+            <h1 className={CssH1}>Material Ui</h1>
+        
+        </>
+        
+    )
+
+}
+
+export function Talwind() {
+
+    return (
+        
+        <>
+
+            <Image src={TalwindImg} width={90}></Image>
+
+            <h1 className={CssH1}>Talwind</h1>
+        
+        </>
+        
+    )
+
+}
+
+export function Vite() {
+
+    return (
+        
+        <>
+
+            <Image src={ViteImg} width={90}></Image>
+
+            <h1 className={CssH1}>Vite</h1>
+        
+        </>
+        
     )
 
 }
