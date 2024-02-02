@@ -47,7 +47,7 @@ export const HTML =  () => {
 
         <>
 
-            <Image src={HtmlImg} width={90}></Image>
+            <Image src={HtmlImg} width={90} alt="HTML"></Image>
 
             <h1 className={CssH1}>Html</h1>
         
@@ -64,7 +64,7 @@ export function CssSvg() {
 
         <>
 
-            <Image src={CssImg} width={90}></Image>
+            <Image src={CssImg} width={90} alt="CSS"></Image>
 
             <h1 className={CssH1}>Css</h1>
         
@@ -80,7 +80,7 @@ export function Javascript() {
 
         <>
 
-            <Image src={JavascriptImg} width={90}></Image>
+            <Image src={JavascriptImg} width={90} alt="JAVASCRIPT"></Image>
 
             <h1 className={CssH1}>Javascript</h1>
         
@@ -96,7 +96,7 @@ export function ReactJs() {
 
         <>
 
-            <Image src={ReactImg} width={100}></Image>
+            <Image src={ReactImg} width={100} alt="REACT JS"></Image>
 
             <h1 className={CssH1}>React Js</h1>
         
@@ -112,7 +112,7 @@ export function NextJs() {
 
         <>
 
-            <Image src={NextImg} width={90}></Image>
+            <Image src={NextImg} width={90} alt="NEXT JS"></Image>
 
             <h1 className={CssH1}>Next Js</h1>
         
@@ -128,7 +128,7 @@ export function MongoDB() {
         
         <>
 
-            <Image src={MongoImg} width={90}></Image>
+            <Image src={MongoImg} width={90} alt="MONGO DB"></Image>
 
             <h1 className={CssH1}>Mongo DB</h1>
         
@@ -144,7 +144,7 @@ export function Postman() {
         
         <>
 
-            <Image src={PostmanImg} width={90}></Image>
+            <Image src={PostmanImg} width={90} alt="POSTMAN"></Image>
 
             <h1 className={CssH1}>Postman</h1>
         
@@ -160,7 +160,7 @@ export function GitHubSvg() {
         
         <>
 
-            <Image src={GitHubImg} width={90}></Image>
+            <Image src={GitHubImg} width={90} alt="GITHUB"></Image>
 
             <h1 className={CssH1}>GitHub</h1>
         
@@ -176,7 +176,7 @@ export function Git() {
         
         <>
 
-            <Image src={GitImg} width={90}></Image>
+            <Image src={GitImg} width={90} alt="GIT"></Image>
 
             <h1 className={CssH1}>Git</h1>
         
@@ -192,7 +192,7 @@ export function MaterialUi() {
         
         <>
 
-            <Image src={MaterialUiImg} width={90}></Image>
+            <Image src={MaterialUiImg} width={90} alt="MATERIAL UI"></Image>
 
             <h1 className={CssH1}>Material Ui</h1>
         
@@ -208,7 +208,7 @@ export function Talwind() {
         
         <>
 
-            <Image src={TalwindImg} width={90}></Image>
+            <Image src={TalwindImg} width={90} alt="TALWIND"></Image>
 
             <h1 className={CssH1}>Talwind</h1>
         
@@ -224,7 +224,7 @@ export function Vite() {
         
         <>
 
-            <Image src={ViteImg} width={90}></Image>
+            <Image src={ViteImg} width={90} alt="VITE"></Image>
 
             <h1 className={CssH1}>Vite</h1>
         
