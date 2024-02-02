@@ -6,6 +6,25 @@
   color-scheme: light dark;
 }
 
-span {
-  font-weight: 500;
+p span {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+section img.banner {
+  animation: updown 3s linear infinite;
+  width: 50%;
+  position: relative;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-70px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-70px);
+  }
 }
