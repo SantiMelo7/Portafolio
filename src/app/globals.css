@@ -26,3 +26,7 @@ section img.banner {
     transform: translateY(-20px);
   }
 }
+
+.divLine {
+  flex: 1 1 0%;
+}

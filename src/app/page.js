@@ -1,5 +1,5 @@
 import InfoMe from "@/components/Header/Content/InfoMe";
-import { Javascript, HTML, Postman } from "@/svg/IconsSvg";
+import Technology from "@/components/Technologies/Technology";
 
 export default function Home() {
 
@@ -11,14 +11,12 @@ export default function Home() {
         
                 <InfoMe></InfoMe>
 
-                <img src="./headerImg.jpeg" className="w-full xl:h-[80vh] md:h-[60vh] sm:h-[107vh] object-cover object-top"></img>
-
-                <Postman></Postman>
-
-                <HTML></HTML>
+                <img src="./headerImg.jpeg" className="w-full xl:h-[80vh] md:h-[70vh] sm:h-[95vh] object-cover object-top"></img>
 
             </div>
-        
+
+            <Technology></Technology>
+
         </>
         
     )
