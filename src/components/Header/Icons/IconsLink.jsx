@@ -1,5 +1,5 @@
 import Links from "./Links";
-import { Email, GitHub, Linkedin } from "@/svg/IconsSvg";
+import { GitHub, Linkedin } from "@/svg/IconsSvg";
 
 export default function IconsLink() {
 
@@ -18,12 +18,6 @@ export default function IconsLink() {
                 <Linkedin></Linkedin> Linkedin
 
             </Links>
-
-            {/*<Links disabled={true}>
-    
-                <Email></Email> 
-
-            </Links>*/}
         
         </>
         
