@@ -5,7 +5,7 @@ export default function ImageHeader() {
 
     return (
         
-        <div className="flex md:flex-row sm:flex-col justify-start items-center gap-4 lg:pl-10 lg:mt-1 sm:mt-4">
+        <div className="flex md:flex-row sm:flex-col md:justify-start items-center gap-4 lg:pl-10 lg:mt-1 sm:mt-4">
  
             <Image src={Me} className="rounded-xl" alt="Santi" style={{width: 100, height: "auto"}}></Image>
 

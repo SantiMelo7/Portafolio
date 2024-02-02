@@ -8,7 +8,7 @@ export default function Home() {
         
             <InfoMe></InfoMe>
 
-            <img src="./headerImg.jpeg" className="w-full md:h-[83vh] sm:h-[120vh] object-cover object-top"></img>
+            <img src="./headerImg.jpeg" className="w-full xl:h-[80vh] md:h-[60vh] sm:h-[107vh] object-cover object-top"></img>
         
         </div>
         

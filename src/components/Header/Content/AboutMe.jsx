@@ -8,11 +8,11 @@ export default function AboutMe () {
 
         <>
 
-            <div className="flex flex-col lg:mt-28 absolute md:justify-center md:max-w-2xl sm:max-w-sm lg:text-start sm:text-center">
+            <div className="flex flex-col xl:mt-28 absolute md:justify-center xl:max-w-2xl sm:max-w-sm lg:text-start sm:text-center">
                 
                 <ImageHeader></ImageHeader>
 
-                <div className="flex flex-col md:ml-8 gap-4 mt-5 text-lg sm:p-2">
+                <div className="flex flex-col xl:ml-8 gap-4 mt-5 text-lg sm:p-2">
 
                     <h1 className="text-4xl font-bold text-gray-200">Hi, I'm Santiago Melo</h1>
 
@@ -20,7 +20,7 @@ export default function AboutMe () {
 
                     <Paragrafh></Paragrafh>
 
-                    <nav className="flex gap-x-10 md:justify-center md:flex-row sm:flex-col">
+                    <nav className="flex gap-x-10 xl:justify-center xl:items-center xl:flex-row sm:flex-col sm:items-center">
                     <IconsLink></IconsLink>
                     </nav>
 
