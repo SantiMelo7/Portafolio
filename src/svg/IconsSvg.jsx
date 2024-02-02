@@ -1,3 +1,14 @@
+import Image from "next/image"
+import HtmlImg from "../../public/svg/Html.svg"
+import CssImg from "../../public/svg/Css.svg"
+import JavascriptImg from "../../public/svg/Javascript.svg"
+import ReactImg from "../../public/svg/React.svg"
+import NextImg from "../../public/svg/Next.svg"
+import MaterialUiImg from "../../public/svg/MaterialUi.svg"
+import GitImg from "../../public/svg/Git.svg"
+import PostmanImg from "../../public/svg/Postman.svg"
+import MongoImg from "../../public/svg/Mongo.svg"
+
 export const GitHub = () => {
 
     return (
@@ -21,6 +32,96 @@ export function Linkedin(){
             
         </svg>
     
+    )
+
+}
+
+export const HTML =  () => {
+
+    return ( 
+    
+        <Image src={HtmlImg} width={100}></Image>
+        
+    )
+
+}
+
+export function CssSvg() {
+
+    return ( 
+        
+        <Image src={CssImg} width={100}></Image>
+        
+    )
+
+}
+
+
+export function Javascript() {
+
+    return (
+        
+        <Image src={JavascriptImg} width={100}></Image>
+        
+    )
+
+}
+
+export function ReactJs() {
+
+    return (
+        
+        <Image src={ReactImg} width={100}></Image>
+    )
+
+}
+
+export function NextJs() {
+
+    return (
+        
+        <Image src={NextImg} width={100}></Image>
+
+    )
+
+}
+
+export function MongoDB() {
+
+    return (
+        
+        <Image src={MongoImg} width={100}></Image>
+    
+    )
+
+}
+
+export function Postman() {
+
+    return (
+        
+        <Image src={PostmanImg} width={100}></Image>
+        
+    )
+
+}
+
+export function Git() {
+
+    return (
+        
+        <Image src={GitImg} width={100}></Image>
+        
+    )
+
+}
+
+export function MaterialUi() {
+
+    return (
+        
+        <Image src={MaterialUiImg} width={100}></Image>
+        
     )
 
 }
