@@ -1,7 +1,7 @@
-import { Lato } from 'next/font/google'
+import { Oswald } from 'next/font/google'
 import './globals.css'
 
-const inter = Lato({ subsets: ['latin'], weight: ["100", "300", "400"] })
+const inter = Oswald({ subsets: ['cyrillic'], weight: [ "400"] })
 
 export const metadata = {
   title: 'Portafolio Website',
@@ -25,5 +25,3 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
-
-// 'bg-gradient-to-l from-[#080808] to-[#1B1C1B]'

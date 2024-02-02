@@ -5,7 +5,7 @@ export default function SectionTechnologies() {
 
     return (
         
-        <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xl:max-w-screen-xl md:max-w-screen-md gap-10 mt-10">
+        <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xl:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm sm:ml-10 gap-10 mt-10">
 
             <DivTec><HTML></HTML></DivTec>
             

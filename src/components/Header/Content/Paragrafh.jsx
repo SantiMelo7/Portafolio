@@ -1,20 +1,22 @@
 export default function Paragrafh() {
 
-    const cssSpan = "text-2xl sm:text-lg text-yellow-300 font-bold"
+    const cssSpan = "text-yellow-200"
+
+    const cssP = "xl:text-2xl md:text-xl sm:text-xl text-white"
 
     return (
         
         <>
-            <p className="text-2xl text-[#000000] sm:text-lg"> I am a Front-End Developer, &nbsp; <span className={cssSpan}>with 1 year of experience</span> in the world of web pages.
+            <strong className={cssP}> I am a Front-End Developer, &nbsp; <span className={cssSpan}>with 1 year of experience</span> in the world of web pages.
                 
                 This year he worked mostly with &nbsp; <span className={cssSpan}> React, Next JS, Talwind, as well as HTML, CSS and Javascript</span>
             
-            </p>
+            </strong>
 
-            <p className="text-2xl sm:text-lg">
+            <strong className={cssP}>
                 When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things
             
-            </p>
+            </strong>
         
         </>
         

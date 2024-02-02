@@ -6,11 +6,6 @@
   color-scheme: light dark;
 }
 
-p span {
-  font-weight: 900;
-  font-size: 3rem;
-}
-
 section img.banner {
   animation: updown 3s linear infinite;
 }
@@ -18,12 +13,15 @@ section img.banner {
 @keyframes updown {
   0% {
     transform: translateY(-20px);
+    transform: rotate(-20deg);
   }
   50% {
     transform: translateY(20px);
+    transform: rotate(20deg);
   }
   100% {
     transform: translateY(-20px);
+    transform: rotate(-20deg);
   }
 }
 

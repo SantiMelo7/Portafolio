@@ -6,7 +6,7 @@ export default function Links({href, children, disabled}) {
         
             shadow-xl shadow-gray-500 flex justify-center items-center text-xl text-[#00FFF0]
             
-            transition md:hover:scale-110 hover:bg-white/30 sm:w-52
+            transition md:hover:scale-110 hover:bg-white/30 sm:w-52 
             
             md:gap-x-4 md:mt-1 sm:px-12 sm:gap-x-4 sm:mt-4 sm:hover:scale-95"
 
