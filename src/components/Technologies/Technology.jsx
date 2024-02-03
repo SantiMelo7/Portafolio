@@ -7,7 +7,7 @@ export default function Technology() {
     
         <>
         
-            <Title title="Tecnologias"></Title>
+            <Title title="Technologies"></Title>
 
             <div className="flex flex-col max-w-5xl mx-auto">
 

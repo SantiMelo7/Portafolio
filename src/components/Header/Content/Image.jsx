@@ -11,7 +11,7 @@ export default function ImageHeader() {
 
             <div className="border-[3px] border-[#C0EE9C] py-1 px-4">
 
-                <h2 className="text-xl font-extrabold">Disponible Para Trabajar</h2>
+                <h2 className="text-xl font-extrabold">Available to work</h2>
 
             </div>
 

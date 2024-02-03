@@ -1,4 +1,5 @@
 import InfoMe from "@/components/Header/Content/InfoMe";
+import Projects from "@/components/Projects/Projects";
 import Technology from "@/components/Technologies/Technology";
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
             </div>
 
             <Technology></Technology>
+
+            <Projects></Projects>
 
         </>
         
