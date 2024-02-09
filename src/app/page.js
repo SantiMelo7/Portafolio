@@ -1,4 +1,5 @@
 import InfoMe from "@/components/Header/Content/InfoMe";
+import Projects from "@/components/Projects/Projects";
 import Technology from "@/components/Technologies/Technology";
 
 export default function Home() {
@@ -11,11 +12,13 @@ export default function Home() {
         
                 <InfoMe></InfoMe>
 
-                <img src="./headerImg.jpeg" className="w-full xl:h-[80vh] md:h-[70vh] sm:h-[95vh] object-cover object-top"></img>
+                <img src="./headerImg.jpeg" className="w-full xl:h-[80vh] md:h-[58vh] sm:h-[90vh] object-cover object-top"></img>
 
             </div>
 
             <Technology></Technology>
+
+            <Projects></Projects>
 
         </>
         
