@@ -6,7 +6,7 @@ export default function InfoMe() {
 
         <>
 
-            <section className="sm:flex-col md:-top-20 sm:mt-2 absolute xl:w-[700px] md:w-[450px] sm:w-[370px] xl:left-52">
+            <section className="sm:flex-col md:-top-20 sm:mt-2 absolute xl:w-[600px] md:w-[450px] sm:w-[330px] xl:left-52">
 
                 <AboutMe></AboutMe>
 
