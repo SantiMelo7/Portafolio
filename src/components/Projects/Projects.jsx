@@ -7,9 +7,11 @@ export default function Projects() {
   return (
     <>
       <Title title="Projects" />
-      <section className="grid md:grid-cols-2 sm:grid-cols-1 max-w-4xl gap-[50px] mx-auto mt-10 shadow-xl mb-5">
+      <section className="grid md:grid-cols-2 sm:grid-cols-1 max-w-5xl gap-[60px] mx-auto mt-10 shadow-xl mb-5">
         <EntrepreneurPlataform />
-        <Restaurant />
+        <div>
+          <Restaurant />
+        </div>
         <Tesla />
       </section>
     </>

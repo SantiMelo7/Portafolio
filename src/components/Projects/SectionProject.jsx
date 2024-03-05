@@ -10,7 +10,10 @@ export default function SectionProject({
 }) {
   return (
     <div className="flex flex-col justify-center items-center mx-auto mb-3 hover:transition-all">
-      <img src={src} className={`${className} rounded-[5px]  w-full`} />
+      <img
+        src={src}
+        className={`${className} rounded-[5px] md:w-full sm:w-[350px]`}
+      />
       <>
         <TitleInitial text={title} className="text-3xl mt-3" />
         <TextProject text={subTitle} />
