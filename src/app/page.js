@@ -7,7 +7,7 @@ export default function Home() {
         <>
             <div className='w-full relative'>
                 <InfoMe />
-                <img src="./headerImg.webp" className="w-full xl:h-[80vh] md:h-[58vh] sm:h-[105vh] object-cover object-top"></img>
+                <img src="./headerImg.webp" className="w-full xl:h-[65vh] lg:h-[80vh] md:h-[58vh] sm:h-[90vh] object-cover object-top"></img>
             </div>
             <Projects />
             <Technology />
