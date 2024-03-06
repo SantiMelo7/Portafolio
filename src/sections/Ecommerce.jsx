@@ -12,18 +12,18 @@ import {
   Postman,
 } from "../svg/IconsSvg";
 
-export default function Restaurant() {
+export default function Ecommerce() {
   return (
     <SectionProject
-      className="h-[50%]"
-      src="/restaurant.webp"
-      title="Shop Restaurant"
-      subTitle="Aplicación creada con Next Js, utilizando React, haciendo un ecommerce de un Restaurant,
+      className=""
+      src="/ecommerce.webp"
+      title="Ecommerce"
+      subTitle="Aplicación creada con Next Js, utilizando React, haciendo un ecommerce,
       utilizando la base de datos de MongoDB y probando los endpoint con Postman,
       ademas de utilizar Tailwind como framework de css.
       El reto principal en este projecto fue aplicar todo lo aprendido durante muchos meses  "
     >
-      <div className="grid grid-cols-2 gap-y-3 mt-3 gap-x-4">
+      <div className="flex flex-col gap-y-3 mt-3 gap-x-4">
         <LinkProject>
           <NextJs width={20} />
         </LinkProject>
