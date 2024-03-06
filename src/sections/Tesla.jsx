@@ -16,22 +16,22 @@ export default function Tesla() {
     >
       <div className="grid grid-cols-2 gap-y-3 mt-3 gap-x-4">
         <LinkProject>
-          <ReactJs />
+          <ReactJs width={20} />
         </LinkProject>
         <LinkProject>
-          <Javascript />
+          <Javascript width={20} />
         </LinkProject>
         <LinkProject>
-          <Talwind />
-          <LinkProject>
-            <Vite />
-          </LinkProject>
+          <Talwind width={20} />
         </LinkProject>
-        <ProjectBottom
-          hrefGitHub="https://github.com/SantiMelo7/Tesla-Clon-Home"
-          hrefLink="https://tesla-clon-home.netlify.app/"
-        />
+        <LinkProject>
+          <Vite width={20} />
+        </LinkProject>
       </div>
+      <ProjectBottom
+        hrefGitHub="https://github.com/SantiMelo7/Tesla-Clon-Home"
+        hrefLink="https://tesla-clon-home.netlify.app/"
+      />
     </SectionProject>
   );
 }

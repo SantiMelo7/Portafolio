@@ -20,46 +20,46 @@ export default function SectionTechnologies() {
   return (
     <div className="grid xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 xl:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm sm:ml-10 gap-10 mt-10">
       <DivTec>
-        <HTML />
+        <HTML width={60} />
       </DivTec>
       <DivTec>
-        <CssSvg />
+        <CssSvg width={60} />
       </DivTec>
       <DivTec>
-        <Javascript />
+        <Javascript width={60} />
       </DivTec>
       <DivTec>
-        <ReactJs />
+        <ReactJs width={60} />
       </DivTec>
       <DivTec>
-        <NextJs />
+        <NextJs width={60} />
       </DivTec>
       <DivTec>
-        <Talwind />
+        <Talwind width={60} />
       </DivTec>
       <DivTec>
-        <StyledComponents />
+        <StyledComponents width={60} />
       </DivTec>
       <DivTec>
-        <Git />
+        <Git width={60} />
       </DivTec>
       <DivTec>
-        <GitHubSvg />
+        <GitHubSvg width={60} />
       </DivTec>
       <DivTec>
-        <MongoDB />
+        <MongoDB width={60} />
       </DivTec>
       <DivTec>
-        <Postman />
+        <Postman width={60} />
       </DivTec>
       <DivTec>
-        <Axios />
+        <Axios width={60} />
       </DivTec>
       <DivTec>
-        <Vite />
+        <Vite width={60} />
       </DivTec>
       <DivTec>
-        <MaterialUi />
+        <MaterialUi width={60} />
       </DivTec>
     </div>
   );
