@@ -1,6 +1,6 @@
-import SectionProject from "@/components/Projects/SectionProject";
-import ProjectBottom from "@/components/Projects/ProjectBottom";
-import LinkProject from "@/components/Projects/LinksProject";
+import SectionProject from "@/components/projects/SectionProject";
+import ProjectBottom from "@/components/projects/ProjectBottom";
+import LinkProject from "@/components/projects/LinksProject";
 import {
   Javascript,
   ReactJs,

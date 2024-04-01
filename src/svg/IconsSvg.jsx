@@ -12,6 +12,8 @@ import PostmanImg from "../../public/svg/Postman.svg";
 import MongoImg from "../../public/svg/Mongo.svg";
 import ViteImg from "../../public/svg/Vite.png";
 import AxiosImg from "../../public/svg/axios.ico";
+import JiraImg from "../../public/svg/jira.webp";
+import VercelImg from "../../public/svg/vercel.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
 
 export const CssH1 = "font-extrabold ";
@@ -180,6 +182,26 @@ export const Vite = ({ width }) => {
       <Image src={ViteImg} width={width} alt="Vite" />
 
       <h1 className={CssH1}>Vite</h1>
+    </>
+  );
+};
+
+export const Jira = ({ width }) => {
+  return (
+    <>
+      <Image src={JiraImg} width={width} alt="Jira Software" />
+
+      <h1 className={CssH1}>Jira Software</h1>
+    </>
+  );
+};
+
+export const Vercel = ({ width }) => {
+  return (
+    <>
+      <Image src={VercelImg} width={width} alt="Vercel" />
+
+      <h1 className={CssH1}>Vercel</h1>
     </>
   );
 };

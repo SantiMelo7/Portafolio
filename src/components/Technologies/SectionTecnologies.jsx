@@ -13,6 +13,8 @@ import {
   Vite,
   Axios,
   StyledComponents,
+  Jira,
+  Vercel,
 } from "@/svg/IconsSvg";
 import DivTec from "./DivTec";
 
@@ -60,6 +62,12 @@ export default function SectionTechnologies() {
       </DivTec>
       <DivTec>
         <MaterialUi width={60} />
+      </DivTec>
+      <DivTec>
+        <Jira width={60} />
+      </DivTec>
+      <DivTec>
+        <Vercel width={60} />
       </DivTec>
     </div>
   );

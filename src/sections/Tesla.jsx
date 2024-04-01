@@ -1,6 +1,6 @@
-import LinkProject from "@/components/Projects/LinksProject";
-import ProjectBottom from "@/components/Projects/ProjectBottom";
-import SectionProject from "@/components/Projects/SectionProject";
+import LinkProject from "@/components/projects/LinksProject";
+import ProjectBottom from "@/components/projects/ProjectBottom";
+import SectionProject from "@/components/projects/SectionProject";
 import { Javascript, Vite, ReactJs, Talwind } from "@/svg/IconsSvg";
 
 export default function Tesla() {

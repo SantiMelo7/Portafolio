@@ -1,8 +1,8 @@
 "use client";
 
-import LinkProject from "@/components/Projects/LinksProject";
-import ProjectBottom from "@/components/Projects/ProjectBottom";
-import SectionProject from "@/components/Projects/SectionProject";
+import LinkProject from "@/components/projects/LinksProject";
+import ProjectBottom from "@/components/projects/ProjectBottom";
+import SectionProject from "@/components/projects/SectionProject";
 import {
   Javascript,
   NextJs,
@@ -15,7 +15,7 @@ import {
 export default function Ecommerce() {
   return (
     <SectionProject
-      className=""
+      className="h-[10%]"
       src="/ecommerce.webp"
       title="Ecommerce"
       subTitle="Aplicación creada con Next Js, utilizando React, haciendo un ecommerce,

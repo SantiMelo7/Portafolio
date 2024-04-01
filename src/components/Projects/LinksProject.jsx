@@ -1,4 +1,4 @@
-import Links from "../Header/Icons/Links";
+import Links from "../header/icons/Links";
 
 export default function LinkProject({ text, children }) {
   return (
