@@ -8,37 +8,51 @@ import {
   Axios,
   StyledComponents,
 } from "@/svg/IconsSvg";
+import ButtonProjects from "@/components/projects/ButtonProjects";
 
 export default function EntrepreneurPlataform() {
   return (
     <SectionProject
-      className="h-[50%]"
       src="/entrepeneur-platform.webp"
       title="Entrepeneur Platform"
-      subTitle="Aplicación creada con Next Js, utilizando React, haciendo un ecommerce de un Restaurant, utilizando la base de datos de MongoDB y probando los endpoint con Postman, ademas de utilizar Tailwind como framework de css. El reto principal en este projecto fue aplicar todo lo aprendido durante muchos meses"
+      subTitle="Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it. Created with Next.Js, React and others"
     >
-      <div className="grid grid-cols-2 gap-y-3 mt-3 gap-x-4">
-        <LinkProject>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          rowGap: "15px",
+          marginTop: "12px",
+          columnGap: "16px",
+        }}
+      >
+        <ButtonProjects>
           <NextJs width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <ReactJs width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <Javascript width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <Axios width={20} />
-        </LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
+          <StyledComponents width={50} />
+        </ButtonProjects>
       </div>
-      <div className="mt-3">
-        <LinkProject>
-          <StyledComponents width={32} />
-        </LinkProject>
-      </div>
-      <>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(2, 1fr)",
+          rowGap: "15px",
+          marginTop: "12px",
+          columnGap: "16px",
+        }}
+      >
         <ProjectBottom hrefGitHub="" hrefLink="" />
-      </>
+      </div>
     </SectionProject>
   );
 }

@@ -6,10 +6,13 @@ export default function ProjectBottom({ hrefGitHub, hrefLink }) {
     <>
       <ButtonProjects href={hrefGitHub}>
         <GitHub />
+        <p>Code</p>
       </ButtonProjects>
-      <ButtonProjects href={hrefLink}>
-        <LinkProject />
-      </ButtonProjects>
+      <div className="mt-3 relative bottom-3">
+        <ButtonProjects href={hrefLink}>
+          <LinkProject /> <p className="p-[10px]">Preview</p>
+        </ButtonProjects>
+      </div>
     </>
   );
 }

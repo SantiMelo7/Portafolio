@@ -1,6 +1,5 @@
 "use client";
 
-import LinkProject from "@/components/projects/LinksProject";
 import ProjectBottom from "@/components/projects/ProjectBottom";
 import SectionProject from "@/components/projects/SectionProject";
 import {
@@ -11,6 +10,7 @@ import {
   MongoDB,
   Postman,
 } from "../svg/IconsSvg";
+import ButtonProjects from "@/components/projects/ButtonProjects";
 
 export default function Ecommerce() {
   return (
@@ -18,35 +18,50 @@ export default function Ecommerce() {
       className="h-[10%]"
       src="/ecommerce.webp"
       title="Ecommerce"
-      subTitle="Aplicación creada con Next Js, utilizando React, haciendo un ecommerce,
-      utilizando la base de datos de MongoDB y probando los endpoint con Postman,
-      ademas de utilizar Tailwind como framework de css.
-      El reto principal en este projecto fue aplicar todo lo aprendido durante muchos meses  "
+      subTitle="Ecommerce application to be able to buy technology items, first website I made. Created with Next.JS, React, Tailwind and managing the MongoDB database"
     >
-      <div className="flex flex-col gap-y-3 mt-3 gap-x-4">
-        <LinkProject>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 200px)",
+          rowGap: "15px",
+          marginTop: "12px",
+          columnGap: "16px",
+        }}
+      >
+        <ButtonProjects>
           <NextJs width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <ReactJs width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <Javascript width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <Talwind width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <MongoDB width={20} />
-        </LinkProject>
-        <LinkProject>
+        </ButtonProjects>
+        <ButtonProjects>
           <Postman width={20} />
-        </LinkProject>
+        </ButtonProjects>
       </div>
-      <ProjectBottom
-        hrefGitHub="https://github.com/SantiMelo7/Ecommerce"
-        hrefLink="https://restaurantshop.netlify.app/"
-      />
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(2, 1fr)",
+          rowGap: "15px",
+          marginTop: "12px",
+          columnGap: "16px",
+        }}
+      >
+        <ProjectBottom
+          hrefGitHub="https://github.com/SantiMelo7/Ecommerce"
+          hrefLink="https://restaurantshop.netlify.app/"
+        />
+      </div>
     </SectionProject>
   );
 }

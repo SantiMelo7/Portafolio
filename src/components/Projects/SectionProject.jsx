@@ -9,17 +9,13 @@ export default function SectionProject({
   children,
 }) {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mb-3 hover:transition-all">
-      <img
-        src={src}
-        className={`${className} rounded-[5px] md:w-full sm:w-[350px]`}
-      />
-      <>
-        <TitleInitial text={title} className="text-3xl mt-3" />
+    <div className="md:grid md:grid-cols-2 justify-center items-center mx-auto hover:transition-all ">
+      <img src={src} className={`${className} rounded-2xl w-[50vh] mt-10 `} />
+      <div className="flex flex-col sm:justify-center sm:items-center md:justify-start md:items-start mt-5">
+        <TitleInitial text={title} className="text-3xl" />
         <TextProject text={subTitle} />
-        <h1 className="text-xl text-center text-white mt-3">Tecnologías</h1>
         {children}
-      </>
+      </div>
     </div>
   );
 }

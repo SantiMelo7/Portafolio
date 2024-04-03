@@ -3,10 +3,10 @@ export default function ButtonProjects({ href, children }) {
     <div className="mt-3">
       <a
         href={href}
-        className="bg-transparent flex sm:justify-center transition md:hover:scale-110 sm:w-52 md:gap-x-10 md:mt-1
-        sm:px-8 sm:gap-x-4 sm:mt-4 sm:hover:scale-95"
-        target="_blank"
-        rel="noopener noreferrer"
+        role="link"
+        className="flex items-center gap-x-4 justify-center rounded-xl
+        text-white transition bg-gray-800 border px-3
+        border-gray-600 text-lg hover:scale-105 hover:bg-slate-400"
       >
         {children}
       </a>
