@@ -1,7 +1,13 @@
 "use client";
 
+<<<<<<< HEAD
 import ProjectBottom from "@/components/projects/ProjectBottom";
 import SectionProject from "@/components/projects/SectionProject";
+=======
+import LinkProject from "../components/Projects/LinksProject";
+import ProjectBottom from "../components/projects/ProjectBottom";
+import SectionProject from "../components/projects/SectionProject";
+>>>>>>> 5855c04663eb1f5e6927d2999ad752af041d08a5
 import {
   Javascript,
   NextJs,
