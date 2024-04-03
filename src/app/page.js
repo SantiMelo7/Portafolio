@@ -1,7 +1,7 @@
 import InfoMe from "../components/Header/Content/InfoMe";
 import Projects from "../components/Projects/Projects";
 import Technology from "../components/Technologies/Technology";
-import Title from "../components/Technologies/Title";
+import Title from "../components/Technologies/Title"
 import Experience from "../sections/Experience";
 
 export default function Home() {

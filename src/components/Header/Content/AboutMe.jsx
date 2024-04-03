@@ -1,4 +1,4 @@
-import TitleInitial from "@/components/layout/TitleInitial";
+import TitleInitial from "../../../components/layout/TitleInitial";
 import IconsLink from "../icons/IconsLink";
 import ImageHeader from "./Image";
 import Paragrafh from "./Paragrafh";

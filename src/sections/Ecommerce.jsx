@@ -1,8 +1,8 @@
 "use client";
 
-import LinkProject from "@/components/projects/LinksProject";
-import ProjectBottom from "@/components/projects/ProjectBottom";
-import SectionProject from "@/components/projects/SectionProject";
+import LinkProject from "../components/Projects/LinksProject";
+import ProjectBottom from "../components/projects/ProjectBottom";
+import SectionProject from "../components/projects/SectionProject";
 import {
   Javascript,
   NextJs,

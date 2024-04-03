@@ -1,4 +1,4 @@
-import Title from "../technologies/Title";
+import Title from "../Technologies/Title";
 import Tesla from "@/sections/Tesla";
 import Ecommerce from "@/sections/Ecommerce";
 import EntrepreneurPlataform from "@/sections/EntrepeneurPlataform";
