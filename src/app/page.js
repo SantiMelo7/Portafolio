@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-import InfoMe from "../components/header/content/InfoMe";
-import Projects from "../components/projects/Projects";
-import Technology from "../components/technologies/Technology";
-=======
 import InfoMe from "../components/Header/Content/InfoMe";
 import Projects from "../components/Projects/Projects";
 import Technology from "../components/Technologies/Technology";
-import Title from "../components/Technologies/Title"
->>>>>>> 5855c04663eb1f5e6927d2999ad752af041d08a5
 import Experience from "../sections/Experience";
 
 export default function Home() {
