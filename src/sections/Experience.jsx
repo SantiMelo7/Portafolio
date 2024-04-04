@@ -1,4 +1,4 @@
-import Title from "@/components/technologies/Title";
+import Title from "../components/technologies/Title";
 
 export default function Experience() {
   return (

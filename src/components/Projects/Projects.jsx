@@ -20,11 +20,9 @@ export default function Projects() {
               <div className="flex flex-col sm:justify-center sm:items-center md:justify-start md:items-start mt-5">
                 <TitleInitial text={project.title} className="text-3xl" />
                 <TextProject text={project.description} />
-                {project.tools.map((tec) => (
-                  <div className="section-projects">
-                    <LinkProject>{tec}</LinkProject>
-                  </div>
-                ))}
+                <div className="section-projects">
+                  <LinkProject>{project.tools.next}</LinkProject>
+                </div>
                 <div className="section-buttons">
                   <ProjectBottom
                     hrefGitHub={project.visitGit}
