@@ -166,10 +166,10 @@ export const Axios = ({ width }) => {
   );
 };
 
-export const StyledComponents = ({ width }) => {
+export const StyledComponents = () => {
   return (
     <>
-      <Image src={StylesComponentsImg} width={width} alt="Styled-Components" />
+      <Image src={StylesComponentsImg} width={50} alt="Styled-Components" />
 
       <h1 className={CssH1}>Styled-Components</h1>
     </>

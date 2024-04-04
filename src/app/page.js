@@ -1,6 +1,6 @@
-import InfoMe from "../components/Header/Content/InfoMe";
-import Projects from "../components/Projects/Projects";
-import Technology from "../components/Technologies/Technology";
+import InfoMe from "../components/header/Content/InfoMe";
+import Projects from "../components/projects/Projects";
+import Technology from "../components/technologies/Technology";
 import Experience from "../sections/Experience";
 
 export default function Home() {
