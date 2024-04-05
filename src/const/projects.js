@@ -60,6 +60,6 @@ export const PROJECTS = [
             vercel: <Vercel width={20} />,
         },
         visitGit: "https://github.com/SantiMelo7/Calculator",
-        visitPrev: "https://calculator-omega-two-15.vercel.app/"
+        visitPrev: "https://calculator-formula.vercel.app"
     }
 ]
