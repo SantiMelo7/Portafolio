@@ -12,7 +12,11 @@ import PostmanImg from "../../public/svg/Postman.svg";
 import MongoImg from "../../public/svg/Mongo.svg";
 import ViteImg from "../../public/svg/Vite.png";
 import AxiosImg from "../../public/svg/axios.ico";
+import JiraImg from "../../public/svg/jira.webp";
+import VercelImg from "../../public/svg/vercel.webp";
+import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
+import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 
 export const CssH1 = "font-extrabold ";
 
@@ -164,10 +168,10 @@ export const Axios = ({ width }) => {
   );
 };
 
-export const StyledComponents = ({ width }) => {
+export const StyledComponents = () => {
   return (
     <>
-      <Image src={StylesComponentsImg} width={width} alt="Styled-Components" />
+      <Image src={StylesComponentsImg} width={50} alt="Styled-Components" />
 
       <h1 className={CssH1}>Styled-Components</h1>
     </>
@@ -180,6 +184,46 @@ export const Vite = ({ width }) => {
       <Image src={ViteImg} width={width} alt="Vite" />
 
       <h1 className={CssH1}>Vite</h1>
+    </>
+  );
+};
+
+export const Jira = ({ width }) => {
+  return (
+    <>
+      <Image src={JiraImg} width={width} alt="Jira Software" />
+
+      <h1 className={CssH1}>Jira Software</h1>
+    </>
+  );
+};
+
+export const Vercel = ({ width }) => {
+  return (
+    <>
+      <Image src={VercelImg} width={width} alt="Vercel" />
+
+      <h1 className={CssH1}>Vercel</h1>
+    </>
+  );
+};
+
+export const Netifly = ({ width }) => {
+  return (
+    <>
+      <Image src={NetiflyImg} width={width} alt="Netifly" />
+
+      <h1 className={CssH1}>Netifly</h1>
+    </>
+  );
+};
+
+export const ReactRouterDom = ({ width }) => {
+  return (
+    <>
+      <Image src={ReactRouterDomImg} width={width} alt="React-Router-Dom" />
+
+      <h1 className={CssH1}>React-Router-Dom</h1>
     </>
   );
 };

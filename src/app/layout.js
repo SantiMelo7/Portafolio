@@ -1,7 +1,7 @@
 import { Oswald } from 'next/font/google'
 import './globals.css'
 
-const inter = Oswald({ subsets: ['cyrillic'], weight: [ "400"] })
+const inter = Oswald({ subsets: ['cyrillic'], weight: ["400"] })
 
 export const metadata = {
   title: 'Portafolio Website',
