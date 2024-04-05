@@ -1,4 +1,4 @@
-import { Axios, CssSvg, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB, NextJs, Postman, ReactJs, StyledComponents, Talwind, Vercel, Vite } from "@/svg/IconsSvg";
+import { Axios, CssSvg, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB, Netifly, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Vercel, Vite } from "@/svg/IconsSvg";
 
 export const TECHNOLOGHIES = [
     {
@@ -59,10 +59,18 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 15,
-        text: <Jira width={60} />
+        text: <Netifly width={60} />
     },
     {
         id: 16,
+        text: <ReactRouterDom width={60} />
+    },
+    {
+        id: 17,
+        text: <Jira width={60} />
+    },
+    {
+        id: 18,
         text: <MaterialUi width={60} />
     },
 ]

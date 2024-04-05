@@ -14,7 +14,9 @@ import ViteImg from "../../public/svg/Vite.png";
 import AxiosImg from "../../public/svg/axios.ico";
 import JiraImg from "../../public/svg/jira.webp";
 import VercelImg from "../../public/svg/vercel.webp";
+import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
+import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 
 export const CssH1 = "font-extrabold ";
 
@@ -202,6 +204,26 @@ export const Vercel = ({ width }) => {
       <Image src={VercelImg} width={width} alt="Vercel" />
 
       <h1 className={CssH1}>Vercel</h1>
+    </>
+  );
+};
+
+export const Netifly = ({ width }) => {
+  return (
+    <>
+      <Image src={NetiflyImg} width={width} alt="Netifly" />
+
+      <h1 className={CssH1}>Netifly</h1>
+    </>
+  );
+};
+
+export const ReactRouterDom = ({ width }) => {
+  return (
+    <>
+      <Image src={ReactRouterDomImg} width={width} alt="React-Router-Dom" />
+
+      <h1 className={CssH1}>React-Router-Dom</h1>
     </>
   );
 };

@@ -2,8 +2,8 @@ import { PROJECTS } from "@/const/projects";
 import Title from "../technologies/Title";
 import TitleInitial from "../layout/TitleInitial";
 import TextProject from "./TextProject";
-import LinkProject from "./LinksProject";
 import ProjectBottom from "./ProjectBottom";
+import { Toolsproject } from "./ToolsProject";
 
 export default function Projects() {
   return (
@@ -21,7 +21,7 @@ export default function Projects() {
                 <TitleInitial text={project.title} className="text-3xl" />
                 <TextProject text={project.description} />
                 <div className="section-projects">
-                  <LinkProject>{project.tools.next}</LinkProject>
+                  <Toolsproject projectId={project.tools} />
                 </div>
                 <div className="section-buttons">
                   <ProjectBottom
