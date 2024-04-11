@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .group-date {
-    @apply sticky top-0 bg-white py-3 z-10 shadow-xl shadow-white;
-  }
-  .timeline {
-    @apply border-l-10 border-gray-500 ml-3 mt-3 py-16 space-y-14;
-  }
-}
 :root {
   color-scheme: light dark;
 }
