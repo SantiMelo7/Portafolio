@@ -54,3 +54,7 @@ img.mask {
   margin-top: 12px;
   column-gap: 16px;
 }
+
+button.count {
+  @apply py-2 px-10 hover:scale-105 hover:bg-black/70 hover:text-white bg-slate-400 w-32 rounded-md text-xl font-extrabold text-black;
+}

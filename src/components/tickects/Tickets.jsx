@@ -11,6 +11,12 @@ export default function Tickets() {
   const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
+    const countLocal = window.localStorage.getItem("count");
+    setCount(countLocal);
+    const sprintLocal = window.localStorage.getItem("sprint");
+    setSprint(sprintLocal);
+    const projectsLocal = window.localStorage.getItem("projects");
+    setProjects(projectsLocal);
     const LOCAL_ADMIN = JSON.parse(window.localStorage.getItem("admin"));
     setAdmin(LOCAL_ADMIN);
   }, []);
@@ -46,51 +52,46 @@ export default function Tickets() {
         sm:max-w-screen-sm sm:gap-y-5 mx-auto mt-8 "
       >
         {TICKETS.map((text) => (
-          <>
-            <div key={text.id}>
-              <div
-                className="flex flex-col border-b-[3px] border-green-500
+          <div key={text.id}>
+            <div
+              className="flex flex-col border-b-[3px] border-green-500
                 bg-black-900 text-black hover:scale-110 hover:skew-x-1"
-              >
-                <h1 className="text-3xl font-extrabold text-blue-200 text-center">
-                  {text.title}
-                </h1>
-                <span className="text-center font-bold text-3xl mt-5 mb-3 text-orange-400 animate-pulse">
-                  {text.id === 1 && window.localStorage.getItem("count")}
-                  {text.id === 2 && window.localStorage.getItem("sprint")}
-                  {text.id === 3 && window.localStorage.getItem("projects")}
-                </span>
-              </div>
+            >
+              <h1 className="text-3xl font-extrabold text-blue-200 text-center">
+                {text.title}
+              </h1>
+              <span className="text-center font-bold text-3xl mt-5 mb-3 text-orange-400 animate-pulse">
+                {text.id === 1 && count}
+                {text.id === 2 && sprint}
+                {text.id === 3 && projects}
+              </span>
             </div>
             {admin && (
               <div className="flex flex-row gap-5 max-w-screen-lg mx-auto mt-5">
-                {text.id === 1 && (
-                  <ButtonsTickets
-                    handleClickButton={handleClickCount}
-                    valueState={count}
-                    valueKey="count"
-                    valueSecondState={setCount}
-                  />
-                )}
-                {text.id === 2 && (
-                  <ButtonsTickets
-                    handleClickButton={handleClickCount}
-                    valueState={sprint}
-                    valueKey="sprint"
-                    valueSecondState={setSprint}
-                  />
-                )}
-                {text.id === 3 && (
-                  <ButtonsTickets
-                    handleClickButton={handleClickCount}
-                    valueState={projects}
-                    valueKey="projects"
-                    valueSecondState={setProjects}
-                  />
-                )}
+                <ButtonsTickets
+                  map={text.id === 1}
+                  handleClickButton={handleClickCount}
+                  valueState={count}
+                  valueKey="count"
+                  valueSecondState={setCount}
+                />
+                <ButtonsTickets
+                  map={text.id === 2}
+                  handleClickButton={handleClickCount}
+                  valueState={sprint}
+                  valueKey="sprint"
+                  valueSecondState={setSprint}
+                />
+                <ButtonsTickets
+                  map={text.id === 3}
+                  handleClickButton={handleClickCount}
+                  valueState={projects}
+                  valueKey="projects"
+                  valueSecondState={setProjects}
+                />
               </div>
             )}
-          </>
+          </div>
         ))}
       </section>
     </>
