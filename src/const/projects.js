@@ -11,7 +11,7 @@ export const PROJECTS = [
             react: <ReactJs width={20} />,
             axios: <Axios width={20} />,
             vercel: <Vercel width={20} />,
-            styledComponents: <StyledComponents width={20} />
+            styledComponents: <StyledComponents width={10} />
         },
         visitGit: "https://github.com/ActoSoft/entrepreneur-platform-ui",
         visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
@@ -24,6 +24,7 @@ export const PROJECTS = [
         tools: {
             next: <NextJs width={20} />,
             react: <ReactJs width={20} />,
+            tailwind: <Talwind width={20} />,
             mongo: <MongoDB width={20} />,
             postman: <Postman width={20} />,
             netifly: <Netifly width={20} />,
@@ -40,6 +41,7 @@ export const PROJECTS = [
         tools: {
             react: <ReactJs width={20} />,
             tailwind: <Talwind width={20} />,
+            vite: <Vite width={20} />,
             vercel: <Vercel width={20} />,
             materialUi: <MaterialUi width={20} />
         },

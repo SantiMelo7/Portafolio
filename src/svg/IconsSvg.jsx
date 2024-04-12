@@ -18,7 +18,7 @@ import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 
-export const CssH1 = "font-extrabold ";
+export const CssH1 = "font-extrabold text-md";
 
 export const GitHub = () => {
   return (
