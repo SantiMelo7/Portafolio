@@ -7,14 +7,18 @@ export function useTickets() {
     const [admin, setAdmin] = useState(false);
 
     useEffect(() => {
-        const localCount = window.localStorage.getItem("count");
+        const localCount = window.localStorage.setItem("count", count);
         setCount(localCount);
-        const localSprint = window.localStorage.getItem("sprint");
+        const localSprint = window.localStorage.setItem("sprint", sprint);
         setSprint(localSprint);
-        const localProjects = window.localStorage.getItem("projects");
+        const localProjects = window.localStorage.setItem("projects", projects);
         setProjects(localProjects);
-        const localAdmin = JSON.parse(window.localStorage.getItem("projects"));
+        const localAdmin = window.localStorage.setItem("admin", admin);
         setAdmin(localAdmin);
+        window.localStorage.getItem("projects",);
+        window.localStorage.getItem("count",);
+        window.localStorage.getItem("projects",);
+        window.localStorage.getItem("admin",);
     }, []);
 
     const handleClickCount = (action, setState, valueKey) => {
