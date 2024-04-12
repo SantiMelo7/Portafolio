@@ -3,40 +3,25 @@ export default function ButtonsTickets({
   valueSecondState,
   valueKey,
   valueState,
-  map,
 }) {
   return (
     <>
-      {map && (
-        <>
-          <button
-            onClick={() =>
-              handleClickButton(
-                "increment",
-                valueSecondState,
-                valueKey,
-                valueState
-              )
-            }
-            className="count"
-          >
-            +1
-          </button>
-          <button
-            onClick={() =>
-              handleClickButton(
-                "decrement",
-                valueSecondState,
-                valueKey,
-                valueState
-              )
-            }
-            className="count "
-          >
-            -1
-          </button>
-        </>
-      )}
+      <button
+        onClick={() =>
+          handleClickButton("increment", valueSecondState, valueKey, valueState)
+        }
+        className="count"
+      >
+        +1
+      </button>
+      <button
+        onClick={() =>
+          handleClickButton("decrement", valueSecondState, valueKey, valueState)
+        }
+        className="count "
+      >
+        -1
+      </button>
     </>
   );
 }
