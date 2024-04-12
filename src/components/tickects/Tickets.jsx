@@ -5,55 +5,49 @@ import Title from "../technologies/Title";
 import ButtonsTickets from "../layout/ButtonsTickets";
 
 export default function Tickets() {
-  const [count, setCount] = useState(() => {
-    const countLocal = parseInt(window.localStorage.getItem("count")) || 0;
-    return countLocal;
-  });
-  const [sprint, setSprint] = useState(() => {
-    const sprintLocal = parseInt(window.localStorage.getItem("sprint")) || 0;
-    return sprintLocal;
-  });
-  const [projects, setProjects] = useState(() => {
-    const projectsLocal =
-      parseInt(window.localStorage.getItem("projects")) || 0;
-    return projectsLocal;
-  });
-  const [admin, setAdmin] = useState(() => {
-    const adminLocal = window.localStorage.getItem("admin") === "true";
-    return adminLocal;
-  });
+  const [count, setCount] = useState(0);
+  const [sprint, setSprint] = useState(0);
+  const [projects, setProjects] = useState(0);
+  const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
-    window.localStorage.setItem("count", count.toString());
-    window.localStorage.setItem("sprint", sprint.toString());
-    window.localStorage.setItem("projects", projects.toString());
-    window.localStorage.setItem("admin", admin.toString());
-  }, [count, sprint, projects, admin]);
+    window.localStorage.setItem("count", count);
+    window.localStorage.setItem("sprint", sprint);
+    window.localStorage.setItem("projects", projects);
+    window.localStorage.setItem("admin", admin);
+    const localCount = window.localStorage.getItem("count");
+    setCount(localCount);
+    const localSprint = window.localStorage.getItem("sprint");
+    setSprint(localSprint);
+    const localProjects = window.localStorage.getItem("projects");
+    setProjects(localProjects);
+    const localAdmin = JSON.parse(window.localStorage.getItem("projects"));
+    setAdmin(localAdmin);
+  }, []);
 
-  const handleClickCount = (action, setState, valueString, value) => {
+  const handleClickCount = (action, setState) => {
     if (action === "increment") {
       setState((prevCount) => prevCount + 1);
     } else if (action === "decrement") {
       setState((prevCount) => prevCount - 1);
     }
-    window.localStorage.setItem(valueString, value.toString());
   };
 
   const TICKETS = [
     {
       id: 1,
       title: "Complete Tickets",
-      count: count,
+      count: "count",
     },
     {
       id: 2,
       title: "Sprint Finished",
-      count: sprint,
+      count: "sprint",
     },
     {
       id: 3,
       title: "Complete Projects",
-      count: projects,
+      count: "projects",
     },
   ];
 
@@ -68,32 +62,28 @@ export default function Tickets() {
                 {text.title}
               </h1>
               <span className="text-center font-bold text-3xl mt-5 mb-3 text-orange-400 animate-pulse">
-                {text.count}
+                {text.count === "count" && count}
+                {text.count === "sprint" && sprint}
+                {text.count === "projects" && projects}
               </span>
             </div>
-            {admin && (
+            {!admin && (
               <div className="flex flex-row gap-5 max-w-screen-lg mx-auto mt-5">
                 {text.id === 1 && (
                   <ButtonsTickets
                     handleClickButton={handleClickCount}
-                    valueState={count}
-                    valueKey="count"
                     valueSecondState={setCount}
                   />
                 )}
                 {text.id === 2 && (
                   <ButtonsTickets
                     handleClickButton={handleClickCount}
-                    valueState={sprint}
-                    valueKey="sprint"
                     valueSecondState={setSprint}
                   />
                 )}
                 {text.id === 3 && (
                   <ButtonsTickets
                     handleClickButton={handleClickCount}
-                    valueState={projects}
-                    valueKey="projects"
                     valueSecondState={setProjects}
                   />
                 )}
