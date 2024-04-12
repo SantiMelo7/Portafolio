@@ -6,6 +6,22 @@
   color-scheme: light dark;
 }
 
+div.tickets {
+  animation: tickets-down 2.5s linear infinite;
+}
+
+@keyframes tickets-down {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
 section img.banner {
   animation: updown 3s linear infinite;
 }
@@ -31,13 +47,16 @@ section img.banner {
 
 .section-projects {
   display: grid;
-  @media (min-width: 300px) and (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+  @media (min-width: 300px) {
+    grid-template-columns: repeat(2, 200px);
+    grid-gap: 15px;
   }
-  @media (min-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 19px;
+    margin-right: auto;
+    margin-left: auto;
   }
-  row-gap: 15px;
   margin-top: 12px;
   column-gap: 16px;
 }
@@ -57,4 +76,9 @@ img.mask {
 
 button.count {
   @apply py-2 px-10 hover:scale-105 hover:bg-black/70 hover:text-white bg-slate-400 w-32 rounded-md text-xl font-extrabold text-black;
+}
+
+a.cv {
+  @apply border-[3px] border-cyan-500 rounded-xl shadow-lg shadow-gray-500 flex justify-center items-center text-xl text-[#00FFF0]
+  transition md:hover:scale-110 hover:bg-white/30  md:gap-x-4 md:mt-1 sm:px-12 sm:gap-x-4 sm:mt-4 sm:hover:scale-95;
 }
