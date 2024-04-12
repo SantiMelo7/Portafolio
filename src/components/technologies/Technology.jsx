@@ -7,8 +7,8 @@ export default function Technology() {
       <Title title="Technologies" />
       <div className="flex flex-col max-w-5xl mb-5 mx-auto">
         <div
-          className="grid xl:grid-cols-6 md:grid-cols-5 sm:grid-cols-2 xl:max-w-screen-xl
-        md:max-w-screen-md sm:max-w-screen-sm sm:ml-10 gap-10 mt-10"
+          className="grid xl:grid-cols-6 md:grid-cols-5 sm:grid-cols-3 sm:max-w-screen-md xl:max-w-screen-xl
+        md:max-w-screen-md sm:ml-10 gap-10 mt-10"
         >
           {TECHNOLOGHIES.map((tect) => (
             <div
