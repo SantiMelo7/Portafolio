@@ -17,7 +17,7 @@ export default function Experience() {
                 <h3 className="text-xl font-semibold text-gray-300">
                   {text.ttile}
                 </h3>
-                <p className="mb-4 mt-2 text-lg font-extrabold md:max-w-screen-md sm:max-w-screen-sm text-white ">
+                <p className="mb-4 mt-2 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl sm:max-w-screen-sm text-white ">
                   {text.description}
                 </p>
               </li>

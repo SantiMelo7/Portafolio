@@ -1,7 +1,6 @@
-export default function Links({ href, className, children, disabled, text }) {
+export default function Links({ href, className, text, children }) {
   return (
     <a
-      disabled={disabled}
       href={href}
       className={className}
       target="_blank"

@@ -7,9 +7,9 @@ export const metadata = {
   title: 'Portafolio Website',
   description: 'My website where I show all my projects and skills within the world of programming',
   icons: {
-    icon: ["/images/favicon.ico?v=4"],
-    apple: ["images/apple-touch-icon.png?v=4"],
-    shortcut: ["images/apple-touch-icon.png"]
+    icon: ["/favicon/favicon.ico?v=4"],
+    apple: ["favicon/apple-touch-icon.png?v=4"],
+    shortcut: ["favicon/apple-touch-icon.png"]
   }
 
 }

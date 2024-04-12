@@ -1,11 +1,11 @@
 import LinkProject from "./LinksProject";
 
 // temporal
-
 const classNameToolsNormal = "md:w-[210px] sm:w-[180px]";
-const classNameToolsBigger = "md:w-[25vh]";
-const classNameToolsLg = "md:w-[31vh]";
-const classNameToolsXl = "md:w-[37vh]";
+const classNameToolsBigger = "md:w-[230px] sm:w-[180px]";
+const classNameToolsLg = "md:w-[290px] sm:w-[235px] sm:h-17";
+const classNameToolsXl =
+  "md:w-[290px] flex md:h-10 sm:h-17 sm:grid sm:grid-cols-2 sm:pl-2 sm:w-[200px] sm:mx-auto";
 export function Toolsproject({ projectId }) {
   return (
     <>
@@ -65,7 +65,9 @@ export function Toolsproject({ projectId }) {
         </LinkProject>
       )}
       {projectId.styledComponents && (
-        <LinkProject>{projectId.styledComponents}</LinkProject>
+        <LinkProject className={classNameToolsXl}>
+          {projectId.styledComponents}
+        </LinkProject>
       )}
       {projectId.reactRouterDom && (
         <LinkProject className={classNameToolsLg}>
