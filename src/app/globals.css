@@ -15,10 +15,10 @@ div.tickets {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(50px);
+    transform: translateY(35px);
   }
   100% {
-    transform: translateY(20px);
+    transform: translateY(0px);
   }
 }
 
@@ -48,7 +48,7 @@ section img.banner {
 .section-projects {
   display: grid;
   @media (min-width: 300px) {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 175px);
     grid-gap: 15px;
   }
   @media (min-width: 768px) {

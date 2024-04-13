@@ -3,7 +3,7 @@ import AboutMe from "./AboutMe";
 // xl:w-[50%] md:w-[50%] sm:w-[28%]
 export default function InfoMe() {
   return (
-    <section className="lg:grid lg:grid-cols-2 max-w-screen-2xl mx-auto lg:h-[70vh] md:h-[45vh] sm:h-[80vh]">
+    <section className="lg:grid lg:grid-cols-2 max-w-screen-2xl mx-auto lg:h-[70vh] md:h-[45vh] sm:h-[90vh]">
       <div className="flex flex-row lg:justify-start sm:justify-center ">
         <AboutMe />
       </div>

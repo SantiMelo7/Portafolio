@@ -3,9 +3,9 @@ import LinkProject from "./LinksProject";
 // temporal
 const classNameToolsNormal = "md:w-[210px] sm:w-[180px]";
 const classNameToolsBigger = "md:w-[230px] sm:w-[180px]";
-const classNameToolsLg = "md:w-[290px] sm:w-[235px] sm:h-17";
+const classNameToolsLg = "md:w-[290px] sm:w-[245px] sm:h-17";
 const classNameToolsXl =
-  "md:w-[290px] flex md:h-10 sm:h-17 sm:grid sm:grid-cols-2 sm:pl-2 sm:w-[200px] sm:mx-auto";
+  "md:w-[285px] md:flex md:h-10 sm:h-17 sm:grid sm:grid-cols-2 sm:pl-2 sm:w-[200px] sm:mx-auto";
 export function Toolsproject({ projectId }) {
   return (
     <>
