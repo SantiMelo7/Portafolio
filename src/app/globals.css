@@ -43,6 +43,8 @@ section img.banner {
 
 .divLine {
   flex: 1 1 0%;
+  @apply h-[3px] shadow-2xl shadow-gray-500 bg-white relative
+  top-1 lg:max-w-7xl;
 }
 
 .section-projects {
