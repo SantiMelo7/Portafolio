@@ -5,11 +5,14 @@
 
 ## Description
 <div aling="center">
-**I'm a passionate frontend web developer with experience in crafting dynamic and engaging user interfaces.
-I've built my own portfolio as a showcase of my work, highlighting projects that demonstrate my skills in web development.
-My focus lies in creating intuitive, responsive websites that deliver an exceptional user experience.
+
+-**I'm a passionate frontend web developer with experience in crafting dynamic and engaging user interfaces.
+I've built my own portfolio as a showcase of my work, highlighting projects that demonstrate my skills in web development.**
+
+-**My focus lies in creating intuitive, responsive websites that deliver an exceptional user experience.
 I'm continuously learning and exploring new techniques and technologies to enhance my skills and stay abreast
 of the latest trends in web development.**
+
 </div>
 
 ## Images of the page
