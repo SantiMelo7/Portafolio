@@ -4,7 +4,7 @@ import './globals.css'
 const inter = Oswald({ subsets: ['cyrillic'], weight: ["400"] })
 
 export const metadata = {
-  title: 'Portafolio Website',
+  title: 'Portafolio | SantiDev',
   description: 'My website where I show all my projects and skills within the world of programming',
   icons: {
     icon: ["/favicon/favicon.ico?v=4"],
