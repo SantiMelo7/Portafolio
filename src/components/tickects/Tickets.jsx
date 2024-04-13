@@ -22,12 +22,10 @@ export default function Tickets() {
                 {text.title}
               </h1>
               <span className="text-center font-bold text-3xl mt-5 mb-3 text-orange-400 animate-pulse">
-                {text.id === 1 && count}
-                {text.id === 2 && sprint}
-                {text.id === 3 && projects}
+                {text.count}
               </span>
             </div>
-            {admin ? <ButtonsAdmin value={text} /> : null}
+            {!admin ? <ButtonsAdmin value={text} /> : null}
           </div>
         ))}
       </section>

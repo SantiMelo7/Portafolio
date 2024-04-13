@@ -4,10 +4,8 @@ import TitleInitial from "../layout/TitleInitial";
 import TextProject from "./TextProject";
 import ProjectBottom from "./ProjectBottom";
 import { Toolsproject } from "./ToolsProject";
-import LinkProject from "./LinksProject";
 
 export default function Projects() {
-  const containerResponsive = "md:hidden sm:flex";
   return (
     <>
       <Title title="Projects" />
