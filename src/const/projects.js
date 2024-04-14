@@ -61,7 +61,7 @@ export const PROJECTS = [
             vite: <Vite width={20} />,
             vercel: <Vercel width={20} />,
         },
-        visitGit: "https://github.com/SantiMelo7/Calculator",
-        visitPrev: "https://calculator-formula.vercel.app"
+        visitGit: "https://github.com/SantiMelo7/Calculator-Formula",
+        visitPrev: "https://calculator-formula-math.vercel.app/"
     }
 ]
