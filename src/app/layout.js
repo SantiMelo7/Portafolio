@@ -16,8 +16,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-[#000]">
-      <body className={inter.className}>
+    <html lang="en" className="dark">
+      <body className={`${inter.className} dark:bg-[#000] bg-gray-900 `}>
         <main>
           {children}
         </main>
