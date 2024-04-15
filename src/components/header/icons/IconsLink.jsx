@@ -1,5 +1,5 @@
 import Links from "./Links";
-import { GitHub, Gmail, Linkedin } from "@/svg/IconsSvg";
+import { GitHub, Gmail, Linkedin } from "../../../svg/IconsSvg";
 
 export default function IconsLink() {
   return (

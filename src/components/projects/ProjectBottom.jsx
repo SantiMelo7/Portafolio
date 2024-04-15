@@ -1,4 +1,4 @@
-import { GitHub, LinkProject } from "@/svg/IconsSvg";
+import { GitHub, LinkProject } from "../../svg/IconsSvg";
 import ButtonProjects from "./ButtonProjects";
 
 export default function ProjectBottom({ hrefGitHub, hrefLink }) {

@@ -1,4 +1,4 @@
-import { EXPERIENCE } from "@/const/experience";
+import { EXPERIENCE } from "../../const/experience";
 import Title from "../technologies/Title";
 
 export default function Experience() {

@@ -1,4 +1,4 @@
-import { TECHNOLOGHIES } from "@/const/tec";
+import { TECHNOLOGHIES } from "../../const/tec";
 import Title from "./Title";
 
 export default function Technology() {

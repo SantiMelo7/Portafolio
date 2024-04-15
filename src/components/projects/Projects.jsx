@@ -1,4 +1,4 @@
-import { PROJECTS } from "@/const/projects";
+import { PROJECTS } from "../../const/projects";
 import Title from "../technologies/Title";
 import TitleInitial from "../layout/TitleInitial";
 import TextProject from "./TextProject";

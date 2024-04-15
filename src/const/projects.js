@@ -4,7 +4,7 @@ export const PROJECTS = [
     {
         id: 1,
         title: "Entrepeneur Platform",
-        description: "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it. Created with Next.Js, React and others",
+        description: "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it.Created with Next.Js, React and others",
         img: "/content/entrepeneur-platform.webp",
         tools: {
             next: <NextJs width={20} />,

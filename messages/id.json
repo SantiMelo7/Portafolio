@@ -1,0 +1,32 @@
+{
+    "ImageHeader": {
+        "work" : "Aviable to work"
+    },
+    "Developer" : {
+        "cam" : "I am a Front-End Developer"
+    },
+    "Year" : {
+        "year" : "with 1 year of experience"
+    },
+    "World" : {
+        "pages" : "in the world of web pages. This year he worked mostly with"
+    },
+    "Tec" : {
+        "most" : "as well as"
+    },
+    "DaysNew" : {
+        "challenges" : "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things"
+    },
+    "Entrepeneur" : {
+        "description-1" : "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it created with Next.Js, React and others"
+    },
+    "About-Me" : {
+        "part-1" : "Hello everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming started about a year ago, right after finishing my high school. At that moment, I decided venture into the vast world of programming, and since then I haven't looked back"
+    },
+    "About-Me-2" : {
+        "part-2" : "I decided to take charge of my own learning and immerse myself in the world of programming in a self-taught way. I set out to explore a variety of resources, from instructional videos to online courses line and web pages specialized in the subject. All this with a goal in mind: prepare to enter the career of Systems engineering."
+    },
+    "About-Me-3" : {
+        "part-3" : "I am eager to face new challenges and take advantage of every opportunity to learn and grow. I am sure that the future great things await me in this exciting world of technology and The programing!."
+    }
+}

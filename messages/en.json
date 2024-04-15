@@ -1,0 +1,32 @@
+{
+    "ImageHeader": {
+        "work" : "Disponible para trabajar"
+    },
+    "Developer" : {
+        "cam" : "Soy desarrollador front-end"
+    },
+    "Year" : {
+        "year" : "con 1 año de experiencia"
+    },
+    "World" : {
+        "pages" : "en el mundo de las páginas web. Este año trabajó principalmente con"
+    },
+    "Tec" : {
+        "most" : "así como"
+    },
+    "DaysNew" : {
+        "challenges" : "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan aprender cosas nuevas"
+    },
+    "Entrepeneur" : {
+        "description-1" : "Aplicación para emprendimiento, donde podrás mostrarle al mundo el potencial de tu invento y conseguir que la gente se interese en él creado con Next.Js, React y otros"
+    },
+    "About-Me" : {
+        "part-1" : "¡Hola a todos! Soy Santiago Melo, pero puedes llamarme Santi. Mi pasión por la programación comenzó hace aproximadamente un año, justo después de terminar la escuela secundaria. En ese momento decidí aventurarme en el vasto mundo de la programación, y desde entonces no he vuelto a mirar atrás."
+    },
+    "About-Me-2" : {
+        "part-2" : "Decidí hacerme cargo de mi propio aprendizaje y sumergirme en el mundo de la programación de forma autodidacta. Me propuse explorar una variedad de recursos, desde videos instructivos hasta líneas de cursos en línea y páginas web especializadas en el tema. Todo esto con un objetivo en mente: prepararte para ingresar a la carrera de Ingeniería de Sistemas."
+    },
+    "About-Me-3" : {
+        "part-3" : "Tengo muchas ganas de afrontar nuevos retos y aprovechar cada oportunidad para aprender y crecer. ¡Estoy segura que me esperan grandes cosas en el futuro en este apasionante mundo de la tecnología y la programación!"
+    }
+}
