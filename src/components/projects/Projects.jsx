@@ -4,11 +4,14 @@ import TitleInitial from "../layout/TitleInitial";
 import TextProject from "./TextProject";
 import ProjectBottom from "./ProjectBottom";
 import { Toolsproject } from "./ToolsProject";
+import { useLineTitle, useProjects } from "../../hooks/useTraduccion";
 
 export default function Projects() {
+  const { t } = useLineTitle();
+  const { t1, t2, t3, t4 } = useProjects();
   return (
     <>
-      <Title title="Projects" />
+      <Title title={t("title-projects-line")} />
       <section className="max-w-6xl mx-auto shadow-xl">
         <div className="lg:grid md:grid-cols-2 mx-auto ">
           {PROJECTS.map((project) => (
@@ -19,7 +22,14 @@ export default function Projects() {
               />
               <div className="flex flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start mt-1">
                 <TitleInitial text={project.title} className="text-3xl" />
-                <TextProject text={project.description} />
+                <TextProject
+                  text={
+                    (project.id === 1 && t1("description-1")) ||
+                    (project.id === 2 && t2("description-2")) ||
+                    (project.id === 3 && t3("description-3")) ||
+                    (project.id === 4 && t4("description-4"))
+                  }
+                />
                 <div className="section-projects">
                   <Toolsproject projectId={project.tools} />
                 </div>

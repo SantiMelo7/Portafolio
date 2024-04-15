@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { DarkTheme, Language, SumTheme } from "../../../svg/IconsSvg";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
+//import { useLanguage } from "../../../hooks/useTraduccion";
 
 export default function Preference() {
   const [theme, setTheme] = useState("dark");
@@ -25,8 +26,8 @@ export default function Preference() {
   };
 
   const onSelectChange = (ev) => {
-    const nexLocale = ev.target.value;
-    router.replace(`/${nexLocale}`);
+    const nextLocale = ev.target.value;
+    router.replace(`/${nextLocale}`);
   };
 
   return (
@@ -42,16 +43,16 @@ export default function Preference() {
         >
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
-        <div className="relative md:right-10 sm:right-2 mt-8 cursor-pointer">
+        <button className="relative md:right-10 sm:right-2 mt-8 bottom-4 cursor-pointer">
           <Language />
-        </div>
+        </button>
         <select
           defaultValue={localActive}
-          className="flex w-18 h-8 absolute my-auto top-20 rounded-md"
+          className="flex w-18 h-8 absolute my-auto top-12 opacity-0 rounded-md cursor-pointer"
           onChange={onSelectChange}
         >
-          <option value="en">Español</option>
-          <option value="id">English</option>
+          <option value="id">Español</option>
+          <option value="en">Ingles</option>
         </select>
       </div>
     </header>
@@ -66,3 +67,11 @@ export default function Preference() {
     return "light";
   }
 */
+
+/*
+        <div className="md:relative sm:absolute top-10 right-9">
+          <span className="text-md bg-slate-700 px-4 py-1 rounded-md text-gray-100 font-extrabold">
+            {localActive === "id" ? "Español" : "English"}
+          </span>
+        </div>
+ */

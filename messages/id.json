@@ -1,32 +1,96 @@
 {
     "ImageHeader": {
-        "work" : "Aviable to work"
+        "work" : "Disponible para trabajar"
+    },
+    "Name" : {
+        "name-autor" : "Hola, soy Santiago Melo"
     },
     "Developer" : {
-        "cam" : "I am a Front-End Developer"
+        "cam" : "Soy desarrollador front-end"
     },
     "Year" : {
-        "year" : "with 1 year of experience"
+        "year" : "con 1 año de experiencia"
     },
     "World" : {
-        "pages" : "in the world of web pages. This year he worked mostly with"
+        "pages" : " en el mundo de las páginas web. Este año trabajó principalmente con"
     },
     "Tec" : {
-        "most" : "as well as"
+        "most" : "así como"
     },
     "DaysNew" : {
-        "challenges" : "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things"
+        "challenges" : "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan aprender cosas nuevas"
     },
     "Entrepeneur" : {
-        "description-1" : "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it created with Next.Js, React and others"
+        "description-1" : "Aplicación para emprendimiento, donde podrás mostrarle al mundo el potencial de tu invento y conseguir que la gente se interese en él creado con Next.Js, React y otros"
+    },
+    "Ecommerce" : {
+        "description-2" : "Aplicación de ecommerce para poder comprar artículos de tecnología, primer sitio web que hice. Creado con Next.JS, React, Tailwind y administrando la base de datos MongoDB."
+    },
+    "Tesla" : {
+        "description-3" : "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
+    },
+    "Formula" : {
+        "description-4" : "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
+    },
+    "Title-About-Me" : {
+        "title" : "Acerca de mi..."
     },
     "About-Me" : {
-        "part-1" : "Hello everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming started about a year ago, right after finishing my high school. At that moment, I decided venture into the vast world of programming, and since then I haven't looked back"
+        "part-1" : "¡Hola a todos! Soy Santiago Melo, pero puedes llamarme Santi. Mi pasión por la programación comenzó hace aproximadamente un año, justo después de terminar la escuela secundaria. En ese momento decidí aventurarme en el vasto mundo de la programación, y desde entonces no he vuelto a mirar atrás."
     },
     "About-Me-2" : {
-        "part-2" : "I decided to take charge of my own learning and immerse myself in the world of programming in a self-taught way. I set out to explore a variety of resources, from instructional videos to online courses line and web pages specialized in the subject. All this with a goal in mind: prepare to enter the career of Systems engineering."
+        "part-2" : "Decidí hacerme cargo de mi propio aprendizaje y sumergirme en el mundo de la programación de forma autodidacta. Me propuse explorar una variedad de recursos, desde videos instructivos hasta líneas de cursos en línea y páginas web especializadas en el tema. Todo esto con un objetivo en mente: prepararte para ingresar a la carrera de Ingeniería de Sistemas."
     },
     "About-Me-3" : {
-        "part-3" : "I am eager to face new challenges and take advantage of every opportunity to learn and grow. I am sure that the future great things await me in this exciting world of technology and The programing!."
+        "part-3" : "Tengo muchas ganas de afrontar nuevos retos y aprovechar cada oportunidad para aprender y crecer. ¡Estoy segura que me esperan grandes cosas en el futuro en este apasionante mundo de la tecnología y la programación!"
+    },
+    "Title-Projects" : {
+        "title-projects-line" : "Proyectos"
+    },
+    "Title-Experience" : {
+        "title-experience-line" : "Experiencia"
+    },
+    "Title-Technologies" : {
+        "title-technologies-line" : "Tecnologías"
+    },
+    "Button-1" : {
+        "code" : "Código"
+    },
+    "Button-2" : {
+        "preview" : "Avance"
+    },
+    "Time-1" : {
+        "time-1" : "Junio 2023"
+    }
+    ,
+    "Time-2" : {
+        "time-2" : "Enero 2024"
+    }
+    ,
+    "Time-3" : {
+        "time-3" : "Ahora mismo"
+    }
+    ,
+    "Title-Experience-1" : {
+        "title-experience-1" : "Primeros Pasos:"
+    }
+    ,
+    "Title-Experience-2" : {
+        "title-experience-2" : "Primeros trabajos"
+    },
+    "Description-Experience-1" : {
+        "description-experience-1" : "Inicie en el mundo de la programación tras terminar el bachillerato. Comience a aprender usted mismo (videos de Yotube, cursos de Udemy y más) aprendiendo HTML, CSS y Javascript básicos y, con el tiempo, expanda a otras tecnologías."
+    },
+    "Description-Experience-2" : {
+        "description-experience-2" : "Trabajé en mi primer proyecto siendo parte de un equipo de 2, estando a cargo de toda la parte Frontend de manera profesional y realizando algunos miniproyectos que la gente me pedía cuando era estudiante."
+    },
+    "Description-Experience-3" : {
+        "description-experience-3" : "Estoy mostrando mi trabajo al mundo, realizando miniproyectos de forma no profesional, aprendiendo nuevas tecnologías, mejorando mis habilidades en busca de mi primer trabajo como desarrollador web, además de estudiar la carrera de Ingeniería de Sistemas."
+    },
+    "Language-1" : {
+        "1" : "Español"
+    },
+    "Language-2" : {
+        "3" : "Inglés"
     }
 }

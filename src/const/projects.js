@@ -1,10 +1,10 @@
 import { Axios, CssSvg, MaterialUi, MongoDB, Netifly, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Vercel, Vite } from "../svg/IconsSvg";
 
+
 export const PROJECTS = [
     {
         id: 1,
         title: "Entrepeneur Platform",
-        description: "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it.Created with Next.Js, React and others",
         img: "/content/entrepeneur-platform.webp",
         tools: {
             next: <NextJs width={20} />,
@@ -19,7 +19,6 @@ export const PROJECTS = [
     {
         id: 2,
         title: "Ecommerce Tec",
-        description: "Ecommerce application to be able to buy technology items, first website I made. Created with Next.JS, React, Tailwind and managing the MongoDB database",
         img: "/content/ecommerce.webp",
         tools: {
             next: <NextJs width={20} />,
@@ -36,7 +35,6 @@ export const PROJECTS = [
     {
         id: 3,
         title: "Tesla Clon | Home",
-        description: "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills",
         img: "/content/tesla.webp",
         tools: {
             react: <ReactJs width={20} />,

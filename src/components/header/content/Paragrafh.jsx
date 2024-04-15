@@ -1,23 +1,19 @@
-import { useTranslations } from "next-intl";
+import { useParragrafhTraductor } from "../../../hooks/useTraduccion";
 
-export default function Paragrafh() {
-  const t = useTranslations("Developer");
-  const t2 = useTranslations("Year");
-  const t3 = useTranslations("World");
-  const t4 = useTranslations("Tec");
-  const t5 = useTranslations("DaysNew");
-  const cssSpan = "text-yellow-200";
+export default function Parragrafh() {
+  const { t, t2, t3, t4, t5 } = useParragrafhTraductor();
 
-  const cssP = "xl:text-2xl md:text-xl sm:text-xl text-white";
+  const cssSpan = "dark:text-yellow-200 text-yellow-400";
+
+  const cssP =
+    "xl:text-2xl md:text-xl sm:text-xl dark:text-white text-gray-800 font-extrabold";
 
   return (
     <>
       <strong className={cssP}>
-        {" "}
-        {t("cam")}, &nbsp; <span className={cssSpan}>{t2("year")}</span>{" "}
-        {t3("pages")} &nbsp;{" "}
+        {t("cam")}, &nbsp; <span className={cssSpan}> {t2("year")}</span>
+        {t3("pages")} &nbsp;
         <span className={cssSpan}>
-          {" "}
           {`React, Next JS, Tailwind, ${t4("most")} HTML, CSS and Javascript`}
         </span>
       </strong>

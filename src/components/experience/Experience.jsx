@@ -1,10 +1,12 @@
 import { EXPERIENCE } from "../../const/experience";
+import { useLineTitle } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
 
 export default function Experience() {
+  const { t2 } = useLineTitle();
   return (
     <>
-      <Title title="Experience" />
+      <Title title={t2("title-experience-line")} />
       <div className="flex justify-center items-center">
         <ol className="relative border-l-[1.5px] border-amber-200 mt-10">
           {EXPERIENCE.map((text) => (
@@ -15,7 +17,7 @@ export default function Experience() {
                   {text.time}
                 </time>
                 <h3 className="text-xl font-semibold text-gray-300">
-                  {text.ttile}
+                  {text.title}
                 </h3>
                 <p className="mb-4 mt-2 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl sm:max-w-screen-sm text-white ">
                   {text.description}

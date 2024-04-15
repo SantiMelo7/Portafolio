@@ -1,17 +1,15 @@
-import { useTranslations } from "next-intl";
 import { UserMe } from "../../svg/IconsSvg";
+import { useAboutMeTraductor } from "../../hooks/useTraduccion";
 
 export default function AboutMe() {
-  const t = useTranslations("About-Me");
-  const t2 = useTranslations("About-Me-2");
-  const t3 = useTranslations("About-Me-3");
+  const { t, t2, t3, t4 } = useAboutMeTraductor();
   return (
     <>
       <section className="max-w-screen-xl mx-auto md:mt-20 sm:mt-10">
         <div className="mt-10 flex flex-row lg:justify-start sm:justify-center lg:pl-40 md:gap-x-5">
           <UserMe />
           <h1 className="my-auto text-3xl text-yellow-500 font-extrabold">
-            About me...
+            {t4("title")}
           </h1>
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:pl-40">

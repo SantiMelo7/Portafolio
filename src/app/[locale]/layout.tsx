@@ -13,14 +13,20 @@ export const metadata = {
   }
 }
 
-export default function RootLayout({ children }) {
+export default function LocaleLayout({
+  children,
+  params: {locale}
+}: {
+  children: React.ReactNode;
+  params: {locale: string};
+}) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} dark:bg-[#000] bg-gray-900 `}>
+    <html lang={locale} className="dark">
+      <body className={`${inter.className} dark:bg-[#000] bg-gray-300 `}>
         <main>
           {children}
         </main>
       </body>
     </html>
-  )
+  );
 }
