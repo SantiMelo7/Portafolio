@@ -8,6 +8,7 @@ import { useLocale } from "next-intl";
 
 export default function Preference() {
   const [theme, setTheme] = useState("dark");
+  console.log(theme);
   const router = useRouter();
   const localActive = useLocale();
 
@@ -51,27 +52,10 @@ export default function Preference() {
           className="flex w-18 h-8 absolute my-auto top-12 opacity-0 rounded-md cursor-pointer"
           onChange={onSelectChange}
         >
-          <option value="id">Español</option>
+          <option value="es">Español</option>
           <option value="en">Ingles</option>
         </select>
       </div>
     </header>
   );
 }
-
-/*
-  () => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-    return "light";
-  }
-*/
-
-/*
-        <div className="md:relative sm:absolute top-10 right-9">
-          <span className="text-md bg-slate-700 px-4 py-1 rounded-md text-gray-100 font-extrabold">
-            {localActive === "id" ? "Español" : "English"}
-          </span>
-        </div>
- */

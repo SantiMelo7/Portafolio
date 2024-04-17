@@ -18,7 +18,7 @@ import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 
-export const CssH1 = "font-extrabold text-sm text-white ";
+export const CssH1 = "font-extrabold dark:text-white text-black";
 
 export const GitHub = () => {
   return (
@@ -76,16 +76,16 @@ export const UserMe = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="currentColor"
       width={70}
+      fill="none"
       height={70}
-      className=" text-orange-400"
     >
       <path
         strokeLinecap="round"
+        fill="fill-userMe"
         strokeLinejoin="round"
         d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
       />
@@ -97,7 +97,6 @@ export const DarkTheme = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="currentColor"
@@ -145,7 +144,7 @@ export const Language = () => {
       stroke="currentColor"
       width={35}
       height={35}
-      className="dark:text-gray-100 text-gray-900"
+      className="text-gray-900"
     >
       <path
         strokeLinecap="round"

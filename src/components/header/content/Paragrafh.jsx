@@ -3,7 +3,7 @@ import { useParragrafhTraductor } from "../../../hooks/useTraduccion";
 export default function Parragrafh() {
   const { t, t2, t3, t4, t5 } = useParragrafhTraductor();
 
-  const cssSpan = "dark:text-yellow-200 text-yellow-400";
+  const cssSpan = "dark:text-yellow-200 text-yellow-800";
 
   const cssP =
     "xl:text-2xl md:text-xl sm:text-xl dark:text-white text-gray-800 font-extrabold";
