@@ -7,10 +7,13 @@ export default function Technology() {
   return (
     <>
       <Title title={t3("title-technologies-line")} />
-      <div className="flex flex-col max-w-5xl mb-5 mx-auto">
+      <div
+        className="flex flex-col max-w-6xl dark:mt-0 mt-2 dark:mb-0
+        mb-5 mx-auto dark:bg-transparent bg-blue-900 dark:p-0 p-10 rounded-lg "
+      >
         <div
           className="grid xl:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 sm:max-w-screen-sm sm:mx-auto xl:max-w-screen-xl
-          md:max-w-screen-md gap-10 mt-10"
+          md:max-w-screen-md gap-10 dark:mt-10"
         >
           {TECHNOLOGHIES.map((tect) => (
             <div

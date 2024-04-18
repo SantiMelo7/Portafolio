@@ -18,7 +18,7 @@ import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 
-export const CssH1 = "font-extrabold dark:text-white text-black";
+export const CssH1 = "font-extrabold text-white ";
 
 export const GitHub = () => {
   return (
@@ -81,6 +81,7 @@ export const UserMe = () => {
       stroke="currentColor"
       width={70}
       height={70}
+      fill="white"
     >
       <path
         strokeLinecap="round"
@@ -195,7 +196,12 @@ export const ReactJs = ({ width }) => {
 export const NextJs = ({ width }) => {
   return (
     <>
-      <Image src={NextImg} width={width} alt="Next Js" />
+      <Image
+        className="dark:filter-img-next filter-img-next-light"
+        src={NextImg}
+        width={width}
+        alt="Next Js"
+      />
       <h1 className={CssH1}>Next Js</h1>
     </>
   );
@@ -222,12 +228,7 @@ export const Postman = ({ width }) => {
 export const GitHubSvg = ({ width }) => {
   return (
     <>
-      <Image
-        className="dark:text-white text-black"
-        src={GitHubImg}
-        width={width}
-        alt="GitHub"
-      />
+      <Image src={GitHubImg} width={width} alt="GitHub" />
       <h1 className={CssH1}>GitHub</h1>
     </>
   );

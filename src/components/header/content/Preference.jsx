@@ -6,17 +6,31 @@ import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 
 export default function Preference() {
-  const [theme, setTheme] = useState("dark");
-  const router = useRouter();
-  const localActive = useLocale();
+  const [colorTheme, setColorTheme] = useState("");
+
+  const [theme, setTheme] = useState(() => {
+    if (!colorTheme) {
+      return "dark";
+    }
+    return "light";
+  });
 
   useEffect(() => {
+    const colorThemeEffect = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+
+    setColorTheme(colorThemeEffect);
+
     if (theme === "dark") {
       document.querySelector("html").classList.add("dark");
     } else {
       document.querySelector("html").classList.remove("dark");
     }
-  }, [theme]);
+  }, [theme, colorTheme]);
+
+  const router = useRouter();
+  const localActive = useLocale();
 
   const handleChangeTheme = () => {
     setTheme((prevStateTheme) =>
