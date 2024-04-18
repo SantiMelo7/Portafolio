@@ -50,23 +50,27 @@ export default function Preference() {
         className="md:h-[100px] sm:h-[75px] "
       />
       <div className="flex md:flex-row sm:flex-col gap-x-5">
+        <label
+          htmlFor="language"
+          className="relative md:right-10 sm:right-5 mt-8 bottom-4 cursor-pointer"
+        >
+          <Language />
+        </label>
+        <select
+          id="language"
+          value={localActive}
+          className="flex w-8 h-8 absolute right-[98px] top-9 opacity-0 rounded-md cursor-pointer"
+          onChange={onSelectChange}
+        >
+          <option value="id">Ingles</option>
+          <option value="es">Español</option>
+        </select>
         <button
           onClick={handleChangeTheme}
-          className="relative md:right-10 sm:right-5 md:top-0 sm:top-3 cursor-pointer "
+          className="relative md:right-10 sm:right-5 md:bottom-4 cursor-pointer "
         >
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
-        <div className="relative md:right-10 sm:right-5 sm:top-[2px] mt-8 bottom-4 cursor-pointer">
-          <Language />
-        </div>
-        <select
-          value={localActive}
-          className="flex w-18 h-8 absolute my-auto top-12 opacity-0 rounded-md cursor-pointer"
-          onChange={onSelectChange}
-        >
-          <option value="id">Español</option>
-          <option value="en">Ingles</option>
-        </select>
       </div>
     </header>
   );
