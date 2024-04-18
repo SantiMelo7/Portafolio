@@ -27,7 +27,8 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/app/[locale]/layout.js"
+    "src/app/[locale]/layout.js",
+    "src/components/header/content/Preference.jsx"
   ],
   "exclude": [
     "node_modules"

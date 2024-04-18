@@ -12,13 +12,13 @@ export default function Projects() {
   return (
     <>
       <Title title={t("title-projects-line")} />
-      <section className="max-w-6xl mx-auto shadow-xl">
+      <section className="max-w-6xl mx-auto dark:shadow-xl">
         <div className="lg:grid md:grid-cols-2 mx-auto ">
           {PROJECTS.map((project) => (
             <>
               <img
                 src={project.img}
-                className="rounded-2xl relative lg:right-10 md:w-[60vh] sm:w-[40vh] sm:mx-auto mt-10 mask"
+                className="rounded-2xl relative lg:right-10 md:w-[60vh] sm:w-[40vh] sm:mx-auto mt-10"
               />
               <div className="flex flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start mt-1">
                 <TitleInitial text={project.title} className="text-3xl" />

@@ -13,7 +13,7 @@ export default function ImageHeader() {
         style={{ width: 100, height: "auto" }}
       />
       <div className="border-[3px] border-green-900 dark:border-[#C0EE9C] py-1 px-4">
-        <h2 className="text-xl font-extrabold text-gray-800 dark:text-white">
+        <h2 className="text-xl font-extrabold text-green-800 dark:text-white">
           {t("work")}
         </h2>
       </div>

@@ -22,7 +22,7 @@ export default function LocaleLayout({
 }) {
   return (
     <html lang={locale} className="dark">
-      <body className={`${inter.className} dark:bg-[#000] bg-gray-100 `}>
+      <body className={`${inter.className} dark:bg-[#000] bg-[#FAF8F8] `}>
         <main>
           {children}
         </main>

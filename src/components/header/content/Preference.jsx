@@ -4,11 +4,9 @@ import { useRouter } from "next/navigation";
 import { DarkTheme, Language, SumTheme } from "../../../svg/IconsSvg";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
-//import { useLanguage } from "../../../hooks/useTraduccion";
 
 export default function Preference() {
   const [theme, setTheme] = useState("dark");
-  console.log(theme);
   const router = useRouter();
   const localActive = useLocale();
 
@@ -37,22 +35,22 @@ export default function Preference() {
         src="/favicon/android-chrome-192x192.png"
         className="md:h-[100px] sm:h-[75px] "
       />
-      <div className="flex gap-x-5">
+      <div className="flex md:flex-row sm:flex-col gap-x-5">
         <button
           onClick={handleChangeTheme}
-          className="relative md:right-10 sm:right-2 cursor-pointer "
+          className="relative md:right-10 sm:right-5 md:top-0 sm:top-3 cursor-pointer "
         >
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
-        <button className="relative md:right-10 sm:right-2 mt-8 bottom-4 cursor-pointer">
+        <div className="relative md:right-10 sm:right-5 sm:top-[2px] mt-8 bottom-4 cursor-pointer">
           <Language />
-        </button>
+        </div>
         <select
-          defaultValue={localActive}
+          value={localActive}
           className="flex w-18 h-8 absolute my-auto top-12 opacity-0 rounded-md cursor-pointer"
           onChange={onSelectChange}
         >
-          <option value="es">Español</option>
+          <option value="id">Español</option>
           <option value="en">Ingles</option>
         </select>
       </div>

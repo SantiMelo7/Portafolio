@@ -63,10 +63,6 @@ section img.banner {
   column-gap: 16px;
 }
 
-img.mask {
-  mask-image: linear-gradient(white 80%);
-}
-
 .section-buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -82,8 +78,8 @@ button.count {
 
 a.cv {
   @apply border-[3px] dark:border-cyan-500 border-cyan-700 rounded-xl
-  dark:shadow-lg shadow-md dark:shadow-gray-500
-  shadow-gray-100 flex justify-center items-center text-xl text-black dark:text-[#00FFF0]
+  shadow-lg shadow-md shadow-cyan-200 dark:shadow-gray-500
+ flex justify-center items-center text-xl text-black dark:text-[#00FFF0]
   transition md:hover:scale-110 hover:bg-white/30 md:gap-x-4 md:mt-1 sm:px-12
   sm:gap-x-4 sm:mt-4 sm:hover:scale-95;
 }
@@ -93,7 +89,7 @@ p.content-about {
 }
 
 div.border-img-about-me {
-  @apply border-[4px] border-blue-300 shadow-md shadow-lime-100;
+  @apply border-[4px] border-blue-700 dark:border-blue-300 shadow-md shadow-lime-500 dark:shadow-lime-100;
 }
 
 nav.icons-link-perfil {

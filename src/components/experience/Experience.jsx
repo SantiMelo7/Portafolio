@@ -16,7 +16,7 @@ export default function Experience() {
                 <time className="mb-1 text-xl mt-2 font-bold leading-none text-emerald-800 dark:text-emerald-200">
                   {text.time}
                 </time>
-                <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300">
+                <h3 className="text-xl font-semibold text-emerald-600 dark:text-gray-300">
                   {text.title}
                 </h3>
                 <p

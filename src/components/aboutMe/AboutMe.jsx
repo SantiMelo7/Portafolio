@@ -7,7 +7,9 @@ export default function AboutMe() {
     <>
       <section className="max-w-screen-xl mx-auto md:mt-20 sm:mt-10">
         <div className="mt-10 flex flex-row lg:justify-start sm:justify-center lg:pl-40 md:gap-x-5">
-          <UserMe />
+          <p className="dark:text-orange-400">
+            <UserMe />
+          </p>
           <h1 className="my-auto text-3xl text-red-900 dark:text-yellow-500 font-extrabold">
             {t4("title")}
           </h1>
