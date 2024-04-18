@@ -1,7 +1,7 @@
 import { Oswald } from 'next/font/google'
 import './globals.css'
 
-const inter = Oswald({ subsets: ['cyrillic'], weight: ["400"] })
+const inter = Oswald({ subsets: ['cyrillic'], weight: ["200"] })
 
 export const metadata = {
   title: 'Portafolio | SantiDev',
@@ -11,17 +11,22 @@ export const metadata = {
     apple: ["favicon/apple-touch-icon.png?v=4"],
     shortcut: ["favicon/apple-touch-icon.png"]
   }
-
 }
 
-export default function RootLayout({ children }) {
+export default function LocaleLayout({
+  children,
+  params: {locale}
+}: {
+  children: React.ReactNode;
+  params: {locale: string};
+}) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} dark:bg-[#000] bg-gray-900 `}>
+    <html lang={locale} className="dark">
+      <body className={`${inter.className} dark:bg-[#000] bg-[#FAF8F8] `}>
         <main>
           {children}
         </main>
       </body>
     </html>
-  )
+  );
 }
