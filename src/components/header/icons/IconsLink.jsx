@@ -30,9 +30,7 @@ export default function IconsLink() {
       <div className="flex lg:justify-start lg:items-start sm:justify-center sm:items-center">
         <Links
           className="md:w-[200px] sm:w-[235px] py-3 px-3 cv"
-          href={
-            "https://drive.google.com/drive/folders/1VI6kdqXz7SwZzZ4kXXT_pLt64JSkWqBs?hl=es-419"
-          }
+          href={"https://curriculum-dev.vercel.app/"}
           text="Ver CV"
         >
           <Curriculum />
