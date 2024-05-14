@@ -78,7 +78,7 @@ button.count {
 
 a.cv {
   @apply border-[3px] dark:border-cyan-500 border-cyan-700 rounded-xl
-  shadow-lg shadow-md shadow-cyan-200 dark:shadow-gray-500
+  shadow-md shadow-cyan-200 dark:shadow-gray-500
  flex justify-center items-center text-xl text-black dark:text-[#00FFF0]
   transition md:hover:scale-110 hover:bg-white/30 md:gap-x-4 md:mt-1 sm:px-12
   sm:gap-x-4 sm:mt-4 sm:hover:scale-95;
@@ -93,7 +93,7 @@ div.border-img-about-me {
 }
 
 nav.icons-link-perfil {
-  @apply flex md:flex-row sm:flex-col justify-center items-center gap-x-4 lg:pl-10;
+  @apply flex flex-col justify-center gap-x-4;
 }
 
 .filter-img-git {
