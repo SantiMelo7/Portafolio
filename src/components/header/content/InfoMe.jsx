@@ -2,7 +2,7 @@ import SubText from "./SubText";
 
 export default function InfoMe() {
   return (
-    <section className="lg:grid lg:grid-cols-2 max-w-screen-2xl mx-auto lg:h-[55vh] md:h-[45vh] sm:h-[100vh]">
+    <section className="lg:grid lg:grid-cols-2 max-w-screen-2xl mx-auto lg:h-[60vh] md:h-[45vh] sm:h-[95vh]">
       <div className="flex flex-row lg:justify-start sm:justify-center ">
         <SubText />
       </div>

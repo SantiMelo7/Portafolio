@@ -2,6 +2,7 @@ import Image from "next/image";
 import HtmlImg from "../../public/svg/Html.svg";
 import CssImg from "../../public/svg/Css.svg";
 import JavascriptImg from "../../public/svg/Javascript.svg";
+import TypescriptImg from "../../public/svg/typescript.svg";
 import ReactImg from "../../public/svg/React.svg";
 import NextImg from "../../public/svg/Next.svg";
 import MaterialUiImg from "../../public/svg/MaterialUi.svg";
@@ -20,12 +21,34 @@ import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 
 export const CssH1 = "font-extrabold text-white ";
 
+export const Curriculum = () => {
+  return (
+    <>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        width="29"
+        height="29"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m.75 12 3 3m0 0 3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
+        />
+      </svg>
+    </>
+  );
+};
+
 export const GitHub = () => {
   return (
     <svg
       width="29"
       height="50"
-      fill="currentColor"
+      fill="rgb(0 255 240)"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 250"
@@ -180,6 +203,16 @@ export const Javascript = ({ width }) => {
       <Image src={JavascriptImg} width={width} alt="Javascript" />
 
       <h1 className={CssH1}>Javascript</h1>
+    </>
+  );
+};
+
+export const Typescript = ({ width }) => {
+  return (
+    <>
+      <Image src={TypescriptImg} width={width} alt="Typescript" />
+
+      <h1 className={CssH1}>Typescript</h1>
     </>
   );
 };
