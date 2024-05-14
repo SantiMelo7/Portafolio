@@ -6,7 +6,7 @@ export default function InfoMe() {
       <div className="flex flex-row lg:justify-start sm:justify-center ">
         <SubText />
       </div>
-      <div className="flex lg:justify-end relative lg:my-auto lg:mx-auto sm:top-2">
+      <div className="flex lg:justify-end relative lg:my-auto lg:mx-auto sm:top-2 sm:right-3">
         <img
           src="./content/audifonos.webp"
           className="banner lg:w-[350px] sm:w-[130px]"

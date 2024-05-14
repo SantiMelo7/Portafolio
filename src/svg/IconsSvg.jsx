@@ -81,7 +81,7 @@ export const UserMe = () => {
       stroke="currentColor"
       width={70}
       height={70}
-      fill="white"
+      fill="black"
     >
       <path
         strokeLinecap="round"

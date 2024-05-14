@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
 
 export function useParragrafhTraductor() {
     const t = useTranslations("Developer");
@@ -40,21 +39,14 @@ export function useProjects() {
     return { t1, t2, t3, t4 }
 }
 
-export function useLanguage() {
-    const t1 = useTranslations("Language-1")
-    const t2 = useTranslations("Language-2")
-    return { t1, t2 }
-}
-
-
-export async function useExperience() {
-    const t1Time = await getTranslations("Time-1")
-    const t2Time = await getTranslations("Time-2")
-    const t3Time = await getTranslations("Time-3")
-    const t1Title = await getTranslations("Title-Experience-1")
-    const t2Title = await getTranslations("Title-Experience-2")
-    const t1Description = await getTranslations("Description-Experience-1")
-    const t2Description = await getTranslations("Description-Experience-2")
-    const t3Description = await getTranslations("Description-Experience-3")
-    return { t1Time, t2Time, t3Time, t1Title, t2Title, t1Description, t2Description, t3Description }
+export function useExperience() {
+    const t = useTranslations("Time-1")
+    const t1 = useTranslations("Time-2")
+    const t22 = useTranslations("Time-3")
+    const t3 = useTranslations("Title-Experience-1")
+    const t4 = useTranslations("Title-Experience-2")
+    const t5 = useTranslations("Description-Experience-1")
+    const t6 = useTranslations("Description-Experience-2")
+    const t7 = useTranslations("Description-Experience-3")
+    return { t, t1, t22, t3, t4, t5, t6, t7 }
 }
