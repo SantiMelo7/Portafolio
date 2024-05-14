@@ -1,6 +1,6 @@
 import {
     Axios, CssSvg, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB,
-    Netifly, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Vercel, Vite
+    Netifly, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite
 } from "../svg/IconsSvg";
 
 export const TECHNOLOGHIES = [
@@ -22,58 +22,62 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 5,
-        text: <NextJs width={60} />
+        text: <Typescript width={60} />
     },
     {
         id: 6,
-        text: <Talwind width={60} />
+        text: <NextJs width={60} />
     },
     {
         id: 7,
-        text: <StyledComponents width={60} />
+        text: <Talwind width={60} />
     },
     {
         id: 8,
-        text: <Git width={60} />
+        text: <StyledComponents width={60} />
     },
     {
         id: 9,
-        text: <GitHubSvg width={60} />
+        text: <Git width={60} />
     },
     {
         id: 10,
-        text: <MongoDB width={60} />
+        text: <GitHubSvg width={60} />
     },
     {
         id: 11,
-        text: <Postman width={60} />
+        text: <MongoDB width={60} />
     },
     {
         id: 12,
-        text: <Axios width={60} />
+        text: <Postman width={60} />
     },
     {
         id: 13,
-        text: <Vite width={60} />
+        text: <Axios width={60} />
     },
     {
         id: 14,
-        text: <Vercel width={60} />
+        text: <Vite width={60} />
     },
     {
         id: 15,
-        text: <Netifly width={60} />
+        text: <Vercel width={60} />
     },
     {
         id: 16,
-        text: <ReactRouterDom width={60} />
+        text: <Netifly width={60} />
     },
     {
         id: 17,
-        text: <Jira width={60} />
+        text: <ReactRouterDom width={60} />
     },
     {
         id: 18,
+        text: <Jira width={60} />
+    },
+    {
+        id: 19,
         text: <MaterialUi width={60} />
     },
 ]
