@@ -43,12 +43,12 @@ export const Curriculum = () => {
   );
 };
 
-export const GitHub = () => {
+export const GitHub = ({ fill }) => {
   return (
     <svg
       width="29"
       height="50"
-      fill="rgb(0 255 240)"
+      fill={fill}
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 250"

@@ -10,7 +10,7 @@ export default function ProjectBottom({ hrefGitHub, hrefLink }) {
         className="bg-gray-800 text-white border-gray-60 hover:bg-slate-400"
         href={hrefGitHub}
       >
-        <GitHub />
+        <GitHub fill="white" />
         <p>{t("code")}</p>
       </ButtonProjects>
       <div className="mt-3 relative bottom-3">
