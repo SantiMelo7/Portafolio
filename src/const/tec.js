@@ -1,6 +1,6 @@
 import {
     Axios, CssSvg, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB,
-    Netifly, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite
+    Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite
 } from "../svg/IconsSvg";
 
 export const TECHNOLOGHIES = [
@@ -79,5 +79,9 @@ export const TECHNOLOGHIES = [
     {
         id: 19,
         text: <MaterialUi width={60} />
+    },
+    {
+        id: 20,
+        text: <NextAuth width={50} />
     },
 ]

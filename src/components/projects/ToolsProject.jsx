@@ -9,14 +9,19 @@ const classNameToolsXl =
 export function Toolsproject({ projectId }) {
   return (
     <>
+      {projectId.next && (
+        <LinkProject className={classNameToolsNormal}>
+          {projectId.next}
+        </LinkProject>
+      )}
       {projectId.react && (
         <LinkProject className={classNameToolsNormal}>
           {projectId.react}
         </LinkProject>
       )}
-      {projectId.next && (
+      {projectId.typescript && (
         <LinkProject className={classNameToolsNormal}>
-          {projectId.next}
+          {projectId.typescript}
         </LinkProject>
       )}
       {projectId.tailwind && (
@@ -72,6 +77,11 @@ export function Toolsproject({ projectId }) {
       {projectId.reactRouterDom && (
         <LinkProject className={classNameToolsLg}>
           {projectId.reactRouterDom}
+        </LinkProject>
+      )}
+      {projectId.auth && (
+        <LinkProject className={classNameToolsNormal}>
+          {projectId.auth}
         </LinkProject>
       )}
     </>

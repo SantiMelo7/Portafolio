@@ -18,6 +18,7 @@ import VercelImg from "../../public/svg/vercel.webp";
 import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
+import NextAuthImg from "../../public/svg/nextAuth.webp";
 
 export const CssH1 = "font-extrabold text-white ";
 
@@ -363,6 +364,16 @@ export const ReactRouterDom = ({ width }) => {
       <Image src={ReactRouterDomImg} width={width} alt="React-Router-Dom" />
 
       <h1 className={CssH1}>React-Router-Dom</h1>
+    </>
+  );
+};
+
+export const NextAuth = ({ width }) => {
+  return (
+    <>
+      <Image src={NextAuthImg} width={width} alt="NextAuth" />
+
+      <h1 className={CssH1}>NextAuth.Js</h1>
     </>
   );
 };
