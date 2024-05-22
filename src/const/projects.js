@@ -1,5 +1,4 @@
-import { Axios, CssSvg, MaterialUi, MongoDB, Netifly, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Vercel, Vite } from "../svg/IconsSvg";
-
+import { Axios, CssSvg, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -26,12 +25,12 @@ export const PROJECTS = [
             tailwind: <Talwind width={20} />,
             mongo: <MongoDB width={20} />,
             postman: <Postman width={20} />,
+            auth: <NextAuth width={20} />,
             netifly: <Netifly width={20} />,
         },
         visitGit: "https://github.com/SantiMelo7/Ecommerce",
         visitPrev: "https://ecommerce-tec.netlify.app/"
     },
-
     {
         id: 3,
         title: "Tesla Clon | Home",
@@ -46,11 +45,9 @@ export const PROJECTS = [
         visitGit: "https://github.com/SantiMelo7/Tesla-Clon-Home",
         visitPrev: "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
-
     {
         id: 4,
         title: "Formula Calculator",
-        description: "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas",
         img: "/content/formula-calculator.webp",
         tools: {
             react: <ReactJs width={20} />,
@@ -63,3 +60,20 @@ export const PROJECTS = [
         visitPrev: "https://calculator-formula-math.vercel.app/"
     }
 ]
+
+/*{
+id: 3,
+title: "MarketPlace-Clone",
+img: "/content/ecommerce.webp",
+tools: {
+    next: <NextJs width={20} />,
+    react: <ReactJs width={20} />,
+    typescript: <Typescript width={20} />,
+    tailwind: <Talwind width={20} />,
+    mongo: <MongoDB width={20} />,
+    nextAuth: <NextAuth width={20} />,
+    vercel: <Vercel width={20} />,
+},
+visitGit: "https://github.com/SantiMelo7/MarketPlace-Clone",
+visitPrev: "https://market-clone.vercel.app/"
+}*/
