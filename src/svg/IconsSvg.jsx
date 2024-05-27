@@ -372,8 +372,7 @@ export const NextAuth = ({ width }) => {
   return (
     <>
       <Image src={NextAuthImg} width={width} alt="NextAuth" />
-
-      <h1 className={CssH1}>NextAuth.Js</h1>
+      <h1 className={CssH1}>NextAuth</h1>
     </>
   );
 };
