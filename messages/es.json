@@ -68,7 +68,10 @@
     }
     ,
     "Time-3" : {
-        "time-3" : "Ahora mismo"
+        "time-3" : "Febrero 2024 | Abril 2024"
+    },
+    "Time-4" : {
+        "time-4" : "Ahora mismo"
     }
     ,
     "Title-Experience-1" : {
@@ -78,6 +81,9 @@
     "Title-Experience-2" : {
         "title-experience-2" : "Primeros trabajos"
     },
+    "Title-Experience-4" : {
+        "title-experience-4" : "Actosoft"
+    },
     "Description-Experience-1" : {
         "description-experience-1" : "Inicie en el mundo de la programación tras terminar el bachillerato. Comience a aprender usted mismo (videos de Yotube, cursos de Udemy y más) aprendiendo HTML, CSS y Javascript básicos y, con el tiempo, expanda a otras tecnologías."
     },
@@ -86,6 +92,9 @@
     },
     "Description-Experience-3" : {
         "description-experience-3" : "Estoy mostrando mi trabajo al mundo, realizando miniproyectos de forma no profesional, aprendiendo nuevas tecnologías, mejorando mis habilidades en busca de mi primer trabajo como desarrollador web, además de estudiar la carrera de Ingeniería de Sistemas."
+    },
+    "Description-Experience-4" :{
+        "description-experience-4" : "Actualmente me encuentro como practicante en la empresa Actosoft, donde empiezo a ganar experiencia de manera profesional y aplicando mis conocimientos en proyectos de la vida real."
     },
     "Language-1" : {
         "1" : "Español"

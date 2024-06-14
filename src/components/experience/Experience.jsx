@@ -1,10 +1,13 @@
+import Link from "next/link";
 import { EXPERIENCE } from "../../const/experience";
 import { useExperience, useLineTitle } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
+import ActosoftImg from "../../../public/content/actosoft.png";
+import Image from "next/image";
 
 export default function Experience() {
   const { t2 } = useLineTitle();
-  const { t, t22, t1, t3, t4, t5, t6, t7 } = useExperience();
+  const { t, t22, t23, t1, t3, t4, t44, t5, t6, t7, t8 } = useExperience();
   return (
     <>
       <Title title={t2("title-experience-line")} />
@@ -18,11 +21,24 @@ export default function Experience() {
                   {text.id === 1 && t("time-1")}
                   {text.id === 2 && t1("time-2")}
                   {text.id === 3 && t22("time-3")}
+                  {text.id === 4 && t23("time-4")}
                 </time>
                 <h3 className="text-xl font-semibold text-emerald-600 dark:text-gray-300">
                   {text.id === 1 && t3("title-experience-1")}
                   {text.id === 2 && t4("title-experience-2")}
                 </h3>
+
+                <Link
+                  href="https://actosoft.com.mx/frontend"
+                  className="text-xl font-semibold text-emerald-600 dark:text-gray-300 underline"
+                >
+                  <div className="flex gap-10">
+                    {text.id === 4 && t44("title-experience-4")}
+                    {text.id === 4 && (
+                      <Image src={ActosoftImg.src} width={80} height={80} />
+                    )}
+                  </div>
+                </Link>
                 <p
                   className="mb-4 mt-2 text-lg font-extrabold lg:max-w-screen-md
                   md:max-w-2xl sm:max-w-screen-sm text-gray-950 dark:text-white "
@@ -30,6 +46,7 @@ export default function Experience() {
                   {text.id === 1 && t5("description-experience-1")}
                   {text.id === 2 && t6("description-experience-2")}
                   {text.id === 3 && t7("description-experience-3")}
+                  {text.id === 4 && t8("description-experience-4")}
                 </p>
               </li>
             </div>
