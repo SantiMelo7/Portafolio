@@ -43,10 +43,13 @@ export function useExperience() {
     const t = useTranslations("Time-1")
     const t1 = useTranslations("Time-2")
     const t22 = useTranslations("Time-3")
+    const t23 = useTranslations("Time-4")
     const t3 = useTranslations("Title-Experience-1")
     const t4 = useTranslations("Title-Experience-2")
+    const t44 = useTranslations("Title-Experience-4")
     const t5 = useTranslations("Description-Experience-1")
     const t6 = useTranslations("Description-Experience-2")
     const t7 = useTranslations("Description-Experience-3")
-    return { t, t1, t22, t3, t4, t5, t6, t7 }
+    const t8 = useTranslations("Description-Experience-4")
+    return { t, t1, t22, t23, t3, t4, t44, t5, t6, t7, t8 }
 }
