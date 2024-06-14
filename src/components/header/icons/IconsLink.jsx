@@ -4,32 +4,32 @@ import { Curriculum, GitHub, Gmail, Linkedin } from "../../../svg/IconsSvg";
 export default function IconsLink() {
   return (
     <nav className="icons-link-perfil">
-      <div className="mx-auto md:flex gap-x-4 mb-2">
+      <div className="md:flex gap-x-6 mx-auto">
         <Links
-          className="w-58 cv"
+          className="w-56 cv"
           href={"https://github.com/SantiMelo7"}
           text="GitHub"
         >
           <GitHub fill="rgb(0 255 240)" />
         </Links>
         <Links
-          className="w-58 cv"
+          className="w-56 cv"
           href={"https://www.linkedin.com/in/santiago-melo-7b25732a5/"}
           text="Linkedin"
         >
           <Linkedin />
         </Links>
         <Links
-          className="sm:w-58 cv"
+          className="w-56 cv"
           href={"https://www.google.com/intl/es-419/gmail/about/"}
           text="Contáctame"
         >
           <Gmail />
         </Links>
       </div>
-      <div className="flex lg:justify-start lg:items-start sm:justify-center sm:items-center">
+      <div className="flex md:justify-start sm:mb-16 md:mb-10 sm:justify-center">
         <Links
-          className="md:w-[200px] sm:w-[235px] py-3 px-3 cv"
+          className="md:w-52 sm:w-56 py-3 px-3 cv"
           href={"https://curriculum-dev.vercel.app/"}
           text="Ver CV"
         >

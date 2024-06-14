@@ -12,7 +12,7 @@ export default function Technology() {
         mb-5 mx-auto dark:bg-transparent bg-blue-900 dark:p-0 p-10 rounded-lg "
       >
         <div
-          className="grid xl:grid-cols-7 md:grid-cols-5 sm:grid-cols-3 sm:max-w-screen-sm sm:mx-auto xl:max-w-screen-xl
+          className="grid xl:grid-cols-8 md:grid-cols-5 sm:grid-cols-3 sm:max-w-screen-sm sm:mx-auto xl:max-w-screen-xl
           md:max-w-screen-md gap-10 dark:mt-10"
         >
           {TECHNOLOGHIES.map((tect) => (
