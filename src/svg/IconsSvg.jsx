@@ -11,6 +11,7 @@ import TalwindImg from "../../public/svg/Tailwind.png";
 import GitHubImg from "../../public/svg/GitHub.svg";
 import PostmanImg from "../../public/svg/Postman.svg";
 import MongoImg from "../../public/svg/Mongo.svg";
+import FirebaseImg from "../../public/svg/firebase.png";
 import ViteImg from "../../public/svg/Vite.png";
 import AxiosImg from "../../public/svg/axios.ico";
 import JiraImg from "../../public/svg/jira.webp";
@@ -19,6 +20,7 @@ import NetiflyImg from "../../public/svg/netifly.webp";
 import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
+import AntdDesignimg from "../../public/svg/ant-design.svg";
 
 export const CssH1 = "font-extrabold text-white ";
 
@@ -250,6 +252,15 @@ export const MongoDB = ({ width }) => {
   );
 };
 
+export const Firebase = ({ width }) => {
+  return (
+    <>
+      <Image src={FirebaseImg} width={width} alt="Firebase" />
+      <h1 className={CssH1}>Firebase</h1>
+    </>
+  );
+};
+
 export const Postman = ({ width }) => {
   return (
     <>
@@ -373,6 +384,15 @@ export const NextAuth = ({ width }) => {
     <>
       <Image src={NextAuthImg} width={width} alt="NextAuth" />
       <h1 className={CssH1}>NextAuth</h1>
+    </>
+  );
+};
+
+export const AntdDesign = ({ width }) => {
+  return (
+    <>
+      <Image src={AntdDesignimg} width={width} alt="Antd Design" />
+      <h1 className={CssH1}>Antd Design</h1>
     </>
   );
 };
