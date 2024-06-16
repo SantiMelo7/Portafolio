@@ -15,8 +15,14 @@ export const EXPERIENCE = [
     },
     {
         id: 3,
-        time: "Right now",
+        time: "February 2024 | April 2024",
         description:
             "I am showing my work to the world, carrying out mini-projects in a non-professional way, learning new technologies, improving my skills in search of my first job as a web developer, in addition to studying a degree in Systems Engineering.",
+    },
+    {
+        id: 4,
+        time: "Right now",
+        description:
+            "I am currently an intern at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects.",
     },
 ];

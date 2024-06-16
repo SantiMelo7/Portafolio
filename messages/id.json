@@ -68,15 +68,20 @@
     }
     ,
     "Time-3" : {
-        "time-3" : "Right now"
-    }
-    ,
+        "time-3" : "February 2024 | April 2024"
+    },
+    "Time-4" : {
+        "time-4" : "Right Now"
+    },
     "Title-Experience-1" : {
         "title-experience-1" : "First steps:"
     }
     ,
     "Title-Experience-2" : {
         "title-experience-2" : "First jobs"
+    },
+    "Title-Experience-4" : {
+        "title-experience-4" : "Actosoft"
     },
     "Description-Experience-1" : {
         "description-experience-1" : "I started in the world of programming after finishing high school. She begins to learn self-taught (Yotube videos, courses on Udemy and more) learning basic HTML, CSS and Javascript and over time expanding to other technologies."
@@ -86,6 +91,9 @@
     },
     "Description-Experience-3" : {
         "description-experience-3" : "I am showing my work to the world, carrying out mini-projects in a non-professional way, learning new technologies, improving my skills in search of my first job as a web developer, in addition to studying a degree in Systems Engineering."
+    },
+    "Description-Experience-4" :{
+        "description-experience-4" : "I am currently an intern at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects"
     },
     "Language-1" : {
         "1" : "Spanish"

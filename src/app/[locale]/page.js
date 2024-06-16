@@ -10,11 +10,12 @@ export default function Home() {
         <>
             <Preference />
             <InfoMe />
-            <Projects />
-            <Experience />
-            {/* <Tickets />*/}
-            <Technology />
-            <AboutMe />
+            <div className="sm:translate-y-[13%] md:translate-y-[7%]">
+                <Projects />
+                <Experience />
+                <Technology />
+                <AboutMe />
+            </div>
         </>
     )
 }

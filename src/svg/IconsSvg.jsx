@@ -8,6 +8,7 @@ import NextImg from "../../public/svg/Next.svg";
 import MaterialUiImg from "../../public/svg/MaterialUi.svg";
 import GitImg from "../../public/svg/Git.svg";
 import TalwindImg from "../../public/svg/Tailwind.png";
+import SaasImg from "../../public/svg/saas.svg";
 import GitHubImg from "../../public/svg/GitHub.svg";
 import PostmanImg from "../../public/svg/Postman.svg";
 import MongoImg from "../../public/svg/Mongo.svg";
@@ -305,6 +306,16 @@ export const Talwind = ({ width }) => {
       <Image src={TalwindImg} width={width} alt="Tailwind" />
 
       <h1 className={CssH1}>Talwind</h1>
+    </>
+  );
+};
+
+export const Saas = ({ width }) => {
+  return (
+    <>
+      <Image src={SaasImg} width={width} alt="Saas" />
+
+      <h1 className={CssH1}>Saas</h1>
     </>
   );
 };

@@ -93,5 +93,15 @@ div.border-img-about-me {
 }
 
 nav.icons-link-perfil {
-  @apply flex flex-col justify-center md:gap-y-3 gap-x-8;
+  @apply flex flex-col justify-center md:gap-y-3 gap-x-8 mt-2;
+}
+
+img.img-projects {
+  @apply rounded-2xl relative lg:-translate-x-7 md:w-[60vw] sm:w-[80vw] sm:mx-auto mt-10;
+}
+
+@media only screen and (max-width: 1200px) and (orientation: landscape) {
+  img.img-projects {
+    @apply w-[70vw];
+  }
 }
