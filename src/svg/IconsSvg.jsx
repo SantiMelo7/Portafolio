@@ -23,7 +23,7 @@ import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
 import AntdDesignimg from "../../public/svg/ant-design.svg";
 
-export const CssH1 = "font-extrabold text-white ";
+export const CssH1 = "font-extrabold dark:text-white text-black";
 
 export const Curriculum = () => {
   return (
@@ -274,7 +274,12 @@ export const Postman = ({ width }) => {
 export const GitHubSvg = ({ width }) => {
   return (
     <>
-      <Image src={GitHubImg} width={width} alt="GitHub" />
+      <Image
+        className="svg-github"
+        src={GitHubImg}
+        width={width}
+        alt="GitHub"
+      />
       <h1 className={CssH1}>GitHub</h1>
     </>
   );
