@@ -50,7 +50,7 @@ export const TECHNOLOGHIES = [
         text: <StyledComponents width={60} />
     },
     {
-        id: 112,
+        id: 12,
         text: <Git width={60} />
     },
     {
