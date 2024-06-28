@@ -84,6 +84,16 @@ export function Toolsproject({ projectId }) {
           {projectId.auth}
         </LinkProject>
       )}
+      {projectId.firebase && (
+        <LinkProject className={classNameToolsNormal}>
+          {projectId.firebase}
+        </LinkProject>
+      )}
+      {projectId.antdDesign && (
+        <LinkProject className={classNameToolsLg}>
+          {projectId.antdDesign}
+        </LinkProject>
+      )}
     </>
   );
 }

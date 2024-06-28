@@ -4,7 +4,7 @@ import { Curriculum, GitHub, Gmail, Linkedin } from "../../../svg/IconsSvg";
 export default function IconsLink() {
   return (
     <nav className="icons-link-perfil">
-      <div className="md:flex gap-x-3 mx-auto">
+      <div className="containers-link">
         <Links
           className="w-56 cv"
           href={"https://github.com/SantiMelo7"}

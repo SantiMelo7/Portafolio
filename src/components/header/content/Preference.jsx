@@ -44,25 +44,25 @@ export default function Preference() {
   };
 
   return (
-    <header className="flex flex-row justify-between top-0">
+    <header className="flex flex-row w-screen justify-between xl:fixed sm:relative z-[1000] items-center top-0">
       <img
         src="/favicon/android-chrome-192x192.png"
-        className="md:h-[100px] sm:h-[75px]"
+        className="md:h-[80px] sm:h-[75px]"
       />
       <div className="flex justify-center">
-        <label htmlFor="language" className="relative md:top-8 sm:top-5 left-8">
+        <label htmlFor="language" className="translate-x-11">
           <Language />
         </label>
         <select
           id="language"
           value={localActive}
-          className="relative h-5 lg:top-10 lg:right-10 sm:right-5 sm:top-7 md:top-10 opacity-0"
+          className="relative -translate-x-4 opacity-0"
           onChange={onSelectChange}
         >
           <option value="id">Ingles</option>
           <option value="es">Español</option>
         </select>
-        <button onClick={handleChangeTheme} className="mr-3">
+        <button onClick={handleChangeTheme} className="mr-5">
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
       </div>

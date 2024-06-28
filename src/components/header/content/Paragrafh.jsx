@@ -6,7 +6,7 @@ export default function Parragrafh() {
   const cssSpan = "dark:text-yellow-200 text-yellow-800";
 
   const cssP =
-    "xl:text-2xl md:text-xl sm:text-xl dark:text-white text-gray-800 font-extrabold";
+    "xl:text-2xl md:text-xl sm:text-xl dark:text-white text-gray-800 font-extrabold p-1";
 
   return (
     <>
@@ -17,7 +17,6 @@ export default function Parragrafh() {
           {`React, Next JS, Tailwind, ${t4("most")} HTML, CSS and Javascript`}
         </span>
       </strong>
-
       <strong className={cssP}>{t5("challenges")}</strong>
     </>
   );

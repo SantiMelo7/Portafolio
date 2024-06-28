@@ -32,11 +32,12 @@ export function useProjectBottom() {
 }
 
 export function useProjects() {
-    const t1 = useTranslations("Entrepeneur")
-    const t2 = useTranslations("Ecommerce")
-    const t3 = useTranslations("Tesla")
-    const t4 = useTranslations("Formula")
-    return { t1, t2, t3, t4 }
+    const t1 = useTranslations("Brothers")
+    const t2 = useTranslations("Entrepeneur")
+    const t3 = useTranslations("Ecommerce")
+    const t4 = useTranslations("Tesla")
+    const t5 = useTranslations("Formula")
+    return { t1, t2, t3, t4, t5 }
 }
 
 export function useExperience() {
