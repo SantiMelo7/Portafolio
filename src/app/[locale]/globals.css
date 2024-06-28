@@ -49,11 +49,11 @@ section img.banner {
 
 .section-projects {
   display: grid;
-  @media (min-width: 300px) {
+  @media (min-width: 300px) and (max-width: 600px) {
     grid-template-columns: repeat(2, 175px);
     grid-gap: 15px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 767px) {
     grid-template-columns: repeat(3, 200px);
     grid-gap: 19px;
     margin-right: auto;
@@ -103,5 +103,26 @@ img.img-projects {
 @media only screen and (max-width: 1200px) and (orientation: landscape) {
   img.img-projects {
     @apply w-[70vw];
+  }
+}
+
+div.container-sub-text {
+  @apply flex flex-col sm:justify-center
+  lg:text-start sm:text-center lg:ml-20;
+  @media (min-width: 300px) and (max-width: 600px) {
+    max-width: 300px;
+  }
+  @media (min-width: 768px) {
+    max-width: 42rem;
+  }
+}
+
+div.containers-link {
+  @apply flex gap-x-3 mx-auto;
+  @media (min-width: 300px) and (max-width: 600px) {
+    flex-direction: column;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
   }
 }

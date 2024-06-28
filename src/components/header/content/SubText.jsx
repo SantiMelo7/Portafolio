@@ -8,10 +8,7 @@ export default function SubText() {
   const { t6 } = useParragrafhTraductor();
   return (
     <>
-      <div
-        className="flex flex-col md:top-0 sm:top-14 absolute sm:justify-center md:max-w-2xl sm:max-w-screen-sm
-        lg:text-start sm:text-center lg:ml-20"
-      >
+      <div className="container-sub-text">
         <ImageHeader />
         <div className="flex flex-col xl:ml-8 gap-4 mt-2 sm:p-1">
           <TitleInitial text={t6("name-autor")} className="text-5xl" />

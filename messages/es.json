@@ -12,37 +12,40 @@
         "year" : "con 1 año de experiencia"
     },
     "World" : {
-        "pages" : " en el mundo de las páginas web. Este año trabajó principalmente con"
+        "pages" : " en el mundo de las páginas web. Me desempeño principalmente con React, Next JS, Tailwind, así como HTML, CSS and Javascript"
     },
     "Tec" : {
         "most" : "así como"
     },
     "DaysNew" : {
-        "challenges" : "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan aprender cosas nuevas"
+        "challenges" : "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente"
+    },
+    "Brothers" : {
+        "description-1" : "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
     "Entrepeneur" : {
-        "description-1" : "Aplicación para emprendimiento, donde podrás mostrarle al mundo el potencial de tu invento y conseguir que la gente se interese en él creado con Next.Js, React y otros"
+        "description-2" : "Aplicación para emprendimiento, donde podrás mostrarle al mundo el potencial de tu invento y conseguir que la gente se interese en él creado con Next.Js, React y otros"
     },
     "Ecommerce" : {
-        "description-2" : "Aplicación de ecommerce para poder comprar artículos de tecnología, primer sitio web que hice. Creado con Next.JS, React, Tailwind y administrando la base de datos MongoDB."
+        "description-3" : "Aplicación de ecommerce para poder comprar artículos de tecnología, primer sitio web que hice. Creado con Next.JS, React, Tailwind y administrando la base de datos MongoDB."
     },
     "Tesla" : {
-        "description-3" : "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
+        "description-4" : "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
     },
     "Formula" : {
-        "description-4" : "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
+        "description-5" : "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
     },
     "Title-About-Me" : {
         "title" : "Acerca de mi..."
     },
     "About-Me" : {
-        "part-1" : "¡Hola a todos! Soy Santiago Melo, pero puedes llamarme Santi. Mi pasión por la programación comenzó hace aproximadamente un año, justo después de terminar la escuela secundaria. En ese momento decidí aventurarme en el vasto mundo de la programación, y desde entonces no he vuelto a mirar atrás."
+        "part-1" : "Hello everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming began about a year ago, right after finishing high school. At that moment I decided to venture into the vast world of programming, and I haven't looked back since."
     },
     "About-Me-2" : {
-        "part-2" : "Decidí hacerme cargo de mi propio aprendizaje y sumergirme en el mundo de la programación de forma autodidacta. Me propuse explorar una variedad de recursos, desde videos instructivos hasta líneas de cursos en línea y páginas web especializadas en el tema. Todo esto con un objetivo en mente: prepararte para ingresar a la carrera de Ingeniería de Sistemas."
+        "part-2" : "Decidí hacerme cargo de mi propio aprendizaje y sumergirme en el mundo de la programación de forma autodidacta. Me propuse explorar una variedad de recursos, desde videos instructivos hasta líneas de cursos en línea y páginas web especializadas en el tema. Actualmente me encuentro estudiando la carrera de Ingenería en Sistemas"
     },
     "About-Me-3" : {
-        "part-3" : "Tengo muchas ganas de afrontar nuevos retos y aprovechar cada oportunidad para aprender y crecer. ¡Estoy segura que me esperan grandes cosas en el futuro en este apasionante mundo de la tecnología y la programación!"
+        "part-3" : "Tengo muchas ganas de afrontar nuevos retos y aprovechar cada oportunidad para aprender y crecer. ¡Estoy seguro que me esperan grandes cosas en el futuro en este apasionante mundo de la tecnología y la programación!"
     },
     "Title-Projects" : {
         "title-projects-line" : "Proyectos"

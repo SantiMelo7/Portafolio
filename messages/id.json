@@ -12,7 +12,7 @@
         "year" : "with 1 year of experience"
     },
     "World" : {
-        "pages" : "in the world of web pages. This year he worked mostly with"
+        "pages" : "in the world of web pages. My performance is mainly with React, Next JS, Tailwind, as well as HTML, CSS and Javascript"
     },
     "Tec" : {
         "most" : "as well as"
@@ -20,29 +20,32 @@
     "DaysNew" : {
         "challenges" : "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things"
     },
+    "Brothers" : {
+        "description-1" : "Application for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
+    },
     "Entrepeneur" : {
-        "description-1" : "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it created with Next.Js, React and others"
+        "description-2" : "Application for entrepreneurship, where you can show the world the potential of your invention and get people interested in it created with Next.Js, React and others"
     },
     "Ecommerce" : {
-        "description-2" : "Ecommerce application to be able to buy technology items, first website I made. Created with Next.JS, React, Tailwind and managing the MongoDB database"
+        "description-3" : "Ecommerce application to be able to buy technology items, first website I made. Created with Next.JS, React, Tailwind and managing the MongoDB database"
     },
     "Tesla" : {
-        "description-3" : "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
+        "description-4" : "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
     },
     "Formula" : {
-        "description-4" : "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
+        "description-5" : "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
     },
     "Title-About-Me" : {
         "title" : "About Me..."
     },
     "About-Me" : {
-        "part-1" : "Hello everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming started about a year ago, right after finishing my high school. At that moment, I decided venture into the vast world of programming, and since then I haven't looked back"
+        "part-1" : "Hello everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming began about a year ago, right after finishing high school. At that moment I decided to venture into the vast world of programming, and I haven't looked back since."
     },
     "About-Me-2" : {
-        "part-2" : "I decided to take charge of my own learning and immerse myself in the world of programming in a self-taught way. I set out to explore a variety of resources, from instructional videos to online courses line and web pages specialized in the subject. All this with a goal in mind: prepare to enter the career of Systems engineering."
+        "part-2" : "I decided to take charge of my own learning and immerse myself in the world of programming in a self-taught way. I set out to explore a variety of resources, from instructional videos to online course lines and websites specializing in the topic. I am currently studying a degree in Systems Engineering."
     },
     "About-Me-3" : {
-        "part-3" : "I am eager to face new challenges and take advantage of every opportunity to learn and grow. I am sure that the future great things await me in this exciting world of technology and The programing!."
+        "part-3" : "I am looking forward to facing new challenges and taking advantage of every opportunity to learn and grow. I am sure that great things await me in the future in this exciting world of technology and programming!"
     },
     "Title-Projects" : {
         "title-projects-line" : "Projects"

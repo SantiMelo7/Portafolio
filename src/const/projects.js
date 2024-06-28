@@ -1,8 +1,22 @@
-import { Axios, CssSvg, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
         id: 1,
+        title: "Brothers Auto Details",
+        img: "/content/brothersAutoDetail.webp",
+        tools: {
+            next: <NextJs width={20} />,
+            react: <ReactJs width={20} />,
+            antdDesign: <AntdDesign width={20} />,
+            tailwind: <Talwind width={20} />,
+            firebase: <Firebase width={20} />,
+        },
+        visitGit: "https://github.com/ActoSoft/brothers-auto-detail-ui",
+        visitPrev: "https://brothersautodetails--pr17-feature-brad-16-sani-3ysaimip.web.app/"
+    },
+    {
+        id: 2,
         title: "Entrepeneur Platform",
         img: "/content/entrepeneur-platform.webp",
         tools: {
@@ -16,7 +30,7 @@ export const PROJECTS = [
         visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
     },
     {
-        id: 2,
+        id: 3,
         title: "Ecommerce Tec",
         img: "/content/ecommerce.webp",
         tools: {
@@ -32,7 +46,7 @@ export const PROJECTS = [
         visitPrev: "https://ecommerce-tec.netlify.app/"
     },
     {
-        id: 3,
+        id: 4,
         title: "Tesla Clon | Home",
         img: "/content/tesla.webp",
         tools: {
@@ -46,7 +60,7 @@ export const PROJECTS = [
         visitPrev: "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
-        id: 4,
+        id: 5,
         title: "Formula Calculator",
         img: "/content/formula-calculator.webp",
         tools: {

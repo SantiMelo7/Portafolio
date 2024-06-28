@@ -8,7 +8,7 @@ import { useLineTitle, useProjects } from "../../hooks/useTraduccion";
 
 export default function Projects() {
   const { t } = useLineTitle();
-  const { t1, t2, t3, t4 } = useProjects();
+  const { t1, t2, t3, t4, t5 } = useProjects();
   return (
     <>
       <Title title={t("title-projects-line")} />
@@ -17,14 +17,15 @@ export default function Projects() {
           {PROJECTS.map((project) => (
             <>
               <img src={project.img} className="img-projects " />
-              <div className="flex flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start mt-1">
+              <div className="flex flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start mt-1 p-2">
                 <TitleInitial text={project.title} className="text-3xl" />
                 <TextProject
                   text={
                     (project.id === 1 && t1("description-1")) ||
                     (project.id === 2 && t2("description-2")) ||
                     (project.id === 3 && t3("description-3")) ||
-                    (project.id === 4 && t4("description-4"))
+                    (project.id === 4 && t4("description-4")) ||
+                    (project.id === 5 && t5("description-5"))
                   }
                 />
                 <div className="section-projects">

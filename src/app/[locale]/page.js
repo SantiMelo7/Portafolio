@@ -9,8 +9,10 @@ export default function Home() {
     return (
         <>
             <Preference />
-            <InfoMe />
-            <div className="sm:translate-y-[13%] md:translate-y-[7%]">
+            <div>
+                <InfoMe />
+            </div>
+            <div className="">
                 <Projects />
                 <Experience />
                 <Technology />
