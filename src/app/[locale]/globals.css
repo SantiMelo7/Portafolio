@@ -24,6 +24,12 @@ div.tickets {
 
 section img.banner {
   animation: updown 3s linear infinite;
+  @media (min-width: 300px) and (max-width: 1199px) {
+    display: none;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 @keyframes updown {
