@@ -44,6 +44,11 @@ export function Toolsproject({ projectId }) {
           {projectId.css}
         </LinkProject>
       )}
+      {projectId.sass && (
+        <LinkProject className={classNameToolsNormal}>
+          {projectId.sass}
+        </LinkProject>
+      )}
       {projectId.axios && (
         <LinkProject className={`${classNameToolsNormal}`}>
           {projectId.axios}

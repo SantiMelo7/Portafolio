@@ -35,8 +35,11 @@
     "Formula": {
         "description-5": "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
     },
+    "DesignProjects": {
+        "description-6": "Page where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."
+    },
     "TodoApp": {
-        "description-6": "App created with HTML, CSS, and JavaScript. This was my first app."
+        "description-7": "App created with HTML, CSS, and JavaScript. This was my first app."
     },
     "Title-About-Me": {
         "title": "About Me..."

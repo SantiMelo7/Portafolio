@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -75,6 +75,18 @@ export const PROJECTS = [
     },
     {
         id: 6,
+        title: "Design projects",
+        img: "/content/projects-desing.webp",
+        tools: {
+            html: <HTML width={20} />,
+            css: <CssSvg width={20} />,
+            sass: <Saas width={20} />,
+        },
+        visitGit: "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS",
+        visitPrev: "/desing-projects/[locale]"
+    },
+    {
+        id: 7,
         title: "To Do List",
         img: "/content/todo-app.webp",
         tools: {

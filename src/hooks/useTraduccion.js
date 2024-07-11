@@ -37,8 +37,9 @@ export function useProjects() {
     const t3 = useTranslations("Ecommerce")
     const t4 = useTranslations("Tesla")
     const t5 = useTranslations("Formula")
-    const t6 = useTranslations("TodoApp")
-    return { t1, t2, t3, t4, t5, t6 }
+    const t6 = useTranslations("DesignProjects")
+    const t7 = useTranslations("TodoApp")
+    return { t1, t2, t3, t4, t5, t6, t7 }
 }
 
 export function useExperience() {
