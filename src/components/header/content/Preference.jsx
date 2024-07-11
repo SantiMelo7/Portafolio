@@ -44,7 +44,7 @@ export default function Preference() {
   };
 
   return (
-    <header className="flex flex-row w-screen justify-between xl:fixed sm:relative z-[1000] items-center top-0">
+    <header className="flex flex-row w-screen justify-between relative z-[1000] items-center top-0">
       <img
         src="/favicon/android-chrome-192x192.png"
         className="md:h-[80px] sm:h-[75px]"

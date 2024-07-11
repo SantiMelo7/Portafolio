@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -13,7 +13,7 @@ export const PROJECTS = [
             firebase: <Firebase width={20} />,
         },
         visitGit: "https://github.com/ActoSoft/brothers-auto-detail-ui",
-        visitPrev: "https://brothersautodetails--pr17-feature-brad-16-sani-3ysaimip.web.app/"
+        visitPrev: "https://brothersautodetails--pr18-feature-brad-21-cont-2evk54or.web.app/"
     },
     {
         id: 2,
@@ -72,6 +72,30 @@ export const PROJECTS = [
         },
         visitGit: "https://github.com/SantiMelo7/Calculator-Formula",
         visitPrev: "https://calculator-formula-math.vercel.app/"
+    },
+    {
+        id: 6,
+        title: "Design projects",
+        img: "/content/projects-desing.webp",
+        tools: {
+            html: <HTML width={20} />,
+            css: <CssSvg width={20} />,
+            sass: <Saas width={20} />,
+        },
+        visitGit: "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS",
+        visitPrev: "/desing-projects/[locale]"
+    },
+    {
+        id: 7,
+        title: "To Do List",
+        img: "/content/todo-app.webp",
+        tools: {
+            html: <HTML width={20} />,
+            javascript: <Javascript width={20} />,
+            css: <CssSvg width={20} />,
+        },
+        visitGit: "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS/tree/main/todooooos",
+        visitPrev: "https://todos-app-11111.netlify.app"
     }
 ]
 

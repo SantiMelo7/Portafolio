@@ -15,10 +15,10 @@ export const metadata = {
 
 export default function LocaleLayout({
   children,
-  params: {locale}
+  params: { locale }
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+  params: { locale: string };
 }) {
   return (
     <html lang={locale} className="dark">
