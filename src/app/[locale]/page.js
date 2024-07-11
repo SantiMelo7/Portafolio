@@ -9,15 +9,11 @@ export default function Home() {
     return (
         <>
             <Preference />
-            <div>
-                <InfoMe />
-            </div>
-            <div className="">
-                <Projects />
-                <Experience />
-                <Technology />
-                <AboutMe />
-            </div>
+            <InfoMe />
+            <Projects />
+            <Experience />
+            <Technology />
+            <AboutMe />
         </>
     )
 }
