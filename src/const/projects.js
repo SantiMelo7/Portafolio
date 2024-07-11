@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -72,6 +72,18 @@ export const PROJECTS = [
         },
         visitGit: "https://github.com/SantiMelo7/Calculator-Formula",
         visitPrev: "https://calculator-formula-math.vercel.app/"
+    },
+    {
+        id: 6,
+        title: "To Do List",
+        img: "/content/todo-app.webp",
+        tools: {
+            html: <HTML width={20} />,
+            javascript: <Javascript width={20} />,
+            css: <CssSvg width={20} />,
+        },
+        visitGit: "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS/tree/main/todooooos",
+        visitPrev: "https://todos-app-11111.netlify.app"
     }
 ]
 

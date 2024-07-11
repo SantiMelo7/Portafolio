@@ -9,6 +9,16 @@ const classNameToolsXl =
 export function Toolsproject({ projectId }) {
   return (
     <>
+      {projectId.html && (
+        <LinkProject className={classNameToolsNormal}>
+          {projectId.html}
+        </LinkProject>
+      )}
+      {projectId.javascript && (
+        <LinkProject className={classNameToolsNormal}>
+          {projectId.javascript}
+        </LinkProject>
+      )}
       {projectId.next && (
         <LinkProject className={classNameToolsNormal}>
           {projectId.next}
