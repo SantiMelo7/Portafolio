@@ -106,5 +106,29 @@
     },
     "Language-2": {
         "2": "English"
+    },
+    "HOTEL": {
+        "description-1": "Hotel design page with sections for rooms, services and reservations."
+    },
+    "NEWS": {
+        "description-2": "Design page for sports with news, results and teams sections"
+    },
+    "NEXTER": {
+        "description-3": "'Nexter' hotel design page with rooms and reservations sections"
+    },
+    "TRILLO": {
+        "description-4": "'Trillo' hotel design page with sections for photos, services and contact"
+    },
+    "OUTDOORS": {
+        "description-5": "Página de diseño de naturaleza con secciones para actividades al aire libre"
+    },
+    "EDGE-LEADER": {
+        "description-6": "Design page cloned from 'Edge Leader' site with focus on leadership with sections for services, team and contact"
+    },
+    "MyFirstFormDesign": {
+        "description-7": "Design page making my first form"
+    },
+    "LINETIME": {
+        "description-8": "Design page, where I learned to use animations with style and programming logic"
     }
 }

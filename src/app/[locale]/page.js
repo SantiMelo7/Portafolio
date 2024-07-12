@@ -8,16 +8,14 @@ import Preference from "../../components/header/content/Preference";
 export default function Home() {
     return (
         <>
-            <Preference />
             <div>
-                <InfoMe />
+                <Preference />
             </div>
-            <div className="">
-                <Projects />
-                <Experience />
-                <Technology />
-                <AboutMe />
-            </div>
+            <InfoMe />
+            <Projects />
+            <Experience />
+            <Technology />
+            <AboutMe />
         </>
     )
 }
