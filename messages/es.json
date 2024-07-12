@@ -106,5 +106,29 @@
     },
     "Language-2": {
         "2": "Inglés"
+    },
+    "HOTEL": {
+        "description-1": "Página de diseño de hotel con secciones para habitaciones, servicios y reservas"
+    },
+    "NEWS": {
+        "description-2": "Página de diseño para deportes con secciones de noticias, resultados y equipos"
+    },
+    "NEXTER": {
+        "description-3": "Página de diseño de hotel 'Nexter' con secciones de habitaciones y reservas"
+    },
+    "TRILLO": {
+        "description-4": "Página de diseño de hotel 'Trillo' con secciones para fotos, servicios y contacto"
+    },
+    "OUTDOORS": {
+        "description-5": "Página de diseño de naturaleza con secciones para actividades al aire libre"
+    },
+    "EDGE-LEADER": {
+        "description-6": "Página de diseño clonada del sitio 'Edge Leader' con enfoque en liderazgo con secciones para servicios, equipo y contacto"
+    },
+    "MyFirstFormDesign": {
+        "description-7": "Página de diseño haciendo mi primer formulario"
+    },
+    "LINETIME": {
+        "description-8": "Página de diseño, donde aprendi a utilizar las animaciones cone stilo y con logica de programacion"
     }
 }
