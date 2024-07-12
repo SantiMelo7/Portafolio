@@ -1,7 +1,12 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { DarkTheme, Language, RedirectHome, SumTheme } from "../../../svg/IconsSvg";
+import {
+  DarkTheme,
+  Language,
+  RedirectHome,
+  SumTheme,
+} from "../../../svg/IconsSvg";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 
@@ -40,10 +45,10 @@ export default function Preference({ url, isRedirect }) {
 
   const onSelectChange = (ev) => {
     const nextLocale = ev.target.value;
-    if(url) {
+    if (url) {
       router.replace(`/${nextLocale}/desing-projects`);
     } else {
-      router.replace(`/${nextLocale}` );
+      router.replace(`/${nextLocale}`);
     }
   };
 
@@ -69,9 +74,11 @@ export default function Preference({ url, isRedirect }) {
         <button onClick={handleChangeTheme} className="mr-3">
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
-       {isRedirect && <button className="mr-4 sm:mr-10" onClick={() => router.replace(`/`)}>
-          <RedirectHome/>
-        </button>}
+        {isRedirect && (
+          <button className="mr-4 sm:mr-10" onClick={() => router.replace(`/`)}>
+            <RedirectHome />
+          </button>
+        )}
       </div>
     </header>
   );

@@ -22,20 +22,29 @@ import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
 import AntdDesignimg from "../../public/svg/ant-design.svg";
-import UserImg from "../../public/svg/user.png"
+import UserImg from "../../public/svg/user.png";
 
 export const CssH1 = "font-extrabold dark:text-white text-black";
 
-
 export const RedirectHome = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} className=" dark:fill-white fill-black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-</svg>
-
-
-  )
-}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={40}
+      height={40}
+      className=" dark:fill-white fill-black"
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+      />
+    </svg>
+  );
+};
 
 export const Curriculum = () => {
   return (
@@ -112,9 +121,7 @@ export const Gmail = () => {
 };
 
 export const UserMe = () => {
-  return (
-    <Image src={UserImg.src} width={80} height={80} alt="User"/>
-  );
+  return <Image src={UserImg.src} width={80} height={80} alt="User" />;
 };
 
 export const DarkTheme = () => {

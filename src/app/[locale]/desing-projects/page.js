@@ -1,3 +1,5 @@
+"use client"
+
 import TextProject from "../../../components/projects/TextProject";
 import ContentProjects from "../../../components/projects/ContentProjects";
 import { useProjectsDesing } from "../../../hooks/useTraduccion";

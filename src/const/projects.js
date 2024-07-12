@@ -1,6 +1,4 @@
-import { useRouter } from "next/navigation";
 import { AntdDesign, Axios, CssSvg, Firebase, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
-
 
 export const PROJECTS = [
     {
@@ -85,7 +83,7 @@ export const PROJECTS = [
             sass: <Saas width={20} />,
         },
         visitGit: "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS",
-        visitPrev: "es/desing-projects"
+
     },
     {
         id: 7,
