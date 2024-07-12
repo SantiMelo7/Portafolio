@@ -28,6 +28,10 @@ of the latest trends in web development.**
     <img src="/public/readme/photo-6.webp"/>
     <img src="/public/readme/photo-7.webp"/>
     <img src="/public/readme/photo-8.webp"/>
+    <img src="/public/readme/photo-9.webp"/>
+    <img src="/public/readme/photo-10.webp"/>
+    <img src="/public/readme/photo-11.webp"/>
+    <img src="/public/readme/photo-12.webp"/>
 </div>
 
 ## 🛠️ Stack
