@@ -9,7 +9,7 @@ export default function Technology() {
       <Title title={t3("title-technologies-line")} />
       <div
         className="flex flex-col md:max-w-6xl sm:max-w-sm sm:mt-5 dark:mt-0 mt-2 dark:mb-0
-        mb-5 mx-auto dark:bg-transparent bg-blue-900 dark:p-0 p-10 rounded-lg "
+        mb-5 mx-auto dark:bg-transparent dark:p-0 p-10 rounded-lg "
       >
         <div
           className="grid xl:grid-cols-8 md:grid-cols-5 sm:grid-cols-3 sm:max-w-screen-sm sm:mx-auto xl:max-w-screen-xl
