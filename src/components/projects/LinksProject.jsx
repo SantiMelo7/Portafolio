@@ -1,6 +1,6 @@
 import Links from "../header/icons/Links";
 
-export default function LinkProject({ text, className, children }) {
+export default function LinkProject({ text, className, href, children }) {
   return (
     <>
       <Links
@@ -9,6 +9,7 @@ export default function LinkProject({ text, className, children }) {
         text-xl py-1 transition md:hover:scale-95 md:gap-x-8 md:mt-1
         sm:px-12 sm:gap-x-4 sm:mt-4 sm:hover:scale-95 w-96 dark:bg-transparent  dark:bg-slate-100 ${className}`}
         text={text}
+        href={href}
       >
         {children}
       </Links>
