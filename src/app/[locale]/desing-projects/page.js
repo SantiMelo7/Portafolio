@@ -1,3 +1,5 @@
+"use client"
+
 import TextProject from "../../../components/projects/TextProject";
 import ContentProjects from "../../../components/projects/ContentProjects";
 import { useProjectsDesing } from "../../../hooks/useTraduccion";
@@ -32,7 +34,7 @@ export default function Projects() {
 
     return (
         <>
-            <Preference url />
+            <Preference url isRedirect />
             <ContentProjects line={false} data={projectsDesing}>
                 {(project) => (
                     <TextProject text={getDescription(project.id)} />

@@ -4,6 +4,8 @@ import { useExperience, useLineTitle } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
 import ActosoftImg from "../../../public/content/actosoft.png";
 import Image from "next/image";
+import { MaterialUi, Typescript } from "../../svg/IconsSvg";
+import LinkProject from "../projects/LinksProject";
 
 export default function Experience() {
   const { t2 } = useLineTitle();
@@ -28,19 +30,33 @@ export default function Experience() {
                   {text.id === 2 && t4("title-experience-2")}
                 </h3>
 
-                <Link
-                  href="https://actosoft.com.mx/frontend"
-                  className="text-xl font-semibold text-emerald-600 dark:text-gray-300 underline"
-                >
-                  <div className="flex gap-10">
-                    {text.id === 4 && t44("title-experience-4")}
-                    {text.id === 4 && (
-                      <Image src={ActosoftImg.src} width={80} height={80} />
-                    )}
-                  </div>
-                </Link>
+                <div className="flex md:flex-row sm:flex-col sm:gap-5 md:gap-10">
+                  {text.id === 4 && t44("title-experience-4")}
+                  {text.id === 4 && (
+                    <>
+                      <LinkProject
+                        href="https://actosoft.com.mx/frontend"
+                        className="md:w-[160px] sm:w-[180px] text-xl font-semibold text-emerald-600 dark:text-gray-300 underline"
+                      >
+                        <Image
+                          className="md:p-0 sm:p-2"
+                          src={ActosoftImg.src}
+                          width={80}
+                          height={80}
+                          alt="Logo Actosoft"
+                        />
+                      </LinkProject>
+                      <LinkProject className="md:w-[160px] sm:w-[180px]">
+                        <Typescript width={20} />
+                      </LinkProject>
+                      <LinkProject className="md:w-[230px] sm:w-[180px]">
+                        <MaterialUi width={20} />
+                      </LinkProject>
+                    </>
+                  )}
+                </div>
                 <p
-                  className="mb-4 mt-2 text-lg font-extrabold lg:max-w-screen-md
+                  className="mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md
                   md:max-w-2xl sm:max-w-screen-sm text-gray-950 dark:text-white "
                 >
                   {text.id === 1 && t5("description-experience-1")}

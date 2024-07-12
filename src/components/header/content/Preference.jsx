@@ -1,11 +1,16 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { DarkTheme, Language, SumTheme } from "../../../svg/IconsSvg";
+import {
+  DarkTheme,
+  Language,
+  RedirectHome,
+  SumTheme,
+} from "../../../svg/IconsSvg";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 
-export default function Preference({ url }) {
+export default function Preference({ url, isRedirect }) {
   const [colorTheme, setColorTheme] = useState("");
 
   const [theme, setTheme] = useState(() => {
@@ -40,10 +45,10 @@ export default function Preference({ url }) {
 
   const onSelectChange = (ev) => {
     const nextLocale = ev.target.value;
-    if(url) {
+    if (url) {
       router.replace(`/${nextLocale}/desing-projects`);
     } else {
-      router.replace(`/${nextLocale}` );
+      router.replace(`/${nextLocale}`);
     }
   };
 
@@ -54,7 +59,7 @@ export default function Preference({ url }) {
         className="md:h-[80px] sm:h-[75px]"
       />
       <div className="flex justify-center">
-        <label htmlFor="language" className="translate-x-11">
+        <label htmlFor="language" className="translate-x-12">
           <Language />
         </label>
         <select
@@ -66,9 +71,14 @@ export default function Preference({ url }) {
           <option value="id">Ingles</option>
           <option value="es">Español</option>
         </select>
-        <button onClick={handleChangeTheme} className="mr-5">
+        <button onClick={handleChangeTheme} className="mr-3">
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
+        {isRedirect && (
+          <button className="mr-4 sm:mr-10" onClick={() => router.replace(`/`)}>
+            <RedirectHome />
+          </button>
+        )}
       </div>
     </header>
   );
