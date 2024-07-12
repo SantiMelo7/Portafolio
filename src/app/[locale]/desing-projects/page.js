@@ -32,7 +32,7 @@ export default function Projects() {
 
     return (
         <>
-            <Preference />
+            <Preference url />
             <ContentProjects line={false} data={projectsDesing}>
                 {(project) => (
                     <TextProject text={getDescription(project.id)} />
