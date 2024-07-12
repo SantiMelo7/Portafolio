@@ -5,7 +5,7 @@ import { DarkTheme, Language, SumTheme } from "../../../svg/IconsSvg";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 
-export default function Preference() {
+export default function Preference({ url }) {
   const [colorTheme, setColorTheme] = useState("");
 
   const [theme, setTheme] = useState(() => {
@@ -40,7 +40,11 @@ export default function Preference() {
 
   const onSelectChange = (ev) => {
     const nextLocale = ev.target.value;
-    router.replace(`/${nextLocale}`);
+    if(url) {
+      router.replace(`/${nextLocale}/desing-projects`);
+    } else {
+      router.replace(`/${nextLocale}` );
+    }
   };
 
   return (

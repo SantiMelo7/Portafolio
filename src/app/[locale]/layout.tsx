@@ -1,5 +1,6 @@
 import { Oswald } from 'next/font/google'
 import './globals.css'
+import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 const inter = Oswald({ subsets: ['cyrillic'], weight: ["200"] })
 
@@ -20,13 +21,18 @@ export default function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+
+  const messages = useMessages()
+
   return (
     <html lang={locale} className="dark">
-      <body className={`${inter.className} dark:bg-[#000] bg-gray-300 `}>
-        <main>
-          {children}
-        </main>
-      </body>
+      <NextIntlClientProvider messages={messages}>
+        <body className={`${inter.className} dark:bg-[#000] bg-gray-300 `}>
+          <main>
+            {children}
+          </main>
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }

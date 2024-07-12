@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <div>
-                <Preference />
+                <Preference url={false} />
             </div>
             <InfoMe />
             <Projects />
