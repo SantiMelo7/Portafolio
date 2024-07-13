@@ -5,17 +5,15 @@ import Image from "next/image";
 export default function ImageHeader() {
   const t = useTranslations("ImageHeader");
   return (
-    <div className="flex lg:flex-row sm:flex-col lg:justify-start lg:mt-28 items-center gap-4 lg:pl-10 sm:mt-4">
+    <div className="container-information-me ">
       <Image
         src={Me}
         className="rounded-xl"
         alt="Santi"
         style={{ width: 100, height: "auto" }}
       />
-      <div className="border-[3px] border-green-900 dark:border-[#C0EE9C] py-1 px-4">
-        <h2 className="text-xl font-extrabold text-green-800 dark:text-white">
-          {t("work")}
-        </h2>
+      <div className="container-aviable-to-work">
+        <h2 className="aviable-to-work">{t("work")}</h2>
       </div>
     </div>
   );

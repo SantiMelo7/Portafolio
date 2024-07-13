@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Title from "../technologies/Title";
 import TitleInitial from "../layout/TitleInitial";
 import ProjectBottom from "./ProjectBottom";
@@ -9,13 +10,18 @@ export default function ContentProjects({ line, data, url, children }) {
   return (
     <>
       {line && <Title title={t("title-projects-line")} />}
-      <section className="max-w-6xl mx-auto dark:shadow-xl">
-        <div className="lg:grid md:grid-cols-2 mx-auto ">
+      <section className="container-projects">
+        <div className="container-content-projects">
           {data.map((project) => (
             <>
-              <img src={project.img} className="img-projects" />
-              <div className="flex flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start mt-1 p-2">
-                <TitleInitial text={project.title} className="text-3xl" />
+              <img
+                key={project.key}
+                src={project.img}
+                className="img-projects"
+                alt={project.title}
+              />
+              <div className="container-text">
+                <TitleInitial text={project.title} className="text-me-medium" />
                 {children(project)}
                 <div className="section-projects">
                   <Toolsproject projectId={project.tools} />

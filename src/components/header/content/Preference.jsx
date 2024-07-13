@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useRouter } from "next/navigation";
@@ -53,29 +54,30 @@ export default function Preference({ url, isRedirect }) {
   };
 
   return (
-    <header className="flex flex-row w-screen justify-between z-[1000] items-center top-0">
+    <header className="container-preference">
       <img
         src="/favicon/android-chrome-192x192.png"
-        className="md:h-[80px] sm:h-[75px]"
+        className="logo-page-main"
+        alt="Logo Page"
       />
-      <div className="flex justify-center">
-        <label htmlFor="language" className="translate-x-12">
+      <div className="container-center">
+        <label htmlFor="language" className="language">
           <Language />
         </label>
         <select
           id="language"
           value={localActive}
-          className="relative -translate-x-4 opacity-0"
+          className="select-new-language"
           onChange={onSelectChange}
         >
           <option value="id">Ingles</option>
           <option value="es">Español</option>
         </select>
-        <button onClick={handleChangeTheme} className="mr-3">
+        <button onClick={handleChangeTheme} className="summary-button">
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
         {isRedirect && (
-          <button className="mr-4 sm:mr-10" onClick={() => router.replace(`/`)}>
+          <button className="redirect-home" onClick={() => router.replace(`/`)}>
             <RedirectHome />
           </button>
         )}

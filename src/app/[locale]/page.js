@@ -8,9 +8,7 @@ import Preference from "../../components/header/content/Preference";
 export default function Home() {
     return (
         <>
-            <div>
-                <Preference url={false} isRedirect={false} />
-            </div>
+            <Preference url={false} isRedirect={false} />
             <InfoMe />
             <Projects />
             <Experience />
