@@ -19,14 +19,15 @@ export default function IconsLink() {
         >
           <Linkedin />
         </Links>
-        {/*<Links
+        <Links
           className="w-56 cv"
-          href={"https://www.google.com/intl/es-419/gmail/about/"}
+          href={"mailto:santiagocano15cr7@gmail.com"}
           text="Contáctame"
         >
           <Gmail />
-        </Links>*/}
-             <div className="flex xl:justify-start xl:-translate-x-0 md:translate-x-5 sm:justify-center">
+        </Links>
+      </div>
+      <div className="flex xl:justify-start xl:-translate-x-0 md:translate-x-5 sm:justify-center">
         <Links
           className="md:w-52 sm:w-56 py-3 px-3 cv"
           href={"https://curriculum-dev.vercel.app/"}
@@ -34,7 +35,6 @@ export default function IconsLink() {
         >
           <Curriculum />
         </Links>
-      </div>
       </div>
     </nav>
   );
