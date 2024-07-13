@@ -64,7 +64,7 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 15,
-        text: <Firebase width={60} />
+        text: <Firebase width={40} />
     },
     {
         id: 16,
@@ -92,7 +92,7 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 21,
-        text: <Vercel width={60} />
+        text: <Vercel width={55} />
     },
     {
         id: 22,

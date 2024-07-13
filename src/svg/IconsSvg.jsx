@@ -12,7 +12,7 @@ import SaasImg from "../../public/svg/saas.svg";
 import GitHubImg from "../../public/svg/GitHub.svg";
 import PostmanImg from "../../public/svg/Postman.svg";
 import MongoImg from "../../public/svg/Mongo.svg";
-import FirebaseImg from "../../public/svg/firebase.png";
+import FirebaseImg from "../../public/svg/firebase.webp";
 import ViteImg from "../../public/svg/Vite.png";
 import AxiosImg from "../../public/svg/axios.ico";
 import JiraImg from "../../public/svg/jira.webp";
