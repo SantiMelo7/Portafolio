@@ -21,7 +21,7 @@ export default function IconsLink() {
         </Links>
         <Links
           className="w-56 cv"
-          href={"https://www.google.com/intl/es-419/gmail/about/"}
+          href={"mailto:santiagocano15cr7@gmail.com"}
           text="Contáctame"
         >
           <Gmail />

@@ -8,7 +8,7 @@ import Preference from "../../components/header/content/Preference";
 export default function Home() {
     return (
         <>
-            <Preference />
+            <Preference url={false} isRedirect={false} />
             <InfoMe />
             <Projects />
             <Experience />

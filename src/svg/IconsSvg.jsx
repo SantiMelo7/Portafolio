@@ -22,8 +22,30 @@ import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
 import AntdDesignimg from "../../public/svg/ant-design.svg";
+import VisualStudioCodeImg from "../../public/svg/vscode.webp";
+import FigmaImg from "../../public/svg/figma.webp";
+import NpmImg from "../../public/svg/npm.svg";
+import UserImg from "../../public/svg/user.png";
 
-export const CssH1 = "font-extrabold dark:text-white text-black";
+export const RedirectHome = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={40}
+      height={40}
+      className=" dark:fill-white fill-black"
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+      />
+    </svg>
+  );
+};
 
 export const Curriculum = () => {
   return (
@@ -100,23 +122,7 @@ export const Gmail = () => {
 };
 
 export const UserMe = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      width={70}
-      height={70}
-      fill="black"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-      />
-    </svg>
-  );
+  return <Image src={UserImg.src} width={80} height={80} alt="User" />;
 };
 
 export const DarkTheme = () => {
@@ -186,7 +192,7 @@ export const HTML = ({ width }) => {
     <>
       <Image src={HtmlImg} width={width} alt="HTML" />
 
-      <h1 className={CssH1}>Html</h1>
+      <h1 className="title-tools">Html</h1>
     </>
   );
 };
@@ -196,7 +202,7 @@ export const CssSvg = ({ width }) => {
     <>
       <Image src={CssImg} width={width} alt="CSS" />
 
-      <h1 className={CssH1}>Css</h1>
+      <h1 className="title-tools">Css</h1>
     </>
   );
 };
@@ -206,7 +212,7 @@ export const Javascript = ({ width }) => {
     <>
       <Image src={JavascriptImg} width={width} alt="Javascript" />
 
-      <h1 className={CssH1}>Javascript</h1>
+      <h1 className="title-tools">Javascript</h1>
     </>
   );
 };
@@ -216,7 +222,7 @@ export const Typescript = ({ width }) => {
     <>
       <Image src={TypescriptImg} width={width} alt="Typescript" />
 
-      <h1 className={CssH1}>Typescript</h1>
+      <h1 className="title-tools">Typescript</h1>
     </>
   );
 };
@@ -225,7 +231,7 @@ export const ReactJs = ({ width }) => {
   return (
     <>
       <Image src={ReactImg} width={width} alt="React Js" />
-      <h1 className={CssH1}>React Js</h1>
+      <h1 className="title-tools">React Js</h1>
     </>
   );
 };
@@ -239,7 +245,7 @@ export const NextJs = ({ width }) => {
         width={width}
         alt="Next Js"
       />
-      <h1 className={CssH1}>Next Js</h1>
+      <h1 className="title-tools">Next Js</h1>
     </>
   );
 };
@@ -248,7 +254,7 @@ export const MongoDB = ({ width }) => {
   return (
     <>
       <Image src={MongoImg} width={width} alt="Mongo DB" />
-      <h1 className={CssH1}>Mongo DB</h1>
+      <h1 className="title-tools">Mongo DB</h1>
     </>
   );
 };
@@ -257,7 +263,7 @@ export const Firebase = ({ width }) => {
   return (
     <>
       <Image src={FirebaseImg} width={width} alt="Firebase" />
-      <h1 className={CssH1}>Firebase</h1>
+      <h1 className="title-tools">Firebase</h1>
     </>
   );
 };
@@ -266,7 +272,7 @@ export const Postman = ({ width }) => {
   return (
     <>
       <Image src={PostmanImg} width={width} alt="Postman" />
-      <h1 className={CssH1}>Postman</h1>
+      <h1 className="title-tools">Postman</h1>
     </>
   );
 };
@@ -280,7 +286,7 @@ export const GitHubSvg = ({ width }) => {
         width={width}
         alt="GitHub"
       />
-      <h1 className={CssH1}>GitHub</h1>
+      <h1 className="title-tools">GitHub</h1>
     </>
   );
 };
@@ -290,7 +296,7 @@ export const Git = ({ width }) => {
     <>
       <Image src={GitImg} width={width} alt="Git" />
 
-      <h1 className={CssH1}>Git</h1>
+      <h1 className="title-tools">Git</h1>
     </>
   );
 };
@@ -300,7 +306,7 @@ export const MaterialUi = ({ width }) => {
     <>
       <Image src={MaterialUiImg} width={width} alt="Material Ui" />
 
-      <h1 className={CssH1}>Material Ui</h1>
+      <h1 className="title-tools">Material Ui</h1>
     </>
   );
 };
@@ -310,7 +316,7 @@ export const Talwind = ({ width }) => {
     <>
       <Image src={TalwindImg} width={width} alt="Tailwind" />
 
-      <h1 className={CssH1}>Talwind</h1>
+      <h1 className="title-tools">Talwind</h1>
     </>
   );
 };
@@ -320,7 +326,7 @@ export const Saas = ({ width }) => {
     <>
       <Image src={SaasImg} width={width} alt="Saas" />
 
-      <h1 className={CssH1}>Saas</h1>
+      <h1 className="title-tools">Saas</h1>
     </>
   );
 };
@@ -330,7 +336,7 @@ export const Axios = ({ width }) => {
     <>
       <Image src={AxiosImg} width={width} alt="Axios" />
 
-      <h1 className={CssH1}>Axios</h1>
+      <h1 className="title-tools">Axios</h1>
     </>
   );
 };
@@ -340,7 +346,7 @@ export const StyledComponents = () => {
     <>
       <Image src={StylesComponentsImg} width={50} alt="Styled-Components" />
 
-      <h1 className={CssH1}>Styled-Components</h1>
+      <h1 className="title-tools">Styled-Components</h1>
     </>
   );
 };
@@ -350,7 +356,7 @@ export const Vite = ({ width }) => {
     <>
       <Image src={ViteImg} width={width} alt="Vite" />
 
-      <h1 className={CssH1}>Vite</h1>
+      <h1 className="title-tools">Vite</h1>
     </>
   );
 };
@@ -360,7 +366,7 @@ export const Jira = ({ width }) => {
     <>
       <Image src={JiraImg} width={width} alt="Jira Software" />
 
-      <h1 className={CssH1}>Jira Software</h1>
+      <h1 className="title-tools">Jira Software</h1>
     </>
   );
 };
@@ -370,7 +376,7 @@ export const Vercel = ({ width }) => {
     <>
       <Image src={VercelImg} width={width} alt="Vercel" />
 
-      <h1 className={CssH1}>Vercel</h1>
+      <h1 className="title-tools">Vercel</h1>
     </>
   );
 };
@@ -380,7 +386,7 @@ export const Netifly = ({ width }) => {
     <>
       <Image src={NetiflyImg} width={width} alt="Netifly" />
 
-      <h1 className={CssH1}>Netifly</h1>
+      <h1 className="title-tools">Netifly</h1>
     </>
   );
 };
@@ -390,7 +396,7 @@ export const ReactRouterDom = ({ width }) => {
     <>
       <Image src={ReactRouterDomImg} width={width} alt="React-Router-Dom" />
 
-      <h1 className={CssH1}>React-Router-Dom</h1>
+      <h1 className="title-tools">React-Router-Dom</h1>
     </>
   );
 };
@@ -399,7 +405,7 @@ export const NextAuth = ({ width }) => {
   return (
     <>
       <Image src={NextAuthImg} width={width} alt="NextAuth" />
-      <h1 className={CssH1}>NextAuth</h1>
+      <h1 className="title-tools">NextAuth</h1>
     </>
   );
 };
@@ -408,7 +414,7 @@ export const AntdDesign = ({ width }) => {
   return (
     <>
       <Image src={AntdDesignimg} width={width} alt="Antd Design" />
-      <h1 className={CssH1}>Antd Design</h1>
+      <h1 className="title-tools">Antd Design</h1>
     </>
   );
 };
@@ -425,5 +431,32 @@ export const LinkProject = () => {
       <path d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z"></path>
       <path d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z"></path>
     </svg>
+  );
+};
+
+export const VsCode = ({ width }) => {
+  return (
+    <>
+      <Image src={VisualStudioCodeImg} width={width} alt="Visual Studio Code" />
+      <h1 className="title-tools">Visual Studio Code</h1>
+    </>
+  );
+};
+
+export const Figma = ({ width }) => {
+  return (
+    <>
+      <Image src={FigmaImg} width={width} alt="Figma" />
+      <h1 className="title-tools">Figma</h1>
+    </>
+  );
+};
+
+export const Npm = ({ width }) => {
+  return (
+    <>
+      <Image src={NpmImg} width={width} alt="NPM" className="mt-2" />
+      <h1 className="title-tools">Npm</h1>
+    </>
   );
 };

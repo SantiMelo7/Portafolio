@@ -99,12 +99,36 @@
         "description-experience-3": "I am showing my work to the world, carrying out mini-projects in a non-professional way, learning new technologies, improving my skills in search of my first job as a web developer, in addition to studying a degree in Systems Engineering."
     },
     "Description-Experience-4": {
-        "description-experience-4": "I am currently an intern at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects"
+        "description-experience-4": "I am currently an intern at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects, developing professionally with Typescript and Material UI components"
     },
     "Language-1": {
         "1": "Spanish"
     },
     "Language-2": {
         "2": "English"
+    },
+    "HOTEL": {
+        "description-1": "Hotel design page with sections for rooms, services and reservations."
+    },
+    "NEWS": {
+        "description-2": "Design page for sports with news, results and teams sections"
+    },
+    "NEXTER": {
+        "description-3": "'Nexter' hotel design page with rooms and reservations sections"
+    },
+    "TRILLO": {
+        "description-4": "'Trillo' hotel design page with sections for photos, services and contact"
+    },
+    "OUTDOORS": {
+        "description-5": "Página de diseño de naturaleza con secciones para actividades al aire libre"
+    },
+    "EDGE-LEADER": {
+        "description-6": "Design page cloned from 'Edge Leader' site with focus on leadership with sections for services, team and contact"
+    },
+    "MyFirstFormDesign": {
+        "description-7": "Design page making my first form"
+    },
+    "LINETIME": {
+        "description-8": "Design page, where I learned to use animations with style and programming logic"
     }
 }

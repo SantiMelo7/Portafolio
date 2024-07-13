@@ -1,11 +1,17 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useRouter } from "next/navigation";
-import { DarkTheme, Language, SumTheme } from "../../../svg/IconsSvg";
+import {
+  DarkTheme,
+  Language,
+  RedirectHome,
+  SumTheme,
+} from "../../../svg/IconsSvg";
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 
-export default function Preference() {
+export default function Preference({ url, isRedirect }) {
   const [colorTheme, setColorTheme] = useState("");
 
   const [theme, setTheme] = useState(() => {
@@ -40,31 +46,41 @@ export default function Preference() {
 
   const onSelectChange = (ev) => {
     const nextLocale = ev.target.value;
-    router.replace(`/${nextLocale}`);
+    if (url) {
+      router.replace(`/${nextLocale}/desing-projects`);
+    } else {
+      router.replace(`/${nextLocale}`);
+    }
   };
 
   return (
-    <header className="flex flex-row w-screen justify-between z-[1000] items-center top-0">
+    <header className="container-preference">
       <img
         src="/favicon/android-chrome-192x192.png"
-        className="md:h-[80px] sm:h-[75px]"
+        className="logo-page-main"
+        alt="Logo Page"
       />
-      <div className="flex justify-center">
-        <label htmlFor="language" className="translate-x-11">
+      <div className="container-center">
+        <label htmlFor="language" className="language">
           <Language />
         </label>
         <select
           id="language"
           value={localActive}
-          className="relative -translate-x-4 opacity-0"
+          className="select-new-language"
           onChange={onSelectChange}
         >
           <option value="id">Ingles</option>
           <option value="es">Español</option>
         </select>
-        <button onClick={handleChangeTheme} className="mr-5">
+        <button onClick={handleChangeTheme} className="summary-button">
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
+        {isRedirect && (
+          <button className="redirect-home" onClick={() => router.replace(`/`)}>
+            <RedirectHome />
+          </button>
+        )}
       </div>
     </header>
   );

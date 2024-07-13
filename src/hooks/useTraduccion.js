@@ -42,6 +42,18 @@ export function useProjects() {
     return { t1, t2, t3, t4, t5, t6, t7 }
 }
 
+export function useProjectsDesing() {
+    const t1 = useTranslations("HOTEL")
+    const t2 = useTranslations("NEWS")
+    const t3 = useTranslations("NEXTER")
+    const t4 = useTranslations("TRILLO")
+    const t5 = useTranslations("OUTDOORS")
+    const t6 = useTranslations("EDGE-LEADER")
+    const t7 = useTranslations("MyFirstFormDesign")
+    const t8 = useTranslations("LINETIME")
+    return { t1, t2, t3, t4, t5, t6, t7, t8 }
+}
+
 export function useExperience() {
     const t = useTranslations("Time-1")
     const t1 = useTranslations("Time-2")
