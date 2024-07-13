@@ -104,11 +104,11 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 24,
-        text: <Npm width={60} />
+        text: <Npm width={70} />
     },
     {
         id: 25,
-        text: <Jira width={60} />
+        text: <Jira width={40} />
     },
     {
         id: 26,
