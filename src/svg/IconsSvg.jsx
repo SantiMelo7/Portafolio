@@ -25,6 +25,7 @@ import AntdDesignimg from "../../public/svg/ant-design.svg";
 import VisualStudioCodeImg from "../../public/svg/vscode.webp";
 import FigmaImg from "../../public/svg/figma.webp";
 import NpmImg from "../../public/svg/npm.svg";
+import NextIntlImg from "../../public/svg/next-intl.webp";
 import UserImg from "../../public/svg/user.png";
 
 export const RedirectHome = () => {
@@ -457,6 +458,15 @@ export const Npm = ({ width }) => {
     <>
       <Image src={NpmImg} width={width} alt="NPM" className="mt-2" />
       <h1 className="title-tools">Npm</h1>
+    </>
+  );
+};
+
+export const NextIntl = ({ width }) => {
+  return (
+    <>
+      <Image src={NextIntlImg} width={width} alt="Next Intl" />
+      <h1 className="title-tools">Next Intl</h1>
     </>
   );
 };
