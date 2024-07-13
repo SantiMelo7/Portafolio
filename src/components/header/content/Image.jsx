@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ImageHeader() {
   const t = useTranslations("ImageHeader");
   return (
-    <div className="container-information-me ">
+    <div className="container-information-me">
       <Image
         src={Me}
         className="rounded-xl"
@@ -18,5 +18,3 @@ export default function ImageHeader() {
     </div>
   );
 }
-
-// {t("work")}
