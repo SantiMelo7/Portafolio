@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { EXPERIENCE } from "../../const/experience";
 import { useExperience, useLineTitle } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
@@ -13,52 +12,52 @@ export default function Experience() {
   return (
     <>
       <Title title={t2("title-experience-line")} />
-      <div className="flex justify-center items-center">
-        <ol className="relative border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200 mt-10">
+      <div className="container-center">
+        <ol className="container-line">
           {EXPERIENCE.map((text) => (
             <div key={text.id}>
-              <li className="mb-10 ms-4">
-                <div className="absolute w-3 h-3 bg-gray-800 dark:bg-purple-500 rounded-full mt-1.5 -start-1.5 border border-white" />
-                <time className="mb-1 text-xl mt-2 font-bold leading-none text-emerald-800 dark:text-emerald-200">
+              <li className="container-content-experience">
+                <div className="circle-for-experience" />
+                <time className="time-experience">
                   {text.id === 1 && t("time-1")}
                   {text.id === 2 && t1("time-2")}
                   {text.id === 3 && t22("time-3")}
                   {text.id === 4 && t23("time-4")}
                 </time>
-                <h3 className="text-xl font-semibold text-emerald-600 dark:text-gray-300">
+                <h3 className="title-experience">
                   {text.id === 1 && t3("title-experience-1")}
                   {text.id === 2 && t4("title-experience-2")}
                 </h3>
-
-                <div className="flex md:flex-row sm:flex-col sm:gap-5 md:gap-10">
-                  {text.id === 4 && t44("title-experience-4")}
+                <div className="container-content-actosoft">
+                  {text.id === 4 && (
+                    <h3 className="title-experience">
+                      {t44("title-experience-4")}
+                    </h3>
+                  )}
                   {text.id === 4 && (
                     <>
                       <LinkProject
                         href="https://actosoft.com.mx/frontend"
-                        className="md:w-[160px] sm:w-[180px] text-xl font-semibold text-emerald-600 dark:text-gray-300 underline"
+                        className="link-actosoft"
                       >
                         <Image
-                          className="md:p-0 sm:p-2"
+                          className="logo-actosoft"
                           src={ActosoftImg.src}
                           width={80}
                           height={80}
                           alt="Logo Actosoft"
                         />
                       </LinkProject>
-                      <LinkProject className="md:w-[160px] sm:w-[180px]">
+                      <LinkProject className="link-typescript">
                         <Typescript width={20} />
                       </LinkProject>
-                      <LinkProject className="md:w-[230px] sm:w-[180px]">
+                      <LinkProject className="link-material-ui ">
                         <MaterialUi width={20} />
                       </LinkProject>
                     </>
                   )}
                 </div>
-                <p
-                  className="mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md
-                  md:max-w-2xl sm:max-w-screen-sm text-gray-950 dark:text-white "
-                >
+                <p className="description-experience">
                   {text.id === 1 && t5("description-experience-1")}
                   {text.id === 2 && t6("description-experience-2")}
                   {text.id === 3 && t7("description-experience-3")}

@@ -10,8 +10,8 @@ export default function SubText() {
     <>
       <div className="container-sub-text">
         <ImageHeader />
-        <div className="flex flex-col xl:ml-8 gap-4 mt-2 sm:p-1">
-          <TitleInitial text={t6("name-autor")} className="text-5xl" />
+        <div className="ontainer-more-info">
+          <TitleInitial text={t6("name-autor")} className="text-me-bigger" />
           <Paragrafh />
           <IconsLink />
         </div>
