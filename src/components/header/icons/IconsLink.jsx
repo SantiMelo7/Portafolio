@@ -29,7 +29,7 @@ export default function IconsLink() {
       </div>
       <div className="flex xl:justify-start xl:-translate-x-0 md:translate-x-5 sm:justify-center">
         <Links
-          className="md:w-52 sm:w-56 py-3 px-3 cv"
+          className="md:w-52 sm:w-56 py-2 px-3 cv"
           href={"https://curriculum-dev.vercel.app/"}
           text="Ver CV"
         >
