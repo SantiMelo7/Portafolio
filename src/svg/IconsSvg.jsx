@@ -317,7 +317,7 @@ export const Talwind = ({ width }) => {
     <>
       <Image src={TalwindImg} width={width} alt="Tailwind" />
 
-      <h1 className="title-tools">Talwind</h1>
+      <h1 className="title-tools">Tailwind</h1>
     </>
   );
 };
