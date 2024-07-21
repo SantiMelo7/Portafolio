@@ -13,7 +13,7 @@ export const PROJECTS = [
             firebase: <Firebase width={20} />,
         },
         visitGit: "https://github.com/ActoSoft/brothers-auto-detail-ui",
-        visitPrev: "https://brothersautodetails--pr20-feature-brad-34-real-1u0e167w.web.app"
+        visitPrev: "https://brothersautodetails.web.app/"
     },
     {
         id: 2,
