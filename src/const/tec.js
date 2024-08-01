@@ -1,6 +1,6 @@
 import {
     AntdDesign,
-    Axios, CssSvg, Figma, Firebase, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB,
+    Axios, CssSvg, Figma, Firebase, FirebaseHosting, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB,
     Netifly, NextAuth, NextIntl, NextJs, Npm, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite,
     VsCode
 } from "../svg/IconsSvg";
@@ -64,7 +64,7 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 15,
-        text: <Firebase width={40} />
+        text: <Firebase width={60} />
     },
     {
         id: 16,
@@ -92,7 +92,7 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 21,
-        text: <Vercel width={55} />
+        text: <Vercel width={60} />
     },
     {
         id: 22,
@@ -100,18 +100,22 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 23,
-        text: <VsCode width={50} />
+        text: <FirebaseHosting width={60} />
     },
     {
         id: 24,
-        text: <Npm width={70} />
+        text: <VsCode width={60} />
     },
     {
         id: 25,
-        text: <Jira width={40} />
+        text: <Npm width={60} />
     },
     {
         id: 26,
-        text: <Figma width={50} />
+        text: <Jira width={60} />
+    },
+    {
+        id: 27,
+        text: <Figma width={60} />
     },
 ]

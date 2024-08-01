@@ -79,7 +79,7 @@ export function Toolsproject({ projectId }) {
         </LinkProject>
       )}
       {projectId.styledComponents && (
-        <LinkProject className="classNameToolsXl">
+        <LinkProject className="classNameToolsLg">
           {projectId.styledComponents}
         </LinkProject>
       )}
@@ -96,6 +96,11 @@ export function Toolsproject({ projectId }) {
       {projectId.firebase && (
         <LinkProject className="classNameToolsNormal">
           {projectId.firebase}
+        </LinkProject>
+      )}
+      {projectId.firebaseHosting && (
+        <LinkProject className="classNameToolsNormal">
+          {projectId.firebaseHosting}
         </LinkProject>
       )}
       {projectId.antdDesign && (

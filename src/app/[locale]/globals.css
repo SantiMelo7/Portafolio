@@ -312,7 +312,7 @@ p.description-experience {
 }
 
 div.container-tools {
-  @apply flex flex-col md:max-w-6xl sm:max-w-sm sm:mt-5 dark:mt-0 mt-2 dark:mb-0 mb-5 mx-auto dark:bg-transparent dark:p-0 p-10 rounded-lg;
+  @apply flex flex-col md:max-w-6xl sm:max-w-sm sm:mt-5 dark:mt-0 mt-2 dark:mb-0 mb-5 mx-auto dark:bg-transparent rounded-lg;
 }
 
 div.container-tools-content {
@@ -368,5 +368,5 @@ img.about-me {
 }
 
 h1.title-tools {
-  @apply font-extrabold dark:text-white text-black;
+  @apply font-extrabold text-center dark:text-white text-black;
 }
