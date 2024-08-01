@@ -98,6 +98,11 @@ export function Toolsproject({ projectId }) {
           {projectId.firebase}
         </LinkProject>
       )}
+      {projectId.firebaseHosting && (
+        <LinkProject className="classNameToolsNormal">
+          {projectId.firebaseHosting}
+        </LinkProject>
+      )}
       {projectId.antdDesign && (
         <LinkProject className="classNameToolsLg">
           {projectId.antdDesign}

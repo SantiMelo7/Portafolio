@@ -1,31 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import HtmlImg from "../../public/svg/Html.svg";
-import CssImg from "../../public/svg/Css.svg";
-import JavascriptImg from "../../public/svg/Javascript.svg";
-import TypescriptImg from "../../public/svg/typescript.svg";
-import ReactImg from "../../public/svg/React.svg";
-import NextImg from "../../public/svg/Next.svg";
-import MaterialUiImg from "../../public/svg/MaterialUi.svg";
-import GitImg from "../../public/svg/Git.svg";
-import TalwindImg from "../../public/svg/Tailwind.png";
-import SaasImg from "../../public/svg/saas.svg";
-import GitHubImg from "../../public/svg/GitHub.svg";
-import PostmanImg from "../../public/svg/Postman.svg";
-import MongoImg from "../../public/svg/Mongo.svg";
-import FirebaseImg from "../../public/svg/firebase.webp";
-import ViteImg from "../../public/svg/Vite.png";
-import AxiosImg from "../../public/svg/axios.ico";
-import JiraImg from "../../public/svg/jira.webp";
-import VercelImg from "../../public/svg/vercel.webp";
-import NetiflyImg from "../../public/svg/netifly.webp";
-import StylesComponentsImg from "../../public/svg/styles-components.png";
 import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
-import AntdDesignimg from "../../public/svg/ant-design.svg";
-import VisualStudioCodeImg from "../../public/svg/vscode.webp";
-import FigmaImg from "../../public/svg/figma.webp";
-import NpmImg from "../../public/svg/npm.svg";
 import NextIntlImg from "../../public/svg/next-intl.webp";
+import FirebaseHostingImg from "../../public/svg/firebaseHosting.webp";
 import UserImg from "../../public/svg/user.png";
 
 export const RedirectHome = () => {
@@ -191,8 +169,7 @@ export const Language = () => {
 export const HTML = ({ width }) => {
   return (
     <>
-      <Image src={HtmlImg} width={width} alt="HTML" />
-
+      <img src="https://skillicons.dev/icons?i=html"  width={width} alt="HTML" />
       <h1 className="title-tools">Html</h1>
     </>
   );
@@ -201,8 +178,7 @@ export const HTML = ({ width }) => {
 export const CssSvg = ({ width }) => {
   return (
     <>
-      <Image src={CssImg} width={width} alt="CSS" />
-
+      <img src="https://skillicons.dev/icons?i=css"  width={width} alt="CSS" />
       <h1 className="title-tools">Css</h1>
     </>
   );
@@ -211,8 +187,7 @@ export const CssSvg = ({ width }) => {
 export const Javascript = ({ width }) => {
   return (
     <>
-      <Image src={JavascriptImg} width={width} alt="Javascript" />
-
+      <img src="https://skillicons.dev/icons?i=javascript" width={width} alt="Javascript" />
       <h1 className="title-tools">Javascript</h1>
     </>
   );
@@ -221,8 +196,7 @@ export const Javascript = ({ width }) => {
 export const Typescript = ({ width }) => {
   return (
     <>
-      <Image src={TypescriptImg} width={width} alt="Typescript" />
-
+      <img src="https://skillicons.dev/icons?i=typescript"  width={width} alt="Typescript" />
       <h1 className="title-tools">Typescript</h1>
     </>
   );
@@ -231,7 +205,7 @@ export const Typescript = ({ width }) => {
 export const ReactJs = ({ width }) => {
   return (
     <>
-      <Image src={ReactImg} width={width} alt="React Js" />
+      <img src="https://skillicons.dev/icons?i=react"  width={width} alt="React Js" />
       <h1 className="title-tools">React Js</h1>
     </>
   );
@@ -240,9 +214,7 @@ export const ReactJs = ({ width }) => {
 export const NextJs = ({ width }) => {
   return (
     <>
-      <Image
-        className="dark:filter-img-next filter-img-next-light"
-        src={NextImg}
+      <img src="https://skillicons.dev/icons?i=next"
         width={width}
         alt="Next Js"
       />
@@ -254,7 +226,7 @@ export const NextJs = ({ width }) => {
 export const MongoDB = ({ width }) => {
   return (
     <>
-      <Image src={MongoImg} width={width} alt="Mongo DB" />
+       <img src="https://skillicons.dev/icons?i=mongo"  width={width} alt="Mongo DB" />
       <h1 className="title-tools">Mongo DB</h1>
     </>
   );
@@ -263,7 +235,7 @@ export const MongoDB = ({ width }) => {
 export const Firebase = ({ width }) => {
   return (
     <>
-      <Image src={FirebaseImg} width={width} alt="Firebase" />
+       <img src="https://skillicons.dev/icons?i=firebase"  width={width} alt="Firebase" />
       <h1 className="title-tools">Firebase</h1>
     </>
   );
@@ -272,7 +244,7 @@ export const Firebase = ({ width }) => {
 export const Postman = ({ width }) => {
   return (
     <>
-      <Image src={PostmanImg} width={width} alt="Postman" />
+       <img src="https://skillicons.dev/icons?i=postman"  width={width} alt="Postman" />
       <h1 className="title-tools">Postman</h1>
     </>
   );
@@ -281,9 +253,7 @@ export const Postman = ({ width }) => {
 export const GitHubSvg = ({ width }) => {
   return (
     <>
-      <Image
-        className="svg-github"
-        src={GitHubImg}
+      <img src="https://skillicons.dev/icons?i=github"
         width={width}
         alt="GitHub"
       />
@@ -295,8 +265,7 @@ export const GitHubSvg = ({ width }) => {
 export const Git = ({ width }) => {
   return (
     <>
-      <Image src={GitImg} width={width} alt="Git" />
-
+      <img src="https://skillicons.dev/icons?i=git"  width={width} alt="Git" />
       <h1 className="title-tools">Git</h1>
     </>
   );
@@ -305,8 +274,7 @@ export const Git = ({ width }) => {
 export const MaterialUi = ({ width }) => {
   return (
     <>
-      <Image src={MaterialUiImg} width={width} alt="Material Ui" />
-
+       <img src="https://skillicons.dev/icons?i=materialui" width={width} alt="Material Ui" />
       <h1 className="title-tools">Material Ui</h1>
     </>
   );
@@ -315,8 +283,7 @@ export const MaterialUi = ({ width }) => {
 export const Talwind = ({ width }) => {
   return (
     <>
-      <Image src={TalwindImg} width={width} alt="Tailwind" />
-
+      <img src="https://skillicons.dev/icons?i=tailwind"  width={width} alt="Tailwind" />
       <h1 className="title-tools">Tailwind</h1>
     </>
   );
@@ -325,8 +292,7 @@ export const Talwind = ({ width }) => {
 export const Saas = ({ width }) => {
   return (
     <>
-      <Image src={SaasImg} width={width} alt="Saas" />
-
+      <img src="https://skillicons.dev/icons?i=sass"  width={width} alt="Saas" />
       <h1 className="title-tools">Saas</h1>
     </>
   );
@@ -335,18 +301,16 @@ export const Saas = ({ width }) => {
 export const Axios = ({ width }) => {
   return (
     <>
-      <Image src={AxiosImg} width={width} alt="Axios" />
-
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" width={width} alt="Axios" />
       <h1 className="title-tools">Axios</h1>
     </>
   );
 };
 
-export const StyledComponents = () => {
+export const StyledComponents = ({ width }) => {
   return (
     <>
-      <Image src={StylesComponentsImg} width={50} alt="Styled-Components" />
-
+      <img src="https://skillicons.dev/icons?i=styledcomponents"  width={width} alt="Styled-Components" />
       <h1 className="title-tools">Styled-Components</h1>
     </>
   );
@@ -355,8 +319,7 @@ export const StyledComponents = () => {
 export const Vite = ({ width }) => {
   return (
     <>
-      <Image src={ViteImg} width={width} alt="Vite" />
-
+      <img src="https://skillicons.dev/icons?i=vite"  width={width} alt="Vite" />
       <h1 className="title-tools">Vite</h1>
     </>
   );
@@ -365,8 +328,7 @@ export const Vite = ({ width }) => {
 export const Jira = ({ width }) => {
   return (
     <>
-      <Image src={JiraImg} width={width} alt="Jira Software" />
-
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width={width} alt="Jira Software" />
       <h1 className="title-tools">Jira Software</h1>
     </>
   );
@@ -375,8 +337,7 @@ export const Jira = ({ width }) => {
 export const Vercel = ({ width }) => {
   return (
     <>
-      <Image src={VercelImg} width={width} alt="Vercel" />
-
+      <img src="https://skillicons.dev/icons?i=vercel"  width={width} alt="Vercel" />
       <h1 className="title-tools">Vercel</h1>
     </>
   );
@@ -385,8 +346,7 @@ export const Vercel = ({ width }) => {
 export const Netifly = ({ width }) => {
   return (
     <>
-      <Image src={NetiflyImg} width={width} alt="Netifly" />
-
+      <img src="https://skillicons.dev/icons?i=netlify"  width={width} alt="Netifly" />
       <h1 className="title-tools">Netifly</h1>
     </>
   );
@@ -395,8 +355,7 @@ export const Netifly = ({ width }) => {
 export const ReactRouterDom = ({ width }) => {
   return (
     <>
-      <Image src={ReactRouterDomImg} width={width} alt="React-Router-Dom" />
-
+      <Image className="dark:hidden flex" src={ReactRouterDomImg} width={width} alt="React-Router-Dom" />
       <h1 className="title-tools">React-Router-Dom</h1>
     </>
   );
@@ -414,7 +373,7 @@ export const NextAuth = ({ width }) => {
 export const AntdDesign = ({ width }) => {
   return (
     <>
-      <Image src={AntdDesignimg} width={width} alt="Antd Design" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg" width={width} alt="Antd Design" />
       <h1 className="title-tools">Antd Design</h1>
     </>
   );
@@ -438,7 +397,7 @@ export const LinkProject = () => {
 export const VsCode = ({ width }) => {
   return (
     <>
-      <Image src={VisualStudioCodeImg} width={width} alt="Visual Studio Code" />
+      <img src="https://skillicons.dev/icons?i=vscode"  width={width} alt="Visual Studio Code" />
       <h1 className="title-tools">Visual Studio Code</h1>
     </>
   );
@@ -447,7 +406,7 @@ export const VsCode = ({ width }) => {
 export const Figma = ({ width }) => {
   return (
     <>
-      <Image src={FigmaImg} width={width} alt="Figma" />
+      <img src="https://skillicons.dev/icons?i=figma"  width={width} alt="Figma" />
       <h1 className="title-tools">Figma</h1>
     </>
   );
@@ -456,7 +415,7 @@ export const Figma = ({ width }) => {
 export const Npm = ({ width }) => {
   return (
     <>
-      <Image src={NpmImg} width={width} alt="NPM" className="mt-2" />
+      <img src="https://skillicons.dev/icons?i=npm"  width={width} alt="NPM" />
       <h1 className="title-tools">Npm</h1>
     </>
   );
@@ -467,6 +426,15 @@ export const NextIntl = ({ width }) => {
     <>
       <Image src={NextIntlImg} width={width} alt="Next Intl" />
       <h1 className="title-tools">Next Intl</h1>
+    </>
+  );
+};
+
+export const FirebaseHosting = ({ width }) => {
+  return (
+    <>
+      <Image src={FirebaseHostingImg} width={width} alt="FirebaseHosting" />
+      <h1 className="title-tools">Hosting</h1>
     </>
   );
 };

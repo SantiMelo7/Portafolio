@@ -10,7 +10,7 @@ export default function IconsLink() {
           href={"https://github.com/SantiMelo7"}
           text="GitHub"
         >
-          <GitHub fill="rgb(0 255 240)" />
+          <GitHub  />
         </Links>
         <Links
           className="w-56 cv"

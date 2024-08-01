@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -11,6 +11,8 @@ export const PROJECTS = [
             antdDesign: <AntdDesign width={20} />,
             tailwind: <Talwind width={20} />,
             firebase: <Firebase width={20} />,
+            axios: <Axios width={20} />,
+            firebaseHosting: <FirebaseHosting width={20} />,
         },
         visitGit: "https://github.com/ActoSoft/brothers-auto-detail-ui",
         visitPrev: "https://brothersautodetails.web.app/"
@@ -24,7 +26,7 @@ export const PROJECTS = [
             react: <ReactJs width={20} />,
             axios: <Axios width={20} />,
             vercel: <Vercel width={20} />,
-            styledComponents: <StyledComponents width={10} />
+            styledComponents: <StyledComponents width={25} />
         },
         visitGit: "https://github.com/ActoSoft/entrepreneur-platform-ui",
         visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
