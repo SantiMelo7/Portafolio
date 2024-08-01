@@ -79,7 +79,7 @@ export function Toolsproject({ projectId }) {
         </LinkProject>
       )}
       {projectId.styledComponents && (
-        <LinkProject className="classNameToolsXl">
+        <LinkProject className="classNameToolsLg">
           {projectId.styledComponents}
         </LinkProject>
       )}

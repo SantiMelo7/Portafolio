@@ -368,5 +368,5 @@ img.about-me {
 }
 
 h1.title-tools {
-  @apply font-extrabold dark:text-white text-black;
+  @apply font-extrabold text-center dark:text-white text-black;
 }

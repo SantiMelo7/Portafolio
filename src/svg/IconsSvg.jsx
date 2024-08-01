@@ -48,12 +48,12 @@ export const Curriculum = () => {
   );
 };
 
-export const GitHub = ({ fill }) => {
+export const GitHub = () => {
   return (
     <svg
       width="29"
       height="50"
-      fill={fill}
+      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 250"
@@ -310,7 +310,7 @@ export const Axios = ({ width }) => {
 export const StyledComponents = ({ width }) => {
   return (
     <>
-      <img src="https://skillicons.dev/icons?i=styledcomponents"  width={width} alt="Styled-Components" />
+      <img src="https://skillicons.dev/icons?i=styledcomponents" width={width} alt="Styled-Components" />
       <h1 className="title-tools">Styled-Components</h1>
     </>
   );
@@ -415,7 +415,7 @@ export const Figma = ({ width }) => {
 export const Npm = ({ width }) => {
   return (
     <>
-      <img src="https://skillicons.dev/icons?i=npm"  width={width} alt="NPM" />
+      <img src="https://skillicons.dev/icons?i=npm" width={width} alt="NPM" />
       <h1 className="title-tools">Npm</h1>
     </>
   );
