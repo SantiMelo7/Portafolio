@@ -301,7 +301,9 @@ export const Saas = ({ width }) => {
 export const Axios = ({ width }) => {
   return (
     <>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" width={width} alt="Axios" />
+      <div style={{ background: "white", borderRadius: 10, paddingTop: 2}}>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" width={width} alt="Axios" />
+      </div>
       <h1 className="title-tools">Axios</h1>
     </>
   );

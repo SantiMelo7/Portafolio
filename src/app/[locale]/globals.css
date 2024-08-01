@@ -48,9 +48,7 @@ section img.banner {
 }
 
 .divLine {
-  flex: 1 1 0%;
-  @apply h-[3px] shadow-2xl shadow-gray-500 bg-black dark:bg-white relative
-  top-1 lg:max-w-7xl;
+  @apply h-[3px] shadow-2xl shadow-gray-500 bg-black dark:bg-white mt-2 sm:w-[60%] md:w-[80%];
 }
 
 .section-projects {
