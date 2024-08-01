@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, MongoDB, Netifly, NextAuth, NextJs, Postman, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, NextJs, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -33,22 +33,6 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        title: "Ecommerce Tec",
-        img: "/content/ecommerce.webp",
-        tools: {
-            next: <NextJs width={20} />,
-            react: <ReactJs width={20} />,
-            tailwind: <Talwind width={20} />,
-            mongo: <MongoDB width={20} />,
-            postman: <Postman width={20} />,
-            auth: <NextAuth width={20} />,
-            netifly: <Netifly width={20} />,
-        },
-        visitGit: "https://github.com/SantiMelo7/Ecommerce",
-        visitPrev: "https://ecommerce-tec.netlify.app/"
-    },
-    {
-        id: 4,
         title: "Tesla Clon | Home",
         img: "/content/tesla.webp",
         tools: {
@@ -62,7 +46,7 @@ export const PROJECTS = [
         visitPrev: "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
-        id: 5,
+        id: 4,
         title: "Formula Calculator",
         img: "/content/formula-calculator.webp",
         tools: {
@@ -76,7 +60,7 @@ export const PROJECTS = [
         visitPrev: "https://calculator-formula-math.vercel.app/"
     },
     {
-        id: 6,
+        id: 5,
         title: "Design projects",
         img: "/content/projects-desing.webp",
         tools: {
@@ -88,7 +72,7 @@ export const PROJECTS = [
 
     },
     {
-        id: 7,
+        id: 6,
         title: "To Do List",
         img: "/content/todo-app.webp",
         tools: {
@@ -195,20 +179,3 @@ export const projectsDesing = [
         visitPrev: "https://line-time-301c20.netlify.app/"
     },
 ]
-
-/*{
-id: 3,
-title: "MarketPlace-Clone",
-img: "/content/ecommerce.webp",
-tools: {
-    next: <NextJs width={20} />,
-    react: <ReactJs width={20} />,
-    typescript: <Typescript width={20} />,
-    tailwind: <Talwind width={20} />,
-    mongo: <MongoDB width={20} />,
-    nextAuth: <NextAuth width={20} />,
-    vercel: <Vercel width={20} />,
-},
-visitGit: "https://github.com/SantiMelo7/MarketPlace-Clone",
-visitPrev: "https://market-clone.vercel.app/"
-}*/
