@@ -29,7 +29,7 @@ export default function ContentProjects({ line, data, url, children }) {
                 <div className="section-buttons">
                   <ProjectBottom
                     hrefGitHub={project.visitGit}
-                    hrefLink={project.id === 6 ? url : project.visitPrev}
+                    hrefLink={project.id === 4 ? url : project.visitPrev}
                   />
                 </div>
               </div>

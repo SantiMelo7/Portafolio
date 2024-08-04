@@ -19,20 +19,6 @@ export const PROJECTS = [
     },
     {
         id: 2,
-        title: "Entrepeneur Platform",
-        img: "/content/entrepeneur-platform.webp",
-        tools: {
-            next: <NextJs width={20} />,
-            react: <ReactJs width={20} />,
-            axios: <Axios width={20} />,
-            vercel: <Vercel width={20} />,
-            styledComponents: <StyledComponents width={25} />
-        },
-        visitGit: "https://github.com/ActoSoft/entrepreneur-platform-ui",
-        visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
-    },
-    {
-        id: 3,
         title: "Tesla Clon | Home",
         img: "/content/tesla.webp",
         tools: {
@@ -46,7 +32,7 @@ export const PROJECTS = [
         visitPrev: "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
-        id: 4,
+        id: 3,
         title: "Formula Calculator",
         img: "/content/formula-calculator.webp",
         tools: {
@@ -60,7 +46,7 @@ export const PROJECTS = [
         visitPrev: "https://calculator-formula-math.vercel.app/"
     },
     {
-        id: 5,
+        id: 4,
         title: "Design projects",
         img: "/content/projects-desing.webp",
         tools: {
@@ -72,7 +58,7 @@ export const PROJECTS = [
 
     },
     {
-        id: 6,
+        id: 5,
         title: "To Do List",
         img: "/content/todo-app.webp",
         tools: {
@@ -179,3 +165,20 @@ export const projectsDesing = [
         visitPrev: "https://line-time-301c20.netlify.app/"
     },
 ]
+
+/*
+    {
+        id: ,
+        title: "Entrepeneur Platform",
+        img: "/content/entrepeneur-platform.webp",
+        tools: {
+            next: <NextJs width={20} />,
+            react: <ReactJs width={20} />,
+            axios: <Axios width={20} />,
+            vercel: <Vercel width={20} />,
+            styledComponents: <StyledComponents width={25} />
+        },
+        visitGit: "https://github.com/ActoSoft/entrepreneur-platform-ui",
+        visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
+    },
+ */
