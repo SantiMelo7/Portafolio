@@ -131,7 +131,7 @@ div.containers-link {
 }
 
 header.container-preference {
-  @apply flex flex-row w-screen justify-between z-[1000] items-center top-0;
+  @apply flex flex-row w-full justify-between z-[1000] items-center top-0 p-2;
 }
 
 img.logo-page-main {
@@ -139,7 +139,7 @@ img.logo-page-main {
 }
 
 div.container-center {
-  @apply flex justify-center items-center;
+  @apply flex  justify-center items-center;
 }
 
 label.language {
@@ -215,7 +215,7 @@ div.container-text {
 }
 
 div.container-presentation {
-  @apply flex md:justify-center sm:justify-start items-center gap-x-4 mt-10;
+  @apply flex  justify-center items-center gap-x-6 mt-8;
 }
 
 h1.title-presentation {
