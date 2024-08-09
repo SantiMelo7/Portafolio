@@ -20,23 +20,26 @@
     "DaysNew": {
         "challenges": "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things"
     },
+    "Crisel": {
+        "description-1": "Application for a hamburger business that was looking to digitize its management system. As the frontend team leader, I was responsible for leading the architecture and development of the user interface. I worked with developers who are starting out and had advice and sessions to help them in this project."
+    },
     "Brothers": {
-        "description-1": "Application for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
+        "description-2": "Application for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
     },
     "BugBookClone": {
-        "description-2": "In this project I learn everything related to Prisma - Postgress. Within it, I highlight my learnings obtained in general and add to the code of the original video, a little of my ideas when programming, creating components, interfaces, etc. The original idea, the profile and the video are in the repository."
+        "description-3": "In this project I learn everything related to Prisma - Postgress. Within it, I highlight my learnings obtained in general and add to the code of the original video, a little of my ideas when programming, creating components, interfaces, etc. The original idea, the profile and the video are in the repository."
     },
     "Tesla": {
-        "description-3": "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
+        "description-4": "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
     },
     "Formula": {
-        "description-4": "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
+        "description-5": "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
     },
     "DesignProjects": {
-        "description-5": "Page where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."
+        "description-6": "Page where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."
     },
     "TodoApp": {
-        "description-6": "App created with HTML, CSS, and JavaScript. This was my first app."
+        "description-7": "App created with HTML, CSS, and JavaScript. This was my first app."
     },
     "Title-About-Me": {
         "title": "About Me..."

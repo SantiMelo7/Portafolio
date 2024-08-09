@@ -3,6 +3,22 @@ import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript,
 export const PROJECTS = [
     {
         id: 1,
+        title: "Crisel Admin App",
+        img: "/content/criseladmin.webp",
+        tools: {
+            next: <NextJs width={20} />,
+            react: <ReactJs width={20} />,
+            antdDesign: <AntdDesign width={20} />,
+            firebase: <Firebase width={20} />,
+            styledComponents: <StyledComponents width={20} />,
+            axios: <Axios width={20} />,
+            firebaseHosting: <FirebaseHosting width={20} />,
+        },
+        visitGit: "https://github.com/ActoSoft/crisel-frontend-erp",
+        visitPrev: "https://crisel-dev.web.app/"
+    },
+    {
+        id: 2,
         title: "Brothers Auto Details",
         img: "/content/brothersAutoDetail.webp",
         tools: {
@@ -18,7 +34,7 @@ export const PROJECTS = [
         visitPrev: "https://brothersautodetails.web.app/"
     },
     {
-        id: 2,
+        id: 3,
         title: "BugBook Clone",
         img: "/content/bugbookClone.webp",
         tools: {
@@ -32,7 +48,7 @@ export const PROJECTS = [
         visitPrev: "https://socia-media-clon-git-develop-santicms-projects.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Tesla Clon | Home",
         img: "/content/tesla.webp",
         tools: {
@@ -46,7 +62,7 @@ export const PROJECTS = [
         visitPrev: "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
-        id: 4,
+        id: 5,
         title: "Formula Calculator",
         img: "/content/formula-calculator.webp",
         tools: {
@@ -60,7 +76,7 @@ export const PROJECTS = [
         visitPrev: "https://calculator-formula-math.vercel.app/"
     },
     {
-        id: 5,
+        id: 6,
         title: "Design Projects",
         img: "/content/projects-desing.webp",
         tools: {
@@ -72,7 +88,7 @@ export const PROJECTS = [
 
     },
     {
-        id: 6,
+        id: 7,
         title: "To Do List",
         img: "/content/todo-app.webp",
         tools: {
