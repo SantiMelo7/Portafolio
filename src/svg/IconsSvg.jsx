@@ -5,6 +5,7 @@ import NextAuthImg from "../../public/svg/nextAuth.webp";
 import NextIntlImg from "../../public/svg/next-intl.webp";
 import FirebaseHostingImg from "../../public/svg/firebaseHosting.webp";
 import UserImg from "../../public/svg/user.png";
+import { ChevronsLeftRightEllipsis } from "lucide-react";
 
 export const RedirectHome = () => {
   return (
@@ -437,6 +438,15 @@ export const FirebaseHosting = ({ width }) => {
     <>
       <Image src={FirebaseHostingImg} width={width} alt="FirebaseHosting" />
       <h1 className="title-tools">Hosting</h1>
+    </>
+  );
+};
+
+export const Prisma = ({ width }) => {
+  return (
+    <>
+      <img src="https://skillicons.dev/icons?i=prisma" width={width} alt="Prisma" />
+      <h1 className="title-tools">Prisma</h1>
     </>
   );
 };

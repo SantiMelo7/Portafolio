@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, NextJs, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, NextJs, Prisma, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -19,6 +19,20 @@ export const PROJECTS = [
     },
     {
         id: 2,
+        title: "BugBook Clone",
+        img: "/content/bugbookClone.webp",
+        tools: {
+            next: <NextJs width={20} />,
+            react: <ReactJs width={20} />,
+            typescript: <Typescript width={20} />,
+            tailwind: <Talwind width={20} />,
+            prisma: <Prisma width={20} />,
+        },
+        visitGit: "https://github.com/SantiMelo7/social-media-clon",
+        visitPrev: "https://socia-media-clon-git-develop-santicms-projects.vercel.app/",
+    },
+    {
+        id: 3,
         title: "Tesla Clon | Home",
         img: "/content/tesla.webp",
         tools: {
@@ -32,7 +46,7 @@ export const PROJECTS = [
         visitPrev: "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
-        id: 3,
+        id: 4,
         title: "Formula Calculator",
         img: "/content/formula-calculator.webp",
         tools: {
@@ -46,8 +60,8 @@ export const PROJECTS = [
         visitPrev: "https://calculator-formula-math.vercel.app/"
     },
     {
-        id: 4,
-        title: "Design projects",
+        id: 5,
+        title: "Design Projects",
         img: "/content/projects-desing.webp",
         tools: {
             html: <HTML width={20} />,
@@ -58,7 +72,7 @@ export const PROJECTS = [
 
     },
     {
-        id: 5,
+        id: 6,
         title: "To Do List",
         img: "/content/todo-app.webp",
         tools: {
