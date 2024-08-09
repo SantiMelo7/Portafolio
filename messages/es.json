@@ -23,23 +23,20 @@
     "Brothers": {
         "description-1": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
-    "Entrepeneur": {
-        "description-2": "Aplicación para emprendimiento, donde podrás mostrarle al mundo el potencial de tu invento y conseguir que la gente se interese en él creado con Next.Js, React y otros"
-    },
-    "Ecommerce": {
-        "description-3": "Aplicación de ecommerce para poder comprar artículos de tecnología, primer sitio web que hice. Creado con Next.JS, React, Tailwind y administrando la base de datos MongoDB."
+    "BugBookClone": {
+        "description-2": "En este proyecto aprendo todo lo relacionado con Prisma - Postgress. Dentro del mismo, destaco mis aprendizajes obtenidos en general y agrego al código del video original, un poco de mis ideas a la hora de programar, crear componentes, interfaces etc. La idea original, el perfil y el vídeo estan en el respositorio."
     },
     "Tesla": {
-        "description-4": "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
+        "description-3": "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
     },
     "Formula": {
-        "description-5": "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
+        "description-4": "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
     },
     "DesignProjects": {
-        "description-6": "Página donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
+        "description-5": "Página donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
     },
     "TodoApp": {
-        "description-7": "Aplicación creada con HTML, CSS y JavaScript. Esta fue mi primera app."
+        "description-6": "Aplicación creada con HTML, CSS y JavaScript. Esta fue mi primera app."
     },
     "Title-About-Me": {
         "title": "Acerca de mi..."

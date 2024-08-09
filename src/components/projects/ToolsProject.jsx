@@ -68,6 +68,11 @@ export function Toolsproject({ projectId }) {
           {projectId.netifly}
         </LinkProject>
       )}
+       {projectId.prisma && (
+        <LinkProject className="classNameToolsNormal">
+          {projectId.prisma}
+        </LinkProject>
+      )}
       {projectId.mongo && (
         <LinkProject className="classNameToolsBigger">
           {projectId.mongo}

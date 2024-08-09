@@ -1,4 +1,4 @@
-import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, NextJs, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Vercel, Vite } from "../svg/IconsSvg";
+import { AntdDesign, Axios, CssSvg, Firebase, FirebaseHosting, HTML, Javascript, MaterialUi, NextJs, Prisma, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite } from "../svg/IconsSvg";
 
 export const PROJECTS = [
     {
@@ -19,17 +19,17 @@ export const PROJECTS = [
     },
     {
         id: 2,
-        title: "Entrepeneur Platform",
-        img: "/content/entrepeneur-platform.webp",
+        title: "BugBook Clone",
+        img: "/content/bugbookClone.webp",
         tools: {
             next: <NextJs width={20} />,
             react: <ReactJs width={20} />,
-            axios: <Axios width={20} />,
-            vercel: <Vercel width={20} />,
-            styledComponents: <StyledComponents width={25} />
+            typescript: <Typescript width={20} />,
+            tailwind: <Talwind width={20} />,
+            prisma: <Prisma width={20} />,
         },
-        visitGit: "https://github.com/ActoSoft/entrepreneur-platform-ui",
-        visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
+        visitGit: "https://github.com/SantiMelo7/social-media-clon",
+        visitPrev: "https://socia-media-clon-git-develop-santicms-projects.vercel.app/",
     },
     {
         id: 3,
@@ -61,7 +61,7 @@ export const PROJECTS = [
     },
     {
         id: 5,
-        title: "Design projects",
+        title: "Design Projects",
         img: "/content/projects-desing.webp",
         tools: {
             html: <HTML width={20} />,
@@ -179,3 +179,20 @@ export const projectsDesing = [
         visitPrev: "https://line-time-301c20.netlify.app/"
     },
 ]
+
+/*
+    {
+        id: ,
+        title: "Entrepeneur Platform",
+        img: "/content/entrepeneur-platform.webp",
+        tools: {
+            next: <NextJs width={20} />,
+            react: <ReactJs width={20} />,
+            axios: <Axios width={20} />,
+            vercel: <Vercel width={20} />,
+            styledComponents: <StyledComponents width={25} />
+        },
+        visitGit: "https://github.com/ActoSoft/entrepreneur-platform-ui",
+        visitPrev: "https://entrepreneur-platform-mngulbl12-santicms-projects.vercel.app/"
+    },
+ */
