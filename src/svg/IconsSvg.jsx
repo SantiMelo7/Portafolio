@@ -314,7 +314,7 @@ export const StyledComponents = ({ width }) => {
   return (
     <>
       <img src="https://skillicons.dev/icons?i=styledcomponents" width={width} alt="Styled-Components" />
-      <h1 className="title-tools">Styled-Components</h1>
+      <h1 className="title-tools">Styled</h1>
     </>
   );
 };

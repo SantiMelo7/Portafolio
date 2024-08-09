@@ -83,11 +83,6 @@ export function Toolsproject({ projectId }) {
           {projectId.materialUi}
         </LinkProject>
       )}
-      {projectId.styledComponents && (
-        <LinkProject className="classNameToolsLg">
-          {projectId.styledComponents}
-        </LinkProject>
-      )}
       {projectId.reactRouterDom && (
         <LinkProject className="classNameToolsLg">
           {projectId.reactRouterDom}
@@ -106,6 +101,11 @@ export function Toolsproject({ projectId }) {
       {projectId.firebaseHosting && (
         <LinkProject className="classNameToolsNormal">
           {projectId.firebaseHosting}
+        </LinkProject>
+      )}
+      {projectId.styledComponents && (
+        <LinkProject className="classNameToolsNormal">
+          {projectId.styledComponents}
         </LinkProject>
       )}
       {projectId.antdDesign && (
