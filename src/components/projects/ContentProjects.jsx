@@ -13,27 +13,25 @@ export default function ContentProjects({ line, data, url, children }) {
       <section className="container-projects">
         <div className="container-content-projects">
           {data.map((project) => (
-            <>
+            <div className="container-text">
               <img
                 key={project.key}
                 src={project.img}
                 className="img-projects"
                 alt={project.title}
               />
-              <div className="container-text">
-                <TitleInitial text={project.title} className="text-me-medium" />
-                {children(project)}
-                <div className="section-projects">
-                  <Toolsproject projectId={project.tools} />
-                </div>
-                <div className="section-buttons">
-                  <ProjectBottom
-                    hrefGitHub={project.visitGit}
-                    hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
-                  />
-                </div>
+              <TitleInitial text={project.title} className="text-me-medium" />
+              {children(project)}
+              <div className="section-projects">
+                <Toolsproject tools={project.tools} />
               </div>
-            </>
+              <div className="section-buttons">
+                <ProjectBottom
+                  hrefGitHub={project.visitGit}
+                  hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
+                />
+              </div>
+            </div>
           ))}
         </div>
       </section>

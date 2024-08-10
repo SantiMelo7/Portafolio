@@ -10,7 +10,7 @@ export default function InfoMe() {
       <div className="container-img-me">
         <img
           src="./content/audifonos.webp"
-          className="banner img-headphones"
+          className="banner"
           alt="Representation Me"
         />
       </div>

@@ -6,30 +6,28 @@ export default function IconsLink() {
     <nav className="icons-link-perfil">
       <div className="containers-link">
         <Links
-          className="w-56 cv"
+          className="max-w-full cv"
           href={"https://github.com/SantiMelo7"}
           text="GitHub"
         >
           <GitHub  />
         </Links>
         <Links
-          className="w-56 cv"
+          className="max-w-full cv"
           href={"https://www.linkedin.com/in/santiago-melo-7b25732a5/"}
           text="Linkedin"
         >
           <Linkedin />
         </Links>
         <Links
-          className="w-56 cv"
+          className="max-w-full cv"
           href={"mailto:santiagocano15cr7@gmail.com"}
           text="Contáctame"
         >
           <Gmail />
         </Links>
-      </div>
-      <div className="flex xl:justify-start xl:-translate-x-0 md:translate-x-5 sm:justify-center">
         <Links
-          className="md:w-52 sm:w-56 py-2 px-3 cv"
+          className="max-w-full cv"
           href={"https://curriculum-dev.vercel.app/"}
           text="Ver CV"
         >
