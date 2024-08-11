@@ -8,35 +8,33 @@ import { useLineTitle } from "../../hooks/useTraduccion";
 export default function ContentProjects({ line, data, url, children }) {
   const { t } = useLineTitle();
   return (
-    <>
+    <div className="mt-20">
       {line && <Title title={t("title-projects-line")} />}
       <section className="container-projects">
         <div className="container-content-projects">
           {data.map((project) => (
-            <>
+            <div key={project.id} className="container-text">
               <img
                 key={project.key}
                 src={project.img}
                 className="img-projects"
                 alt={project.title}
               />
-              <div className="container-text">
-                <TitleInitial text={project.title} className="text-me-medium" />
-                {children(project)}
-                <div className="section-projects">
-                  <Toolsproject projectId={project.tools} />
-                </div>
-                <div className="section-buttons">
-                  <ProjectBottom
-                    hrefGitHub={project.visitGit}
-                    hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
-                  />
-                </div>
+              <TitleInitial text={project.title} className="text-me-medium" />
+              {children(project)}
+              <div className="section-projects">
+                <Toolsproject tools={project.tools} />
               </div>
-            </>
+              <div className="section-buttons max-h-full">
+                <ProjectBottom
+                  hrefGitHub={project.visitGit}
+                  hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
+                />
+              </div>
+            </div>
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }

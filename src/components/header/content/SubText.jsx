@@ -10,7 +10,7 @@ export default function SubText() {
     <>
       <div className="container-sub-text">
         <ImageHeader />
-        <div className="ontainer-more-info">
+        <div>
           <TitleInitial text={t6("name-autor")} className="text-me-bigger" />
           <Paragrafh />
           <IconsLink />

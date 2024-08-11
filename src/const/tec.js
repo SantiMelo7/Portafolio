@@ -1,125 +1,152 @@
-import {
-    AntdDesign,
-    Axios, CssSvg, Figma, Firebase, FirebaseHosting, Git, GitHubSvg, HTML, Javascript, Jira, MaterialUi, MongoDB,
-    Netifly, NextAuth, NextIntl, NextJs, Npm, Postman, Prisma, ReactJs, ReactRouterDom, Saas, StyledComponents, Talwind, Typescript, Vercel, Vite,
-    VsCode
-} from "../svg/IconsSvg";
+import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
+import NextAuthImg from "../../public/svg/nextAuth.webp";
+import NextIntlImg from "../../public/svg/next-intl.webp";
+import FirebaseHostingImg from "../../public/svg/firebaseHosting.webp";
 
 export const TECHNOLOGHIES = [
     {
         id: 1,
-        text: <HTML width={60} />
+        url: "https://skillicons.dev/icons?i=html",
+        text: "Html",
     },
     {
         id: 2,
-        text: <CssSvg width={60} />
+        url: "https://skillicons.dev/icons?i=css",
+        text: "Css",
     },
     {
         id: 3,
-        text: <Javascript width={60} />
+        url: "https://skillicons.dev/icons?i=javascript",
+        text: "Javascript",
     },
     {
         id: 4,
-        text: <ReactJs width={60} />
+        url: "https://skillicons.dev/icons?i=react",
+        text: "React",
     },
     {
         id: 5,
-        text: <Typescript width={60} />
+        url: "https://skillicons.dev/icons?i=typescript",
+        text: "Typescript",
     },
     {
         id: 6,
-        text: <NextJs width={60} />
+        url: "https://skillicons.dev/icons?i=next",
+        text: "Next",
     },
     {
         id: 7,
-        text: <AntdDesign width={60} />
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg",
+        text: "Antd",
     },
     {
         id: 8,
-        text: <MaterialUi width={60} />
+        url: "https://skillicons.dev/icons?i=materialui",
+        text: "Material Ui",
     },
     {
         id: 9,
-        text: <Talwind width={60} />
+        url: "https://skillicons.dev/icons?i=tailwind",
+        text: "Tailwind",
     },
     {
         id: 10,
-        text: <Saas width={60} />
+        url: "https://skillicons.dev/icons?i=sass",
+        text: "Sass",
     },
     {
         id: 11,
-        text: <StyledComponents width={60} />
+        url: "https://skillicons.dev/icons?i=styledcomponents",
+        text: "Styled-Components",
     },
     {
         id: 12,
-        text: <Git width={60} />
+        url: "https://skillicons.dev/icons?i=git",
+        text: "Git",
     },
     {
         id: 13,
-        text: <GitHubSvg width={60} />
+        url: "https://skillicons.dev/icons?i=github",
+        text: "Github",
     },
     {
         id: 14,
-        text: <Firebase width={60} />
+        url: "https://skillicons.dev/icons?i=firebase",
+        text: "Firebase",
     },
     {
         id: 15,
-        text: <Prisma width={60} />
+        url: "https://skillicons.dev/icons?i=prisma",
+        text: "Prisma",
     },
     {
         id: 16,
-        text: <MongoDB width={60} />
+        url: "https://skillicons.dev/icons?i=mongo",
+        text: "Mongo DB",
     },
     {
         id: 16,
-        text: <Postman width={60} />
+        url: "https://skillicons.dev/icons?i=postman",
+        text: "Postman",
     },
     {
         id: 17,
-        text: <Axios width={60} />
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+        text: "Axios",
     },
     {
         id: 18,
-        text: <NextIntl width={60} />
+        url: NextIntlImg.src,
+        text: "Next Intl",
     },
     {
         id: 18,
-        text: <ReactRouterDom width={60} />
+        url: ReactRouterDomImg.src,
+        text: "React-Router-Dom",
     },
     {
         id: 19,
-        text: <NextAuth width={50} />
+        url: NextAuthImg.src,
+        text: "Next Auth",
     },
     {
         id: 20,
-        text: <Vite width={60} />
+        url: "https://skillicons.dev/icons?i=vite",
+        text: "Vite",
     },
     {
         id: 21,
-        text: <Vercel width={60} />
+        url: "https://skillicons.dev/icons?i=vercel",
+        text: "Vercel",
     },
     {
         id: 22,
-        text: <Netifly width={60} />
+        url: "https://skillicons.dev/icons?i=netlify",
+        text: "Netifly",
     },
     {
         id: 23,
-        text: <FirebaseHosting width={60} />
+        url: FirebaseHostingImg.src,
+        text: "Hosting",
     },
     {
         id: 24,
-        text: <VsCode width={60} />
+        url: "https://skillicons.dev/icons?i=vscode",
+        text: "Visual Studio Code",
     },
     {
         id: 25,
-        text: <Npm width={60} />
+        url: "https://skillicons.dev/icons?i=npm",
+        text: "Npm",
     },
     {
         id: 26,
-        text: <Jira width={60} />
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg",
+        text: "Jira",
     },
     {
         id: 27,
-        text: <Figma width={60} />
+        url: "https://skillicons.dev/icons?i=figma",
+        text: "Figma",
     },
 ]

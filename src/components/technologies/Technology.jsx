@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { TECHNOLOGHIES } from "../../const/tec";
 import { useLineTitle } from "../../hooks/useTraduccion";
 import Title from "./Title";
@@ -11,7 +12,8 @@ export default function Technology() {
         <div className="container-tools-content">
           {TECHNOLOGHIES.map((tect) => (
             <div className="container-tools-text" key={tect.id}>
-              {tect.text}
+              <img src={tect.url} width={60} alt={tect.text}/>
+              <h1 className="title-tools">{tect.text}</h1>
             </div>
           ))}
         </div>

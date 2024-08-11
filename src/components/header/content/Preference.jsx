@@ -73,11 +73,11 @@ export default function Preference({ url, isRedirect }) {
           <option value="id">Ingles</option>
           <option value="es">Español</option>
         </select>
-        <button onClick={handleChangeTheme} className="summary-button">
+        <button onClick={handleChangeTheme} className="mr-3">
           {theme === "dark" ? <DarkTheme /> : <SumTheme />}
         </button>
         {isRedirect && (
-          <button className="redirect-home" onClick={() => router.replace(`/`)}>
+          <button onClick={() => router.replace(`/`)}>
             <RedirectHome />
           </button>
         )}

@@ -3,8 +3,8 @@
 import TextProject from "../../../components/projects/TextProject";
 import ContentProjects from "../../../components/projects/ContentProjects";
 import { useProjectsDesing } from "../../../hooks/useTraduccion";
-import { projectsDesing } from "../../../const/projects";
 import Preference from "../../../components/header/content/Preference";
+import projectsDesing from '../../../const/projectsDesing.json';
 
 export default function Projects() {
     const { t1, t2, t3, t4, t5, t6, t7, t8 } = useProjectsDesing();

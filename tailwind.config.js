@@ -8,20 +8,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#40F5EA", secondary: "#DF3636  "
+        primary: "#40F5EA", secondary: "#DF3636 "
       },
     },
     screens: {
-      'sm': '300px',
-      // => @media (min-width: 640px) { ... }
+      'sm': '640px',
       'md': '768px',
-      // => @media (min-width: 768px) { ... }
       'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
       'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
       '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
+    },
+    keyframes: {
+      photoMove: {
+        '0%': { transform: 'translateY(-20px)', transform: 'rotate(-20deg)' },
+        '50%': { transform: 'translateY(20px)', transform: 'rotate(20deg)' },
+        '100%': { transform: 'translateY(-20px)', transform: 'rotate(-20deg)' }
+      }
+    },
+    animation: {
+      photoMove: 'photoMove 3s linear infinite'
     }
   },
   plugins: [],
