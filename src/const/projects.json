@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Brothers Auto Details",
+        "img": "/content/brothersAutoDetail.webp",
+        "tools": {
+            "Next": "Next",
+            "React": "React",
+            "Tailwind": "Tailwind",
+            "Firebase": "Firebase",
+            "Axios": "Axios",
+            "Hosting": "Hosting",
+            "Antd": "Antd"
+        },
+        "visitGit": "https://github.com/ActoSoft/brothers-auto-detail-ui",
+        "visitPrev": "https://brothersautodetails.web.app/"
+    },
+    {
+        "id": 2,
+        "title": "BugBook Clone",
+        "img": "/content/bugbookClone.webp",
+        "tools": {
+            "Next": "Next",
+            "React": "React",
+            "Typescript": "Typescript",
+            "Tailwind": "Tailwind",
+            "Prisma": "Prisma"
+        },
+        "visitGit": "https://github.com/SantiMelo7/social-media-clon",
+        "visitPrev": "https://socia-media-clon-git-develop-santicms-projects.vercel.app/"
+    },
+    {
+        "id": 3,
+        "title": "Tesla Clon | Home",
+        "img": "/content/tesla.webp",
+        "tools": {
+            "React": "React",
+            "Tailwind": "Tailwind",
+            "Vite": "Vite",
+            "Vercel": "Vercel"
+        },
+        "visitGit": "https://github.com/SantiMelo7/Tesla-Clon-Home",
+        "visitPrev": "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "Formula Calculator",
+        "img": "/content/formula-calculator.webp",
+        "tools": {
+            "React": "React",
+            "Css": "Css",
+            "ReactRouterDom": "React Router Dom",
+            "Vite": "Vite",
+            "Vercel": "Vercel"
+        },
+        "visitGit": "https://github.com/SantiMelo7/Calculator-Formula",
+        "visitPrev": "https://calculator-formula-math.vercel.app/"
+    },
+    {
+        "id": 5,
+        "title": "Design Projects",
+        "img": "/content/projects-desing.webp",
+        "tools": {
+            "Html": "Html",
+            "Css": "Css",
+            "Sass": "Sass"
+        },
+        "visitGit": "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS"
+    },
+    {
+        "id": 6,
+        "title": "To Do List",
+        "img": "/content/todo-app.webp",
+        "tools": {
+            "Html": "Html",
+            "Javascript": "Javascript",
+            "Css": "Css"
+        },
+        "visitGit": "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS/tree/main/todooooos",
+        "visitPrev": "https://todos-app-11111.netlify.app"
+    }
+]

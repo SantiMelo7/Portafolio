@@ -6,10 +6,10 @@ export default function Parragrafh() {
   const cssSpan = "dark:text-yellow-200 text-yellow-800";
 
   const cssP =
-    "xl:text-2xl md:text-xl sm:text-xl dark:text-white text-gray-800 font-extrabold p-1";
+    "xl:text-2xl md:text-xl text-xl dark:text-white text-gray-800 font-extrabold p-1";
 
   return (
-    <div className="mt-7">
+    <div className="mt-7 md:p-0 p-2">
       <strong className={cssP}>
         {t("cam")}, &nbsp; <span className={cssSpan}> {t2("year")} </span>
         {t3("pages")} &nbsp;

@@ -3,8 +3,8 @@
 import TextProject from "./TextProject";
 import ContentProjects from "./ContentProjects";
 import { useProjects } from "../../hooks/useTraduccion";
-import { PROJECTS } from "../../const/projects";
 import { useLocale } from "next-intl";
+import projectsData from '../../const/projects.json';
 
 export default function Projects() {
   const { t1, t2, t3, t4, t5, t6, t7 } = useProjects();
@@ -33,7 +33,7 @@ export default function Projects() {
   return (
     <ContentProjects
       line
-      data={PROJECTS}
+      data={projectsData}
       url={`/${localActive}/desing-projects`}
     >
       {(project) => <TextProject text={getDescription(project.id)} />}
