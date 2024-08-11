@@ -84,7 +84,6 @@ h2.aviable-to-work {
   @apply text-xl font-extrabold text-green-800 dark:text-white;
 }
 
-
 div.container-text {
   @apply flex flex-col lg:justify-start lg:items-start mt-1 p-2;
 }
