@@ -1,10 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import { EXPERIENCE } from "../../const/experience";
 import { useExperience, useLineTitle } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
 import ActosoftImg from "../../../public/content/actosoft.png";
-import Image from "next/image";
-import { MaterialUi, Typescript } from "../../svg/IconsSvg";
 import LinkProject from "../projects/LinksProject";
+import { TECHNOLOGHIES } from "../../const/tec";
 
 export default function Experience() {
   const { t2 } = useLineTitle();
@@ -12,7 +12,7 @@ export default function Experience() {
   return (
     <>
       <Title title={t2("title-experience-line")} />
-      <div className="container-center">
+      <div className="container-center md:max-w-full md:p-0 max-w-screen-md p-6">
         <ol className="container-line">
           {EXPERIENCE.map((text) => (
             <div key={text.id}>
@@ -30,30 +30,30 @@ export default function Experience() {
                 </h3>
                 <div className="container-content-actosoft">
                   {text.id === 4 && (
-                    <h3 className="title-experience">
-                      {t44("title-experience-4")}
-                    </h3>
-                  )}
-                  {text.id === 4 && (
                     <>
-                      <LinkProject
-                        href="https://actosoft.com.mx/frontend"
-                        className="link-actosoft"
-                      >
-                        <Image
-                          className="logo-actosoft"
-                          src={ActosoftImg.src}
-                          width={80}
-                          height={80}
-                          alt="Logo Actosoft"
-                        />
+                      <LinkProject href="https://actosoft.com.mx/frontend" className="link-actosoft underline">
+                        <img className="logo-actosoft" src={ActosoftImg.src} width={50}  height={50} alt="Actosoft" />
+                        <h3 className="title-experience">
+                        {t44("title-experience-4")}
+                      </h3>
                       </LinkProject>
-                      <LinkProject className="link-typescript">
-                        <Typescript width={20} />
-                      </LinkProject>
-                      <LinkProject className="link-material-ui ">
-                        <MaterialUi width={20} />
-                      </LinkProject>
+                      {TECHNOLOGHIES.filter(
+                        (tec) =>
+                          tec.text === "Typescript" ||
+                          tec.text === "Material Ui"
+                      ).map((tec) => (
+                        <div key={tec.key}>
+                          <LinkProject className="link-actosoft">
+                            <img
+                              src={tec.url}
+                              width={20}
+                              height={20}
+                              alt={tec.text}
+                            />
+                            <h1>{tec.text}</h1>
+                          </LinkProject>
+                        </div>
+                      ))}
                     </>
                   )}
                 </div>
