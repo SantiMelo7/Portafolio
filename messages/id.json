@@ -26,14 +26,14 @@
     "Brothers": {
         "description-2": "Application for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
     },
+    "Formula": {
+        "description-3": "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
+    },
     "BugBookClone": {
-        "description-3": "In this project I learn everything related to Prisma - Postgress. Within it, I highlight my learnings obtained in general and add to the code of the original video, a little of my ideas when programming, creating components, interfaces, etc. The original idea, the profile and the video are in the repository."
+        "description-4": "In this project I learn everything related to Prisma - Postgress. Within it, I highlight my learnings obtained in general and add to the code of the original video, a little of my ideas when programming, creating components, interfaces, etc. The original idea, the profile and the video are in the repository."
     },
     "Tesla": {
-        "description-4": "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
-    },
-    "Formula": {
-        "description-5": "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
+        "description-5": "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
     },
     "DesignProjects": {
         "description-6": "Page where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."

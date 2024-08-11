@@ -1,19 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import Title from "../technologies/Title";
 import TitleInitial from "../layout/TitleInitial";
 import ProjectBottom from "./ProjectBottom";
 import { Toolsproject } from "./ToolsProject";
-import { useLineTitle } from "../../hooks/useTraduccion";
 
-export default function ContentProjects({ line, data, url, children }) {
-  const { t } = useLineTitle();
+export default function ContentProjects({ data, url, children }) {
+  //const { t } = useLineTitle();
   return (
     <>
-      {line && <Title title={t("title-projects-line")} />}
-      <section className="container-projects">
+      <section className="container-projects mt-16">
         <div className="container-content-projects">
           {data.map((project) => (
-            <div className="container-text">
+            <div key={project.id} className="container-text">
               <img
                 key={project.key}
                 src={project.img}

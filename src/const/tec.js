@@ -57,7 +57,7 @@ export const TECHNOLOGHIES = [
     {
         id: 11,
         url: "https://skillicons.dev/icons?i=styledcomponents",
-        text: "Styled-Components",
+        text: "Styled",
     },
     {
         id: 12,

@@ -1,17 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import { EXPERIENCE } from "../../const/experience";
-import { useExperience, useLineTitle } from "../../hooks/useTraduccion";
+import { useExperience } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
 import ActosoftImg from "../../../public/content/actosoft.png";
 import LinkProject from "../projects/LinksProject";
 import { TECHNOLOGHIES } from "../../const/tec";
 
 export default function Experience() {
-  const { t2 } = useLineTitle();
+  //const { t2 } = useLineTitle();
   const { t, t22, t23, t1, t3, t4, t44, t5, t6, t7, t8 } = useExperience();
   return (
     <>
-      <Title title={t2("title-experience-line")} />
       <div className="container-center md:max-w-full md:p-0 max-w-screen-md p-6">
         <ol className="container-line">
           {EXPERIENCE.map((text) => (
