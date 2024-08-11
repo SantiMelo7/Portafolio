@@ -1,38 +1,17 @@
 import Links from "./Links";
-import { Curriculum, GitHub, Gmail, Linkedin } from "../../../svg/IconsSvg";
+import {iconsLinkData} from "../../../const/iconsLinkData"
 
 export default function IconsLink() {
   return (
-    <nav className="icons-link-perfil">
-      <div className="containers-link">
-        <Links
-          className="max-w-full cv"
-          href={"https://github.com/SantiMelo7"}
-          text="GitHub"
-        >
-          <GitHub  />
-        </Links>
-        <Links
-          className="max-w-full cv"
-          href={"https://www.linkedin.com/in/santiago-melo-7b25732a5/"}
-          text="Linkedin"
-        >
-          <Linkedin />
-        </Links>
-        <Links
-          className="max-w-full cv"
-          href={"mailto:santiagocano15cr7@gmail.com"}
-          text="Contáctame"
-        >
-          <Gmail />
-        </Links>
-        <Links
-          className="max-w-full sm:py-3 cv"
-          href={"https://curriculum-dev.vercel.app/"}
-          text="Ver CV"
-        >
-          <Curriculum />
-        </Links>
+    <nav className="flex flex-col justify-center gap-y-3 gap-x-10 mt-4">
+      <div className="grid grid-cols-2 lg:p-0 p-3 gap-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-3">
+        {iconsLinkData.map((text) => (
+          <div key={text.key}>
+            <Links className={`max-w-full cv ${text.text === "Ver CV" ? "sm:py-2" : ""}`}  href={text.url} text={text.text} >
+              {text.component}
+            </Links>
+          </div>
+        ))}
       </div>
     </nav>
   );

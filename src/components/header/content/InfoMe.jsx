@@ -7,11 +7,7 @@ export default function InfoMe() {
       <section className="container-info-me">
         <SubText />
         <div className="lg:flex hidden justify-center items-center mx-auto">
-          <img
-            src="./content/audifonos.webp"
-            className="banner"
-            alt="Representation Me"
-          />
+          <img src="./content/audifonos.webp" className="animate-photoMove flex md:w-[350px] w-[130px]" alt="Representation Me" />
         </div>
     </section>
     </>

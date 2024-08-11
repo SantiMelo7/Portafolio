@@ -10,7 +10,7 @@ export function Toolsproject({ tools }) {
         <>
           <LinkProject className="min-w-[8rem] px-5">
             <img src={tech.url} width={20} alt={tech.text} />
-            <h1 className="title-tools">{tech.text}</h1>
+            <h1 className="font-extrabold text-center dark:text-white text-black">{tech.text}</h1>
           </LinkProject>
         </>
       );
