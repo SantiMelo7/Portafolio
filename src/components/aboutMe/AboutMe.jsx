@@ -7,12 +7,15 @@ export default function AboutMe() {
 
   const dataTranslate = [
     {
+      key: 1,
       text: t("part-1"),
     },
     {
+      key: 2,
       text: t2("part-2"),
     },
     {
+      key: 3,
       text: t3("part-3"),
     },
   ]
@@ -26,7 +29,9 @@ export default function AboutMe() {
       <div className="container-about-content">
         <div className="container-parragrafh">
           {dataTranslate.map((data) => (
-            <p className="content-about">{data.text}</p>
+            <div key={data.key}>
+              <p className="content-about">{data.text}</p>
+            </div>
           ))}
         </div>
         <div className="container-about-photo">
