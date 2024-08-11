@@ -21,31 +21,17 @@
         "tools": {
             "Next": "Next",
             "React": "React",
-            "Antd": "Antd",
             "Tailwind": "Tailwind",
             "Firebase": "Firebase",
+            "Axios": "Axios",
             "Hosting": "Hosting",
-            "Axios": "Axios"
+            "Antd": "Antd"
         },
         "visitGit": "https://github.com/ActoSoft/brothers-auto-detail-ui",
         "visitPrev": "https://brothersautodetails.web.app/"
     },
     {
         "id": 3,
-        "title": "Formula Calculator",
-        "img": "/content/formula-calculator.webp",
-        "tools": {
-            "React": "React",
-            "Css": "Css",
-            "ReactRouterDom": "React Router Dom",
-            "Vite": "Vite",
-            "Vercel": "Vercel"
-        },
-        "visitGit": "https://github.com/SantiMelo7/Calculator-Formula",
-        "visitPrev": "https://calculator-formula-math.vercel.app/"
-    },
-    {
-        "id": 4,
         "title": "BugBook Clone",
         "img": "/content/bugbookClone.webp",
         "tools": {
@@ -59,7 +45,7 @@
         "visitPrev": "https://socia-media-clon-git-develop-santicms-projects.vercel.app/"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Tesla Clon | Home",
         "img": "/content/tesla.webp",
         "tools": {
@@ -70,6 +56,20 @@
         },
         "visitGit": "https://github.com/SantiMelo7/Tesla-Clon-Home",
         "visitPrev": "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
+    },
+    {
+        "id": 5,
+        "title": "Formula Calculator",
+        "img": "/content/formula-calculator.webp",
+        "tools": {
+            "React": "React",
+            "Css": "Css",
+            "ReactRouterDom": "React Router Dom",
+            "Vite": "Vite",
+            "Vercel": "Vercel"
+        },
+        "visitGit": "https://github.com/SantiMelo7/Calculator-Formula",
+        "visitPrev": "https://calculator-formula-math.vercel.app/"
     },
     {
         "id": 6,

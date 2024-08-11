@@ -17,23 +17,6 @@ of the latest trends in web development.**
 
 </div>
 
-## Images of the page
-
-<div>
-    <img src="/public/readme/photo-1.webp"/>
-    <img src="/public/readme/photo-2.webp"/>
-    <img src="/public/readme/photo-3.webp"/>
-    <img src="/public/readme/photo-4.webp"/>
-    <img src="/public/readme/photo-5.webp"/>
-    <img src="/public/readme/photo-6.webp"/>
-    <img src="/public/readme/photo-7.webp"/>
-    <img src="/public/readme/photo-8.webp"/>
-    <img src="/public/readme/photo-9.webp"/>
-    <img src="/public/readme/photo-10.webp"/>
-    <img src="/public/readme/photo-11.webp"/>
-    <img src="/public/readme/photo-12.webp"/>
-</div>
-
 ## 🛠️ Stack
 
 <div style="display:flex; gap: 20px; justify-content: center" align="center">

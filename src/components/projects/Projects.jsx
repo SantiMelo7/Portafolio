@@ -31,7 +31,7 @@ export default function Projects() {
   };
 
   return (
-    <ContentProjects data={projectsData} url={`/${localActive}/desing-projects`}>
+    <ContentProjects data={projectsData} line url={`/${localActive}/desing-projects`}>
       {(project) => <TextProject text={getDescription(project.id)} />}
     </ContentProjects>
   );
