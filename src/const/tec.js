@@ -37,7 +37,7 @@ export const TECHNOLOGHIES = [
     {
         id: 7,
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg",
-        text: "Antd Desing",
+        text: "Antd",
     },
     {
         id: 8,

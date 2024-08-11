@@ -3,17 +3,18 @@ import SubText from "./SubText";
 
 export default function InfoMe() {
   return (
-    <section className="container-info-me">
-      <div className="container-text">
+    <>
+      <section className="container-info-me">
         <SubText />
-      </div>
-      <div className="container-img-me">
-        <img
-          src="./content/audifonos.webp"
-          className="banner"
-          alt="Representation Me"
-        />
-      </div>
+        <div className="lg:flex hidden justify-center items-center mx-auto">
+          <img
+            src="./content/audifonos.webp"
+            className="banner"
+            alt="Representation Me"
+          />
+        </div>
     </section>
+    </>
+
   );
 }

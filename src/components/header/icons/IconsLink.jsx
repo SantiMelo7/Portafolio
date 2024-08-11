@@ -27,7 +27,7 @@ export default function IconsLink() {
           <Gmail />
         </Links>
         <Links
-          className="max-w-full cv"
+          className="max-w-full sm:py-3 cv"
           href={"https://curriculum-dev.vercel.app/"}
           text="Ver CV"
         >

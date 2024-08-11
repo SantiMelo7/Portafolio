@@ -31,7 +31,7 @@ export default function Experience() {
                 <div className="container-content-actosoft">
                   {text.id === 4 && (
                     <>
-                      <LinkProject href="https://actosoft.com.mx/frontend" className="link-actosoft" >
+                      <LinkProject href="https://actosoft.com.mx/frontend" className="link-actosoft underline">
                         <img className="logo-actosoft" src={ActosoftImg.src} width={50}  height={50} alt="Actosoft" />
                         <h3 className="title-experience">
                         {t44("title-experience-4")}

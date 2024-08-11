@@ -25,7 +25,7 @@ export default function ContentProjects({ line, data, url, children }) {
               <div className="section-projects">
                 <Toolsproject tools={project.tools} />
               </div>
-              <div className="section-buttons">
+              <div className="section-buttons max-h-full">
                 <ProjectBottom
                   hrefGitHub={project.visitGit}
                   hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
