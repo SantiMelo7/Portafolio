@@ -8,12 +8,12 @@ import { useLineTitle } from "../../hooks/useTraduccion";
 export default function ContentProjects({ line, data, url, children }) {
   const { t } = useLineTitle();
   return (
-    <>
+    <div className="mt-20">
       {line && <Title title={t("title-projects-line")} />}
       <section className="container-projects">
         <div className="container-content-projects">
           {data.map((project) => (
-            <div className="container-text">
+            <div key={project.id} className="container-text">
               <img
                 key={project.key}
                 src={project.img}
@@ -35,6 +35,6 @@ export default function ContentProjects({ line, data, url, children }) {
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }

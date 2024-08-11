@@ -52,7 +52,7 @@ img.img-projects {
 }
 
 .container-preference {
-  @apply flex flex-row w-full justify-between z-[1000] items-center top-0 p-2;
+  @apply flex flex-row w-full justify-between z-[1000] items-center top-0 p-2 absolute;
 }
 
 img.logo-page-main {
@@ -72,7 +72,7 @@ select.select-new-language {
 }
 
 section.container-info-me {
-  @apply grid lg:grid-cols-2 grid-cols-1 max-w-screen-2xl lg:-translate-y-16 mx-auto;
+  @apply grid lg:grid-cols-2 grid-cols-1 max-w-screen-2xl mt-6 mx-auto;
 }
 
 div.container-text {
