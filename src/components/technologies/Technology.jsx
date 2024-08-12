@@ -6,12 +6,12 @@ import Title from "./Title";
 export default function Technology() {
   const { t3 } = useLineTitle();
   return (
-    <div className="flex flex-col md:max-w-6xl max-w-sm md:mt-5 dark:mt-0 mt-2 dark:mb-0 mb-5 mx-auto dark:bg-transparent rounded-lg">
-      <div className="max-w-screen-sm mx-auto sm:max-w-screen-xl mt-12">
+    <div className="flex flex-col md:max-w-6xl md:mt-5 dark:mt-0 mt-2 dark:mb-0 mb-5 mx-auto dark:bg-transparent rounded-lg">
+      <div className="mx-auto sm:max-w-screen-xl mt-12">
         <div className="mt-1">
           <Title title={t3("title-technologies-line")} />
         </div>
-        <div className="grid xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-4 grid-cols-3 gap-10 mt-10">
+        <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-6 sm:grid-cols-5 grid-cols-4-90px gap-10 mt-10">
           {TECHNOLOGHIES.map((tect) => (
             <div className="container-tools-text" key={tect.id}>
               <img src={tect.url} width={60} alt={tect.text}/>
