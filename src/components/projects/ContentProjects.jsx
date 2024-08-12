@@ -11,29 +11,24 @@ export default function ContentProjects({ line, data, url, children }) {
     <div className="mt-20">
       <section className="max-w-6xl mx-auto dark:shadow-xl min-h-full p-3">
         {line && <Title title={t("title-projects-line")} />}
-        <div className="grid lg:grid-cols-2 mx-auto gap-10">
-          {data.map((project) => (
-            <div key={project.id} className="container-text">
-              <img
-                key={project.key}
-                src={project.img}
-                className="img-projects"
-                alt={project.title}
-              />
-              <TitleInitial text={project.title} className="text-3xl" />
-              {children(project)}
-              <div className="grid sm:grid-cols-3 grid-cols-2 lg:ml-0 mx-auto gap-x-10">
-                <Toolsproject tools={project.tools} />
-              </div>
-              <div className="mx-auto grid grid-cols-2 gap-y-4 gap-x-3 mt-3">
-                <ProjectBottom
-                  hrefGitHub={project.visitGit}
-                  hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
-                />
-              </div>
+        {data.map((project) => (
+        <div key={project.id}  className="grid lg:grid-cols-2 mx-auto gap-10">
+          <img src={project.img} className="img-projects" alt={project.title} />
+          <div className="container-text">
+            <TitleInitial text={project.title} className="text-3xl" />
+            {children(project)}
+            <div className="grid sm:grid-cols-3 grid-cols-2 lg:ml-0 mx-auto gap-x-10">
+              <Toolsproject tools={project.tools} />
             </div>
-          ))}
+            <div className="mx-auto grid grid-cols-2 gap-y-4 gap-x-3 mt-3">
+              <ProjectBottom
+                hrefGitHub={project.visitGit}
+                hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
+              />
+            </div>
+          </div>
         </div>
+        ))}
       </section>
     </div>
   );

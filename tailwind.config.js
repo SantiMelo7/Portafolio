@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         primary: "#40F5EA", secondary: "#DF3636 "
       },
+      gridTemplateColumns: {
+        "4-90px": "repeat(4, 90px)"
+      }
     },
     screens: {
       'sm': '640px',
