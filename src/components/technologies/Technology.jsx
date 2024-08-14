@@ -13,7 +13,10 @@ export default function Technology() {
         </div>
         <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-6 sm:grid-cols-5 grid-cols-4-90px gap-10 mt-10">
           {TECHNOLOGHIES.map((tect) => (
-            <div className="container-tools-text" key={tect.id}>
+            <div
+              className="flex flex-col justify-center items-center gap-3"
+              key={tect.id}
+            >
               <img src={tect.url} width={60} alt={tect.text}/>
               <h1 className="font-extrabold text-center dark:text-white text-black">{tect.text}</h1>
             </div>

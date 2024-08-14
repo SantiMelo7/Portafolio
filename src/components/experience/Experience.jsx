@@ -11,11 +11,11 @@ export default function Experience() {
   const { t, t22, t23, t1, t3, t4, t44, t5, t6, t7, t8 } = useExperience();
   return (
     <>
+      <div className="max-w-[520px] sm:max-w-[700px] md:max-w-[800px] lg:max-w-[950px] xl:max-w-[1100px] mt-10 mx-auto">
+        <Title title={t2("title-experience-line")} />
+      </div>
       <div className="flex justify-center items-center flex-col md:max-w-full md:p-0 max-w-screen-md p-6">
         <div className="mt-10">
-          <div className="-translate-y-14 mt-14 ml-0">
-            <Title title={t2("title-experience-line")} />
-          </div>
           <ol className="relative border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">
             {EXPERIENCE.map((text) => (
               <div key={text.id} className="mt-1">
@@ -60,7 +60,9 @@ export default function Experience() {
                       </>
                     )}
                   </div>
-                  <p className="description-experience">
+                  <p
+                    className="mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950 dark:text-white"
+                  >
                     {text.id === 1 && t5("description-experience-1")}
                     {text.id === 2 && t6("description-experience-2")}
                     {text.id === 3 && t7("description-experience-3")}
