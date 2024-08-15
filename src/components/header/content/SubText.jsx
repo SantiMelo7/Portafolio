@@ -8,10 +8,10 @@ export default function SubText() {
   const { t6 } = useParragrafhTraductor();
   return (
     <>
-      <div className="container-sub-text">
+      <div className="flex flex-col justify-center lg:text-start text-center lg:ml-20 max-w-[30rem] sm:max-w-[43rem] mx-auto">
         <ImageHeader />
         <div>
-          <TitleInitial text={t6("name-autor")} className="text-me-bigger" />
+          <TitleInitial text={t6("name-autor")} className="md:text-5xl text-[44px]" />
           <Paragrafh />
           <IconsLink />
         </div>

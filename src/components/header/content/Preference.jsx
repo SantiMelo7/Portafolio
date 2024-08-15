@@ -54,20 +54,20 @@ export default function Preference({ url, isRedirect }) {
   };
 
   return (
-    <header className="container-preference">
+    <header className="flex flex-row w-full justify-between z-[1000] items-center top-0 p-2 absolute">
       <img
         src="/favicon/android-chrome-192x192.png"
-        className="logo-page-main"
+        className="md:h-[80px] h-[75px]"
         alt="Logo Page"
       />
       <div className="container-center">
-        <label htmlFor="language" className="language">
+        <label htmlFor="language" className="translate-x-12">
           <Language />
         </label>
         <select
           id="language"
           value={localActive}
-          className="select-new-language"
+          className="relative -translate-x-4 opacity-0"
           onChange={onSelectChange}
         >
           <option value="id">Ingles</option>
