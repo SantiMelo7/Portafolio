@@ -47,7 +47,7 @@ time.time-experience {
 }
 
 div.container-content-actosoft {
-  @apply flex md:flex-row flex-col gap-5 md:gap-10;
+  @apply flex md:flex-row flex-col  md:gap-10;
 }
 
 a.link-actosoft {

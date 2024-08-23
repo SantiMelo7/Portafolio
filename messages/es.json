@@ -86,6 +86,9 @@
     "Title-Experience-4": {
         "title-experience-4": "Actosoft"
     },
+    "Ref": {
+        "title": "Referencias"
+    },
     "Description-Experience-1": {
         "description-experience-1": "Inicie en el mundo de la programación tras terminar el bachillerato. Comience a aprender usted mismo (videos de Yotube, cursos de Udemy y más) aprendiendo HTML, CSS y Javascript básicos y, con el tiempo, expanda a otras tecnologías."
     },
@@ -96,7 +99,7 @@
         "description-experience-3": "Estoy mostrando mi trabajo al mundo, realizando miniproyectos de forma no profesional, aprendiendo nuevas tecnologías, mejorando mis habilidades en busca de mi primer trabajo como desarrollador web, además de estudiar la carrera de Ingeniería de Sistemas."
     },
     "Description-Experience-4": {
-        "description-experience-4": "Actualmente me encuentro como practicante en la empresa Actosoft, donde empiezo a ganar experiencia de manera profesional y aplicando mis conocimientos en proyectos de la vida real, llegando a desarrolar de manera profesional con Typescript y componentes de Material UI"
+        "description-experience-4": "Actualmente me encuentro como practicante en la empresa Actosoft, donde empiezo a ganar experiencia de manera profesional y aplicando mis conocimientos en proyectos de la vida real, llegando a desarrolar de manera profesional con Typescript y componentes de Material UI. Los repositorios son privados, sin embargo muestro la prueba que existe el mismo. Además de mostrar las referencias de los clientes que ponen el website en sus redes sociales."
     },
     "Language-1": {
         "1": "Español"
