@@ -10,9 +10,9 @@ export default function ProjectBottom({ hrefGitHub, hrefLink }) {
         <GitHub fill="white" />
         <p>{t("code")}</p>
       </ButtonProjects>
-      <div className="container-preview">
+      <div className="mt-3 relative bottom-3">
         <ButtonProjects className="content-link" href={hrefLink}>
-          <LinkProject /> <p className="preview">{t2("preview")}</p>
+          <LinkProject /> <p className="p-[10px]">{t2("preview")}</p>
         </ButtonProjects>
       </div>
     </>
