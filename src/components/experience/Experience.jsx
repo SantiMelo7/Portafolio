@@ -67,18 +67,18 @@ export default function Experience() {
                   {text.id === 4 && (
                     <>
                       <div className="flex flex-row gap-3 min-w-full">
-                        <img src={ReposImg.src} className="w-96 mt-5" />
-                        <div className="mt-8">
-                          <Clock className="text-amber-600 dark:text-yellow-500 size-8"/>
-                          <Check className="text-green-500 size-8 mt-5"/>
+                        <img src={ReposImg.src} className="w-72 sm:w-96 mt-7 sm:mt-5 " />
+                        <div className="mt-10 sm:mt-8">
+                          <Clock className="text-amber-600 dark:text-yellow-500  size-8"/>
+                          <Check className="text-green-500 size-8 mt-10 -translate-y-3 sm:-translate-y-0 sm:mt-5"/>
                         </div>
                       </div>
-                      <div className="mt-2 ">
+                      <div className="mt-2">
                         <div className="flex items-center gap-x-3 text-2xl mt-6 font-semidbold text-yellow-500 ml-2">
                           {t9("title")}
                           <FolderCog className="mt-[6px]" />
                         </div>
-                        <img src={RefImg.src} className="w-96 mt-5 mb-10" />
+                        <img src={RefImg.src} className="w-72 sm:w-96 mt-5 mb-10" />
                       </div>
                     </>
                   )}
