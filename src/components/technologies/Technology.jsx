@@ -11,7 +11,7 @@ export default function Technology() {
         <div className="mt-1">
           <Title title={t3("title-technologies-line")} />
         </div>
-        <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-6 sm:grid-cols-5 grid-cols-4-90px gap-10 mt-10">
+        <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-6 sm:grid-cols-5 grid-cols-4-70px gap-10 mt-10">
           {TECHNOLOGHIES.map((tect) => (
             <div
               className="flex flex-col justify-center items-center gap-3"
