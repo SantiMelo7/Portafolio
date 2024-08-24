@@ -1,14 +1,57 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import { EXPERIENCE } from "../../const/experience";
 import { useExperience, useLineTitle } from "../../hooks/useTraduccion";
 import Title from "../technologies/Title";
-import ActosoftImg from "../../../public/content/actosoft.png";
-import LinkProject from "../projects/LinksProject";
-import { TECHNOLOGHIES } from "../../const/tec";
+import ToolsInExperience from "./ToolsInExperience"
+import ReferenceExperience from "./ReferenceExperience"
 
 export default function Experience() {
   const { t2 } = useLineTitle();
-  const { t, t22, t23, t1, t3, t4, t44, t5, t6, t7, t8 } = useExperience();
+  const { t, t22, t23, t1, t3, t4, t5, t6, t7, t8 } = useExperience();
+
+  const getTime = (id) => {
+    switch (id) {
+      case 1:
+        return t("time-1");
+      case 2:
+        return t1("time-2");
+      case 3:
+        return t22("time-3");
+      case 4:
+        return t23("time-4");
+      default:
+        return "";
+    }
+  }
+
+const getTitle = (id) => {
+  switch (id) {
+    case 1:
+      return t3("title-experience-1");
+    case 2:
+      return t4("title-experience-2");
+    default:
+      return "";
+  }
+}
+
+const getDescription = (id) => {
+  switch (id) {
+    case 1:
+      return t5("description-experience-1");
+    case 2:
+      return t6("description-experience-2");
+    case 3:
+      return t7("description-experience-3");
+    case 4:
+      return t8("description-experience-4");
+    default:
+      return "";
+  }
+}
+
+
   return (
     <>
       <div className="max-w-[520px] sm:max-w-[700px] md:max-w-[800px] lg:max-w-[950px] xl:max-w-[1100px] mt-10 mx-auto">
@@ -16,57 +59,31 @@ export default function Experience() {
       </div>
       <div className="flex justify-center items-center flex-col md:max-w-full md:p-0 max-w-screen-md p-6">
         <div className="mt-10">
-          <ol className="relative border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">
+          <ol className="relative  border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">
             {EXPERIENCE.map((text) => (
               <div key={text.id} className="mt-1">
                 <li className="container-content-experience">
                   <div className="circle-for-experience" />
                   <time className="time-experience">
-                    {text.id === 1 && t("time-1")}
-                    {text.id === 2 && t1("time-2")}
-                    {text.id === 3 && t22("time-3")}
-                    {text.id === 4 && t23("time-4")}
+                    {getTime(text.id)}
                   </time>
                   <h3 className="title-experience">
-                    {text.id === 1 && t3("title-experience-1")}
-                    {text.id === 2 && t4("title-experience-2")}
+                    {getTitle(text.id)}
                   </h3>
-                  <div className="container-content-actosoft">
-                    {text.id === 4 && (
-                      <>
-                        <LinkProject href="https://actosoft.com.mx/frontend" className="link-actosoft underline">
-                          <img className="logo-actosoft" src={ActosoftImg.src} width={50}  height={50} alt="Actosoft" />
-                          <h3 className="title-experience">
-                          {t44("title-experience-4")}
-                        </h3>
-                        </LinkProject>
-                        {TECHNOLOGHIES.filter(
-                          (tec) =>
-                            tec.text === "Typescript" ||
-                            tec.text === "Material Ui"
-                        ).map((tec) => (
-                          <div key={tec.key}>
-                            <LinkProject className="link-actosoft">
-                              <img
-                                src={tec.url}
-                                width={20}
-                                height={20}
-                                alt={tec.text}
-                              />
-                              <h1>{tec.text}</h1>
-                            </LinkProject>
-                          </div>
-                        ))}
-                      </>
-                    )}
-                  </div>
-                  <p
-                    className="mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950 dark:text-white"
-                  >
-                    {text.id === 1 && t5("description-experience-1")}
-                    {text.id === 2 && t6("description-experience-2")}
-                    {text.id === 3 && t7("description-experience-3")}
-                    {text.id === 4 && t8("description-experience-4")}
+                  {text.id === 4 && (
+                    <>
+                      <div className="container-content-actosoft">
+                        {text.id === 4 && (
+                          <>
+                            <ToolsInExperience/>
+                          </>
+                        )}
+                      </div>
+                      <ReferenceExperience/>
+                    </>
+                  )}
+                  <p className="mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950 dark:text-white">
+                    {getDescription(text.id)}
                   </p>
                 </li>
               </div>

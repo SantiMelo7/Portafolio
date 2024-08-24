@@ -7,12 +7,12 @@ export function Toolsproject({ tools }) {
     const tech = TECHNOLOGHIES.find((item) => item.text === key);
     if (tech) {
       return (
-        <>
+        <div key={key}>
           <LinkProject className="min-w-[8rem] px-5">
             <img src={tech.url} width={20} alt={tech.text} />
             <h1 className="font-extrabold text-center dark:text-white text-black">{tech.text}</h1>
           </LinkProject>
-        </>
+        </div>
       );
     }
     return null;

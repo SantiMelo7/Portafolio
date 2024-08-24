@@ -84,10 +84,13 @@
         "title-experience-1": "First steps:"
     },
     "Title-Experience-2": {
-        "title-experience-2": "First jobs"
+        "title-experience-2": "First jobs:"
     },
     "Title-Experience-4": {
         "title-experience-4": "Actosoft"
+    },
+    "Ref": {
+        "title": "References"
     },
     "Description-Experience-1": {
         "description-experience-1": "I started in the world of programming after finishing high school. She begins to learn self-taught (Yotube videos, courses on Udemy and more) learning basic HTML, CSS and Javascript and over time expanding to other technologies."
@@ -99,7 +102,7 @@
         "description-experience-3": "I am showing my work to the world, carrying out mini-projects in a non-professional way, learning new technologies, improving my skills in search of my first job as a web developer, in addition to studying a degree in Systems Engineering."
     },
     "Description-Experience-4": {
-        "description-experience-4": "I am currently an intern at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects, developing professionally with Typescript and Material UI components"
+        "description-experience-4": "I am currently an intern at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects, developing professionally with Typescript and Material UI components. The repositories are private, however I show proof that they exist. In addition to showing the references of clients who put the website on their social networks."
     },
     "Language-1": {
         "1": "Spanish"

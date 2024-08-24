@@ -20,7 +20,7 @@ a.content-link {
 }
 
 h3.title-experience {
-  @apply text-xl font-semibold text-emerald-600 dark:text-gray-300;
+  @apply text-xl font-extrabold dark:font-semibold text-emerald-700 dark:text-gray-300;
 }
 
 div.container-center {
@@ -43,11 +43,11 @@ div.circle-for-experience {
 }
 
 time.time-experience {
-  @apply mb-1 text-xl mt-2 font-bold leading-none text-emerald-800 dark:text-emerald-200;
+  @apply mb-1 text-xl mt-2 dark:font-bold font-extrabold leading-none text-emerald-900 dark:text-emerald-200;
 }
 
 div.container-content-actosoft {
-  @apply flex md:flex-row flex-col gap-5 md:gap-10;
+  @apply flex md:flex-row flex-col  md:gap-10;
 }
 
 a.link-actosoft {
