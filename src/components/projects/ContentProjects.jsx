@@ -25,8 +25,7 @@ export default function ContentProjects({ line, data, url, children }) {
               <Toolsproject tools={project.tools} />
             </div>
             <div className="mx-auto grid grid-cols-2 gap-y-4 gap-x-3 mt-3">
-              <ProjectBottom
-                hrefGitHub={project.visitGit}
+              <ProjectBottom hrefGitHub={project.visitGit}
                 hrefLink={project.title === "Design Projects" ? url : project.visitPrev}
               />
             </div>
