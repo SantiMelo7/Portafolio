@@ -1,11 +1,13 @@
-import { Curriculum, GitHub, Gmail, Linkedin } from "../svg/IconsSvg";
+import { BookText } from "lucide-react";
+import { GitHub, Gmail, Linkedin } from "../svg/IconsSvg";
+
 
 export const iconsLinkData = [
     {
         key: 1,
         url: "https://github.com/SantiMelo7",
         text: "GitHub",
-        component: <GitHub />
+        component: <GitHub/>
     },
     {
         key: 2,
@@ -23,6 +25,6 @@ export const iconsLinkData = [
         key: 4,
         url: "https://curriculum-dev.vercel.app/",
         text: "Ver CV",
-        component: <Curriculum />
+        component: <BookText />
     },
 ]
