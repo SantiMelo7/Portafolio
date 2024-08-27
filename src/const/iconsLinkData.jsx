@@ -1,6 +1,7 @@
 import { BookText } from "lucide-react";
 import { GitHub, Gmail, Linkedin } from "../svg/IconsSvg";
-
+import { WhatsApp } from '@mui/icons-material';
+import { DiscordLogoIcon } from '@radix-ui/react-icons'
 
 export const iconsLinkData = [
     {
@@ -26,5 +27,17 @@ export const iconsLinkData = [
         url: "https://curriculum-dev.vercel.app/",
         text: "Ver CV",
         component: <BookText />
+    },
+    {
+        key: 5,
+        url: "https://wa.me/7721114272/",
+        text: "WhatsApp",
+        component: <WhatsApp/>
+    },
+    {
+        key: 6,
+        url: "https://discord.com/users/669010436825284638",
+        text: "Discord",
+        component: <DiscordLogoIcon width={20} height={20}/>
     },
 ]
