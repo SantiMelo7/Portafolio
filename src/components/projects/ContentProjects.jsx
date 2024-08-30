@@ -17,7 +17,7 @@ export default function ContentProjects({ line, data, url, children }) {
         <div key={project.id}  className="grid lg:grid-cols-2 mx-auto gap-10">
           <img
             src={project.img}
-            className=" rounded-2xl mb-10 lg:w-full md:w-[70%] w-[90vw] lg:h-[300px] lg:object-cover mx-auto mt-5" 
+            className=" rounded-2xl lg:mb-10 lg:w-full md:w-[70%] w-[90vw] lg:h-[300px] lg:object-cover mx-auto mt-5" 
             alt={project.title}
           />
           <div className="flex flex-col lg:-translate-y-0 -translate-y-10 lg:justify-start lg:items-start p-2">
