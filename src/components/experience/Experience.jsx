@@ -53,10 +53,10 @@ const getDescription = (id) => {
 
 
   return (
-    <>
-      <div className="max-w-[520px] sm:max-w-[700px] md:max-w-[800px] lg:max-w-[950px] xl:max-w-[1100px] mt-10 mx-auto">
-        <Title title={t2("title-experience-line")} />
-      </div>
+      <>
+        <div className="mt-10 w-[90%] lg:w-[75%] mx-auto">
+          <Title title={t2("title-experience-line")} />
+        </div>
       <div className="flex justify-center items-center flex-col md:max-w-full md:p-0 max-w-screen-md p-6">
         <div className="mt-10">
           <ol className="relative  border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">

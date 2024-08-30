@@ -1,12 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { useRouter } from "next/navigation";
 import { usePreference } from "../../../hooks/usePreference"
 import { ArrowLeft, Languages, Moon, SunMoon } from "lucide-react";
 
 export default function Preference({ url, isRedirect }) {
 
   const { theme, localActive, handleChangeTheme, onSelectChange } = usePreference(url)
+
+  const router = useRouter()
 
   return (
     <header className="flex flex-row w-full justify-between z-[1000] items-center top-0 p-2 absolute">
@@ -18,7 +21,7 @@ export default function Preference({ url, isRedirect }) {
         <select id="language" value={localActive} className="relative -translate-x-4 opacity-0"
           onChange={onSelectChange}
         >
-          <option value="id">Ingles</option>
+          <option value="id">Inglés</option>
           <option value="es">Español</option>
         </select>
         <button onClick={handleChangeTheme} className="mr-3">
@@ -26,7 +29,7 @@ export default function Preference({ url, isRedirect }) {
         </button>
         {isRedirect && (
           <button onClick={() => router.replace(`/`)}>
-            <ArrowLeft />
+            <ArrowLeft className="size-8 dark:text-white text-black"   />
           </button>
         )}
       </div>
