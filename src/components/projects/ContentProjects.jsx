@@ -8,7 +8,7 @@ import { useLineTitle } from "../../hooks/useTraduccion";
 export default function ContentProjects({ line, data, url, children }) {
   const { t } = useLineTitle();
   return (
-    <div className="mt-20">
+    <div className="mt-28">
       <div className="mt-10 w-[90%] lg:w-[75%] mx-auto">
         {line && <Title title={t("title-projects-line")} />}
       </div>
