@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import InfoMe from "../../components/header/content/InfoMe";
 import Projects from "../../components/projects/Projects";
 import Technology from "../../components/technologies/Technology";
@@ -14,6 +15,9 @@ export default function Home() {
             <Experience />
             <Technology />
             <AboutMe />
+            <div className="max-w-full">
+                <img className="min-w-full" alt="Fondo" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&section=footer&reversal=true" />
+            </div>
         </>
     )
 }

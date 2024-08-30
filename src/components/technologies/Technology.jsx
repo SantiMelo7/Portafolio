@@ -7,7 +7,7 @@ export default function Technology() {
   const { t3 } = useLineTitle();
   return (
     <div className="flex flex-col md:mt-5 dark:mt-0 mt-2 dark:mb-0 mb-5 mx-auto">
-      <div className="mt-1 w-[90%] lg:w-[75%] mx-auto">
+      <div className="mt-10 w-[90%] lg:w-[75%] mx-auto">
         <Title title={t3("title-technologies-line")} />
       </div>
       <div className="mx-auto mt-10">
