@@ -21,7 +21,7 @@ export default function Preference({ url, isRedirect }) {
         <select id="language" value={localActive} className="relative -translate-x-4 opacity-0"
           onChange={onSelectChange}
         >
-          <option value="id">Ingles</option>
+          <option value="id">Inglés</option>
           <option value="es">Español</option>
         </select>
         <button onClick={handleChangeTheme} className="mr-3">

@@ -30,7 +30,7 @@ div.container-center {
 .link-project {
   @apply border-[2.5px] dark:border-[1.7px] border-amber-600 dark:border-yellow-500;
   @apply rounded-md flex flex-row gap-5 justify-center items-center;
-  @apply text-xl py-1 transition md:hover:scale-95 ;
+  @apply text-lg py-1 transition md:hover:scale-95;
   @apply mt-4 hover:scale-95 dark:bg-transparent;
 }
 
@@ -51,7 +51,7 @@ div.container-content-actosoft {
 }
 
 a.link-actosoft {
-  @apply md:max-w-full w-52  px-4 text-xl font-semibold text-emerald-600 dark:text-gray-300;
+  @apply md:max-w-full w-40 px-4 text-xl font-semibold text-emerald-600 dark:text-gray-300;
 }
 
 img.logo-actosoft {
@@ -76,4 +76,51 @@ div.border-img-about-me {
 
 .border-img-about-me .border-4 {
   @apply border-[1px];
+}
+
+.tec-grid {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px 30px;
+  width: 100%;
+  padding: 50px 0;
+  transform: translateY(-40px);
+}
+
+@media screen and (max-width: 1200px) {
+  .tec-grid {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .tec-grid {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 50px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tec-grid {
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 50px 0;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .card {
+    width: 160px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .card {
+    width: 150px;
+    border-radius: 8px;
+  }
 }
