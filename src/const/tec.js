@@ -57,7 +57,7 @@ export const TECHNOLOGHIES = [
     {
         id: 11,
         url: "https://skillicons.dev/icons?i=styledcomponents",
-        text: "ComponentSC",
+        text: "Styled Components",
     },
     {
         id: 12,
@@ -102,7 +102,7 @@ export const TECHNOLOGHIES = [
     {
         id: 18,
         url: ReactRouterDomImg.src,
-        text: "React Router",
+        text: "React Router Dom",
     },
     {
         id: 19,

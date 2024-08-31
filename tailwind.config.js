@@ -9,9 +9,6 @@ module.exports = {
     extend: {
       colors: {
         primary: "#40F5EA", secondary: "#DF3636 "
-      },
-      gridTemplateColumns: {
-        "4-70px": "repeat(4, 70px)"
       }
     },
     screens: {
