@@ -2,24 +2,41 @@
 import { TECHNOLOGHIES } from "../../const/tec";
 import { useLineTitle } from "../../hooks/useTraduccion";
 import Title from "./Title";
+import CircleTec from "./CircleTec";
 
 export default function Technology() {
   const { t3 } = useLineTitle();
   return (
-    <div className="flex flex-col md:mt-5 dark:mt-0 mt-2 dark:mb-0 mb-5 mx-auto">
-      <div className="mt-10 w-[90%] lg:w-[75%] mx-auto">
+    <>
+      <div className="mt-10 w-[90%] lg:w-[80%] mx-auto">
         <Title title={t3("title-technologies-line")} />
       </div>
-      <div className="mx-auto mt-10">
-        <div className="grid xl:grid-cols-8 lg:grid-cols-7 md:grid-cols-6 sm:grid-cols-5 grid-cols-4-70px gap-10 mt-4">
+      <div className="max-w-[1080px] mx-auto mt-10 md:p-5">
+        <div className="tec-grid">
           {TECHNOLOGHIES.map((tect) => (
-            <div className="flex flex-col justify-center items-center gap-3" key={tect.id} >
-              <img src={tect.url} width={60} alt={tect.text}/>
-              <h1 className="font-extrabold text-center dark:text-white text-black">{tect.text}</h1>
+            <div
+              className="w-[190px] h-[204px] mx-auto dark:bg-[#283149] bg-gray-300 dark:shadow-none shadow-lg shadow-gray-600 rounded-[8px] z-[1] transition-all hover:!scale-105 card"
+              key={tect.id}
+            >
+              <div className="flex items-center gap-x-2 p-2">
+                <CircleTec color="bg-[#ff605c]" />
+                <CircleTec color="bg-[#ffbd44]" />
+                <CircleTec color="bg-[#00ca4e]" />
+              </div>
+              <div className="flex justify-center items-center flex-col h-[75%] gap-[10px]">
+                <img
+                  src={tect.url}
+                  className="w-[75px] h-[75px]"
+                  alt={tect.text}
+                />
+                <h1 className="font-extrabold text-xl mt-2 text-center dark:text-white text-black">
+                  {tect.text}
+                </h1>
+              </div>
             </div>
           ))}
         </div>
       </div>
-    </div>
-  );x
+    </>
+  );
 }

@@ -5,9 +5,9 @@ import { useRouter } from "next/navigation";
 import { usePreference } from "../../../hooks/usePreference"
 import { ArrowLeft, Languages, Moon, SunMoon } from "lucide-react";
 
-export default function Preference({ url, isRedirect }) {
+export default function Preference({ redirect, url, isRedirect }) {
 
-  const { theme, localActive, handleChangeTheme, onSelectChange } = usePreference(url)
+  const { theme, localActive, handleChangeTheme, onSelectChange } = usePreference(url, redirect)
 
   const router = useRouter()
 

@@ -2,6 +2,7 @@ import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
 import NextIntlImg from "../../public/svg/next-intl.webp";
 import FirebaseHostingImg from "../../public/svg/firebaseHosting.webp";
+import TanStackQuery from "../../public/svg/react-query.svg";
 
 export const TECHNOLOGHIES = [
     {
@@ -46,6 +47,11 @@ export const TECHNOLOGHIES = [
     },
     {
         id: 9,
+        url: TanStackQuery.src,
+        text: "TanStack Query",
+    },
+    {
+        id: 9,
         url: "https://skillicons.dev/icons?i=tailwind",
         text: "Tailwind",
     },
@@ -57,7 +63,7 @@ export const TECHNOLOGHIES = [
     {
         id: 11,
         url: "https://skillicons.dev/icons?i=styledcomponents",
-        text: "ComponentSC",
+        text: "Styled Components",
     },
     {
         id: 12,
@@ -102,7 +108,7 @@ export const TECHNOLOGHIES = [
     {
         id: 18,
         url: ReactRouterDomImg.src,
-        text: "React Router",
+        text: "React Router Dom",
     },
     {
         id: 19,

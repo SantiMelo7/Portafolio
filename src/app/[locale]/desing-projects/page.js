@@ -34,7 +34,7 @@ export default function Projects() {
 
     return (
         <>
-            <Preference url isRedirect />
+            <Preference url="/desing-projects" redirect isRedirect />
             <ContentProjects line={false} data={projectsDesing}>
                 {(project) => (
                     <TextProject text={getDescription(project.id)} />
