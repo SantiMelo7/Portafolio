@@ -19,6 +19,10 @@ a.content-link {
   @apply bg-gray-800 text-white border-gray-600 hover:bg-slate-400;
 }
 
+.container-tools-projects {
+  @apply grid gap-x-10 lg:ml-0 mx-auto !grid-cols-2 sm:!grid-cols-3 lg:!grid-cols-2 2xl:!grid-cols-tools;
+}
+
 h3.title-experience {
   @apply text-xl font-extrabold dark:font-semibold text-emerald-700 dark:text-gray-300;
 }

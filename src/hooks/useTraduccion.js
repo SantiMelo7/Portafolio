@@ -32,10 +32,10 @@ export function useProjectBottom() {
 }
 
 export function useProjects() {
-    const t1 = useTranslations("Crisel")
-    const t2 = useTranslations("Brothers")
-    const t3 = useTranslations("Formula")
-    const t4 = useTranslations("BugBookClone")
+    const t1 = useTranslations("CriselUi")
+    const t2 = useTranslations("CriselAdmin")
+    const t3 = useTranslations("Brothers")
+    const t4 = useTranslations("Formula")
     const t5 = useTranslations("Tesla")
     const t6 = useTranslations("DesignProjects")
     const t7 = useTranslations("TodoApp")

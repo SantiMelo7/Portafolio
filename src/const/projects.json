@@ -1,6 +1,22 @@
 [
     {
         "id": 1,
+        "title": "Crisel Fronted UI",
+        "img": "/content/criselui.webp",
+        "tools": {
+            "React": "React",
+            "Antd": "Antd",
+            "Styled Components": "Styled",
+            "Firebase": "Firebase",
+            "Hosting": "Hosting",
+            "React Router Dom": "React Router Dom",
+            "Vite": "Vite"
+        },
+        "visitGit": "https://github.com/ActoSoft/crisel-frontend-ui",
+        "visitPrev": "https://crisel-dev.web.app/"
+    },
+    {
+        "id": 2,
         "title": "Crisel Admin App",
         "img": "/content/criseladmin.webp",
         "tools": {
@@ -15,7 +31,7 @@
         "visitPrev": "https://crisel-dev.web.app/"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Brothers Auto Details",
         "img": "/content/brothersAutoDetail.webp",
         "tools": {
@@ -29,20 +45,6 @@
         },
         "visitGit": "https://github.com/ActoSoft/brothers-auto-detail-ui",
         "visitPrev": "https://brothersautodetails.web.app/"
-    },
-    {
-        "id": 3,
-        "title": "BugBook Clone",
-        "img": "/content/bugbookClone.webp",
-        "tools": {
-            "Next": "Next",
-            "React": "React",
-            "Typescript": "Typescript",
-            "Tailwind": "Tailwind",
-            "Prisma": "Prisma"
-        },
-        "visitGit": "https://github.com/SantiMelo7/social-media-clon",
-        "visitPrev": "https://social-mediasss.vercel.app/"
     },
     {
         "id": 4,

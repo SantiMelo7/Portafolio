@@ -20,17 +20,17 @@
     "DaysNew": {
         "challenges": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente"
     },
-    "Crisel": {
-        "description-1": "Aplicación para un negocio de hamburguesas que buscaba digitalizar su sistema de gestión. Como líder del equipo de frontend, fui responsable de dirigir la arquitectura y el desarrollo de la interfaz de usuario. Trabajé con desarrolladores que van comenzando y tuve asesorias y sesiones para ayudarlos en este proyecto"
+    "CriselUi": {
+        "description-1": "Aplicación para un negocio de hamburguesas, donde para los empleados de Crisel  gestionen órdenes de manera rápida y eficiente y puedan tener un control del día a día trabajando. Como lider de fronted, apoyé al equipo en la implementación de las mejores prácticas y asesorías."
+    },
+    "CriselAdmin": {
+        "description-2": "Aplicación para un negocio de hamburguesas, la plataforma de administración permite gestionar empleados, inventarios y platillos en Crisel. Está dirigida a los dueños para monitorear ventas y optimizar recursos. Como líder frontend, desarrollé una interfaz intuitiva y colaboré con el equipo para mejorar sus habilidades técnicas."
     },
     "Brothers": {
-        "description-2": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
+        "description-3": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
     "Formula": {
-        "description-3": "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
-    },
-    "BugBookClone": {
-        "description-4": "En este proyecto aprendo todo lo relacionado con Prisma - Postgress. Dentro del mismo, destaco mis aprendizajes obtenidos en general y agrego al código del video original, un poco de mis ideas a la hora de programar, crear componentes, interfaces etc. La idea original, el perfil y el vídeo estan en el respositorio."
+        "description-4": "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
     },
     "Tesla": {
         "description-5": "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
