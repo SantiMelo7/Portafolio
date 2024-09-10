@@ -78,5 +78,6 @@ export function useCurriculum() {
     const t4 = useTranslations("VISIT-LiNKEDIN")
     const t5 = useTranslations("TITLE-SECTION-3-1")
     const t6 = useTranslations("TITLE-SECTION-3-2")
-    return { t, t1, t2, t3, t4, t5, t6 }
+    const t7 = useTranslations("VISIT-EMAIL")
+    return { t, t1, t2, t3, t4, t5, t6, t7 }
 }
