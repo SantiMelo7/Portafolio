@@ -101,6 +101,9 @@
     "Description-Experience-4": {
         "description-experience-4": "I am currently working at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects, developing professionally with Typescript and Material UI components and reinforcing technologies and learning within the company. . the technologies shown. The repositories are private, however I show proof that it exists. In addition to showing the references of clients who put the website on their social networks.e"
     },
+    "Description-Experience-5": {
+        "description-experience-5": "I am currently working at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real projects, training myself professionally."
+    },
     "Language-1": {
         "1": "Spanish"
     },
@@ -130,5 +133,26 @@
     },
     "LINETIME": {
         "description-8": "Design page, where I learned to use animations with style and programming logic"
+    },
+    "SECTION-1": {
+        "section-1": "Contact Me"
+    },
+    "SECTION-2": {
+        "section-2": "Work Experience"
+    },
+    "SECTION-3": {
+        "section-3": "Education"
+    },
+    "VISIT-GIT": {
+        "visit-1": "Visit my GitHub"
+    },
+    "VISIT-LiNKEDIN": {
+        "visit-2": "Visit my Linkedin"
+    },
+    "TITLE-SECTION-3-1": {
+        "tab-1": "University"
+    },
+    "TITLE-SECTION-3-2": {
+        "tab-2": "Present"
     }
 }

@@ -69,9 +69,7 @@ export default function Experience() {
                     <>
                       <div className="container-content-actosoft">
                         {text.id === 4 && (
-                          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-3">
-                            <ToolsInExperience />
-                          </div>
+                          <ToolsInExperience />
                         )}
                       </div>
                       <ReferenceExperience />
