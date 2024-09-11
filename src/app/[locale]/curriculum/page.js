@@ -10,7 +10,7 @@ export default function Curriculum() {
     return (
         <>
             <Preference url="/curriculum" redirect isRedirect />
-            <div className="flex w-full h-full mx-auto flex-col mt-7">
+            <div className="flex w-full h-full mx-auto flex-col mt-28 sm:mt-24 lg:mt-20">
                 <SectionPartOne />
                 <SectionPartTwo />
                 <SectionPartThree />

@@ -37,7 +37,7 @@ export default function SectionPartThree() {
       <ContentLayout title={curriculum("section-2")} />
       {workExperienceData.map((text) => (
         <div key={text.key} className="mx-auto">
-          <div className="flex md:justify-start md:items-start justify-center mt-2 gap-6">
+          <div className="flex md:justify-start md:items-start justify-center md:ml-10 lg:ml-0 gap-6">
             <h3 className="text-2xl font-medium text-blue-800 dark:text-blue-500 mt-2">
               {getTimeTab1(text.key)}
             </h3>
@@ -45,7 +45,7 @@ export default function SectionPartThree() {
               {text.tab2}
             </h3>
           </div>
-          <div className="xl:max-w-screen-lg max-w-screen-md mt-5 flex justify-center items-center mb-4 p-2">
+          <div className="xl:max-w-screen-lg max-w-screen-md mt-5 flex justify-center items-center mb-4 md:p-2 p-4">
             <p className="dark:text-white text-black text-center text-xl font-medium"> {getDescription(text.key)}</p>
           </div>
         </div>
