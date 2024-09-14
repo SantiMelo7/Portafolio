@@ -23,7 +23,7 @@ export default function ToolsInExperience() {
         <h3 className="title-experience">{t44("title-experience-4")}</h3>
       </LinkProject>
       <br/>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-3 -translate-y-3">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 sm:gap-x-3 -translate-y-3">
       {TECHNOLOGHIES.filter(
         (tec) =>
           tec.text === "Typescript" ||
