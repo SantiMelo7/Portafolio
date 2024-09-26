@@ -14,19 +14,19 @@ export default function ContentProjects({ line, data, url, children }) {
       </div>
       <section className="max-w-6xl mx-auto dark:shadow-xl min-h-full p-3">
         {data.map((project) => (
-          <div key={project.id} className="grid lg:grid-cols-2 mx-auto gap-10">
+          <div key={project.id} className="grid xl:grid-cols-2 mx-auto gap-10">
             <img
               src={project.img}
-              className=" rounded-2xl lg:mb-10 lg:w-full md:w-[70%] w-[90vw] lg:h-[300px] lg:object-cover mx-auto mt-5"
+              className=" rounded-2xl xl:mb-10 xl:w-full md:w-[70%] w-[90vw] xl:h-[300px] xl:object-cover mx-auto mt-5"
               alt={project.title}
             />
-            <div className="flex flex-col lg:-translate-y-0 -translate-y-10 lg:justify-start lg:items-start p-2">
+            <div className="flex flex-col xl:-translate-y-0 -translate-y-10 xl:justify-start xl:items-start p-2">
               <TitleInitial
                 text={project.title}
                 className="text-3xl text-center"
               />
               {children(project)}
-              <div className="grid sm:grid-cols-3 grid-cols-2 lg:ml-0 mx-auto gap-x-10">
+              <div className="grid sm:grid-cols-3 grid-cols-2 xl:ml-0 mx-auto gap-x-10">
                 <Toolsproject tools={project.tools} />
               </div>
               <div className="mx-auto grid grid-cols-2 gap-y-4 gap-x-3 mt-3">
