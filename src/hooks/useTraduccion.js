@@ -67,5 +67,24 @@ export function useExperience() {
     const t7 = useTranslations("Description-Experience-3")
     const t8 = useTranslations("Description-Experience-4")
     const t9 = useTranslations("Ref")
-    return { t, t1, t22, t23, t3, t4, t44, t5, t6, t7, t8, t9 }
+    const t10 = useTranslations("Description-Experience-5")
+    return { t, t1, t22, t23, t3, t4, t44, t5, t6, t7, t8, t9, t10 }
+}
+
+export function useCurriculum() {
+    const t = useTranslations("SECTION-1")
+    const t1 = useTranslations("SECTION-2")
+    const t2 = useTranslations("SECTION-3")
+    const t3 = useTranslations("VISIT-GIT")
+    const t4 = useTranslations("VISIT-LiNKEDIN")
+    const t5 = useTranslations("TITLE-SECTION-3-1")
+    const t6 = useTranslations("TITLE-SECTION-3-2")
+    const t7 = useTranslations("VISIT-EMAIL")
+    return { t, t1, t2, t3, t4, t5, t6, t7 }
+}
+
+export function useGallery() {
+    const t = useTranslations("TITLE-ONE-GALLERY")
+    const t1 = useTranslations("TITLE-TWO-GALLERY")
+    return { t, t1 }
 }

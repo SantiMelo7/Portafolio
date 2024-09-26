@@ -37,7 +37,7 @@ export default function AboutMe() {
             </div>
           ))}
         </div>
-        <div className="flex lg:justify-end justify-center mx-auto my-auto lg:skew-y-3 skew-x-3 hover:lg:skew-x-3 hover:skew-y-3 hover:scale-90 mt-6 lg:mt-0">
+        <div className="flex lg:justify-end justify-center mx-auto my-auto lg:skew-y-3 skew-x-3 -translate-x-2 hover:lg:skew-x-3 hover:skew-y-3 hover:scale-90 mt-6 lg:mt-0">
           <div className="border-img-about-me border-1">
             <div className="border-img-about-me border-2">
               <div className="border-img-about-me border-3">

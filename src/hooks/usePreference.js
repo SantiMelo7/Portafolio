@@ -2,7 +2,7 @@ import { useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-export function usePreference(url) {
+export function usePreference(url, redirect) {
     const [colorTheme, setColorTheme] = useState("");
 
     const [theme, setTheme] = useState(() => {
@@ -37,8 +37,8 @@ export function usePreference(url) {
 
     const onSelectChange = (ev) => {
         const nextLocale = ev.target.value;
-        if (url) {
-            router.replace(`/${nextLocale}/desing-projects`);
+        if (redirect) {
+            router.replace(`/${nextLocale}${url}`);
         } else {
             router.replace(`/${nextLocale}`);
         }

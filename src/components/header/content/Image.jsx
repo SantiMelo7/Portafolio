@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ImageHeader() {
   const t = useTranslations("ImageHeader");
   return (
-    <div className="flex lg:flex-row flex-col lg:justify-start lg:mt-28 items-center gap-4 mt-4">
+    <div className="flex 2xl:flex-row flex-col 2xl:justify-start 2xl:mt-28 items-center gap-4 mt-4">
       <Image
         src={Me}
         className="rounded-xl"

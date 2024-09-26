@@ -2,6 +2,7 @@ import ReactRouterDomImg from "../../public/svg/react-router-dom.webp";
 import NextAuthImg from "../../public/svg/nextAuth.webp";
 import NextIntlImg from "../../public/svg/next-intl.webp";
 import FirebaseHostingImg from "../../public/svg/firebaseHosting.webp";
+import TanStackQuery from "../../public/svg/react-query.svg";
 
 export const TECHNOLOGHIES = [
     {
@@ -43,6 +44,11 @@ export const TECHNOLOGHIES = [
         id: 8,
         url: "https://skillicons.dev/icons?i=materialui",
         text: "Material Ui",
+    },
+    {
+        id: 9,
+        url: TanStackQuery.src,
+        text: "TanStack Query",
     },
     {
         id: 9,

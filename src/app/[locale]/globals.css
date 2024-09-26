@@ -20,7 +20,7 @@ a.content-link {
 }
 
 .container-tools-projects {
-  @apply grid gap-x-10 lg:ml-0 mx-auto !grid-cols-2 sm:!grid-cols-3 lg:!grid-cols-2 2xl:!grid-cols-tools;
+  @apply grid gap-x-10 2xl:ml-0 mx-auto !grid-cols-2 md:!grid-cols-3 2xl:!grid-cols-tools;
 }
 
 h3.title-experience {
@@ -51,11 +51,11 @@ time.time-experience {
 }
 
 div.container-content-actosoft {
-  @apply flex md:flex-row flex-col  md:gap-10;
+  @apply flex flex-col;
 }
 
 a.link-actosoft {
-  @apply md:max-w-full w-40 px-4 text-xl font-semibold text-emerald-600 dark:text-gray-300;
+  @apply md:max-w-full w-[170px] sm:w-52 px-4 text-xl font-semibold text-emerald-600 dark:text-gray-300;
 }
 
 img.logo-actosoft {
@@ -127,4 +127,24 @@ div.border-img-about-me {
     width: 150px;
     border-radius: 8px;
   }
+}
+
+.container-page-gallery {
+  @apply mt-32 flex flex-col justify-center items-center p-5;
+}
+
+.container-title-gallery {
+  @apply flex md:flex-row flex-col;
+}
+
+.title-gallery {
+  @apply text-center text-5xl leading-tight skew-x-6;
+}
+
+.section-colums-img {
+  @apply mt-10 block p-4 gap-5 columns-2 lg:columns-3 xl:columns-4;
+}
+
+.img-gallery {
+  @apply mb-3 w-full h-full object-fill;
 }
