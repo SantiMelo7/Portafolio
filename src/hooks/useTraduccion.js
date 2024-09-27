@@ -32,13 +32,14 @@ export function useProjectBottom() {
 }
 
 export function useProjects() {
-    const t1 = useTranslations("Brothers")
-    const t2 = useTranslations("BugBookClone")
-    const t3 = useTranslations("Tesla")
+    const t1 = useTranslations("CriselUi")
+    const t2 = useTranslations("CriselAdmin")
+    const t3 = useTranslations("Brothers")
     const t4 = useTranslations("Formula")
-    const t5 = useTranslations("DesignProjects")
-    const t6 = useTranslations("TodoApp")
-    return { t1, t2, t3, t4, t5, t6 }
+    const t5 = useTranslations("Tesla")
+    const t6 = useTranslations("DesignProjects")
+    const t7 = useTranslations("TodoApp")
+    return { t1, t2, t3, t4, t5, t6, t7 }
 }
 
 export function useProjectsDesing() {
@@ -80,4 +81,10 @@ export function useCurriculum() {
     const t6 = useTranslations("TITLE-SECTION-3-2")
     const t7 = useTranslations("VISIT-EMAIL")
     return { t, t1, t2, t3, t4, t5, t6, t7 }
+}
+
+export function useGallery() {
+    const t = useTranslations("TITLE-ONE-GALLERY")
+    const t1 = useTranslations("TITLE-TWO-GALLERY")
+    return { t, t1 }
 }

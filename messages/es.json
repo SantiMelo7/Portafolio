@@ -21,22 +21,25 @@
         "challenges": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente."
     },
     "Brothers": {
-        "description-1": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, además de hacer citas para hacer que tu coche este a otro nivel"
+        "description-1": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
-    "BugBookClone": {
-        "description-2": "En este proyecto aprendo todo lo relacionado con Prisma - Postgress. Dentro del mismo, destaco mis aprendizajes obtenidos en general y agrego al código del video original, un poco de mis ideas a la hora de programar, crear componentes, interfaces etc. La idea original, el perfil y el vídeo estan en el respositorio."
+    "CriselAdmin": {
+        "description-2": "Aplicación para un negocio de hamburguesas, la plataforma de administración permite gestionar empleados, inventarios y platillos en Crisel. Está dirigida a los dueños para monitorear ventas y optimizar recursos. Como líder frontend, desarrollé una interfaz intuitiva y colaboré con el equipo para mejorar sus habilidades técnicas."
     },
-    "Tesla": {
-        "description-3": "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
+    "Brothers": {
+        "description-3": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
     "Formula": {
         "description-4": "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
     },
+    "Tesla": {
+        "description-5": "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
+    },
     "DesignProjects": {
-        "description-5": "Página donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
+        "description-6": "Página donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
     },
     "TodoApp": {
-        "description-6": "Aplicación creada con HTML, CSS y JavaScript. Esta fue mi primera app."
+        "description-7": "Aplicación creada con HTML, CSS y JavaScript. Esta fue mi primera app."
     },
     "Title-About-Me": {
         "title": "Acerca de mi..."
@@ -133,29 +136,5 @@
     },
     "LINETIME": {
         "description-8": "Página de diseño, donde aprendi a utilizar las animaciones cone stilo y con logica de programacion"
-    },
-    "SECTION-1": {
-        "section-1": "Contáctame"
-    },
-    "SECTION-2": {
-        "section-2": "Experiencia Laboral"
-    },
-    "SECTION-3": {
-        "section-3": "Educación"
-    },
-    "VISIT-GIT": {
-        "visit-1": "Visita mi GitHub"
-    },
-    "VISIT-LiNKEDIN": {
-        "visit-2": "Visita mi Linkedin"
-    },
-    "VISIT-EMAIL": {
-        "visit-3": "santiagocano15cr7@gmail.com"
-    },
-    "TITLE-SECTION-3-1": {
-        "tab-1": "Universidad"
-    },
-    "TITLE-SECTION-3-2": {
-        "tab-2": "Presente"
     }
 }

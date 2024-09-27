@@ -19,6 +19,10 @@ a.content-link {
   @apply bg-gray-800 text-white border-gray-600 hover:bg-slate-400;
 }
 
+.container-tools-projects {
+  @apply grid gap-x-10 2xl:ml-0 mx-auto !grid-cols-2 md:!grid-cols-3 xl:!grid-cols-tools;
+}
+
 h3.title-experience {
   @apply text-xl font-extrabold dark:font-semibold text-emerald-700 dark:text-gray-300;
 }
@@ -30,7 +34,7 @@ div.container-center {
 .link-project {
   @apply border-[2.5px] dark:border-[1.7px] border-amber-600 dark:border-yellow-500;
   @apply rounded-md flex flex-row gap-5 justify-center items-center;
-  @apply text-xl py-1 transition md:hover:scale-95;
+  @apply text-lg py-1 transition md:hover:scale-95;
   @apply mt-4 hover:scale-95 dark:bg-transparent;
 }
 
@@ -123,4 +127,24 @@ div.border-img-about-me {
     width: 150px;
     border-radius: 8px;
   }
+}
+
+.container-page-gallery {
+  @apply mt-32 flex flex-col justify-center items-center p-5;
+}
+
+.container-title-gallery {
+  @apply flex md:flex-row flex-col;
+}
+
+.title-gallery {
+  @apply text-center text-5xl leading-tight skew-x-6;
+}
+
+.section-colums-img {
+  @apply mt-10 block p-4 gap-5 columns-2 lg:columns-3 xl:columns-4;
+}
+
+.img-gallery {
+  @apply mb-3 w-full h-full object-fill;
 }
