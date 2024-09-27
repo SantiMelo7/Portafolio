@@ -10,7 +10,7 @@ export default function ContentProjects({ line, data, url, children }) {
   const { t } = useLineTitle();
 
   return (
-    <div className="mt-32">
+    <div className="xl:mt-40 mt-20">
       <section className="scroll-m-20 w-full mt-10 xl:p-0 p-4 mx-auto container lg:max-w-6xl md:max-w-4xl">
         <div className="mb-10">
           {line && <Title title={t("title-projects-line")} />}
@@ -47,7 +47,6 @@ export default function ContentProjects({ line, data, url, children }) {
                 </div>
               </div>
 
-              {/* Contenido del proyecto */}
               <div
                 className={`w-full lg:-translate-y-8 2xl:-translate-y-1 md:items-start md:justify-start md:block flex flex-col justify-between items-center md:max-w-xl ${
                   project.disabled
@@ -57,13 +56,13 @@ export default function ContentProjects({ line, data, url, children }) {
               >
                 <div>
                   <TitleInitial text={project.title} className="text-3xl" />
+                  <div className="mt-2 text-gray-700 dark:text-gray-400">
+                    {children(project)}
+                  </div>
                   <div className="flex flex-wrap mt-2">
                     <ul className="flex flex-wrap mb-2 gap-x-2">
                       <Toolsproject tools={project.tools} />
                     </ul>
-                  </div>
-                  <div className="mt-2 text-gray-700 dark:text-gray-400">
-                    {children(project)}
                   </div>
                 </div>
                 <footer className="flex items-center justify-start gap-x-4 mt-4">
