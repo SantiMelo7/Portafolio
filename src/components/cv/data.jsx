@@ -7,6 +7,7 @@ export const lineTec = [
   {
     key: 2,
     text: "santiagocano15cr7@gmail.com",
+    url: "mailto:santiagocano15cr7@gmail.com",
   },
   {
     key: 3,
@@ -14,11 +15,11 @@ export const lineTec = [
   },
   {
     key: 4,
-    url: "https://www.linkedin.com/in/santiago-melo-7b25732a5/",
+    url: "https://github.com/SantiMelo7",
   },
   {
     key: 5,
-    url: "https://github.com/SantiMelo7",
+    url: "https://www.linkedin.com/in/santiago-melo-7b25732a5/",
   },
 ];
 

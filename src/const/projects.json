@@ -1,6 +1,40 @@
 [
     {
         "id": 1,
+        "disabled": true,
+        "title": "Crisel Fronted UI",
+        "img": "/content/criselui.webp",
+        "tools": {
+            "React": "React",
+            "Antd": "Antd",
+            "Styled Components": "Styled",
+            "Firebase": "Firebase",
+            "Hosting": "Hosting",
+            "React Router Dom": "React Router Dom",
+            "Vite": "Vite"
+        },
+        "visitGit": "https://github.com/ActoSoft/crisel-frontend-ui",
+        "visitPrev": "/es/crisel-fronted-ui"
+    },
+    {
+        "id": 2,
+        "disabled": true,
+        "title": "Crisel Admin App",
+        "img": "/content/criseladmin.webp",
+        "tools": {
+            "Next": "Next",
+            "React": "React",
+            "Antd": "Antd",
+            "Styled Components": "Styled",
+            "Firebase": "Firebase",
+            "Hosting": "Hosting"
+        },
+        "visitGit": "https://github.com/ActoSoft/crisel-frontend-erp",
+        "visitPrev": "/es/crisel-admin-app"
+    },
+    {
+        "id": 3,
+        "disabled": false,
         "title": "Brothers Auto Details",
         "img": "/content/brothersAutoDetail.webp",
         "tools": {
@@ -16,21 +50,8 @@
         "visitPrev": "https://brothersautodetails.web.app/"
     },
     {
-        "id": 2,
-        "title": "BugBook Clone",
-        "img": "/content/bugbookClone.webp",
-        "tools": {
-            "Next": "Next",
-            "React": "React",
-            "Typescript": "Typescript",
-            "Tailwind": "Tailwind",
-            "Prisma": "Prisma"
-        },
-        "visitGit": "https://github.com/SantiMelo7/social-media-clon",
-        "visitPrev": "https://social-mediasss.vercel.app/"
-    },
-    {
-        "id": 3,
+        "id": 4,
+        "disabled": false,
         "title": "Tesla Clon | Home",
         "img": "/content/tesla.webp",
         "tools": {
@@ -43,7 +64,8 @@
         "visitPrev": "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
-        "id": 4,
+        "id": 5,
+        "disabled": false,
         "title": "Formula Calculator",
         "img": "/content/formula-calculator.webp",
         "tools": {
@@ -57,7 +79,8 @@
         "visitPrev": "https://calculator-formula-math.vercel.app/"
     },
     {
-        "id": 5,
+        "id": 6,
+        "disabled": false,
         "title": "Design Projects",
         "img": "/content/projects-desing.webp",
         "tools": {
@@ -68,7 +91,8 @@
         "visitGit": "https://github.com/SantiMelo7/Aprendiendo-HTML-Y-CSS"
     },
     {
-        "id": 6,
+        "id": 7,
+        "disabled": false,
         "title": "To Do List",
         "img": "/content/todo-app.webp",
         "tools": {

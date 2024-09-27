@@ -7,7 +7,7 @@ import { useLocale } from "next-intl";
 import projectsData from '../../const/projects.json';
 
 export default function Projects() {
-  const { t1, t2, t3, t4, t5, t6 } = useProjects();
+  const { t1, t2, t3, t4, t5, t6, t7 } = useProjects();
   const localActive = useLocale();
   const getDescription = (id) => {
     switch (id) {
@@ -23,6 +23,8 @@ export default function Projects() {
         return t5("description-5");
       case 6:
         return t6("description-6");
+      case 7:
+        return t7("description-7");
       default:
         return "";
     }

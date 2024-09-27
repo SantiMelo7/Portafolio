@@ -15,7 +15,7 @@ export default function SectionPartFour() {
           <div className="border-[1px] border-blue-500 h-4 mt-4" />
           <h3 className="text-2xl font-medium text-blue-800 dark:text-blue-500 mt-2">{t6("tab-2")}</h3>
         </div>
-        <div className="xl:max-w-screen-lg max-w-screen-md mt-5 flex justify-center items-center mb-10">
+        <div className="xl:max-w-screen-lg max-w-screen-md mt-5 flex justify-center items-center p-3 mb-10">
           <p className="text-center font-medium text-xl dark:text-white text-black">
             I am studying Systems Engineering and I am in my 3nd semester at
             school (Consorcio Clavijero Institute)

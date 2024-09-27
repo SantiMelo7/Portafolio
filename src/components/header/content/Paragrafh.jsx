@@ -11,10 +11,9 @@ export default function Parragrafh() {
   return (
     <div className="mt-7 md:p-0 p-2">
       <strong className={cssP}>
-        {t("cam")}, &nbsp; <span className={cssSpan}> {t2("year")} </span>
-        {t3("pages")} &nbsp;
+        {t("cam")}, <span className={cssSpan}> {t2("year")} </span>
         <span className={cssSpan}>
-          {`React, Next JS, Tailwind, ${t4("most")} HTML, CSS and Javascript`}
+          {t3("pages")}
         </span>
       </strong>
       <strong className={cssP}>{t5("challenges")}</strong>

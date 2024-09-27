@@ -8,9 +8,11 @@ export function Toolsproject({ tools }) {
     if (tech) {
       return (
         <div key={key}>
-          <LinkProject className="min-w-[8rem] px-5">
+          <LinkProject className="max-w-[200px] px-5">
             <img src={tech.url} width={20} alt={tech.text} />
-            <h1 className="font-extrabold text-center dark:text-white text-black">{tech.text}</h1>
+            <h1 className="font-extrabold text-center dark:text-white text-black">
+              {tech.text}
+            </h1>
           </LinkProject>
         </div>
       );

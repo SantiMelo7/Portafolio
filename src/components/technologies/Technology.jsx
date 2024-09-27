@@ -8,10 +8,10 @@ export default function Technology() {
   const { t3 } = useLineTitle();
   return (
     <>
-      <div className="mt-10 w-[90%] lg:w-[80%] mx-auto">
-        <Title title={t3("title-technologies-line")} />
-      </div>
-      <div className="max-w-[1080px] mx-auto mt-10 md:p-5">
+      <div className="scroll-m-20 w-full mt-20 xl:p-0 p-4 mx-auto lg:max-w-6xl md:max-w-4xl">
+        <div className="mb-10">
+          <Title title={t3("title-technologies-line")} />
+        </div>
         <div className="tec-grid">
           {TECHNOLOGHIES.map((tect) => (
             <div
