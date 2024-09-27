@@ -22,26 +22,26 @@ export default function ToolsInExperience() {
         />
         <h3 className="title-experience">{t44("title-experience-4")}</h3>
       </LinkProject>
-      <br/>
+      <br />
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 sm:gap-x-3 -translate-y-3">
-      {TECHNOLOGHIES.filter(
-        (tec) =>
-          tec.text === "Typescript" ||
-          tec.text === "Material Ui" ||
-          tec.text === "Mongo DB" ||
-          tec.text === "Jira" ||
-          tec.text === "Figma" ||
-          tec.text === "Vercel" ||
-          tec.text === "Netifly" ||
-          tec.text === "Prisma" ||
-          tec.text === "Next Auth" ||
-          tec.text === "TanStack Query"
-      ).map((tec) => (
-        <LinkProject key={tec.key} className="link-actosoft">
-          <img src={tec.url} width={20} height={20} alt={tec.text} />
-          <h1 className="text-[16px] sm:text-[20px]">{tec.text}</h1>
-        </LinkProject>
-      ))}
+        {TECHNOLOGHIES.filter(
+          (tec) =>
+            tec.text === "Typescript" ||
+            tec.text === "Material Ui" ||
+            tec.text === "Mongo DB" ||
+            tec.text === "Jira" ||
+            tec.text === "Figma" ||
+            tec.text === "Vercel" ||
+            tec.text === "Netifly" ||
+            tec.text === "Prisma" ||
+            tec.text === "Next Auth" ||
+            tec.text === "TanStack Query"
+        ).map((tec) => (
+          <LinkProject key={tec.key} className="link-actosoft">
+            <img src={tec.url} width={20} height={20} alt={tec.text} />
+            <h1 className="text-[16px] sm:text-[20px]">{tec.text}</h1>
+          </LinkProject>
+        ))}
       </div>
     </>
   );

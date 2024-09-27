@@ -12,16 +12,16 @@
         "year": "con 1 año de experiencia"
     },
     "World": {
-        "pages": " en el mundo de las páginas web. Me desempeño principalmente con React, Next JS, Tailwind, así como HTML, CSS and Javascript"
+        "pages": " en el mundo de las páginas web. Me desempeño principalmente con React, Next JS, Tailwind, así como HTML, CSS y Javascript."
     },
     "Tec": {
         "most": "así como"
     },
     "DaysNew": {
-        "challenges": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente"
+        "challenges": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente."
     },
-    "CriselUi": {
-        "description-1": "Aplicación para un negocio de hamburguesas, donde para los empleados de Crisel  gestionen órdenes de manera rápida y eficiente y puedan tener un control del día a día trabajando. Como lider de fronted, apoyé al equipo en la implementación de las mejores prácticas y asesorías."
+    "Brothers": {
+        "description-1": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
     "CriselAdmin": {
         "description-2": "Aplicación para un negocio de hamburguesas, la plataforma de administración permite gestionar empleados, inventarios y platillos en Crisel. Está dirigida a los dueños para monitorear ventas y optimizar recursos. Como líder frontend, desarrollé una interfaz intuitiva y colaboré con el equipo para mejorar sus habilidades técnicas."
@@ -136,35 +136,5 @@
     },
     "LINETIME": {
         "description-8": "Página de diseño, donde aprendi a utilizar las animaciones cone stilo y con logica de programacion"
-    },
-    "SECTION-1": {
-        "section-1": "Contáctame"
-    },
-    "SECTION-2": {
-        "section-2": "Experiencia Laboral"
-    },
-    "SECTION-3": {
-        "section-3": "Educación"
-    },
-    "VISIT-GIT": {
-        "visit-1": "Visita mi GitHub"
-    },
-    "VISIT-LiNKEDIN": {
-        "visit-2": "Visita mi Linkedin"
-    },
-    "VISIT-EMAIL": {
-        "visit-3": "santiagocano15cr7@gmail.com"
-    },
-    "TITLE-SECTION-3-1": {
-        "tab-1": "Universidad"
-    },
-    "TITLE-SECTION-3-2": {
-        "tab-2": "Presente"
-    },
-    "TITLE-ONE-GALLERY": {
-        "title-1": "Estas aplicaciones son de uso para los dueños del negocio y trabajadores"
-    },
-    "TITLE-TWO-GALLERY": {
-        "title-2": "Sin embargo, dejo fotos de como esta construida la aplicación y todos sus detalles"
     }
 }
