@@ -20,7 +20,7 @@ a.content-link {
 }
 
 .container-tools-projects {
-  @apply grid gap-x-10 2xl:ml-0 mx-auto !grid-cols-2 md:!grid-cols-3 2xl:!grid-cols-tools;
+  @apply grid gap-x-10 2xl:ml-0 mx-auto !grid-cols-2 md:!grid-cols-3 xl:!grid-cols-tools;
 }
 
 h3.title-experience {

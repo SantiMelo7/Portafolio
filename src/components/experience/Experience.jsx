@@ -53,12 +53,12 @@ export default function Experience() {
 
   return (
     <>
-      <div className="mt-10 w-[90%] lg:w-[75%] mx-auto">
-        <Title title={t2("title-experience-line")} />
-      </div>
-      <div className="flex justify-center items-center flex-col md:max-w-full md:p-0 max-w-screen-md p-6">
-        <div className="mt-8">
-          <ol className="relative  border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">
+      <section className="scroll-m-20 w-full mt-20 xl:p-0 p-4 mx-auto lg:max-w-6xl md:max-w-4xl">
+        <div className="mb-8">
+          <Title title={t2("title-experience-line")} />
+        </div>
+        <div className=" flex justify-center">
+          <ol className="relative border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">
             {EXPERIENCE.map((text) => (
               <div key={text.id} className="mt-1">
                 <li className="container-content-experience">
@@ -68,9 +68,7 @@ export default function Experience() {
                   {text.id === 4 && (
                     <>
                       <div className="container-content-actosoft">
-                        {text.id === 4 && (
-                          <ToolsInExperience />
-                        )}
+                        {text.id === 4 && <ToolsInExperience />}
                       </div>
                       <ReferenceExperience />
                     </>
@@ -83,7 +81,7 @@ export default function Experience() {
             ))}
           </ol>
         </div>
-      </div>
+      </section>
     </>
   );
 }

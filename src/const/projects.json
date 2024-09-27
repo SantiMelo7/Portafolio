@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "disabled": true,
         "title": "Crisel Fronted UI",
         "img": "/content/criselui.webp",
         "tools": {
@@ -17,6 +18,7 @@
     },
     {
         "id": 2,
+        "disabled": true,
         "title": "Crisel Admin App",
         "img": "/content/criseladmin.webp",
         "tools": {
@@ -32,6 +34,7 @@
     },
     {
         "id": 3,
+        "disabled": false,
         "title": "Brothers Auto Details",
         "img": "/content/brothersAutoDetail.webp",
         "tools": {
@@ -48,6 +51,7 @@
     },
     {
         "id": 4,
+        "disabled": false,
         "title": "Tesla Clon | Home",
         "img": "/content/tesla.webp",
         "tools": {
@@ -61,6 +65,7 @@
     },
     {
         "id": 5,
+        "disabled": false,
         "title": "Formula Calculator",
         "img": "/content/formula-calculator.webp",
         "tools": {
@@ -75,6 +80,7 @@
     },
     {
         "id": 6,
+        "disabled": false,
         "title": "Design Projects",
         "img": "/content/projects-desing.webp",
         "tools": {
@@ -86,6 +92,7 @@
     },
     {
         "id": 7,
+        "disabled": false,
         "title": "To Do List",
         "img": "/content/todo-app.webp",
         "tools": {
