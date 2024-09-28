@@ -152,9 +152,3 @@ div.border-img-about-me {
 .footer-projects {
   @apply flex justify-start items-center gap-x-4;
 }
-
-@media screen and (min-width: 1200px) {
-  .footer-projects {
-    margin-top: calc(5vh - 5px);
-  }
-}
