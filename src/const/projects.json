@@ -52,20 +52,6 @@
     {
         "id": 4,
         "disabled": false,
-        "title": "Tesla Clon | Home",
-        "img": "/content/tesla.webp",
-        "tools": {
-            "React": "React",
-            "Tailwind": "Tailwind",
-            "Vite": "Vite",
-            "Vercel": "Vercel"
-        },
-        "visitGit": "https://github.com/SantiMelo7/Tesla-Clon-Home",
-        "visitPrev": "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
-    },
-    {
-        "id": 5,
-        "disabled": false,
         "title": "Formula Calculator",
         "img": "/content/formula-calculator.webp",
         "tools": {
@@ -77,6 +63,20 @@
         },
         "visitGit": "https://github.com/SantiMelo7/Calculator-Formula",
         "visitPrev": "https://calculator-formula-math.vercel.app/"
+    },
+    {
+        "id": 5,
+        "disabled": false,
+        "title": "Tesla Clon | Home",
+        "img": "/content/tesla.webp",
+        "tools": {
+            "React": "React",
+            "Tailwind": "Tailwind",
+            "Vite": "Vite",
+            "Vercel": "Vercel"
+        },
+        "visitGit": "https://github.com/SantiMelo7/Tesla-Clon-Home",
+        "visitPrev": "https://tesla-clon-home-bie1f0e1t-santicms-projects.vercel.app/"
     },
     {
         "id": 6,
