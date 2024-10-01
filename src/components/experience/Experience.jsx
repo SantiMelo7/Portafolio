@@ -57,7 +57,7 @@ export default function Experience() {
         <div className="mb-8">
           <Title title={t2("title-experience-line")} />
         </div>
-        <div className=" flex justify-center">
+        <div className="flex justify-center ml-10">
           <ol className="relative border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200">
             {EXPERIENCE.map((text) => (
               <div key={text.id} className="mt-1">

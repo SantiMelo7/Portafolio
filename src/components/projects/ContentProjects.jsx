@@ -22,25 +22,20 @@ export default function ContentProjects({ line, data, url, children }) {
               <article
                 disabled={project.disabled}
                 key={project.id}
-                className={`relative flex flex-col space-x-0 space-y-8 group lg:flex-row md:space-x-8 md:space-y-0 ${
-                  project.disabled && "group cursor-not-allowed"
-                }`}
-                style={{ minHeight: "100%" }}
+                className="relative flex flex-col space-x-0 space-y-8 group lg:flex-row md:space-x-8 md:space-y-0 disabled:group disabled:cursor-not-allowed"
               >
                 {project.disabled && (
-                  <div className="absolute inset-0 bg-black/40 md:translate-x-8  w-full h-full flex items-start justify-start z-10 group-hover:opacity-0 transition-opacity duration-300">
-                    <Clock className="text-amber-600 dark:text-yellow-500 lg:mt-2 md:mt-4 md:ml-5 lg:ml-3 -translate-y-2 sm:translate-y-3 size-8" />
+                  <div className="absolute inset-0 dark:bg-black/40 w-full h-full flex items-start justify-start z-10 group-hover:opacity-0 transition-opacity duration-300">
+                    <Clock className="text-amber-600 dark:text-yellow-500 md:ml-10 md:mt-1 mt-10 ml-3 size-8" />
                   </div>
                 )}
 
                 <div
-                  className={`w-full lg:w-[70%] ${
-                    project.disabled
-                      ? "opacity-50 pointer-events-none filter grayscale group-hover:opacity-100 group-hover:pointer-events-auto group-hover:filter-none"
-                      : ""
+                  className={`w-full md:w-[95%] lg:w-[70%] ${
+                    project.disabled && "opacity-50 pointer-events-none filter grayscale group-hover:opacity-100 group-hover:pointer-events-auto group-hover:filter-none"
                   }`}
                 >
-                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                  <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl  lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
                     <img
                       src={project.img}
                       alt={project.title}
@@ -52,8 +47,7 @@ export default function ContentProjects({ line, data, url, children }) {
                 <div
                   className={`w-full lg:-translate-y-7 2xl:-translate-y-1 md:items-start md:justify-start md:block flex flex-col justify-between items-center md:max-w-xl ${
                     project.disabled
-                      ? "opacity-50 pointer-events-none filter grayscale group-hover:opacity-100 group-hover:pointer-events-auto group-hover:filter-none"
-                      : ""
+                      && "opacity-50 pointer-events-none filter grayscale group-hover:opacity-100 group-hover:pointer-events-auto group-hover:filter-none"
                   }`}
                 >
                   <div>
