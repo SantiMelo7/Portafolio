@@ -21,25 +21,25 @@
         "challenges": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente."
     },
     "CriselUi": {
-        "description-1": "Aplicación para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia "
+        "description-1": "Página web para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia "
     },
     "CriselAdmin": {
-        "description-2": "Aplicación para un negocio de hamburguesas, la plataforma de administración permite gestionar empleados, inventarios y platillos en Crisel. Está dirigida a los dueños para monitorear ventas y optimizar recursos. Como líder frontend, desarrollé una interfaz intuitiva y colaboré con el equipo para mejorar sus habilidades técnicas."
+        "description-2": "Página web para un negocio de hamburguesas, la plataforma de administración permite gestionar empleados, inventarios y platillos en Crisel. Está dirigida a los dueños para monitorear ventas y optimizar recursos. Como líder frontend, desarrollé una interfaz intuitiva y colaboré con el equipo para mejorar sus habilidades técnicas."
     },
     "Brothers": {
-        "description-3": "Aplicación para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
+        "description-3": "Página web para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
     },
     "Formula": {
-        "description-4": "Aplicación creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
+        "description-4": "Página web creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
     },
     "Tesla": {
-        "description-5": "Aplicación Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades"
+        "description-5": "Página web Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades en estilos y maquetación"
     },
     "DesignProjects": {
-        "description-6": "Página donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
+        "description-6": "Sección donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
     },
     "TodoApp": {
-        "description-7": "Aplicación creada con HTML, CSS y JavaScript. Esta fue mi primera app."
+        "description-7": "Página web creada con HTML, CSS y JavaScript. Esta fue mi primera app."
     },
     "Title-About-Me": {
         "title": "Acerca de mi..."

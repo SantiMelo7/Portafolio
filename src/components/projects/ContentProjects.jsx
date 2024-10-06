@@ -6,8 +6,9 @@ import Title from "../technologies/Title";
 import ProjectBottom from "./ProjectBottom";
 import { Toolsproject } from "./ToolsProject";
 import FooterProjects from "./FooterProjects";
+import ActosoftImg from "../../../public/content/actosoft.png"
 
-export default function ContentProjects({ line, data, url, children }) {
+export default function ContentProjects({ line, data, get, url, children }) {
   const { t } = useLineTitle();
 
   return (
@@ -25,10 +26,17 @@ export default function ContentProjects({ line, data, url, children }) {
                 className="relative flex flex-col space-x-0 space-y-8 group lg:flex-row md:space-x-8 md:space-y-0 disabled:group disabled:cursor-not-allowed"
               >
                 {project.disabled && (
-                  <div className="absolute inset-0 dark:bg-black/40 w-full h-full flex items-start justify-start z-10 group-hover:opacity-0 transition-opacity duration-300">
-                    <Clock className="text-amber-600 dark:text-yellow-500 md:ml-10 md:mt-1 mt-10 ml-3 size-8" />
+                  <div className='absolute inset-0 z-10 dark:bg-black/40 group-hover:opacity-0 transition-opacity duration-300
+                    w-full h-full flex items-start justify-start'
+                  >
+                    <Clock className="text-amber-600 dark:text-yellow-500 size-8 md:ml-10 mt-16 ml-3 md:mt-8"/>
                   </div>
                 )}
+
+                <div
+                  className='absolute flex-col inset-0 z-10 w-full h-full flex items-start justify-start'>
+                  { project.refWork && <img src={ActosoftImg.src} className="w-20 h-20 object-contain -translate-y-7" alt="Actosoft"/> }
+                </div>
 
                 <div
                   className={`w-full md:w-[95%] lg:w-[70%] ${
@@ -61,7 +69,7 @@ export default function ContentProjects({ line, data, url, children }) {
                       </ul>
                     </div>
                   </div>
-                  <FooterProjects id={project.id}>
+                  <FooterProjects getMarginTop={get} id={project.id}>
                     <ProjectBottom
                       hrefGitHub={project.visitGit}
                       hrefLink={project.id === 6 ? url : project.visitPrev}

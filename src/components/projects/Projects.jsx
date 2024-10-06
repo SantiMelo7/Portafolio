@@ -7,8 +7,31 @@ import { useLocale } from "next-intl";
 import projectsData from '../../const/projects.json';
 
 export default function Projects() {
+
   const { t1, t2, t3, t4, t5, t6, t7 } = useProjects();
   const localActive = useLocale();
+
+  const getMarginTop = (id) => {
+    switch (id) {
+      case 1:
+        return "0px";
+      case 2:
+        return "2.2rem";
+      case 3:
+        return "4.5rem";
+      case 4:
+        return "3rem";
+      case 5:
+        return "3.2rem";
+      case 6:
+        return "7.5rem";
+      case 7:
+        return "4.8rem";
+      default:
+        return "0px";
+    }
+  };
+
   const getDescription = (id) => {
     switch (id) {
       case 1:
@@ -31,7 +54,7 @@ export default function Projects() {
   };
 
   return (
-    <ContentProjects line data={projectsData} url={`/${localActive}/desing-projects`}>
+    <ContentProjects get={getMarginTop} line data={projectsData} url={`/${localActive}/desing-projects`}>
       {(project) => <TextProject text={getDescription(project.id)} />}
     </ContentProjects>
   );

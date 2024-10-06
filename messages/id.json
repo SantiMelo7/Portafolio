@@ -21,25 +21,25 @@
         "challenges": "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things."
     },
     "CriselUi": {
-        "description-1": "Application for a hamburger business, the platform for employees to create, manage and have precise monitoring of a work day. As a frontend leader, develop, together with the team, an interface that is detailed enough so that they have the best experience"
+        "description-1": "Website for a hamburger business, the platform for employees to create, manage and have precise monitoring of a work day. As a frontend leader, develop, together with the team, an interface that is detailed enough so that they have the best experience"
     },
     "CriselAdmin": {
-        "description-2": "Application for a hamburger business, the administration platform allows you to manage employees, inventories and dishes in Crisel. It is aimed at owners to monitor sales and optimize resources. As a frontend leader, I developed an intuitive interface and collaborated with the team to improve their technical skills."
+        "description-2": "Website for a hamburger business, the administration platform allows you to manage employees, inventories and dishes in Crisel. It is aimed at owners to monitor sales and optimize resources. As a frontend leader, I developed an intuitive interface and collaborated with the team to improve their technical skills."
     },
     "Brothers": {
-        "description-3": "Application for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
+        "description-3": "Website for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
     },
     "Formula": {
-        "description-4": "Application created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
+        "description-4": "Website created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
     },
     "Tesla": {
-        "description-5": "Tesla Clone Application, Created from scratch with Next.js and Tailwind CSS in order to demonstrate my skills"
+        "description-5": "Website Tesla Clone App, built from scratch with Next.js and Tailwind CSS to demonstrate my styling and layout skills"
     },
     "DesignProjects": {
-        "description-6": "Page where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."
+        "description-6": "Section where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."
     },
     "TodoApp": {
-        "description-7": "App created with HTML, CSS, and JavaScript. This was my first app."
+        "description-7": "Website created with HTML, CSS, and JavaScript. This was my first app."
     },
     "Title-About-Me": {
         "title": "About Me..."
