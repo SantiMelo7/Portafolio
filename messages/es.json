@@ -136,5 +136,29 @@
     },
     "LINETIME": {
         "description-8": "Página de diseño, donde aprendi a utilizar las animaciones cone stilo y con logica de programacion"
+    },
+    "SECTION-1": {
+        "section-1": "Contáctame"
+    },
+    "SECTION-2": {
+        "section-2": "Experiencia Laboral"
+    },
+    "VISIT-GIT": {
+        "visit-1": "Visita mi GitHub"
+    },
+    "VISIT-LiNKEDIN": {
+        "visit-2": "Visita mi Linkedin"
+    },
+    "VISIT-EMAIL": {
+        "visit-3": "santiagocano15cr7@gmail.com"
+    },
+    "SECTION-3": {
+        "section-3": "Educación"
+    },
+    "TITLE-SECTION-3-1": {
+        "tab-1": "Universidad"
+    },
+    "TITLE-SECTION-3-2": {
+        "tab-2": "Presente"
     }
 }
