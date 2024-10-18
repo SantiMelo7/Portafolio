@@ -23,7 +23,9 @@ export default function ReferenceExperience() {
           {t9("title")}
           <FolderCog className="mt-[6px]" />
         </div>
-        <img src={RefImg.src} className="w-72 sm:w-96 mt-5 mb-10" />
+        <div className="block hover:!scale-95 hover:transition-all">
+          <img src={RefImg.src} className="w-72 sm:w-96 mt-5 mb-10" />
+        </div>
       </div>
     </>
   );

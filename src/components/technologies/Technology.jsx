@@ -15,7 +15,7 @@ export default function Technology() {
         <div className="tec-grid">
           {TECHNOLOGHIES.map((tect) => (
             <div
-              className="w-[190px] h-[204px] mx-auto dark:bg-[#283149] bg-gray-300 dark:shadow-none shadow-lg shadow-gray-600 rounded-[8px] z-[1] transition-all hover:!scale-105 card"
+              className="w-[190px] h-[204px] md:mr-0 mr-5 mx-auto dark:bg-[#283149] bg-gray-300 dark:shadow-none shadow-lg shadow-gray-600 rounded-[8px] z-[1] transition-all hover:!scale-105 card"
               key={tect.id}
             >
               <div className="flex items-center gap-x-2 p-2">

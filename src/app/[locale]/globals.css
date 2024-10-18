@@ -148,3 +148,7 @@ div.border-img-about-me {
 .img-gallery {
   @apply mb-3 w-full h-full object-fill;
 }
+
+.footer-projects {
+  @apply flex justify-start items-center gap-x-4;
+}

@@ -4,12 +4,12 @@ import ContentLayout from "./ContentLayout";
 import { useCurriculum } from "../../hooks/useTraduccion";
 
 export default function SectionPartTwo() {
-  const { t, t3, t4, t7 } = useCurriculum()
+  const { t, t3, t4 } = useCurriculum()
 
   const getText = (id) => {
     switch (id) {
       case 2:
-        return t7("visit-3")
+        return "santiagocano15cr7@gmail.com"
       case 4:
         return t3("visit-1");
       case 5:
