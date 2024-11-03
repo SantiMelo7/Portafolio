@@ -3,12 +3,18 @@ import { TECHNOLOGHIES } from "../../const/tec";
 import { useExperience } from "../../hooks/useTraduccion";
 import LinkProject from "../projects/LinksProject";
 import ActosoftImg from "../../../public/content/actosoft.png";
+import OrganizationsImg from "../../../public/content/organizations.webp";
 
 export default function ToolsInExperience() {
   const { t44 } = useExperience();
 
   return (
     <>
+      <img
+        src={OrganizationsImg.src}
+        className="mt-4 sm:w-96 w-80"
+        alt="Organizations"
+      />
       <LinkProject
         href="https://actosoft.com.mx/frontend"
         className="link-actosoft underline"
@@ -23,7 +29,7 @@ export default function ToolsInExperience() {
         <h3 className="title-experience">{t44("title-experience-4")}</h3>
       </LinkProject>
       <br />
-      <div className="flex flex-wrap gap-x-8 sm:gap-x-3 -translate-y-3">
+      <div className="sm:flex grid grid-cols-2 sm:flex-wrap gap-x-8 sm:gap-x-3 -translate-y-3">
         {TECHNOLOGHIES.filter(
           (tec) =>
             tec.text === "Typescript" ||
