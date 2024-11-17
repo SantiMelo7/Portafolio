@@ -19,7 +19,7 @@ export const iconsLinkData = [
     {
         key: 3,
         url: "mailto:santiagocano15cr7@gmail.com",
-        text: "Contáctame",
+        text: "Email",
         component: <Gmail />
     },
     {
