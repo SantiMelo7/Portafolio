@@ -19,12 +19,12 @@ export const iconsLinkData = [
     {
         key: 3,
         url: "mailto:santiagocano15cr7@gmail.com",
-        text: "Contáctame",
+        text: "Email",
         component: <Gmail />
     },
     {
         key: 4,
-        url: "https://curriculum-dev.vercel.app/",
+        url: "https://drive.google.com/file/d/1QmbfRwmOBdnZ7RzyDJfwdkcsk67wwe1Z/view?usp=sharing",
         text: "Ver CV",
         component: <BookText />
     },

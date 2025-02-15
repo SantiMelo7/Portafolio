@@ -23,7 +23,7 @@ export default function ContentProjects({ line, data, get, url, children }) {
               <article
                 disabled={project.disabled}
                 key={project.id}
-                className="relative flex flex-col space-x-0 space-y-8 group lg:flex-row md:space-x-8 md:space-y-0 disabled:group disabled:cursor-not-allowed"
+                className="relative flex flex-col group space-x-0 space-y-8 lg:flex-row md:space-x-8 md:space-y-0 disabled:group disabled:cursor-not-allowed"
               >
                 {project.disabled && (
                   <div className='absolute inset-0 z-10 dark:bg-black/40 group-hover:opacity-0 transition-opacity duration-300
@@ -33,10 +33,6 @@ export default function ContentProjects({ line, data, get, url, children }) {
                   </div>
                 )}
 
-                <div
-                  className='absolute flex-col inset-0 z-10 w-full h-full flex items-start justify-start'>
-                  { project.refWork && <img src={ActosoftImg.src} className="w-20 h-20 object-contain -translate-y-7" alt="Actosoft"/> }
-                </div>
 
                 <div
                   className={`w-full md:w-[95%] lg:w-[70%] ${
@@ -44,6 +40,11 @@ export default function ContentProjects({ line, data, get, url, children }) {
                   }`}
                 >
                   <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl  lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+                  {project.refWork &&
+                    <div className='absolute flex-col inset-0 z-10 w-full h-full flex items-start justify-start'>
+                      <img src={ActosoftImg.src} className="w-20 h-20 object-contain -translate-y-7" alt="Actosoft"/>
+                    </div>
+                  }
                     <img
                       src={project.img}
                       alt={project.title}
