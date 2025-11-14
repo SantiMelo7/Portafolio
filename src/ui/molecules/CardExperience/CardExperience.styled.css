@@ -1,0 +1,15 @@
+.li-card-experience {
+  @apply mb-10 ms-4;
+}
+
+.circle-card-experience {
+  @apply absolute w-3 h-3 bg-gray-800 dark:bg-purple-500 rounded-full mt-1.5 -start-1.5 border border-white;
+}
+
+.time-card-experience {
+  @apply mb-1 text-xl mt-2 dark:font-bold font-extrabold leading-none text-emerald-900 dark:text-emerald-200;
+}
+
+.title-card-experience {
+  @apply text-xl font-extrabold dark:font-semibold text-emerald-700 dark:text-gray-300;
+}

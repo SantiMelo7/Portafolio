@@ -1,0 +1,47 @@
+.container-main-card-projects {
+  @apply relative flex flex-col space-x-0 space-y-8 lg:flex-row md:space-x-8 md:space-y-0 disabled:cursor-not-allowed;
+}
+
+.container-card-disabled {
+  @apply absolute inset-0 z-10 dark:bg-black/40 hover:opacity-0 transition-opacity duration-300 w-full h-full flex items-start justify-start;
+}
+
+.icon-clock-disabled {
+  @apply text-amber-600 dark:text-yellow-500 size-8 md:ml-10 mt-16 ml-3 md:mt-8;
+}
+
+.container-card-content-projects {
+  @apply w-full md:w-[95%] lg:w-[70%];
+}
+
+.container-card-content-projects-disabled {
+  @apply opacity-50 pointer-events-none filter grayscale group-hover:opacity-100 group-hover:pointer-events-auto group-hover:filter-none;
+}
+
+.container-card-content-img {
+  @apply relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl  lg:hover:border-gray-700 lg:hover:bg-gray-800/50;
+}
+
+.container-card-content-img-actosoft {
+  @apply absolute flex-col inset-0 z-10 w-full h-full flex items-start justify-start;
+}
+
+.container-text-projects {
+  @apply w-full lg:-translate-y-7 2xl:-translate-y-1 md:items-start md:justify-start md:block flex flex-col justify-between items-center md:max-w-xl;
+}
+
+.title-projects {
+  @apply text-3xl font-bold text-blue-600 dark:text-primary 2xl:mt-2 mt-7;
+}
+
+.description-projects {
+  @apply mt-2 xl:text-start xl:p-0 p-2 text-center text-xl font-extrabold dark:font-bold text-gray-900 dark:text-slate-200;
+}
+
+.footer-projects {
+  @apply flex justify-start items-center gap-x-4;
+}
+
+.parragraph-code {
+  @apply p-[10px];
+}

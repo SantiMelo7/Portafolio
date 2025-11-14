@@ -27,7 +27,7 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className="dark">
       <NextIntlClientProvider messages={messages}>
-        <body className={`${inter.className} dark:bg-[#000] bg-gray-200`}>
+        <body className={inter.className}>
           <main>
             {children}
           </main>

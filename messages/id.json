@@ -1,170 +1,82 @@
 {
-    "ImageHeader": {
-        "work": "Aviable to work"
+  "Generic" : {
+    "work": "Aviable to work",
+    "name-author": "Hi, I'm Santiago Melo",
+    "button-code": "Code",
+    "button-prev": "Preview",
+    "language-spanish": "Spanish",
+    "language-english": "English"
+  },
+  "Title-Line": {
+    "technology": "Tools",
+    "experiencie": "Experience",
+    "projects": "Projects"
+  },
+  "InfoMe": {
+    "Description": {
+      "text-1": "I am a Front-End Developer",
+      "text-2": "with 2 years of experience",
+      "text-3": "in the world of web pages. My performance is mainly with React, Next JS, Tailwind, as well as HTML, CSS and Javascript.",
+      "text-4": "as well as",
+      "text-5": "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things."
+    }
+  },
+  "Projects": {
+    "Description": {
+      "text-1": "Website for a hamburger business, the platform for employees to create, manage and have precise monitoring of a work day. As a frontend leader, develop, together with the team, an interface that is detailed enough so that they have the best experience",
+      "text-2": "Website for a hamburger business, the administration platform allows you to manage employees, inventories and dishes in Crisel. It is aimed at owners to monitor sales and optimize resources. As a frontend leader, I developed an intuitive interface and collaborated with the team to improve their technical skills.",
+      "text-3": "Website for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level",
+      "text-4": "Website created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas",
+      "text-5": "Website Tesla Clone App, built from scratch with Next.js and Tailwind CSS to demonstrate my styling and layout skills",
+      "text-6": "Section where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces.",
+      "text-7": "Website created with HTML, CSS, and JavaScript. This was my first app."
+    }
+  },
+  "Projects-Desing": {
+    "Description": {
+      "text-1": "Hotel design page with sections for rooms, services and reservations.",
+      "text-2": "Design page for sports with news, results and teams sections",
+      "text-3": "'Nexter' hotel design page with rooms and reservations sections",
+      "text-4": "'Trillo' hotel design page with sections for photos, services and contact",
+      "text-5": "Página de diseño de naturaleza con secciones para actividades al aire libre",
+      "text-6": "Design page cloned from 'Edge Leader' site with focus on leadership with sections for services, team and contact",
+      "text-7": "Design page making my first form",
+      "text-8": "Design page, where I learned to use animations with style and programming logic"
+  }
+  },
+  "AboutMe": {
+    "title": "About me...",
+    "description1": "Hi everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming started about a year ago, right after finishing high school. At that moment, I decided to dive into the vast world of programming, and I haven’t looked back since.",
+    "description2": "I decided to take control of my own learning and immerse myself in programming as a self-taught developer. I explored a variety of resources, from instructional videos to online courses and specialized websites. I’m currently studying Systems Engineering.",
+    "description3": "I’m eager to take on new challenges and seize every opportunity to learn and grow. I’m sure great things await me in the exciting world of technology and programming!"
+  },
+  "Experience": {
+    "Times": {
+      "time-1": "June 2023",
+      "time-2": "January 2024",
+      "time-3": "February 2024 | April 2024",
+      "time-4": "Right Now"
     },
-    "Name": {
-        "name-autor": "Hi, I'm Santiago Melo"
+    "Title": {
+      "title-1": "First steps:",
+      "title-2": "First jobs:",
+      "title-3": "More progress:",
+      "title-4": "Current work:",
+      "title-5": "Actosoft"
     },
-    "Developer": {
-        "cam": "I am a Front-End Developer"
-    },
-    "Year": {
-        "year": "with 1 year of experience"
-    },
-    "World": {
-        "pages": "in the world of web pages. My performance is mainly with React, Next JS, Tailwind, as well as HTML, CSS and Javascript."
-    },
-    "Tec": {
-        "most": "as well as"
-    },
-    "DaysNew": {
-        "challenges": "When programming day by day, I look for new challenges that make me able to demonstrate my skills and have work experiences that make me learn new things."
-    },
-    "CriselUi": {
-        "description-1": "Website for a hamburger business, the platform for employees to create, manage and have precise monitoring of a work day. As a frontend leader, develop, together with the team, an interface that is detailed enough so that they have the best experience"
-    },
-    "CriselAdmin": {
-        "description-2": "Website for a hamburger business, the administration platform allows you to manage employees, inventories and dishes in Crisel. It is aimed at owners to monitor sales and optimize resources. As a frontend leader, I developed an intuitive interface and collaborated with the team to improve their technical skills."
-    },
-    "Brothers": {
-        "description-3": "Website for a car wash company in the United States, where you can learn about all the services they offer, in addition to making appointments to make your car at another level"
-    },
-    "Formula": {
-        "description-4": "Website created with React, a mini project that a client requested of me, to be able to calculate some physics and electricity/magnetism formulas"
-    },
-    "Tesla": {
-        "description-5": "Website Tesla Clone App, built from scratch with Next.js and Tailwind CSS to demonstrate my styling and layout skills"
-    },
-    "DesignProjects": {
-        "description-6": "Section where I show the projects that helped me understand HTML layout and styling with CSS and SASS, highlighting different techniques and approaches to create attractive and functional interfaces."
-    },
-    "TodoApp": {
-        "description-7": "Website created with HTML, CSS, and JavaScript. This was my first app."
-    },
-    "Title-About-Me": {
-        "title": "About Me..."
-    },
-    "About-Me": {
-        "part-1": "Hello everyone! I'm Santiago Melo, but you can call me Santi. My passion for programming began about a year ago, right after finishing high school. At that moment I decided to venture into the vast world of programming, and I haven't looked back since."
-    },
-    "About-Me-2": {
-        "part-2": "I decided to take charge of my own learning and immerse myself in the world of programming in a self-taught way. I set out to explore a variety of resources, from instructional videos to online course lines and websites specializing in the topic. I am currently studying a degree in Systems Engineering."
-    },
-    "About-Me-3": {
-        "part-3": "I am looking forward to facing new challenges and taking advantage of every opportunity to learn and grow. I am sure that great things await me in the future in this exciting world of technology and programming!"
-    },
-    "Title-Projects": {
-        "title-projects-line": "Projects"
-    },
-    "Title-Experience": {
-        "title-experience-line": "Experience"
-    },
-    "Title-Technologies": {
-        "title-technologies-line": "Tools"
-    },
-    "Button-1": {
-        "code": "Code"
-    },
-    "Button-2": {
-        "preview": "Preview"
-    },
-    "Time-1": {
-        "time-1": "June 2023"
-    },
-    "Time-2": {
-        "time-2": "January 2024"
-    },
-    "Time-3": {
-        "time-3": "February 2024 | April 2024"
-    },
-    "Time-4": {
-        "time-4": "Right Now"
-    },
-    "Title-Experience-1": {
-        "title-experience-1": "First steps:"
-    },
-    "Title-Experience-2": {
-        "title-experience-2": "First jobs:"
-    },
-    "Title-Experience-4": {
-        "title-experience-4": "Actosoft"
+    "Description": {
+      "text-1": "I started in the world of programming after finishing high school. She begins to learn self-taught (Yotube videos, courses on Udemy and more) learning basic HTML, CSS and Javascript and over time expanding to other technologies.",
+      "text-2": "I worked on my first project being part of a team of 2, being in charge of the entire Frontend side professionally and doing some mini-projects that people asked me for as a student.",
+      "text-3": "I am showing my work to the world, carrying out mini-projects in a non-professional way, learning new technologies, improving my skills in search of my first job as a web developer, in addition to studying a degree in Systems Engineering.", 
+      "text-4": "I am currently working at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects, developing professionally with Typescript and Material UI components and reinforcing technologies and learning within the company the technologies shown. The repositories are private, however I show proof that it exists. In addition to showing the references of clients who put the website on their social networks.e", 
+      "text-5": "I am currently working at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real projects, training myself professionally."
     },
     "Ref": {
-        "title": "References"
-    },
-    "Description-Experience-1": {
-        "description-experience-1": "I started in the world of programming after finishing high school. She begins to learn self-taught (Yotube videos, courses on Udemy and more) learning basic HTML, CSS and Javascript and over time expanding to other technologies."
-    },
-    "Description-Experience-2": {
-        "description-experience-2": "I worked on my first project being part of a team of 2, being in charge of the entire Frontend side professionally and doing some mini-projects that people asked me for as a student."
-    },
-    "Description-Experience-3": {
-        "description-experience-3": "I am showing my work to the world, carrying out mini-projects in a non-professional way, learning new technologies, improving my skills in search of my first job as a web developer, in addition to studying a degree in Systems Engineering."
-    },
-    "Description-Experience-4": {
-        "description-experience-4": "I am currently working at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real-life projects, developing professionally with Typescript and Material UI components and reinforcing technologies and learning within the company the technologies shown. The repositories are private, however I show proof that it exists. In addition to showing the references of clients who put the website on their social networks.e"
-    },
-    "Description-Experience-5": {
-        "description-experience-5": "I am currently working at the company Actosoft, where I am beginning to gain experience professionally and applying my knowledge in real projects, training myself professionally."
-    },
-    "Language-1": {
-        "1": "Spanish"
-    },
-    "Language-2": {
-        "2": "English"
-    },
-    "HOTEL": {
-        "description-1": "Hotel design page with sections for rooms, services and reservations."
-    },
-    "NEWS": {
-        "description-2": "Design page for sports with news, results and teams sections"
-    },
-    "NEXTER": {
-        "description-3": "'Nexter' hotel design page with rooms and reservations sections"
-    },
-    "TRILLO": {
-        "description-4": "'Trillo' hotel design page with sections for photos, services and contact"
-    },
-    "OUTDOORS": {
-        "description-5": "Página de diseño de naturaleza con secciones para actividades al aire libre"
-    },
-    "EDGE-LEADER": {
-        "description-6": "Design page cloned from 'Edge Leader' site with focus on leadership with sections for services, team and contact"
-    },
-    "MyFirstFormDesign": {
-        "description-7": "Design page making my first form"
-    },
-    "LINETIME": {
-        "description-8": "Design page, where I learned to use animations with style and programming logic"
-    },
-    "SECTION-1": {
-        "section-1": "Contact Me"
-    },
-    "SECTION-2": {
-        "section-2": "Work Experience"
-    },
-    "SECTION-3": {
-        "section-3": "Education"
-    },
-    "VISIT-GIT": {
-        "visit-1": "Visit my GitHub"
-    },
-    "VISIT-LiNKEDIN": {
-        "visit-2": "Visit my Linkedin"
-    },
-    "VISIT-EMAIL": {
-        "visit-3": "santiagocano15cr7@gmail.com"
-    },
-    "TITLE-SECTION-3-1": {
-        "tab-1": "University"
-    },
-    "TITLE-SECTION-3-2": {
-        "tab-2": "Present"
-    },
-    "TITLE-ONE-GALLERY": {
-        "title-1": "These applications are for use by business owners and workers."
-    },
-    "TITLE-TWO-GALLERY": {
-        "title-2": "However, I leave photos of how the application is built and all its details."
+      "ref-1": "References"
     }
+  },
+  "Gallery": {
+    "title-1": "These applications are for use by business owners and workers.",
+    "title-2": "However, I leave photos of how the application is built and all its details."
+  }
 }

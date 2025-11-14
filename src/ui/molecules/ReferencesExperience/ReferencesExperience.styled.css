@@ -1,0 +1,19 @@
+.container-main-reference {
+  @apply flex flex-row gap-3 min-w-full;
+}
+
+.container-icon-reference {
+  @apply flex flex-col gap-4;
+}
+
+.icon-clock-reference {
+  @apply text-amber-600 dark:text-yellow-500 translate-y-8 size-7;
+}
+
+.icon-check-reference {
+  @apply text-green-500 size-7 translate-y-6;
+}
+
+.container-folder-reference {
+  @apply flex items-center gap-x-3 text-2xl mt-6 dark:font-semibold font-extrabold text-yellow-900 dark:text-yellow-500 ml-2;
+}

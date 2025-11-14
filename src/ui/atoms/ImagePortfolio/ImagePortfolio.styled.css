@@ -1,0 +1,55 @@
+.img-actosoft {
+  @apply w-20 h-20 object-contain -translate-y-7;
+}
+
+.img-actosoft-experience {
+  @apply object-contain w-[50px] h-[50px];
+}
+
+.img-logo {
+  @apply md:h-[80px] h-[75px];
+}
+
+.img-repositories {
+  @apply w-72 sm:w-96 mt-7 sm:mt-5;
+}
+
+.img-references {
+  @apply w-72 sm:w-96 mt-5 mb-10 block hover:!scale-95 hover:transition-all;
+}
+
+.img-organizations {
+  @apply w-[450px] mt-4;
+}
+
+.img-me {
+  @apply w-[250px] md:w-[300px] rounded-[20px] p-4;
+}
+
+.img-info-me {
+  @apply rounded-xl w-[100px] h-auto;
+}
+
+.img-capsule {
+  @apply min-w-full;
+}
+
+.img-projects {
+  @apply object-cover object-top w-full  transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105;
+}
+
+.img-projects-tools {
+  @apply w-5;
+}
+
+.img-card-content-projects {
+  @apply object-cover object-top w-full  transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105;
+}
+
+.img-data-card {
+  @apply w-[75px] h-[75px];
+}
+
+.img-gallery {
+  @apply mb-3 w-full h-full object-fill;
+}

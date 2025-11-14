@@ -1,0 +1,49 @@
+.container-main-tools-projects {
+  @apply flex flex-wrap mt-2;
+}
+
+.container-main-tools-technology {
+  @apply grid grid-rows-2 grid-cols-5 gap-[30px] w-full py-[50px] -translate-y-[40px]
+    max-[1200px]:grid-rows-4 max-[1200px]:grid-cols-4
+    max-[900px]:grid-rows-3 max-[900px]:grid-cols-3 max-[900px]:w-[90%] max-[900px]:mx-auto max-[900px]:gap-y-[50px]
+    max-[600px]:grid-rows-2 max-[600px]:grid-cols-2 max-[600px]:w-[90%] max-[600px]:mx-auto max-[600px]:gap-y-[50px];
+}
+
+.container-content-tools-projects {
+  @apply flex flex-wrap mb-2 gap-x-2;
+}
+
+.container-tools-technology {
+  @apply contents;
+}
+
+.container-content-tools-technology {
+  @apply w-[190px] h-[204px] md:mr-0 mr-5 mx-auto dark:bg-[#283149] bg-gray-300 dark:shadow-none shadow-lg shadow-gray-600
+  rounded-[8px] z-[1] transition-all hover:!scale-105 max-[502px]:w-[160px] max-[700px]:min-[600px]:w-[150px];
+}
+
+.container-render-tools-projects {
+  @apply max-w-[200px] px-5 border-[2.5px] dark:border-[1.7px] border-amber-600 dark:border-yellow-500
+  rounded-md flex flex-row gap-5 justify-center items-center text-lg py-1 transition md:hover:scale-95
+  mt-4 hover:scale-95 dark:bg-transparent;
+}
+
+.container-render-tools-technology {
+  @apply flex justify-center items-center flex-col h-[75%] gap-[10px];
+}
+
+.title-render-tools-projects {
+  @apply font-extrabold text-center dark:text-white text-black;
+}
+
+.title-render-tools-technology {
+  @apply font-extrabold text-xl mt-2 text-center dark:text-white text-black;
+}
+
+.container-circle-card {
+  @apply flex items-center gap-x-2 p-2;
+}
+
+.circle-card {
+  @apply py-0 px-1 inline-block items-center w-[10px] h-[10px] p-[1px] rounded-[50%];
+}

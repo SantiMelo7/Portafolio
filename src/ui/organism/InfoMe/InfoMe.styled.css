@@ -1,0 +1,48 @@
+.section-main-info-me {
+  @apply scroll-m-20 w-full mt-24 xl:p-0 p-4 mx-auto lg:max-w-6xl md:max-w-4xl;
+}
+
+.container-main-info-me {
+  @apply flex flex-col justify-center xl:text-start text-center xl:ml-20 max-w-[30rem] sm:max-w-[43rem] mx-auto;
+}
+
+.container-me {
+  @apply flex xl:flex-row flex-col 2xl:justify-start 2xl:items-start 2xl:mt-28 items-center gap-4 mt-4;
+}
+
+.container-border-author {
+  @apply border-[3px] border-green-900 dark:border-[#C0EE9C] py-1 px-4;
+}
+
+.title-border-author {
+  @apply text-xl font-extrabold text-green-800 dark:text-white;
+}
+
+.title-name-me {
+  @apply md:text-5xl text-[44px] font-bold text-blue-600 dark:text-primary mt-7;
+}
+
+.container-main-description-me {
+  @apply mt-7 md:p-0 p-2;
+}
+
+.text-resalt-me {
+  @apply dark:text-yellow-200 text-yellow-800;
+}
+
+.text-normal-me {
+  @apply xl:text-2xl md:text-xl text-xl dark:text-white text-gray-800 font-extrabold p-1;
+}
+
+.navigation-links-me {
+  @apply flex flex-col justify-center gap-y-3 gap-x-10 mt-4;
+}
+
+.container-main-links-me {
+  @apply grid grid-cols-2 lg:p-0 p-3 gap-4 md:grid-cols-3;
+}
+
+.link-me {
+  @apply max-w-full border-[3px] border-cyan-700 rounded-xl shadow-md shadow-cyan-200 flex justify-center items-center
+  text-xl text-black dark:text-[#00FFF0] transition hover:scale-105 py-3 gap-x-8 mt-2;
+}

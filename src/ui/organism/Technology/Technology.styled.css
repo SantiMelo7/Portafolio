@@ -1,0 +1,10 @@
+.section-main-technology {
+  @apply scroll-m-20 w-full mt-20 xl:p-0 p-4 mx-auto lg:max-w-6xl md:max-w-4xl;
+}
+
+.container-data-technologies {
+  @apply grid grid-rows-2 grid-cols-5 gap-[30px] w-full py-[50px] -translate-y-[40px]
+    max-[1200px]:grid-rows-4 max-[1200px]:grid-cols-4
+    max-[900px]:grid-rows-3 max-[900px]:grid-cols-3 max-[900px]:w-[90%] max-[900px]:mx-auto max-[900px]:gap-y-[50px]
+    max-[600px]:grid-rows-2 max-[600px]:grid-cols-2 max-[600px]:w-[90%] max-[600px]:mx-auto max-[600px]:gap-y-[50px];
+}
