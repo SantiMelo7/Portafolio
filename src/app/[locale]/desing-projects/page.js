@@ -2,7 +2,7 @@
 
 
 import { Header } from "../../../ui/molecules";
-import { Projects as ProjectsDesing } from "../../../ui/templates";
+import { Projects as ProjectsDesing } from "../../../ui/organism";
 
 import { dataDesing } from "../../../util/helpers/dataDesing"
 
