@@ -1,0 +1,11 @@
+.container-main-line-title {
+  @apply flex justify-center items-center gap-x-3 mb-10;
+}
+
+.line-title {
+  @apply sm:text-3xl text-2xl pl-3 font-extrabold text-amber-900 dark:text-white;
+}
+
+.line-title-border {
+  @apply w-full border-[1px] h-0 border-black dark:border-white;
+}

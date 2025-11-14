@@ -1,170 +1,83 @@
 {
-    "ImageHeader": {
-        "work": "Disponible para trabajar"
+  "Generic" : {
+    "work": "Disponible para trabajar",
+    "name-author": "Hola, soy Santiago Melo",
+    "button-code": "Código",
+    "button-prev": "Avance",
+    "language-spanish": "Español",
+    "language-english": "Inglés"
+  },
+  "Title-Line": {
+    "technology": "Tecnologías",
+    "experiencie": "Experiencia",
+    "projects": "Proyectos"
+  },
+  "InfoMe": {
+    "Description": {
+      "text-1": "Soy desarrollador front-end",
+      "text-2": "con 2 años de experiencia",
+      "text-3": "en el mundo de las páginas web. Me desempeño principalmente con React, Next JS, Tailwind, así como HTML, CSS y Javascript.",
+      "text-4": "así como",
+      "text-5": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente."
+    }
+  },
+  "Projects": {
+    "Description": {
+      "text-1": "Página web para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia",
+      "text-2": "Página web para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia",
+      "text-3": "Página web para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel",
+      "text-4": "Página web creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo.",
+      "text-5": "Página web Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades en estilos y maquetación",
+      "text-6": "Sección donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales.",
+      "text-7": "Página web creada con HTML, CSS y JavaScript. Esta fue mi primera app."
+    }
+  },
+  "Projects-Desing": {
+    "Description": {
+      "text-1": "Página de diseño de hotel con secciones para habitaciones, servicios y reservas",
+      "text-2": "Página de diseño para deportes con secciones de noticias, resultados y equipos",
+      "text-3": "Página de diseño de hotel 'Nexter' con secciones de habitaciones y reservas",
+      "text-4": "Página de diseño de hotel 'Trillo' con secciones para fotos, servicios y contacto",
+      "text-5": "Página de diseño de naturaleza con secciones para actividades al aire libre",
+      "text-6": "Página de diseño clonada del sitio 'Edge Leader' con enfoque en liderazgo con secciones para servicios, equipo y contacto",
+      "text-7": "Página de diseño haciendo mi primer formulario",
+      "text-8": "Página de diseño, donde aprendi a utilizar las animaciones cone stilo y con logica de programacion"
+    }
+  },
+  "AboutMe": {
+    "title": "Acerca de mi...",
+    "description1": "Hola a todos! Soy Santiago Melo, pero puedes llamarme Santi. Mi pasión por la programación comenzó hace aproximadamente un año, justo después de terminar la secundaria. En ese momento decidí aventurarme en el vasto mundo de la programación y desde entonces no he vuelto a mirar atrás.",
+    "description2": "Decidí hacerme cargo de mi propio aprendizaje y sumergirme en el mundo de la programación de forma autodidacta. Me propuse explorar una variedad de recursos, desde videos instructivos hasta líneas de cursos en línea y páginas web especializadas en el tema. Actualmente me encuentro estudiando la carrera de Ingenería en Sistemas",
+    "description3": "Tengo muchas ganas de afrontar nuevos retos y aprovechar cada oportunidad para aprender y crecer. ¡Estoy seguro que me esperan grandes cosas en el futuro en este apasionante mundo de la tecnología y la programación!"
+  },
+  "Experience": {
+    "Times": {
+      "time-1": "Junio 2023",
+      "time-2": "Enero 2024",
+      "time-3": "Febrero 2024 | Abril 2024",
+      "time-4": "Ahora mismo"
     },
-    "Name": {
-        "name-autor": "Hola, soy Santiago Melo"
+    "Title": {
+      "title-1": "Primeros pasos:",
+      "title-2": "Primeros trabajos:",
+      "title-3": "Más progreso:",
+      "title-4": "Trabajo actual:",
+      "title-5": "Actosoft"
     },
-    "Developer": {
-        "cam": "Soy desarrollador front-end"
-    },
-    "Year": {
-        "year": "con 1 año de experiencia"
-    },
-    "World": {
-        "pages": " en el mundo de las páginas web. Me desempeño principalmente con React, Next JS, Tailwind, así como HTML, CSS y Javascript."
-    },
-    "Tec": {
-        "most": "así como"
-    },
-    "DaysNew": {
-        "challenges": "Al programar día a día busco nuevos retos que me hagan capaz demostrar mis habilidades y tener experiencias laborales que me hagan crecer profesionalmente."
-    },
-    "CriselUi": {
-        "description-1": "Página web para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia "
-    },
-    "CriselAdmin": {
-        "description-2": "Página web para un negocio de hamburguesas, la plataforma de administración permite gestionar empleados, inventarios y platillos en Crisel. Está dirigida a los dueños para monitorear ventas y optimizar recursos. Como líder frontend, desarrollé una interfaz intuitiva y colaboré con el equipo para mejorar sus habilidades técnicas."
-    },
-    "Brothers": {
-        "description-3": "Página web para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que te ofrecen, ademas de hacer citas para hacer que tu coche este a otro nivel"
-    },
-    "Formula": {
-        "description-4": "Página web creada con React, un mini proyecto que me pidió un cliente, para poder calcular algunas fórmulas de física y electricidad/magnetismo."
-    },
-    "Tesla": {
-        "description-5": "Página web Tesla Clone, creada desde cero con Next.js y Tailwind CSS para demostrar mis habilidades en estilos y maquetación"
-    },
-    "DesignProjects": {
-        "description-6": "Sección donde muestro los proyectos que me ayudaron a entender la maquetación de HTML y a estilizar con CSS y SASS, destacando diferentes técnicas y enfoques para crear interfaces atractivas y funcionales."
-    },
-    "TodoApp": {
-        "description-7": "Página web creada con HTML, CSS y JavaScript. Esta fue mi primera app."
-    },
-    "Title-About-Me": {
-        "title": "Acerca de mi..."
-    },
-    "About-Me": {
-        "part-1": "¡Hola a todos! Soy Santiago Melo, pero puedes llamarme Santi. Mi pasión por la programación comenzó hace aproximadamente un año, justo después de terminar la secundaria. En ese momento decidí aventurarme en el vasto mundo de la programación y desde entonces no he vuelto a mirar atrás."
-    },
-    "About-Me-2": {
-        "part-2": "Decidí hacerme cargo de mi propio aprendizaje y sumergirme en el mundo de la programación de forma autodidacta. Me propuse explorar una variedad de recursos, desde videos instructivos hasta líneas de cursos en línea y páginas web especializadas en el tema. Actualmente me encuentro estudiando la carrera de Ingenería en Sistemas"
-    },
-    "About-Me-3": {
-        "part-3": "Tengo muchas ganas de afrontar nuevos retos y aprovechar cada oportunidad para aprender y crecer. ¡Estoy seguro que me esperan grandes cosas en el futuro en este apasionante mundo de la tecnología y la programación!"
-    },
-    "Title-Projects": {
-        "title-projects-line": "Proyectos"
-    },
-    "Title-Experience": {
-        "title-experience-line": "Experiencia"
-    },
-    "Title-Technologies": {
-        "title-technologies-line": "Tecnologías"
-    },
-    "Button-1": {
-        "code": "Código"
-    },
-    "Button-2": {
-        "preview": "Avance"
-    },
-    "Time-1": {
-        "time-1": "Junio 2023"
-    },
-    "Time-2": {
-        "time-2": "Enero 2024"
-    },
-    "Time-3": {
-        "time-3": "Febrero 2024 | Abril 2024"
-    },
-    "Time-4": {
-        "time-4": "Ahora mismo"
-    },
-    "Title-Experience-1": {
-        "title-experience-1": "Primeros Pasos:"
-    },
-    "Title-Experience-2": {
-        "title-experience-2": "Primeros trabajos:"
-    },
-    "Title-Experience-4": {
-        "title-experience-4": "Actosoft"
+    "Description": {
+      "text-1": "Inicie en el mundo de la programación tras terminar el bachillerato. Comience a aprender usted mismo (videos de Yotube, cursos de Udemy y más) aprendiendo HTML, CSS y Javascript básicos y, con el tiempo, expanda a otras tecnologías.",
+      "text-2": "Trabajé en mi primer proyecto siendo parte de un equipo de 2, estando a cargo de toda la parte Frontend de manera profesional y realizando algunos miniproyectos que la gente me pedía cuando era estudiante.",
+      "text-3": "Estoy mostrando mi trabajo al mundo, realizando miniproyectos de forma no profesional, aprendiendo nuevas tecnologías, mejorando mis habilidades en busca de mi primer trabajo como desarrollador web, además de estudiar la carrera de Ingeniería de Sistemas.",
+      "text-4": "Actualmente me encuentro trabajando en la empresa Actosoft, donde empiezo a ganar experiencia de manera profesional y aplicando mis conocimientos en proyectos de la vida real, llegando a desarrolar de manera profesional con Typescript y componentes de Material UI y reforzando tecnologías y aprendiendo dentro de la empresa las tecnologías mostradas. Los repositorios son privados, sin embargo muestro la prueba que existe el mismo. Además de mostrar las referencias de los clientes que ponen el website en sus redes sociales.",
+      "text-5": "Actualmente estoy trabajando en la empresa Actosoft, donde estoy empezando a adquirir experiencia profesionalmente y aplicando mis conocimientos en proyectos reales, formándome profesionalmente."
     },
     "Ref": {
-        "title": "Referencias"
-    },
-    "Description-Experience-1": {
-        "description-experience-1": "Inicie en el mundo de la programación tras terminar el bachillerato. Comience a aprender usted mismo (videos de Yotube, cursos de Udemy y más) aprendiendo HTML, CSS y Javascript básicos y, con el tiempo, expanda a otras tecnologías."
-    },
-    "Description-Experience-2": {
-        "description-experience-2": "Trabajé en mi primer proyecto siendo parte de un equipo de 2, estando a cargo de toda la parte Frontend de manera profesional y realizando algunos miniproyectos que la gente me pedía cuando era estudiante."
-    },
-    "Description-Experience-3": {
-        "description-experience-3": "Estoy mostrando mi trabajo al mundo, realizando miniproyectos de forma no profesional, aprendiendo nuevas tecnologías, mejorando mis habilidades en busca de mi primer trabajo como desarrollador web, además de estudiar la carrera de Ingeniería de Sistemas."
-    },
-    "Description-Experience-4": {
-        "description-experience-4": "Actualmente me encuentro trabajando en la empresa Actosoft, donde empiezo a ganar experiencia de manera profesional y aplicando mis conocimientos en proyectos de la vida real, llegando a desarrolar de manera profesional con Typescript y componentes de Material UI y reforzando tecnologías y aprendiendo dentro de la empresa las tecnologías mostradas. Los repositorios son privados, sin embargo muestro la prueba que existe el mismo. Además de mostrar las referencias de los clientes que ponen el website en sus redes sociales."
-    },
-    "Description-Experience-5": {
-        "description-experience-5": "Actualmente estoy trabajando en la empresa Actosoft, donde estoy empezando a adquirir experiencia profesionalmente y aplicando mis conocimientos en proyectos reales, formándome profesionalmente."
-    },
-    "Language-1": {
-        "1": "Español"
-    },
-    "Language-2": {
-        "2": "Inglés"
-    },
-    "HOTEL": {
-        "description-1": "Página de diseño de hotel con secciones para habitaciones, servicios y reservas"
-    },
-    "NEWS": {
-        "description-2": "Página de diseño para deportes con secciones de noticias, resultados y equipos"
-    },
-    "NEXTER": {
-        "description-3": "Página de diseño de hotel 'Nexter' con secciones de habitaciones y reservas"
-    },
-    "TRILLO": {
-        "description-4": "Página de diseño de hotel 'Trillo' con secciones para fotos, servicios y contacto"
-    },
-    "OUTDOORS": {
-        "description-5": "Página de diseño de naturaleza con secciones para actividades al aire libre"
-    },
-    "EDGE-LEADER": {
-        "description-6": "Página de diseño clonada del sitio 'Edge Leader' con enfoque en liderazgo con secciones para servicios, equipo y contacto"
-    },
-    "MyFirstFormDesign": {
-        "description-7": "Página de diseño haciendo mi primer formulario"
-    },
-    "LINETIME": {
-        "description-8": "Página de diseño, donde aprendi a utilizar las animaciones cone stilo y con logica de programacion"
-    },
-    "SECTION-1": {
-        "section-1": "Contáctame"
-    },
-    "SECTION-2": {
-        "section-2": "Experiencia Laboral"
-    },
-    "VISIT-GIT": {
-        "visit-1": "Visita mi GitHub"
-    },
-    "VISIT-LiNKEDIN": {
-        "visit-2": "Visita mi Linkedin"
-    },
-    "VISIT-EMAIL": {
-        "visit-3": "santiagocano15cr7@gmail.com"
-    },
-    "SECTION-3": {
-        "section-3": "Educación"
-    },
-    "TITLE-SECTION-3-1": {
-        "tab-1": "Universidad"
-    },
-    "TITLE-SECTION-3-2": {
-        "tab-2": "Presente"
-    },
-    "TITLE-ONE-GALLERY": {
-        "title-1": "Estas aplicaciones son para uso de propietarios de empresas y trabajadores."
-    },
-    "TITLE-TWO-GALLERY": {
-        "title-2": "Sin embargo dejo fotos de como está construida la aplicación y todos sus detalles."
+      "ref-1": "Referencias"
     }
+  },
+  "Gallery": {
+    "title-1": "Estas aplicaciones son para uso de propietarios de empresas y trabajadores.",
+    "title-2": "Sin embargo dejo fotos de como está construida la aplicación y todos sus detalles."
+  }
 }
+

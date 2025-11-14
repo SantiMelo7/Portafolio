@@ -1,0 +1,11 @@
+.label-languages {
+  @apply translate-x-[70px];
+}
+
+.select-languages {
+  @apply relative opacity-0;
+}
+
+.icon-header {
+  @apply size-8 dark:text-white text-black;
+}

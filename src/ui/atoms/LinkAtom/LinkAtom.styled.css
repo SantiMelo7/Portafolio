@@ -1,0 +1,14 @@
+.link-projects {
+  @apply flex items-center gap-x-4 mt-4 cursor-pointer justify-center rounded-xl transition border px-3 py-3 text-lg hover:scale-105 bg-gray-800 text-white border-gray-600 hover:bg-slate-400;
+}
+
+.link-projects-disabled {
+  @apply flex items-center gap-x-4 mt-4 justify-center rounded-xl transition border px-3 py-3 text-lg bg-gray-800 text-white border-gray-600 opacity-50 cursor-not-allowed pointer-events-none hover:scale-100 hover:bg-gray-800;
+}
+
+.link-references-experience-actosoft {
+  @apply border-[2.5px] dark:border-[1.7px] border-amber-600 dark:border-yellow-500 rounded-md
+  flex flex-row gap-5 justify-center items-center underline
+  py-1 transition md:hover:scale-95 mt-4 hover:scale-95 dark:bg-transparent md:max-w-full
+  w-[160px] sm:w-52 px-4 text-xl font-semibold text-emerald-600 dark:text-gray-300;
+}

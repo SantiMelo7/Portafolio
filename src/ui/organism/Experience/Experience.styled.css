@@ -1,0 +1,15 @@
+.section-main-experience {
+  @apply scroll-m-20 w-full mt-20 xl:p-0 p-4 mx-auto lg:max-w-6xl md:max-w-4xl;
+}
+
+.container-main-experience {
+  @apply flex justify-center md:ml-10;
+}
+
+.ol-data-experience {
+  @apply relative border-l-[2px] dark:border-l-[1.5px] border-amber-700 dark:border-amber-200;
+}
+
+.description-data-experience {
+  @apply mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950 dark:text-white;
+}

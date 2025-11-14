@@ -1,0 +1,7 @@
+.container-header {
+  @apply flex w-full justify-between z-[1000] items-center top-0 py-2 px-4 absolute;
+}
+
+.container-main-actions {
+  @apply flex justify-center items-center gap-3;
+}
