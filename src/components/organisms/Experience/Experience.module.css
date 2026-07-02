@@ -71,11 +71,16 @@
   @apply object-contain w-[50px] h-[50px];
 }
 
-.videoJaMexExperience {
-  @apply mt-4 w-full max-w-[720px] rounded-md border-2 border-amber-600;
+.videoFrameJaMexExperience {
+  @apply mt-4 w-full max-w-[720px] overflow-hidden rounded-xl border-2 border-amber-600 shadow-lg bg-black;
+  aspect-ratio: 16 / 9;
 }
 
-:global(.dark) .videoJaMexExperience {
+.videoJaMexExperience {
+  @apply w-full h-full border-0;
+}
+
+:global(.dark) .videoFrameJaMexExperience {
   @apply border-yellow-500;
 }
 

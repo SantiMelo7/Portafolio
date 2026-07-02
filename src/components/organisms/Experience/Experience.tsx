@@ -14,7 +14,8 @@ import OrganizationsImg from '@/assets/organizations.webp';
 import { dataExperience } from './utils/experience.utils';
 import styles from './Experience.module.css';
 
-const jaMexVideoSrc = new URL('../../../assets/YPP amdocs testimonios.MP4', import.meta.url).href;
+const JA_MEX_VIDEO_DRIVE_ID = '1k7gFwOCfOdd9TD6e9cZpL3bWPj0PhLFE';
+const jaMexVideoEmbedSrc = `https://drive.google.com/file/d/${JA_MEX_VIDEO_DRIVE_ID}/preview?mute=1`;
 
 export const Experience = () => {
   const { t } = useTranslation();
@@ -55,16 +56,16 @@ export const Experience = () => {
                     <TypographyAtom variant="text">Ja México</TypographyAtom>
                   </LinkAtom>
 
-                  <video
-                    className={styles.videoJaMexExperience}
-                    controls
-                    muted
-                    playsInline
-                    preload="metadata"
-                  >
-                    <source src={jaMexVideoSrc} type="video/mp4" />
-                    Tu navegador no soporta la reproduccion de video.
-                  </video>
+                  <div className={styles.videoFrameJaMexExperience}>
+                    <iframe
+                      className={styles.videoJaMexExperience}
+                      src={jaMexVideoEmbedSrc}
+                      title="Testimonio JA Mexico"
+                      allow="autoplay; encrypted-media"
+                      allowFullScreen
+                      loading="lazy"
+                    />
+                  </div>
                 </>
               )}
 
