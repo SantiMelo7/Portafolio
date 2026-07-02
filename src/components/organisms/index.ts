@@ -1,0 +1,7 @@
+export { Presentation } from './Presentation'
+export { Header } from './Header'
+export { Projects } from './Projects'
+export { Technologies } from './Technologies'
+export { AboutMe } from './AboutMe'
+export { Experience } from './Experience'
+export { Gallery } from './Gallery'

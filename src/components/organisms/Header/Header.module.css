@@ -1,0 +1,27 @@
+.header {
+  @apply py-3 px-6 flex justify-between items-center;
+}
+
+.containerHeader {
+  @apply flex justify-center items-center gap-3;
+}
+
+.imageAtom {
+  @apply object-contain h-[75px] md:h-[80px];
+}
+
+.languageIcon {
+  @apply size-6;
+}
+
+.buttonBack {
+  @apply bg-transparent border-none p-0 m-0 hover:!border-none hover:!text-inherit;
+}
+
+.iconBack {
+  @apply size-6  text-black;
+}
+
+:global(.dark) .iconBack {
+  @apply text-white;
+}

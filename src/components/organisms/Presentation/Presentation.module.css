@@ -1,0 +1,68 @@
+.containerPresentation {
+  @apply w-full px-8 py-2 mx-auto lg:max-w-6xl md:max-w-4xl flex flex-col gap-16;
+}
+
+.containerMe {
+  @apply flex flex-col justify-center items-center lg:flex-row lg:justify-start gap-4 mt-4;
+}
+
+.imgPresentaton {
+  @apply rounded-xl w-[100px] h-auto object-cover;
+}
+
+.containerWork {
+  @apply border-[3px] border-green-900 py-1 px-4;
+}
+
+.containerWorkText {
+  @apply text-xl;
+}
+
+.containerDescriptionMe {
+  @apply flex flex-col gap-4;
+}
+
+.containerDescription {
+  @apply py-2 lg:max-w-5xl flex flex-col gap-3;
+}
+
+.textDescription {
+  @apply text-xl leading-relaxed text-gray-700 font-medium;
+}
+
+.textResalt {
+  @apply text-yellow-800;
+}
+
+.containerAboutMe {
+  @apply text-4xl font-bold text-blue-600;
+}
+
+.containerResources {
+  @apply grid grid-cols-2 lg:grid-cols-3 gap-4 lg:max-w-5xl;
+}
+
+.buttonResource {
+  @apply max-w-full border-[2px] border-cyan-700/70 rounded-xl shadow-sm shadow-cyan-200/60 flex justify-center items-center
+  text-xl text-black transition hover:scale-105 hover:-translate-y-0.5 py-3 gap-x-8;
+}
+
+:global(.dark) .containerWork {
+  @apply border-[#C0EE9C];
+}
+
+:global(.dark) .textDescription {
+  @apply text-gray-200;
+}
+
+:global(.dark) .textResalt {
+  @apply text-yellow-200;
+}
+
+:global(.dark) .containerAboutMe {
+  @apply text-[#40F5EA];
+}
+
+:global(.dark) .buttonResource {
+  @apply text-[#00FFF0];
+}

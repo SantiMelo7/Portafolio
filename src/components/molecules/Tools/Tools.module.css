@@ -1,0 +1,69 @@
+.containerTechnologies {
+  @apply grid w-full grid-rows-2 grid-cols-3 md:grid-cols-5 gap-6;
+}
+
+.containerToolsTechnologies {
+  @apply contents grid-rows-4 gap-5;
+}
+
+.containerTools {
+  @apply flex flex-wrap mt-2;
+}
+
+.containerToolsContent {
+  @apply flex flex-wrap mb-2 gap-4;
+}
+
+.containerToolsContentItemTechnologies {
+  @apply w-full h-full p-2 mx-auto bg-gray-300 shadow-lg shadow-gray-600 rounded-[8px] z-[1] transition-all hover:!scale-105;
+}
+
+:global(.dark) .containerToolsContentItemTechnologies {
+  @apply bg-[#283149] shadow-none;
+}
+
+.containerCardCircle {
+  @apply flex items-center gap-x-2 p-2;
+}
+
+.circleCardText {
+  @apply py-0 px-1 inline-block items-center w-[10px] h-[10px] p-[1px] rounded-[50%];
+}
+
+.containerToolsContentTechnologies {
+  @apply flex justify-center items-center flex-col gap-[10px] py-4;
+}
+
+.containerToolsContentItem {
+  @apply px-5 border-[2.5px] border-amber-600 rounded-md flex flex-row gap-2
+  justify-center items-center text-lg py-1 transition hover:scale-95;
+}
+
+:global(.dark) .containerToolsContentItem {
+  @apply border-yellow-500;
+}
+
+.toolImgTechnologies {
+  @apply w-20 h-20;
+}
+
+.toolImg {
+  @apply w-5;
+}
+
+.toolTextTechnologies {
+  @apply font-extrabold text-xl mt-2 text-center  text-black;
+}
+
+:global(.dark) .toolTextTechnologies {
+  @apply text-white;
+}
+
+.toolText {
+  @apply font-extrabold text-xl m-0 text-center text-black;
+}
+
+:global(.dark) .toolTextTechnologies,
+:global(.dark) .toolText {
+  @apply text-white;
+}
