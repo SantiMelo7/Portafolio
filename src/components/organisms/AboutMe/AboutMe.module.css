@@ -1,0 +1,73 @@
+.containerMainAboutMe {
+  @apply flex justify-start items-start flex-col max-w-screen-xl mx-auto gap-y-16;
+}
+
+.containerFirstContentAboutMe {
+  @apply mt-10 translate-y-4 flex flex-row lg:justify-start justify-center lg:ml-24 mx-auto gap-x-5;
+}
+
+.titleAboutMe {
+  @apply my-auto text-3xl text-red-900 font-extrabold;
+}
+
+:global(.dark) .titleAboutMe {
+  @apply text-yellow-500;
+}
+
+.containerDescriptionAboutMe {
+  @apply lg:grid lg:grid-cols-2;
+}
+
+.containerDescriptionTextAboutMe {
+  @apply flex flex-col gap-y-4 lg:ml-24 mx-auto;
+}
+
+.descriptionAboutMe {
+  @apply text-gray-950 font-extrabold text-lg lg:text-xl lg:text-start text-center px-4 py-2;
+}
+
+:global(.dark) .descriptionAboutMe {
+  @apply text-white;
+}
+
+.containerMainBorderImgAboutMe {
+  @apply flex lg:justify-end justify-center mx-auto my-auto lg:skew-y-3 skew-x-3 -translate-x-2  mt-6 lg:mt-0;
+}
+
+.borderLayerOne,
+.borderLayerTwo,
+.borderLayerThree,
+.borderLayerFour {
+  @apply border-blue-700 shadow-md shadow-lime-500;
+}
+
+.borderLayerOne {
+  @apply border-[1px];
+}
+
+.borderLayerTwo {
+  @apply border-[2px];
+}
+
+.borderLayerThree {
+  @apply border-[3px];
+}
+
+.borderLayerFour {
+  @apply border-[4px];
+}
+
+:global(.dark) .borderLayerOne,
+:global(.dark) .borderLayerTwo,
+:global(.dark) .borderLayerThree,
+:global(.dark) .borderLayerFour {
+  @apply border-blue-300 shadow-lime-100;
+}
+
+.imgInfoMe {
+  @apply w-80 rounded-2xl p-4;
+}
+
+.imgCapsule {
+  @apply min-w-full;
+}

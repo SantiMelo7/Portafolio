@@ -1,7 +1,0 @@
-export * from "./InfoMe"
-export * from "./Technology"
-export * from "./Experience"
-export * from "./Header"
-export * from "./AboutMe"
-export * from "./Projects"
-export * from "./Gallery"

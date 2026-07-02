@@ -21,7 +21,7 @@ of the latest trends in web development.**
 
 <div style="display:flex; gap: 20px; justify-content: center" align="center">
   <img width="100px" height="100px" src="https://skillicons.dev/icons?i=react"/>
-  <img width="100px" height="100px" src="https://skillicons.dev/icons?i=next"/>
+  <img width="100px" height="100px" src="https://skillicons.dev/icons?i=vite"/>
   <img width="100px" height="100px" src="https://skillicons.dev/icons?i=tailwind"/>
   <img width="100px" height="100px" src="https://skillicons.dev/icons?i=vercel"/>
 </div>
