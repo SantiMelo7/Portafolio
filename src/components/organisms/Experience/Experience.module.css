@@ -1,0 +1,92 @@
+.containerExperience {
+  @apply w-full p-10 mx-auto lg:max-w-6xl md:max-w-4xl flex flex-col gap-10;
+}
+
+.containerContentExperience {
+  @apply flex justify-start items-start;
+}
+
+.olDateExperience {
+  @apply relative border-l-[2px] border-amber-700;
+}
+
+:global(.dark) .olDateExperience {
+  @apply border-amber-200;
+}
+
+.liCardExperience {
+  @apply mb-10 ms-4;
+}
+
+.circleCardExperience {
+  @apply absolute w-3 h-3 bg-gray-800 rounded-full mt-1.5 -start-1.5 border border-white;
+}
+
+:global(.dark) .circleCardExperience {
+  @apply bg-purple-500;
+}
+
+.timeCardExperience {
+  @apply mb-1 text-xl mt-2 font-extrabold leading-none text-emerald-900;
+}
+
+:global(.dark) .timeCardExperience {
+  @apply text-emerald-200;
+}
+
+.titleCardExperience {
+  @apply text-xl font-extrabold text-emerald-700;
+}
+
+:global(.dark) .titleCardExperience {
+  @apply text-gray-300;
+}
+
+.descriptionCardExperience {
+  @apply mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950;
+}
+
+:global(.dark) .descriptionCardExperience {
+  @apply text-white;
+}
+
+.imageOrganizations {
+  @apply w-96 mt-4;
+}
+
+.linkRefJAExperience,
+.linkRefActosoftExperience {
+  @apply border-[2.5px] dark:border-[1.7px] border-amber-600 rounded-md
+  flex flex-row gap-5 justify-center items-center underline
+  py-1 transition md:hover:scale-95 mt-4 hover:scale-95 dark:bg-transparent md:max-w-full
+  w-[160px] sm:w-52 px-4 text-xl font-semibold text-emerald-600;
+}
+
+:global(.dark) .linkRefActosoftExperience {
+  @apply border-yellow-500 text-gray-300;
+}
+
+.imgJaMexExperience,
+.imgActosoftExperience {
+  @apply object-contain w-[50px] h-[50px];
+}
+
+.videoJaMexExperience {
+  @apply mt-4 w-full max-w-[720px] rounded-md border-2 border-amber-600;
+}
+
+:global(.dark) .videoJaMexExperience {
+  @apply border-yellow-500;
+}
+
+.containerMainRefExperience {
+  @apply flex flex-row gap-3 min-w-full;
+}
+
+.imageReposExperience {
+  @apply w-72 sm:w-96 mt-7 sm:mt-5;
+}
+
+.imageRefExperience {
+  @apply w-72 sm:w-96 mt-5 mb-10 block hover:!scale-95 hover:transition-all;
+}

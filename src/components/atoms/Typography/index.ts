@@ -1,0 +1,1 @@
+export { TypographyAtom } from './Typography'
