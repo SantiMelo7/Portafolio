@@ -1,19 +1,12 @@
 .containerTimeLine {
-  @apply flex justify-center items-center gap-x-3 mb-10;
+  @apply flex justify-center items-center gap-x-3;
 }
 
 .lineTitle {
-  @apply text-2xl font-extrabold text-amber-900 shrink-0;
+  @apply text-2xl font-extrabold text-amber-900 shrink-0 dark:text-white;
 }
 
 .lineTitleBorder {
-  @apply flex-1 min-w-0 border-[1px] h-0 border-black;
+  @apply flex-1 min-w-0 border-[1px] h-0 border-black dark:border-white;
 }
 
-:global(.dark) .lineTitle {
-  @apply text-white;
-}
-
-:global(.dark) .lineTitleBorder {
-  @apply border-white;
-}

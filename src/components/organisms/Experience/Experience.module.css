@@ -7,11 +7,7 @@
 }
 
 .olDateExperience {
-  @apply relative border-l-[2px] border-amber-700;
-}
-
-:global(.dark) .olDateExperience {
-  @apply border-amber-200;
+  @apply relative border-l-[2px] border-amber-700 dark:border-amber-200;
 }
 
 .liCardExperience {
@@ -19,35 +15,19 @@
 }
 
 .circleCardExperience {
-  @apply absolute w-3 h-3 bg-gray-800 rounded-full mt-1.5 -start-1.5 border border-white;
-}
-
-:global(.dark) .circleCardExperience {
-  @apply bg-purple-500;
+  @apply absolute w-3 h-3 bg-gray-800 rounded-full mt-1.5 -start-1.5 border border-white dark:bg-purple-500;
 }
 
 .timeCardExperience {
-  @apply mb-1 text-xl mt-2 font-extrabold leading-none text-emerald-900;
-}
-
-:global(.dark) .timeCardExperience {
-  @apply text-emerald-200;
+  @apply mb-1 text-xl mt-2 font-extrabold leading-none text-emerald-900 dark:text-emerald-200;
 }
 
 .titleCardExperience {
-  @apply text-xl font-extrabold text-emerald-700;
-}
-
-:global(.dark) .titleCardExperience {
-  @apply text-gray-300;
+  @apply text-xl font-extrabold text-emerald-700 dark:text-gray-300;
 }
 
 .descriptionCardExperience {
-  @apply mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950;
-}
-
-:global(.dark) .descriptionCardExperience {
-  @apply text-white;
+  @apply mb-4 mt-4 text-lg font-extrabold lg:max-w-screen-md md:max-w-2xl max-w-screen-sm text-gray-950 dark:text-white;
 }
 
 .imageOrganizations {
@@ -59,11 +39,8 @@
   @apply border-[2.5px] dark:border-[1.7px] border-amber-600 rounded-md
   flex flex-row gap-5 justify-center items-center underline
   py-1 transition md:hover:scale-95 mt-4 hover:scale-95 dark:bg-transparent md:max-w-full
-  w-[160px] sm:w-52 px-4 text-xl font-semibold text-emerald-600;
-}
-
-:global(.dark) .linkRefActosoftExperience {
-  @apply border-yellow-500 text-gray-300;
+  w-[160px] sm:w-52 px-4 text-xl font-semibold text-emerald-600
+  dark:text-gray-300 dark:border-yellow-500;
 }
 
 .imgJaMexExperience,
@@ -72,16 +49,12 @@
 }
 
 .videoFrameJaMexExperience {
-  @apply mt-4 w-full max-w-[720px] overflow-hidden rounded-xl border-2 border-amber-600 shadow-lg bg-black;
+  @apply mt-4 w-full max-w-[720px] overflow-hidden rounded-xl border-2 border-amber-600 shadow-lg bg-black dark:border-yellow-500;
   aspect-ratio: 16 / 9;
 }
 
 .videoJaMexExperience {
   @apply w-full h-full border-0;
-}
-
-:global(.dark) .videoFrameJaMexExperience {
-  @apply border-yellow-500;
 }
 
 .containerMainRefExperience {

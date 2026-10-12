@@ -14,5 +14,6 @@ export const buttonsProjects = (project: Project): ButtonsProjectsProps[] => [
     icon: <Link1Icon />,
     keyText: 'buttonPreview',
     href: project?.visitPrev,
+    disabled: Boolean(project?.previewNoteKey) || !project?.visitPrev,
   },
 ];

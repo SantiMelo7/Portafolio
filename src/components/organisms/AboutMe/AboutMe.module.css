@@ -7,11 +7,7 @@
 }
 
 .titleAboutMe {
-  @apply my-auto text-3xl text-red-900 font-extrabold;
-}
-
-:global(.dark) .titleAboutMe {
-  @apply text-yellow-500;
+  @apply my-auto text-3xl text-red-900 font-extrabold dark:text-yellow-500;
 }
 
 .containerDescriptionAboutMe {
@@ -23,11 +19,7 @@
 }
 
 .descriptionAboutMe {
-  @apply text-gray-950 font-extrabold text-lg lg:text-xl lg:text-start text-center px-4 py-2;
-}
-
-:global(.dark) .descriptionAboutMe {
-  @apply text-white;
+  @apply text-gray-950 font-extrabold text-lg lg:text-xl lg:text-start text-center px-4 py-2 dark:text-white;
 }
 
 .containerMainBorderImgAboutMe {
@@ -38,7 +30,7 @@
 .borderLayerTwo,
 .borderLayerThree,
 .borderLayerFour {
-  @apply border-blue-700 shadow-md shadow-lime-500;
+  @apply border-blue-700 shadow-md shadow-lime-500 dark:border-blue-300 dark:shadow-lime-100;
 }
 
 .borderLayerOne {
@@ -57,12 +49,6 @@
   @apply border-[4px];
 }
 
-:global(.dark) .borderLayerOne,
-:global(.dark) .borderLayerTwo,
-:global(.dark) .borderLayerThree,
-:global(.dark) .borderLayerFour {
-  @apply border-blue-300 shadow-lime-100;
-}
 
 .imgInfoMe {
   @apply w-80 rounded-2xl p-4;

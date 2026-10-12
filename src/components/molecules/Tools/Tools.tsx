@@ -1,15 +1,10 @@
 import { ImageAtom } from '@/components/atoms/Image/Image';
-import { TypographyAtom } from '@/components/atoms/Typography/Typography';
-import type { Project } from '@/components/organisms/Projects/Projects.types';
-import { dataTechnologies } from './utils/tools.utils';
+import { TypographyAtom } from '@/components/atoms/Typography/Typography';;
+import { dataTechnologies, COLORS_TECHNOLOGIES } from './utils/tools.utils';
+
+import type { ToolsProps } from './Tools.types';
 import styles from './Tools.module.css';
 
-export interface ToolsProps {
-  data?: Project;
-  technologies?: boolean;
-}
-
-const colors = ['#ff605c', '#ffbd44', '#00ca4e'];
 
 export const Tools = ({ data, technologies = false }: ToolsProps) => {
   const dataTools = Array.isArray(data?.tools)
@@ -34,7 +29,7 @@ export const Tools = ({ data, technologies = false }: ToolsProps) => {
           >
             {technologies && (
               <div className={styles.containerCardCircle}>
-                {colors?.map((color, index) => (
+                {COLORS_TECHNOLOGIES?.map((color, index) => (
                   <TypographyAtom
                     variant="text"
                     key={index}

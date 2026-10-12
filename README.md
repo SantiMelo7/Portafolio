@@ -1,7 +1,7 @@
 ## Portafolio | SantiDev 7️⃣💼📋
 
 <a href="https://portafolio-dev-santi.vercel.app/" target="_blank">
-  <img width="150px" src="./public/favicon/android-chrome-192x192.png" alt="Logo"  />
+  <img width="150px" src="./src/assets/favicon/favicon-32x32.png" alt="Logo"  />
 </a>
 
 ## Description

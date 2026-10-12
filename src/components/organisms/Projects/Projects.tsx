@@ -84,6 +84,12 @@ export const Projects = ({ dataProjects, translateKey = 'projects' }: ProjectsPr
                       </TypographyAtom>
                     </LinkAtom>
                   ))}
+
+                  {project?.previewNoteKey && (
+                    <TypographyAtom variant="text" className={styles.previewNote}>
+                      {t(`${translateKey}.${project.previewNoteKey}`)}
+                    </TypographyAtom>
+                  )}
                 </footer>
               </div>
             </article>

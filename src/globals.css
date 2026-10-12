@@ -10,5 +10,5 @@
 }
 
 body {
-  @apply dark:bg-[#000] bg-gray-200;
+  @apply dark:bg-[#000] bg-gray-200 overflow-x-hidden;
 }

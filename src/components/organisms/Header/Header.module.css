@@ -19,9 +19,5 @@
 }
 
 .iconBack {
-  @apply size-6  text-black;
-}
-
-:global(.dark) .iconBack {
-  @apply text-white;
+  @apply size-6  text-black dark:text-white;
 }

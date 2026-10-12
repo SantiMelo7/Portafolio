@@ -34,13 +34,13 @@ export const Experience = () => {
                 {t(`experience.${experience.keyTime}`)}
               </time>
 
-              <h3 className={styles.titleCardExperience}>
+              <TypographyAtom variant="title" titleProps={{ level: 4 }} className={styles.titleCardExperience}>
                 {t(`experience.${experience.keyTitle}`)}
-              </h3>
+              </TypographyAtom>
 
-              <p className={styles.descriptionCardExperience}>
+              <TypographyAtom variant="text" className={styles.descriptionCardExperience}>
                 {t(`experience.${experience.keyDescription}`)}
-              </p>
+              </TypographyAtom>
 
               {experience?.id === 4 && (
                 <>

@@ -19,12 +19,18 @@ export const translations = {
     projects: {
       textOne:
         'Website for a paint company called Shaddai, the platform is a system for their business, where they can have control of their products and sales, as well as being able to monitor their business. Useful for the owners of the company and for the employees.',
+      textOnePreview:
+        'The preview is not available because this version is not finished yet.',
       textTwo:
         'Website for the government of Estancia, where you can learn about all the services they offer and make appointments to take your car to another level.',
       textThree:
         'Website for a burger business, the platform for employees to create, manage, and have precise monitoring of a workday. As a frontend leader, I developed alongside the team an interface detailed enough to provide the best experience.',
+      textThreePreview:
+        'The preview is not available because this version is not finished yet.',
       textFour:
-        'Website for a burger business, the platform for employees to create, manage, and have precise monitoring of a workday. As a frontend leader, I developed alongside the team an interface detailed enough to provide the best experience.',
+        'New version of the admin panel for a burger business. This ERP manages users, customers, menu, supplies, tables, orders, and accounting. As frontend lead, I built this version with React, TypeScript, and Ant Design, connected to its own API.',
+      textFourPreview:
+        'The preview is not available because this version is not finished yet.',
       textFive:
         'Website for a car wash company in the United States, where you can learn about all the services they offer and make appointments to take your car to another level.',
       textSix:
@@ -111,12 +117,18 @@ export const translations = {
     projects: {
       textOne:
         'Página para una empresa de pinturas llamada Shaddai, la plataforma es un sistema para su negocio, donde pueden tener un control de sus productos y ventas, además de poder tener un monitoreo de su negocio. Útil para los dueños de la empresa y para los empleados.',
+      textOnePreview:
+        'El avance no está disponible porque esta versión todavía no está terminada.',
       textTwo:
         'Página web para el gobierno de la Estancia, donde se puede conocer todos los servicios que ofrece y poder agendar citas para llevar tu auto a otro nivel.',
       textThree:
         'Página web para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia',
+      textThreePreview:
+        'El avance no está disponible porque esta versión todavía no está terminada.',
       textFour:
-        'Página web para un negocio de hamburguesas, la plataforma para los emleados para poder crear, gestionar y tener un monitoreo preciso de un día laboral. Como líder frontend, desarrolle junto a el equipo, una interfaz lo suficiente detallada para que tengan la mejor experiencia',
+        'Nueva versión del panel de administración para un negocio de hamburguesas. Este ERP gestiona usuarios, clientes, menú, insumos, mesas, pedidos y contabilidad. Como líder frontend, desarrollé esta versión con React, TypeScript y Ant Design, conectada a una API propia.',
+      textFourPreview:
+        'El avance no está disponible porque esta versión todavía no está terminada.',
       textFive:
         'Página web para una empresa de lavado de autos en Estados Unidos, donde podras conocer todos los servicios que ofrecen y poder agendar citas para llevar tu auto a otro nivel.',
       textSix:

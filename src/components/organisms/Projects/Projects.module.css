@@ -19,15 +19,12 @@
 }
 
 .iconClockDisabled {
-  @apply text-amber-600 size-8 mt-16 ml-3;
-}
-
-:global(.dark) .iconClockDisabled {
-  @apply text-yellow-500;
+  @apply text-amber-600 size-8 mt-16 ml-3 dark:text-yellow-500;
 }
 
 .containerCardImg {
-  @apply relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl  lg:hover:border-gray-700 lg:hover:bg-gray-800/50;
+  @apply relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl
+  overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:hover:border-gray-700 lg:hover:bg-gray-800/50;
 }
 
 .containerImgActosoft {
@@ -39,7 +36,7 @@
 }
 
 .imgProjects {
-  @apply object-cover object-top w-full transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105;
+  @apply object-cover object-top w-full h-auto transition duration-500 md:group-hover:scale-105;
 }
 
 .containerCardText {
@@ -47,19 +44,11 @@
 }
 
 .titleProjects {
-  @apply text-3xl font-bold text-blue-600 mt-0;
-}
-
-:global(.dark) .titleProjects {
-  @apply text-[#40F5EA];
+  @apply text-3xl font-bold text-blue-600 mt-0 dark:text-[#40F5EA];
 }
 
 .descriptionProjects {
-  @apply mt-2 text-start text-xl font-extrabold text-gray-900;
-}
-
-:global(.dark) .descriptionProjects {
-  @apply text-slate-200;
+  @apply mt-2 text-start text-xl font-extrabold text-gray-900 dark:text-slate-200;
 }
 
 .footerProjects {
@@ -67,22 +56,16 @@
 }
 
 .linkProjects {
-  @apply flex items-center gap-x-4 mt-0 cursor-pointer justify-center rounded-xl transition p-3 hover:scale-105
-  bg-transparent border-[1.5px] border-gray-900;
-}
-
-.linkProjects[aria-disabled="true"] {
-  @apply cursor-not-allowed pointer-events-auto;
-}
-
-:global(.dark) .linkProjects {
-  @apply bg-gray-800 border-gray-600 hover:bg-slate-400;
+  @apply flex items-center gap-x-4 mt-0 cursor-pointer justify-center rounded-xl transition p-3 enabled:hover:scale-105
+  bg-transparent border-[1.5px] border-gray-900 disabled:cursor-not-allowed disabled:pointer-events-auto
+  dark:border-gray-600 dark:bg-gray-800 dark:enabled:hover:bg-slate-400
+  ;
 }
 
 .linkTextProjects {
-  @apply text-lg text-gray-900;
+  @apply text-lg text-gray-900 dark:text-white;
 }
 
-:global(.dark) .linkTextProjects {
-  @apply text-white;
+.previewNote {
+  @apply basis-full text-base font-semibold text-amber-700 dark:text-amber-300;
 }

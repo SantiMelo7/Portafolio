@@ -1,0 +1,21 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@apply",
+      "description": "Inline Tailwind utility classes into this rule. PostCSS expands it at build time."
+    },
+    {
+      "name": "@tailwind",
+      "description": "Insert Tailwind base, components, or utilities styles."
+    },
+    {
+      "name": "@layer",
+      "description": "Assign a group of styles to a Tailwind layer."
+    },
+    {
+      "name": "@config",
+      "description": "Point Tailwind at a configuration file."
+    }
+  ]
+}

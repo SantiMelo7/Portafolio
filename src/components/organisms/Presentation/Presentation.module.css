@@ -11,7 +11,7 @@
 }
 
 .containerWork {
-  @apply border-[3px] border-green-900 py-1 px-4;
+  @apply border-[3px] border-green-900 py-1 px-4 dark:border-green-200;
 }
 
 .containerWorkText {
@@ -27,15 +27,15 @@
 }
 
 .textDescription {
-  @apply text-xl leading-relaxed text-gray-700 font-medium;
+  @apply text-xl leading-relaxed text-gray-700 font-medium dark:text-gray-200;
 }
 
 .textResalt {
-  @apply text-yellow-800;
+  @apply text-yellow-800 dark:text-yellow-200 text-xl;
 }
 
 .containerAboutMe {
-  @apply text-4xl font-bold text-blue-600;
+  @apply text-4xl font-bold text-blue-600 dark:text-[#40F5EA];
 }
 
 .containerResources {
@@ -44,25 +44,6 @@
 
 .buttonResource {
   @apply max-w-full border-[2px] border-cyan-700/70 rounded-xl shadow-sm shadow-cyan-200/60 flex justify-center items-center
-  text-xl text-black transition hover:scale-105 hover:-translate-y-0.5 py-3 gap-x-8;
+  text-xl text-black transition hover:scale-105 hover:-translate-y-0.5 py-3 gap-x-8 dark:text-[#00FFF0];
 }
 
-:global(.dark) .containerWork {
-  @apply border-[#C0EE9C];
-}
-
-:global(.dark) .textDescription {
-  @apply text-gray-200;
-}
-
-:global(.dark) .textResalt {
-  @apply text-yellow-200;
-}
-
-:global(.dark) .containerAboutMe {
-  @apply text-[#40F5EA];
-}
-
-:global(.dark) .buttonResource {
-  @apply text-[#00FFF0];
-}

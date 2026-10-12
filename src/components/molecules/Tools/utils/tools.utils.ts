@@ -1,3 +1,5 @@
+export const COLORS_TECHNOLOGIES = ['#ff605c', '#ffbd44', '#00ca4e'];
+
 export const dataTechnologies = [
   {
     id: 1,

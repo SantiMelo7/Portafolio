@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
+import { LinkAtom } from '@/components/atoms';
 import { ImageAtom } from '@/components/atoms/Image/Image';
 import { TypographyAtom } from '@/components/atoms/Typography/Typography';
 
@@ -45,9 +46,9 @@ export const Presentation = () => {
       }
 
       content.push(
-        <span key={`highlight-${matchIndex}`} className={styles.textResalt}>
+        <TypographyAtom variant='text' key={`highlight-${matchIndex}`} className={styles.textResalt}>
           {nearestPhrase}
-        </span>
+        </TypographyAtom>
       );
 
       remainingText = remainingText.slice(nearestPosition + nearestPhrase.length);
@@ -85,7 +86,7 @@ export const Presentation = () => {
             const isExternal = item.url.startsWith('http');
 
             return (
-              <a
+              <LinkAtom
                 key={item?.key}
                 className={styles.buttonResource}
                 href={item?.url}
@@ -94,7 +95,7 @@ export const Presentation = () => {
               >
                 {item?.component}
                 {item?.text}
-              </a>
+              </LinkAtom>
             );
           })}
         </div>

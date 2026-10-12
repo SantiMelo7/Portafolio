@@ -1,5 +1,5 @@
 .containerTechnologies {
-  @apply grid w-full grid-rows-2 grid-cols-3 md:grid-cols-5 gap-6;
+  @apply grid w-full grid-rows-2 grid-cols-2 md:grid-cols-5 gap-6;
 }
 
 .containerToolsTechnologies {
@@ -15,11 +15,7 @@
 }
 
 .containerToolsContentItemTechnologies {
-  @apply w-full h-full p-2 mx-auto bg-gray-300 shadow-lg shadow-gray-600 rounded-[8px] z-[1] transition-all hover:!scale-105;
-}
-
-:global(.dark) .containerToolsContentItemTechnologies {
-  @apply bg-[#283149] shadow-none;
+  @apply w-full h-full p-2 mx-auto bg-gray-300 shadow-lg shadow-gray-600 rounded-[8px] z-[1] transition-all hover:!scale-105 dark:bg-[#283149] dark:shadow-none;
 }
 
 .containerCardCircle {
@@ -36,11 +32,8 @@
 
 .containerToolsContentItem {
   @apply px-5 border-[2.5px] border-amber-600 rounded-md flex flex-row gap-2
-  justify-center items-center text-lg py-1 transition hover:scale-95;
-}
-
-:global(.dark) .containerToolsContentItem {
-  @apply border-yellow-500;
+  justify-center items-center text-lg py-1 transition hover:scale-95
+  dark:border-yellow-500;
 }
 
 .toolImgTechnologies {
@@ -52,18 +45,10 @@
 }
 
 .toolTextTechnologies {
-  @apply font-extrabold text-xl mt-2 text-center  text-black;
-}
-
-:global(.dark) .toolTextTechnologies {
-  @apply text-white;
+  @apply font-extrabold text-xl mt-2 text-center  text-black dark:text-white;
 }
 
 .toolText {
-  @apply font-extrabold text-xl m-0 text-center text-black;
+  @apply font-extrabold text-xl m-0 text-center text-black dark:text-white;
 }
 
-:global(.dark) .toolTextTechnologies,
-:global(.dark) .toolText {
-  @apply text-white;
-}

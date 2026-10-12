@@ -16,6 +16,7 @@ export interface Project {
   visitGit?: string;
   visitPrev?: string;
   descriptionKey?: ProjectTranslationKeys;
+  previewNoteKey?: ProjectTranslationKeys;
 }
 
 export interface ProjectsProps {
