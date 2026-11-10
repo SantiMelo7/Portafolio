@@ -12,7 +12,7 @@ export const resourcesMe = [
   },
   {
     key: 2,
-    url: 'https://www.linkedin.com/in/santiago-melo-7b25732a5/',
+    url: 'https://www.linkedin.com/in/santiago-cano-melo-7b25732a5/',
     text: 'Linkedin',
     component: <LinkedIn />,
   },
